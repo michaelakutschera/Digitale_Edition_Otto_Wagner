@@ -1,0 +1,209 @@
+/*Header*/
+header {
+    /*Positioning*/
+    position: fixed;
+    top: 0;
+     z-index: 1000; /*Keep header on top*/
+    /*Box model*/
+    width: 100%;
+    height: 160px;
+    /*Layout*/
+    display: flex; /*Enables flexible layout that adpats to diffrent scrren sizies*/
+    align-items: center; /*Vertically center content*/
+    justify-content: center; /*Horizontally center content*/
+    /*Visual style*/
+    background: rgb(27, 111, 50);
+    line-height: 160px;
+    font-size: 22px;
+    color: black;
+}
+    
+
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 160px;
+    width: 170px;
+    /*Visual style*/
+    border-radius:50%; /*Circular image*/
+}
+
+/* Sidebar*/
+nav.sidebar{
+    position: fixed;
+    top: 160px; /*Below header*/
+    left: 0;
+
+    width: 170px;
+    height: calc(100%); /*Fill remaining height*/
+
+    background-color: rgb(222, 222, 222);
+    /*Behavior*/
+    overflow-y: auto; /**/
+}
+
+nav.sidebar ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*Text alignment*/
+    text-align: left; 
+}
+
+nav.sidebar li {
+    /*Spacing*/
+    margin: 10px 0;
+}
+
+nav.sidebar a{
+    display: block;
+
+    color: black;
+    text-decoration: none;
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav.sidebar a:hover {
+    /*Visual feedback*/
+    background-color: rgb(212, 255, 148);
+    }
+
+/*Body and Main Content*/
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+main {
+    flex: 1;
+    align-items: flex-start;
+
+    margin-left: 190px; /*Space fo Sidebar*/
+    margin-top: 140px; /*Space below header*/
+    padding: 20px;
+    gap: 30px; /*Gap between text and images*/
+}
+
+/*Image Gallery (Home Page)*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-left: 180px; /*Space for sidebar*/
+}
+
+.gallery-item {
+    margin: 5px;
+    border: 1px solid black;
+    width: 200px;
+}
+
+.gallery-item:hover {
+    border: 2px solid black; /*Highlight on hover*/
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 300px; /*Fixed height for uniform display*/
+    /*Image handling*/
+    object-fit: cover; /*Crop proportionally*/
+}
+
+.description {
+    padding: 15px;
+
+    text-align: center;
+}
+
+.content-below-gallery {
+    margin-top: 0; /*Remove extra space below gallery*/
+}
+
+/*Image with caption (About me Page)*/
+.image-with-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /*Align image left with text*/
+
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.image-with-caption img{
+    width: 100px;
+    height: auto;
+
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.image-with-caption .caption{
+    font-size: 14px;
+    color: black;
+
+    margin: 0;
+}
+
+/*Link Section (About Me Page)*/
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-left: auto;
+
+    color:black;
+}
+
+/*Headings and Lists*/
+h3 {
+    color: rgb(137, 184, 65);
+    text-decoration-line: underline;
+    text-decoration-color: rgb(137, 184, 65);  
+}
+
+ul.a {
+    list-style-type: square;
+}
+
+/*Tables (Project Page)*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    text-align: left;
+    
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+th {
+    background-color: rgb(212, 255, 148);
+    font-weight: bold;
+    border-bottom: 2px solid black; /*Seperate header from body*/
+}
+
+tbody tr:not(:last-child) td{
+    border-bottom: 1px solid black; /*Horizontal lines between rows. Excluding last row*/
+}
+
+tr:nth-child(even) {
+    background-color: rgb(245, 245, 245); /*Alternate row coloring*/
+}
+
+tr:hover {
+    background-color: rgb(230, 255, 210); /*Highlight row on hover*/
+}
