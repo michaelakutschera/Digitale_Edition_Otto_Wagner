@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Oxygen temporäre Dateien
+*.tmp
+*.bak
+oxygen-workspace/
+
