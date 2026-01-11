@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Protocoll</title>
+            <editor>Michaela Kutschera</editor>
+         </titleStmt>
+ 
+         <publicationStmt>
+            <publisher>UE: Digitale Edtion</publisher>
+            <date>2025/2026</date>
+            <availability>
+               <p>GitHub für die Abgabe des Projekts</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <bibl>
+               <title>Protocoll</title>
+               <author>Otto Wagner</author>
+               <pubPlace>Wien</pubPlace>
+               <date>5. September 1873</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>I. N. 194. 906</p>
+         <p>Protocoll</p>
+         <p>der am 5. September 1873 im Bureau des Herrn</p>
+         <p>Baron Fr. von Schey abgehaltenen Sitzung</p>
+         <p>in Wienableitungs &amp; Localbahnen</p>
+         <p>Projests=Angelegenheiten.</p>
+         
+         <div type="Anwesende">
+            <head>Anwesende:</head>
+            <list>
+               <item>Graf Edmund Friohy</item>
+               <item>Baron D. von Schwarz</item>
+               <item>Fr. von Schey</item>
+               <item>Otto Wagner</item>
+               <item>Georg Scheyrer</item>   
+            </list>
+         </div>
+         
+         <div type="Sprecher">
+            <sp>
+               <speaker>Baron Schwarz</speaker>
+               <p>theilt mit, daß die Credit¬</p>
+               <p>Anstalt geneigt ist, in das</p>
+               <p>Geschäft einzutreten.</p>
+            </sp>
+            
+            <sp>
+               <speaker>Otto Wagner</speaker>
+               <p>theilt mit, daß das Projest</p>
+               <p>in der gestrigen Commissions¬</p>
+               <p>Sitzung des Gemeinderathes</p>
+               <p>mit Stimmeneinhelligkeit</p>
+               <p>durchgegangen ist.</p>
+            </sp>
+         </div>
+         
+      </body>
+  </text>
+</TEI>
