@@ -28,8 +28,22 @@
          </sourceDesc>
       </fileDesc>
   </teiHeader>
+
+   <facsimile>
+      <surface xml:id="p1" n="1">
+         <graphic url="Protocoll_1873.pdf#page=1"/>
+      </surface>
+      <surface xml:id="p2" n="2">
+         <graphic url="Protocoll_1873.pdf#page=2"/>
+      </surface>
+      <surface xml:id="p3" n="3">
+         <graphic url="Protocoll_1873.pdf#page=3"/>
+      </surface>
+   </facsimile>
+   
   <text>
       <body>
+         <pb n="1" facs="#p1"/>
          <p>I. N. 194. 906</p>
          <p>Protocoll</p>
          <p>der am 5. September 1873 im Bureau des Herrn</p>
@@ -64,6 +78,22 @@
                <p>mit Stimmeneinhelligkeit</p>
                <p>durchgegangen ist.</p>
             </sp>
+            <pb n="2" facs="#p2"/>
+               <p>Die Antheile werden folgenderweise festgesetzt:</p>
+               <table>
+                  <row>
+                     <!-- &#160 -> Geschütztes Leerzeichen vor dem %-->
+                     <cell>Credit-Anstalt</cell>
+                     <cell>40&#160;%</cell>
+                  </row>
+                  <row>
+                     <cell>Baron Schwarz</cell>
+                     <cell>10&#160;%</cell>
+                  </row>
+                  
+            
+               </table>
+            <pb n="3" facs="#p3"/>
          </div>
          
       </body>
