@@ -78,7 +78,9 @@
                <p>mit Stimmeneinhelligkeit</p>
                <p>durchgegangen ist.</p>
             </sp>
+            </div>
             <pb n="2" facs="#p2"/>
+            <div type="Tabelle">
                <p>Die Antheile werden folgenderweise festgesetzt:</p>
                <table>
                   <row>
@@ -91,10 +93,85 @@
                      <cell>10&#160;%</cell>
                   </row>
                   
-            
+                  <row>
+                     <cell>Graf Zichy</cell>
+                     <cell>8&#160;%</cell>
+                  </row>
+                  <row>
+                     <cell>Baron Schey</cell>
+                     <cell>9&#160;%</cell>
+                  </row>
+                  <row>
+                     <!-- Hier ist die Schreibweise noch unklar!-->
+                     <cell>A. von Melingo</cell>
+                     <cell>8&#160;%</cell>
+                  </row>
+                  <row>
+                     <cell>Georg Scheyrer</cell>
+                     <cell>5&#160;%</cell>
+                 </row>
+                 <row>
+                    <cell>83&#160;%</cell>
+                 </row>
+                  <row>
+                     <cell>Otto Wagner</cell>
+                     <cell>10&#160;%</cell>
+                 </row>
+                  <row>
+                     <cell>93&#160;%</cell>
+                  </row>
+                  <row>
+                     <cell>Reserve</cell>
+                     <cell>7&#160;%</cell>
+                  </row>
+                  <row>
+                     <cell>100&#160;%</cell>
+                  </row>
                </table>
+            </div>
+            <div type="Sprecher">
+            <sp>
+               <speaker>Baron Schwarz</speaker>
+               <p>stellt den Antrag, für den Fall,</p>
+               <p>als die Betheiligung des Baron.</p>
+               <p>Rothschild angenommen wird,</p>
+               <p>daß diese Betheiligung pro rata</p>
+               <p>von allen Theilnehmern getre¬</p>
+               <p> gen werde, selbstverständlich auch</p>
+               <p>vom Antheile der Credit-Anstalt.</p>
+               <p>Der Antheil des Baron Rothschild</p>
+               <p>soll jedoch 10 % nicht überschreiten.</p>
+            </sp>
+            </div>
+           
+           <div type="Text">
+            <p>Dieser Antrag wird angenommen.</p>
+            <p>Es wird beschloßen, daß Herr Baron Schwarz die</p>
+            <p>Unterhandlungen mit der Credit-Anstalt leiten</p>
+           <p>wird, und daß Herr Otto Wagner assistiren soll.</p>
+           </div>
+       
             <pb n="3" facs="#p3"/>
-         </div>
+               <div type="Speaker">
+                  <sp>
+                     <speaker>Otto Wagner</speaker>
+                     <p>Es wird beschloßen mit der Repartirung der Aus¬</p>
+                     <p>lagen bis zum def. Beitritt der Credit-Anstalt</p>
+                     <p>zu warten, dem Herrn Baron Schwarz aber seine</p>
+                     <p>in Projectsangelegenheiten gemachten Auslagen</p>
+                     <p>zu vergüten.</p>
+                  </sp>
+               </div>
+         
+            <div type="Unterschriften">
+               <!--Namen noch ausbessern.-->
+               <p>E. Zichy m / ?</p>
+               <p>Carl. Schwarz m / ?</p>
+               <p>???. v. Schey</p>
+               <p>Otto Wagner m / ?</p>
+               <p>G. Scheyrer m / ?</p>
+            </div>
+       
          
       </body>
   </text>
