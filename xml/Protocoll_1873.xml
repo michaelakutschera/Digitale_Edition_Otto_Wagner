@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Protocoll</title>
+            <title>Protokoll von 1873</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
  
@@ -14,13 +12,13 @@
             <publisher>UE: Digitale Edtion</publisher>
             <date>2025/2026</date>
             <availability>
-               <p>GitHub für die Abgabe des Projekts</p>
+               <p>GitHub für die Abgabe des Projekts.</p>
             </availability>
          </publicationStmt>
          
          <sourceDesc>
             <bibl>
-               <title>Protocoll</title>
+               <title>Protocoll der am 5. September 1873 im Bureau des Herrn Baron Friedrich von Schey abgehaltenen Sitzung in Wienabteilungs &amp; Localbahnen-Projects-Angelegenheiten.pdf</title>
                <author>Otto Wagner</author>
                <pubPlace>Wien</pubPlace>
                <date>5. September 1873</date>
@@ -28,7 +26,7 @@
          </sourceDesc>
       </fileDesc>
   </teiHeader>
-
+   
    <facsimile>
       <surface xml:id="p1" n="1">
          <graphic url="Protocoll_1873.pdf#page=1"/>
@@ -44,19 +42,21 @@
   <text>
       <body>
          <pb n="1" facs="#p1"/>
-         <p>I. N. 194. 906</p>
-         <p>Protocoll</p>
-         <p>der am 5. September 1873 im Bureau des Herrn</p>
-         <p>Baron Fr. von Schey abgehaltenen Sitzung</p>
-         <p>in Wienableitungs &amp; Localbahnen</p>
-         <p>Projests=Angelegenheiten.</p>
+         <div type="Einleitung">
+         <!--I. N. 194. 906; Wurde auf die Seite geschrieben aber nicht von Otto Wagner, ist eine Signatur.-->
+         <head>Protocoll</head>
+            <p>der am <date>5. September 1873</date> im Bureau des Herrn<lb/>
+            <persName ref="person.xml#pe0001">Baron Fr. von Schey</persName> abgehaltenen Sitzung<lb/>
+            in Wienableitungs &amp; Localbahnen<lb/>
+            Projects=Angelegenheiten.</p>
+         </div>
          
          <div type="Anwesende">
             <head>Anwesende:</head>
             <list>
                <item>Graf Edmund Friohy</item>
                <item>Baron D. von Schwarz</item>
-               <item>Fr. von Schey</item>
+               <item><persName ref="person.xml#pe0001">Fr. von Schey</persName></item>
                <item>Otto Wagner</item>
                <item>Georg Scheyrer</item>   
             </list>
@@ -65,20 +65,21 @@
          <div type="Sprecher">
             <sp>
                <speaker>Baron Schwarz</speaker>
-               <p>theilt mit, daß die Credit¬</p>
-               <p>Anstalt geneigt ist, in das</p>
-               <p>Geschäft einzutreten.</p>
+               <p>theilt mit, daß die Credit¬
+               Anstalt geneigt ist, in das
+               Geschäft einzutreten.</p>
             </sp>
             
             <sp>
                <speaker>Otto Wagner</speaker>
-               <p>theilt mit, daß das Projest</p>
-               <p>in der gestrigen Commissions¬</p>
-               <p>Sitzung des Gemeinderathes</p>
-               <p>mit Stimmeneinhelligkeit</p>
-               <p>durchgegangen ist.</p>
+               <p>theilt mit, daß das Projest
+               in der gestrigen Commissions¬
+               Sitzung des Gemeinderathes
+               mit Stimmeneinhelligkeit
+               durchgegangen ist.</p>
             </sp>
             </div>
+         
             <pb n="2" facs="#p2"/>
             <div type="Tabelle">
                <p>Die Antheile werden folgenderweise festgesetzt:</p>
@@ -132,34 +133,34 @@
             <div type="Sprecher">
             <sp>
                <speaker>Baron Schwarz</speaker>
-               <p>stellt den Antrag, für den Fall,</p>
-               <p>als die Betheiligung des Baron.</p>
-               <p>Rothschild angenommen wird,</p>
-               <p>daß diese Betheiligung pro rata</p>
-               <p>von allen Theilnehmern getre¬</p>
-               <p> gen werde, selbstverständlich auch</p>
-               <p>vom Antheile der Credit-Anstalt.</p>
-               <p>Der Antheil des Baron Rothschild</p>
-               <p>soll jedoch 10 % nicht überschreiten.</p>
+               <p>stellt den Antrag, für den Fall,
+               als die Betheiligung des Baron.
+               Rothschild angenommen wird,
+               daß diese Betheiligung pro rata
+               von allen Theilnehmern getre¬
+               gen werde, selbstverständlich auch
+               vom Antheile der Credit-Anstalt.
+               Der Antheil des Baron Rothschild
+               soll jedoch 10 % nicht überschreiten.</p>
             </sp>
             </div>
            
            <div type="Text">
-            <p>Dieser Antrag wird angenommen.</p>
-            <p>Es wird beschloßen, daß Herr Baron Schwarz die</p>
-            <p>Unterhandlungen mit der Credit-Anstalt leiten</p>
-           <p>wird, und daß Herr Otto Wagner assistiren soll.</p>
+            <p>Dieser Antrag wird angenommen.
+            Es wird beschloßen, daß Herr Baron Schwarz die
+            Unterhandlungen mit der Credit-Anstalt leiten
+            wird, und daß Herr Otto Wagner assistiren soll.</p>
            </div>
        
             <pb n="3" facs="#p3"/>
                <div type="Speaker">
                   <sp>
                      <speaker>Otto Wagner</speaker>
-                     <p>Es wird beschloßen mit der Repartirung der Aus¬</p>
-                     <p>lagen bis zum def. Beitritt der Credit-Anstalt</p>
-                     <p>zu warten, dem Herrn Baron Schwarz aber seine</p>
-                     <p>in Projectsangelegenheiten gemachten Auslagen</p>
-                     <p>zu vergüten.</p>
+                     <p>Es wird beschloßen mit der Repartirung der Aus¬
+                     lagen bis zum def. Beitritt der Credit-Anstalt
+                     zu warten, dem Herrn Baron Schwarz aber seine
+                     in Projectsangelegenheiten gemachten Auslagen
+                     zu vergüten.</p>
                   </sp>
                </div>
          

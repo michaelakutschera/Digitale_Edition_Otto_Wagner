@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt><title>Personenregister für die Otto Wagner Dokumente.</title></titleStmt>
+         <publicationStmt><p>Interne Verwendung</p></publicationStmt>
+         <sourceDesc>
+            <p>Protocoll von 1873</p>
+            <p>Testament 1o.Ä.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPerson>
+            <person xml:id="pe0001">
+               <idno type="Wikidata">Q1461926</idno>
+               <persName>
+                  <roleName type="honorific" full="abb">Baron</roleName>
+                  <forename>Friedrich</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Schey</surname>
+                  <addName>von Koromla</addName>
+               </persName>
+            </person>
+         </listPerson>
+      </body>
+  </text>
+</TEI>
