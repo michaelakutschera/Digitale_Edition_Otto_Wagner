@@ -28,6 +28,30 @@
   <text>
       <body>
          <listPerson>
+            <person xml:id="pe_melingo">
+               <idno type="wd">Q60818377</idno>
+               <persName type="reg"> <!-- reg als Attributwert steht für Registered oder Regular -->
+                  <forename>Achilles</forename>
+                  <surname>Melingo</surname>
+               </persName>
+               <persName type="variant">Achilles von Melingo</persName>
+               <note>*1824–†1889. Österreichischer Kommunalpolitiker.</note>
+            </person>
+            
+            <person xml:id="pe_rothschild">
+               <idno type="wd">Q334120</idno>
+               <persName type="reg">
+                  <roleName type="nobility">Baron</roleName>
+                  <forename>Nathan</forename>
+                  <surname>Rothschild</surname>
+               </persName>
+               <persName type="variant">Nathan Rothschild, 1. Baron Rothschild</persName>
+               <persName type="variant">Nathan Rotschild</persName>
+               <persName type="variant">Nathan Mayer Rothschild</persName>
+               <persName type="variant">Natty Rothschild</persName>
+               <note>*1840–†1915. Britisch-jüdischer Bankier und Abgeordneter,
+                  der Kredite auch an Österreich vergab</note>
+            </person>
             
             <person xml:id="pe_scheyrer">
                <persName type="reg">
@@ -39,35 +63,35 @@
             <person xml:id="pe_schey">
                <idno type="wd">Q1461926</idno>
                <persName type="reg">
-                  <roleName type="honorific">Baron</roleName>
+                  <roleName type="nobility">Baron</roleName>
                   <forename>Friedrich</forename>
                   <nameLink>von</nameLink>
                   <surname>Schey</surname>
                   <addName>von Koromla</addName>
                </persName>
                <persName type="variant">Fr. von Schey</persName>
-               <persName type="variamt">Friedrich Schey Freiherr von Koromla</persName>
-               <persName type="variante">Frederick Freiherr von Schey-Koromla</persName>
+               <persName type="variant">Friedrich Schey Freiherr von Koromla</persName>
+               <persName type="variant">Frederick Freiherr von Schey-Koromla</persName>
                <note>*1815–†1881. Ungarisch-Österreichischer Bankier und Mäzen.</note>
             </person>
             
             <person xml:id="pe_schwarz">
                <idno type="wd">Q1041429</idno>
                <persName type="reg">
-                  <roleName type="honorific">Baron</roleName>
+                  <roleName type="nobility">Baron</roleName>
                   <forename>Carl</forename>
                   <nameLink>von</nameLink>
                   <surname>Schwarz</surname>
                </persName>
                <persName type="variant">Carl Schwarz</persName>
                <persName type="variant">Karl Schwarz</persName>
-               <persName type="variamt">Carl Freiherr von Schwarz</persName>
+               <persName type="variant">Carl Freiherr von Schwarz</persName>
                <note>*1817–†1898. Österreichischer Bauunternehmer.</note>
             </person>
             
             <person xml:id="pe_wagner" role="main">
                <idno type="wd">Q84287</idno>
-            <persName>
+            <persName type="reg">
                <forename>Otto</forename>
                <surname>Wagner</surname>
             </persName>
@@ -78,13 +102,13 @@
             
             <person xml:id="pe_zichy">
                <!-- Es gibt mehrere zur Auswahl und ich weiß nicht welcher richtig ist.-->
-               <idno type="wd">????</idno>
+               <idno type="wd">Q90886586</idno>
                <persName type="reg">
-                  <roleName type="honorific">Graf</roleName>
+                  <roleName type="nobility">Graf</roleName>
                   <forename>Edmund</forename>
                   <surname>Zichy</surname>
                </persName>
-               <note>?????</note>
+               <persName type="variant">Edmung Graf Zichy-Vásonykeő</persName>
             </person>
             
       

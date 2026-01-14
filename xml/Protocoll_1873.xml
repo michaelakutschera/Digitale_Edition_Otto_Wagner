@@ -4,13 +4,13 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Protokoll von 1873</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
- 
+
          <publicationStmt>
             <publisher>UE: Digitale Edtion</publisher>
             <date>2025/2026</date>
@@ -18,18 +18,20 @@
                <p>GitHub für die Abgabe des Projekts.</p>
             </availability>
          </publicationStmt>
-         
+
          <sourceDesc>
             <bibl>
-               <title>Protocoll der am 5. September 1873 im Bureau des Herrn Baron Friedrich von Schey abgehaltenen Sitzung in Wienabteilungs &amp; Localbahnen-Projects-Angelegenheiten.pdf</title>
+               <title>Protocoll der am 5. September 1873 im Bureau des Herrn Baron Friedrich von
+                  Schey abgehaltenen Sitzung in Wienabteilungs &amp;
+                  Localbahnen-Projects-Angelegenheiten.pdf</title>
                <author>Otto Wagner</author>
                <pubPlace>Wien</pubPlace>
                <date>5. September 1873</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-   
+   </teiHeader>
+
    <facsimile>
       <surface xml:id="p1" n="1">
          <graphic url="Protocoll_1873.pdf#page=1"/>
@@ -41,142 +43,226 @@
          <graphic url="Protocoll_1873.pdf#page=3"/>
       </surface>
    </facsimile>
-   
-  <text>
+
+   <text>
       <body>
          <pb n="1" facs="#p1"/>
          <div type="Einleitung">
-         <!--I. N. 194. 906; Wurde auf die Seite geschrieben aber nicht von Otto Wagner, ist eine Signatur.-->
-         <head>Protocoll</head>
-            <p>der am <date>5. September 1873</date> im Bureau des Herrn<lb/>
-            <persName ref="personen.xml#pe_schey">Baron Fr. von Schey</persName> abgehaltenen Sitzung<lb/>
-            in Wienableitungs &amp; Localbahnen<lb/>
-            Projects=Angelegenheiten.</p>
+            <!--I. N. 194. 906; Wurde auf die Seite geschrieben aber nicht von Otto Wagner, ist eine Signatur.-->
+            <head>
+               <choice>
+                  <orig>Protocoll</orig>
+                  <reg>Protokoll</reg>
+               </choice>
+            </head>
+            <p>der am <date when="1873-09-05">5. September 1873</date> im <choice>
+                  <orig>Bureau</orig>
+                  <reg>Büro</reg>
+               </choice> des <persName ref="personen.xml#pe_schey">
+                  <roleName type="honorific">Herrn</roleName><lb/>
+                  <roleName type="nobility">Baron</roleName>Fr. von Schey</persName>abgehaltenen
+               Sitzung<lb/> in <orgName ref="organisationen.xml#wal">Wienableitungs &amp;
+                  Localbahnen</orgName><lb/>
+               <choice>
+                  <orig>Projects=Angelegenheiten</orig>
+                  <reg>Projektangelegenheiten</reg>
+               </choice>. </p>
          </div>
-         
+
          <div type="Anwesende">
             <head>Anwesende:</head>
             <list>
-               <item><persName ref="personen.xml#pe_zichy">Graf Edmund Zichy</persName></item>
-               <item><persName ref="personen.xml#pe_schwarz">Baron C. von Schwarz</persName></item>
-               <item><persName ref="person.xml#pe_schey">Fr. von Schey</persName></item>
-               <item><persName ref="personen.xml#pe_wagner"></persName>Otto Wagner</item>
-               <item><persName ref="person.xml#pe_scheyrer">Georg Scheyrer</persName></item>   
+               <item><persName ref="personen.xml#pe_zichy">
+                     <roleName type="nobility">Graf</roleName>Edmund Zichy</persName></item>
+               <item><persName ref="personen.xml#pe_schwarz">
+                     <roleName type="nobility">Baron</roleName> C. von Schwarz</persName></item>
+               <!-- Supplied gibt an, dass das Wort physisch dort nicht steht. reason=""ditto" erklärt warum es ergänzt wurde. evidence woher es kommt. seg rend gibt das ersetzte Zeichen an.-->
+               <item><persName ref="person.xml#pe_schey"><supplied reason="ditto"
+                        evidence="previous-item">Baron</supplied>
+                     <seg rend="ditto">"</seg>Fr. von Schey</persName></item>
+               <item><persName ref="personen.xml#pe_wagner">Otto Wagner</persName></item>
+               <item><persName ref="person.xml#pe_scheyrer">Georg Scheyrer</persName></item>
             </list>
          </div>
-         
+
          <div type="Sprecher">
             <sp>
-               <speaker>Baron Schwarz</speaker>
-               <p>theilt mit, daß die Credit¬
-               Anstalt geneigt ist, in das
-               Geschäft einzutreten.</p>
+               <speaker><persName ref="personen.xml#pe_Schwarz">
+                     <roleName type="nobility">Baron</roleName>Schwarz</persName>
+               </speaker>
+               <p><choice>
+                     <orig>theilt</orig>
+                     <reg>teilt</reg>
+                  </choice> mit, daß die <orgName key="organisationen.xml#ca"><choice>
+                        <orig>Credit¬<lb break="no"/>Anstalt</orig>
+                        <reg>Creditanstalt</reg>
+                     </choice></orgName> geneigt ist, in das<lb/> Geschäft einzutreten.</p>
             </sp>
-            
+
             <sp>
-               <speaker>Otto Wagner</speaker>
-               <p>theilt mit, daß das Projest
-               in der gestrigen Commissions¬
-               Sitzung des Gemeinderathes
-               mit Stimmeneinhelligkeit
-               durchgegangen ist.</p>
+               <speaker>
+                  <persName ref="personen.xml#pe_wagner">Otto Wagner</persName>
+               </speaker>
+               <p><choice>
+                     <orig>theilt</orig>
+                     <reg>teilt</reg>
+                  </choice> mit, daß das <choice>
+                     <orig>Project</orig>
+                     <reg>Projekt</reg>
+                  </choice><lb/> in der gestrigen <choice>
+                     <orig>Commissions¬<lb break="no"/> Sitzung</orig>
+                     <reg>Kommissionssitzung</reg>
+                  </choice> des <choice>
+                     <orig>Gemeinderathes</orig>
+                     <reg>Gemeinderats</reg>
+                  </choice><lb/> mit Stimmeneinhelligkeit<lb/> durchgegangen ist.</p>
             </sp>
-            </div>
-         
-            <pb n="2" facs="#p2"/>
-            <div type="Tabelle">
-               <p>Die Antheile werden folgenderweise festgesetzt:</p>
-               <table>
-                  <row>
-                     <!-- &#160 -> Geschütztes Leerzeichen vor dem %-->
-                     <cell>Credit-Anstalt</cell>
-                     <cell>40&#160;%</cell>
-                  </row>
-                  <row>
-                     <cell>Baron Schwarz</cell>
-                     <cell>10&#160;%</cell>
-                  </row>
-                  
-                  <row>
-                     <cell>Graf Zichy</cell>
-                     <cell>8&#160;%</cell>
-                  </row>
-                  <row>
-                     <cell>Baron Schey</cell>
-                     <cell>9&#160;%</cell>
-                  </row>
-                  <row>
-                     <!-- Hier ist die Schreibweise noch unklar!-->
-                     <cell>A. von Melingo</cell>
-                     <cell>8&#160;%</cell>
-                  </row>
-                  <row>
-                     <cell>Georg Scheyrer</cell>
-                     <cell>5&#160;%</cell>
-                 </row>
-                 <row>
-                    <cell>83&#160;%</cell>
-                 </row>
-                  <row>
-                     <cell>Otto Wagner</cell>
-                     <cell>10&#160;%</cell>
-                 </row>
-                  <row>
-                     <cell>93&#160;%</cell>
-                  </row>
-                  <row>
-                     <cell>Reserve</cell>
-                     <cell>7&#160;%</cell>
-                  </row>
-                  <row>
-                     <cell>100&#160;%</cell>
-                  </row>
-               </table>
-            </div>
-            <div type="Sprecher">
+         </div>
+
+         <pb n="2" facs="#p2"/>
+         <div type="Tabelle">
+            <p>Die <choice>
+                  <orig>Antheile</orig>
+                  <reg>Anteile</reg>
+               </choice> werden folgenderweise festgesetzt:</p>
+            <table>
+               <row>
+                  <!-- &#160 -> Geschütztes Leerzeichen vor dem %-->
+                  <cell><orgName key="organisationen.xml#ca"><choice>
+                           <orig>Credit-Anstalt</orig>
+                           <reg>Creditanstalt</reg>
+                        </choice></orgName></cell>
+                  <cell><measure type="share" quantity="40" unit="percent">40 %</measure></cell>
+               </row>
+               <row>
+                  <cell><persName ref="personen.xml#pe_schwarz"><roleName type="nobility"
+                           >Baron</roleName> Schwarz</persName></cell>
+                  <cell><measure type="share" quantity="10" unit="percent">10 %</measure></cell>
+               </row>
+
+               <row>
+                  <cell><persName ref="personen.xml#pe_zichy"><roleName type="nobility"
+                           >Graf</roleName> Zichy</persName></cell>
+                  <cell><measure type="share" quantity="8" unit="percent">8 %</measure></cell>
+               </row>
+               <row>
+                  <cell><persName ref="personen.xml#pe_schey"><roleName type="nobility"
+                           >Baron</roleName> Schey</persName></cell>
+                  <cell><measure type="share" quantity="9" unit="percent">9 %</measure></cell>
+               </row>
+               <row>
+                  <cell><persName ref="personen.xml#pe_melingo">A. von Melingo</persName></cell>
+                  <cell><measure type="share" quantity="8" unit="percent">8 %</measure></cell>
+               </row>
+               <row>
+                  <cell><persName ref="personen.xml#pe_scheyrer">Georg Scheyrer</persName></cell>
+                  <cell><measure type="share" quantity="5" unit="percent">5 %</measure></cell>
+               </row>
+               <row>
+                  <cell><measure type="share" quantity="83" unit="percent">83 %</measure></cell>
+               </row>
+               <row>
+                  <cell><persName ref="personen.xml#pe_wagner">Otto Wagner</persName></cell>
+                  <cell><measure type="share" quantity="10" unit="percent">10 %</measure></cell>
+               </row>
+               <row>
+                  <cell><measure type="share" quantity="93" unit="percent">93 %</measure></cell>
+               </row>
+               <row>
+                  <cell>Reserve</cell>
+                  <cell><measure type="share" quantity="7" unit="percent">7 %</measure></cell>
+               </row>
+               <row>
+                  <cell><measure type="share" quantity="100" unit="percent">100 %</measure></cell>
+               </row>
+            </table>
+         </div>
+         <div type="Sprecher">
             <sp>
-               <speaker>Baron Schwarz</speaker>
-               <p>stellt den Antrag, für den Fall,
-               als die Betheiligung des Baron.
-               Rothschild angenommen wird,
-               daß diese Betheiligung pro rata
-               von allen Theilnehmern getre¬
-               gen werde, selbstverständlich auch
-               vom Antheile der Credit-Anstalt.
-               Der Antheil des Baron Rothschild
-               soll jedoch 10 % nicht überschreiten.</p>
+               <speaker><persName ref="personen.xml#pe_schwarz"><roleName type="nobility"
+                        >Baron</roleName> Schwarz</persName></speaker>
+               <p>stellt den Antrag, für den Fall,<lb/> als die <choice>
+                     <orig>Betheiligung</orig>
+                     <reg>Beteiligung</reg>
+                  </choice> des <persName ref="personen.xml#pe_rothschild"><roleName type="nobility"
+                        >Baron.</roleName><lb break="no"/> Rothschild</persName> angenommen
+                  wird,<lb/> daß diese <choice>
+                     <orig>Betheiligung</orig>
+                     <reg>Beteiligung</reg>
+                  </choice> pro rata<lb/> von allen Theilnehmern getra¬<lb break="no"/> gen werde,
+                  selbstverständlich auch<lb/> vom <choice>
+                     <orig>Antheile</orig>
+                     <reg>Anteile</reg>
+                  </choice> der <orgName key="organisationen.xml#ca"><choice>
+                        <orig>Credit-Anstalt</orig>
+                        <reg>Creditanstalt</reg>
+                     </choice></orgName>.<lb/> Der <choice>
+                     <orig>Antheil</orig>
+                     <reg>Anteil</reg>
+                  </choice> des <persName ref="personen.xml#pe_rothschild"><roleName type="nobility"
+                        >Baron</roleName>Rothschild</persName><lb/> soll jedoch 10 % nicht
+                  überschreiten.</p>
             </sp>
-            </div>
-           
-           <div type="Text">
-            <p>Dieser Antrag wird angenommen.
-            Es wird beschloßen, daß Herr Baron Schwarz die
-            Unterhandlungen mit der Credit-Anstalt leiten
-            wird, und daß Herr Otto Wagner assistiren soll.</p>
-           </div>
-       
-            <pb n="3" facs="#p3"/>
-               <div type="Speaker">
-                  <sp>
-                     <speaker>Otto Wagner</speaker>
-                     <p>Es wird beschloßen mit der Repartirung der Aus¬
-                     lagen bis zum def. Beitritt der Credit-Anstalt
-                     zu warten, dem Herrn Baron Schwarz aber seine
-                     in Projectsangelegenheiten gemachten Auslagen
-                     zu vergüten.</p>
-                  </sp>
-               </div>
-         
-            <div type="Unterschriften">
-               <!--Namen noch ausbessern.-->
-               <p>E. Zichy m / ?</p>
-               <p>Carl. Schwarz m / ?</p>
-               <p>???. v. Schey</p>
-               <p>Otto Wagner m / ?</p>
-               <p>G. Scheyrer m / ?</p>
-            </div>
-       
-         
+         </div>
+
+         <div type="Text">
+            <p>Dieser Antrag wird angenommen. Es wird beschloßen, daß <persName
+                  ref="personen.xml#pe_schwarz"><roleName type="honorific">Herr</roleName> <roleName
+                     type="nobility">Baron</roleName>Schwarz</persName> die<lb/> Unterhandlungen mit
+               der <orgName key="organisationen.xml#ca"><choice>
+                     <orig>Credit-Anstalt</orig>
+                     <reg>Creditanstalt</reg>
+                  </choice></orgName> leiten<lb/> wird, und daß <persName
+                  ref="personen.xml#pe_wagner"><roleName type="honorific">Herr</roleName>Otto
+                  Wagner</persName>
+               <choice>
+                  <orig>assistiren</orig>
+                  <reg>assistieren</reg>
+               </choice> soll.</p>
+         </div>
+
+         <pb n="3" facs="#p3"/>
+         <div type="Speaker">
+            <sp>
+               <speaker><persName ref="personen.xml#pe_wagner">Otto Wagner</persName></speaker>
+               <p>Es wird beschloßen mit der Repartirung der Aus¬<lb break="no"/>lagen bis zum def.
+                  Beitritt <orgName key="organisationen.xml#ca">der Credit-Anstalt</orgName><lb/> zu
+                  warten, dem <persName ref="personen.xml#pe_schwarz"><roleName type="honorific"
+                        >Herrn</roleName> <roleName type="nobility">Baron</roleName>Schwarz</persName> aber seine<lb/>
+                  in <choice>
+                     <orig>Projectsangelegenheiten</orig>
+                     <reg>Projektangelegenheiten</reg>
+                  </choice> gemachten Auslagen<lb/> zu vergüten.</p>
+            </sp>
+         </div>
+
+         <div type="Unterschriften">
+            <!-- m.p steht für manu propria (mit eigener Hand).-->
+            <p><persName ref="personen.xml#pe_zichy">E. Zichy</persName>
+               <choice>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice></p>
+            <p><persName ref="personen.xml#pe_schwarz">Carl. Schwarz</persName><choice>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice></p>
+            <p><persName ref="personen.xml#pe_schey">Fr. v. Schey</persName>
+               <choice>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice></p>
+            <p><persName ref="personen.xml#pe_wagner">Otto Wagner</persName>
+               <choice>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice></p>
+            <p><persName ref="personen.xml#pe_scheyrer">G. Scheyrer</persName>
+               <choice>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice></p>
+         </div>
       </body>
-  </text>
+   </text>
 </TEI>
