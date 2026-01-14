@@ -1,29 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
-         <titleStmt><title>Personenregister für die Otto Wagner Dokumente.</title></titleStmt>
+         <titleStmt>
+            <title>Personenregister für die Otto Wagner Dokumente.</title>
+            <editor>Michaela Kutschera</editor>
+         </titleStmt>
          <publicationStmt><p>Interne Verwendung</p></publicationStmt>
          <sourceDesc>
             <p>Protocoll von 1873</p>
             <p>Testament 1o.Ä.</p>
          </sourceDesc>
       </fileDesc>
+     
+     <encodingDesc>
+        <listPrefixDef>
+           <prefixDef ident="wd" matchPattern="(.+)" replacementPattern="https://www.wikidata.org/wiki/$1">
+              <p>Verweist auf die Wikidata-Einträge mittels ihrer Q-ID.</p>
+           </prefixDef>
+        </listPrefixDef>
+     </encodingDesc>
   </teiHeader>
   <text>
       <body>
          <listPerson>
-            <person xml:id="pe0001">
-               <idno type="Wikidata">Q1461926</idno>
-               <persName>
-                  <roleName type="honorific" full="abb">Baron</roleName>
+            
+            <person xml:id="pe_scheyrer">
+               <persName type="reg">
+                  <forename>Georg</forename>
+                  <surname>Scheyrer</surname>
+               </persName>
+            </person>
+            
+            <person xml:id="pe_schey">
+               <idno type="wd">Q1461926</idno>
+               <persName type="reg">
+                  <roleName type="honorific">Baron</roleName>
                   <forename>Friedrich</forename>
                   <nameLink>von</nameLink>
                   <surname>Schey</surname>
                   <addName>von Koromla</addName>
                </persName>
+               <persName type="variant">Fr. von Schey</persName>
+               <persName type="variamt">Friedrich Schey Freiherr von Koromla</persName>
+               <persName type="variante">Frederick Freiherr von Schey-Koromla</persName>
+               <note>*1815–†1881. Ungarisch-Österreichischer Bankier und Mäzen.</note>
             </person>
+            
+            <person xml:id="pe_schwarz">
+               <idno type="wd">Q1041429</idno>
+               <persName type="reg">
+                  <roleName type="honorific">Baron</roleName>
+                  <forename>Carl</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Schwarz</surname>
+               </persName>
+               <persName type="variant">Carl Schwarz</persName>
+               <persName type="variant">Karl Schwarz</persName>
+               <persName type="variamt">Carl Freiherr von Schwarz</persName>
+               <note>*1817–†1898. Österreichischer Bauunternehmer.</note>
+            </person>
+            
+            <person xml:id="pe_wagner" role="main">
+               <idno type="wd">Q84287</idno>
+            <persName>
+               <forename>Otto</forename>
+               <surname>Wagner</surname>
+            </persName>
+               <persName type="variant">Otto Colomann Wagner</persName>  
+               <persName type="variant">Otto Kolomann Wagner</persName> 
+               <note>*1841–†1918. Österreichischer Arichtekt.</note>
+            </person>
+            
+            <person xml:id="pe_zichy">
+               <!-- Es gibt mehrere zur Auswahl und ich weiß nicht welcher richtig ist.-->
+               <idno type="wd">????</idno>
+               <persName type="reg">
+                  <roleName type="honorific">Graf</roleName>
+                  <forename>Edmund</forename>
+                  <surname>Zichy</surname>
+               </persName>
+               <note>?????</note>
+            </person>
+            
+      
          </listPerson>
       </body>
   </text>
