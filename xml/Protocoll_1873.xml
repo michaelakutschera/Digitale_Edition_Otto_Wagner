@@ -240,27 +240,22 @@
             <!-- m.p steht für manu propria (mit eigener Hand).-->
             <p><persName ref="personen.xml#pe_zichy">E. Zichy</persName>
                <choice>
-                  <abbr>m/p</abbr>
-                  <expan>manu propria</expan>
+                  <abbr>m/p</abbr> <expan>manu propria</expan>
                </choice></p>
             <p><persName ref="personen.xml#pe_schwarz">Carl. Schwarz</persName><choice>
-                  <abbr>m/p</abbr>
-                  <expan>manu propria</expan>
+                  <abbr>m/p</abbr> <expan>manu propria</expan>
                </choice></p>
             <p><persName ref="personen.xml#pe_schey">Fr. v. Schey</persName>
                <choice>
-                  <abbr>m/p</abbr>
-                  <expan>manu propria</expan>
+                  <abbr>m/p</abbr> <expan>manu propria</expan>
                </choice></p>
             <p><persName ref="personen.xml#pe_wagner">Otto Wagner</persName>
                <choice>
-                  <abbr>m/p</abbr>
-                  <expan>manu propria</expan>
+                  <abbr>m/p</abbr> <expan>manu propria</expan>
                </choice></p>
             <p><persName ref="personen.xml#pe_scheyrer">G. Scheyrer</persName>
                <choice>
-                  <abbr>m/p</abbr>
-                  <expan>manu propria</expan>
+                  <abbr>m/p</abbr> <expan>manu propria</expan>
                </choice></p>
          </div>
       </body>
