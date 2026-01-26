@@ -21,7 +21,7 @@
             </body>
         </html>
     </xsl:template>
-    
+        
     <xsl:template match="tei:person">
         <li id="{@xml:id}">
             <h2>
