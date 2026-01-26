@@ -16,7 +16,9 @@
             <body>
                 <h1>Personenverzeichnis</h1>
                 <ul class="personenverzeichnis">
-                    <xsl:apply-templates select="//tei:person"/>
+                    <xsl:apply-templates select="//tei:person">
+                        <xsl:sort select="tei:persName[@type='reg']/surname" data-type="text" order="ascending"/>
+                    </xsl:apply-templates>
                 </ul>
             </body>
         </html>

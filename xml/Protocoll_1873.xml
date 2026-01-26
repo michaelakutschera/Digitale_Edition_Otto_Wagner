@@ -13,7 +13,7 @@
 
          <publicationStmt>
             <publisher>UE: Digitale Edtion</publisher>
-            <date>2025/2026</date>
+            <date>Wintersemester 2025/26</date>
             <availability>
                <p>GitHub für die Abgabe des Projekts.</p>
             </availability>
@@ -33,20 +33,29 @@
    </teiHeader>
 
    <facsimile>
-      <surface xml:id="p1" n="1">
+      <surface xml:id="pro1873_p1" n="1">
          <graphic url="Protocoll_1873.pdf#page=1"/>
       </surface>
-      <surface xml:id="p2" n="2">
+      <surface xml:id="pro1873_p2" n="2">
          <graphic url="Protocoll_1873.pdf#page=2"/>
       </surface>
-      <surface xml:id="p3" n="3">
+      <surface xml:id="pro1873_p3" n="3">
          <graphic url="Protocoll_1873.pdf#page=3"/>
+      </surface>
+      <surface xml:id="pro1873_p4" n="4">
+         <graphic url="Protocoll_1873.pdf#page=4"/>
+         <note>Rückseite der Seite 3.</note>
+      </surface>
+      
+      <surface xml:id="pro1873_p5" n="5">
+         <graphic url="Protocoll_1873.pdf#page=5"/>
+         <note>Dubplikat der Seite 4 mit Farbkarte.</note>
       </surface>
    </facsimile>
 
    <text>
       <body>
-         <pb n="1" facs="#p1"/>
+         <pb n="1" facs="#pro1873_p1"/>
          <div type="Einleitung">
             <!--I. N. 194. 906; Wurde auf die Seite geschrieben aber nicht von Otto Wagner, ist eine Signatur.-->
             <head>
@@ -119,7 +128,7 @@
             </sp>
          </div>
 
-         <pb n="2" facs="#p2"/>
+         <pb n="2" facs="#pro1873_p2"/>
          <div type="Tabelle">
             <p>Die <choice>
                   <orig>Antheile</orig>
@@ -221,7 +230,7 @@
                </choice> soll.</p>
          </div>
 
-         <pb n="3" facs="#p3"/>
+         <pb n="3" facs="#pro1873_p3"/>
          <div type="Speaker">
             <sp>
                <speaker><persName ref="personen.xml#pe_wagner">Otto Wagner</persName></speaker>

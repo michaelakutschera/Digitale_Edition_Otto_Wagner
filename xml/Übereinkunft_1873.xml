@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Übereinkunft vom 27.Febraur.1873</title>
+            <editor>Michaela Kutschera</editor>
+         </titleStmt>
+         
+         <publicationStmt>
+            <publisher>UE: Digitale Edtion</publisher>
+            <date>Wintersemester 2025/26</date>
+            <availability>
+               <p>GitHub für die Abgabe des Projekts.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <bibl>
+               <title>Uibereinkunft [!] aufgesetzt am 27. Februar 1873 im Bureau des Herrn Baron Friedrich von Schey.pdf</title>
+               <author>Otto Wagner</author>
+               <pubPlace>Wien</pubPlace>
+               <date>27. Februar 1873</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+   <facsimile>
+      <surface xml:id="ue1873_p1" n="1">
+         <graphic url="Übereinkunft_1873.pdf#page=1"/>
+      </surface>
+      <surface xml:id="ue1873_p2" n="2">
+         <graphic url="Übereinkunft_1873.pdf#page=2"/>
+      </surface>
+      <surface xml:id="ue1873_p3" n="3">
+         <graphic url="Übereinkunft_1873.pdf#page=3"/>
+      </surface>
+      <surface xml:id="ue1873_p4" n="4">
+         <graphic url="Übereinkunft_1873.pdf#page=4"/>
+         <note>Rückseite der Seite 3.</note>
+      </surface>
+      
+      <surface xml:id="ue1873_p5" n="5">
+         <graphic url="Übereinkunft_1873.pdf#page=5"/>
+         <note>Dubplikat der Seite 4 mit Farbkarte.</note>
+      </surface>
+   </facsimile>
+   
+  <text>
+      <body>
+         <pb n="1" facs="#ue1873_p1"/>
+         <div type="Einleitung">
+            <!--I.N.194.905; Wurde auf die Seite geschrieben aber nicht von Otto Wagner, ist eine Signatur.-->
+            <head>
+               <choice>
+                  <orig>Uibereinkunft</orig>
+                  <reg>Übereinkunft</reg>
+               </choice>
+            </head>
+            <p>aufgesetzt am <date when="1873-02-27">27. Februar 1873 </date>im <choice>
+               <orig>Bureau</orig>
+               <reg>Büro</reg>
+            </choice> des ?????????? </p>
+         </div>
+       </body>
+  </text>
+</TEI>
