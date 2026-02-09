@@ -6,34 +6,23 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Organisationsregister für die Otto Wagner Dokumente.</title>
+            <title>Orte für die Otto Wagner Dokumente.</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
          <publicationStmt><p>Interne Verwendung</p></publicationStmt>
          <sourceDesc>
-            <p>Protocoll von 1873</p>
-            <p>Testament 1o.Ä.</p>
+            <p>Übereinkunft vom 27.Febraur.1873</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <listOrg>
-            <org xml:id="ca">
-               <name>Creditanstalt</name>
-            </org>
-            
-            <org xml:id="wal">
-               <name>Wienableitungs &amp; Localbahnen</name>
-            </org>
-            
-            <org xml:id="org_">
-               <name>Wienableitungs &amp; Localbahnen</name>
-            </org>
-            
-            
-         </listOrg>
-
+         <listPlace>
+            <place>
+               
+            </place>
+         </listPlace>
+         
       </body>
-  </text>
+   </text>
 </TEI>

@@ -65,8 +65,72 @@
             <p>aufgesetzt am <date when="1873-02-27">27. Februar 1873 </date>im <choice>
                <orig>Bureau</orig>
                <reg>Büro</reg>
-            </choice> des ?????????? </p>
+            </choice> des <persName ref="personen.xml#pe_schey"><roleName type="honorific">Herrn</roleName><lb/>
+               <roleName type="nobility">Baron</roleName>Fr. von Schey</persName></p>
          </div>
+         <div type="Anwesende">
+            <head>Anwesend die Herren:</head>
+            <list>
+               <item>
+                  <persName ref="personen.xml#pe_zichy">
+                     <roleName type="nobility">Excellenz </roleName><roleName type="nobility">Graf </roleName>Edmund Zichy</persName>
+               </item>
+               <item>
+                  <persName ref="personen.xmml#pe_schey"><roleName type="nobility">Baron </roleName> Fr. von Schey</persName>
+               </item>
+               <item>
+                  <persName ref="personen.xml#pe_schwarz">
+                  <roleName type="nobility">Baron </roleName>Carl von Schwarz</persName>
+               </item>
+               <item>
+                  <persName ref="personen.xml#pe_melingo">Achilles von Melingo</persName>
+               </item>
+               <item>
+                  <persName ref="personen.xml#pe_wagner">Otto Wagner</persName>
+               </item>
+               <item>
+                  <persName ref="personen.xml#pe_Scheyrer">Georg Scheyrer</persName>
+               </item>
+            </list>
+         </div>
+         <div type="text">
+            <p> 
+               Die Gefertigten haben sich vereinigt<lb/>
+               eine Eingabe an die 
+               <orgName>
+               <choice>
+                  <orig>Commune</orig>
+                  <reg>Kommune</reg>
+               </choice>
+               <placeName ref="orte.xml#o_wien">Wiens</placeName>
+               </orgName>
+               und die respecti¬<lb/>
+               ven Ministerien zu machen, in welcher sie ein <choice>
+                  <orig>Project</orig>
+                  <reg>Projekt</reg>
+               </choice>, <lb/>
+               welches einerseits die Ableitung und <choice>
+                  <orig>Regulirung</orig>
+                  <reg>Regulierung</reg>
+               </choice> des<lb/>
+               <placeName ref="orte.xml#o_wf">Wienflusses</placeName>, andrerseits die Schaffung von 
+               <choice>
+                  <orig>Communica¬<lb break="no" rend="hyphen"/>tionen</orig>
+                  <reg>Kommunikationen</reg>
+               </choice>
+               durch Anlegung von Radial- und <choice>
+                  <orig>Periferie</orig>
+                  <reg>Peripherie</reg>
+               </choice>-<lb/>
+               Bahnen und eines Boulevards von der <placeName ref="orte.xml#o_eb">Elisabeth<lb break="no" rend="hyphen"/>
+               brücke</placeName> nach <placeName ref="orte.xml#o_sb">Schönbrunn</placeName> bezweckt, vorlegen.   
+            </p>
+         </div>
+         <pb n="2" facs="#ue1873_p2"/>
+         <div type="text">
+            
+         </div>
+         
        </body>
   </text>
 </TEI>

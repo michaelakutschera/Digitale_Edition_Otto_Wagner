@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Orte für die Otto Wagner Dokumente.</title>
+            <editor>Michaela Kutschera</editor>
+         </titleStmt>
+         <publicationStmt><p>Interne Verwendung</p></publicationStmt>
+         <sourceDesc>
+            <p>Übereinkunft vom 27.Febraur.1873</p>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="wd" matchPattern="(.+)" replacementPattern="https://www.wikidata.org/wiki/$1">
+               <p>Verweist auf die Wikidata-Einträge mittels ihrer Q-ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+  
+   <text>
+      <body>
+         <listPlace>
+            
+            <place xml:id="o_eb">
+               <placeName type="historic">Elisabethbrücke</placeName>
+               <idno type="wd">Q1330527</idno>
+               <note type="location">
+                  <geo>48.2005,16.3687</geo>
+               </note>
+               <note>Von 1854 bis 1897 von Ludwig Förster. Nutzung: Fuhrwerke, Fußgänger und Straßenbahn.</note>
+            </place>
+            
+            <place xml:id="o_sb">
+               <placeName>Schönbrunn</placeName>
+               <idno type="wd">Q131330</idno>
+               <note type="location">
+                  <geo>48.18479,16.31227</geo>
+               </note>
+            </place>
+         
+            <place xml:id="o_wien">
+               <placeName>Wien</placeName>
+               <idno type="wd">Q1741</idno>
+               <note type="location">
+                  <geo>48.208333,16.3725</geo>
+               </note>
+            </place>
+            
+            <place xml:id="o_wf">
+               <placeName>Wienfluss</placeName>
+               <idno type="wd">Q702289</idno>
+
+               <note type="location" subtype="Quelle">
+                  <geo>48.1606,16.0381</geo>
+               </note>
+               
+               <note type="location" subtype="Flussmündung">
+                  <geo>48.2119,16.3844</geo>
+               </note>
+            </place>
+         </listPlace>
+         
+      </body>
+   </text>
+</TEI>
