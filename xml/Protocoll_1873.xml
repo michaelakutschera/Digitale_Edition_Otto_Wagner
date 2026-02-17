@@ -193,7 +193,7 @@
                <p>stellt den Antrag, für den Fall,<lb/> als die <choice>
                      <orig>Betheiligung</orig>
                      <reg>Beteiligung</reg>
-                  </choice> des <persName ref="personen.xml#pe_rothschild"><roleName type="nobility"
+                  </choice> des <persName ref="personen.xml#pe_n.rothschild"><roleName type="nobility"
                         >Baron.</roleName><lb break="no"/> Rothschild</persName> angenommen
                   wird,<lb/> daß diese <choice>
                      <orig>Betheiligung</orig>
@@ -208,7 +208,7 @@
                      </choice></orgName>.<lb/> Der <choice>
                      <orig>Antheil</orig>
                      <reg>Anteil</reg>
-                  </choice> des <persName ref="personen.xml#pe_rothschild"><roleName type="nobility"
+                  </choice> des <persName ref="personen.xml#pe_n.rothschild"><roleName type="nobility"
                         >Baron</roleName>Rothschild</persName><lb/> soll jedoch 10 % nicht
                   überschreiten.</p>
             </sp>

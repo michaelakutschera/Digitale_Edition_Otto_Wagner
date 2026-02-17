@@ -38,7 +38,8 @@
                <note>Achilles von Melingo  geborden 1824 und starb 1889. Er war ein österreichischers Kommunalpolitiker.</note>
             </person>
             
-            <person xml:id="pe_rothschild">
+            <!-- Ist das der richtige Rothschild? Es wird im Protkoll einer erwähnt und in der Übereinkunft, dort steht er mit J. M. von Rothschild?-->
+            <person xml:id="pe_n.rothschild">
                <idno type="wd">Q334120</idno>
                <persName type="reg">
                   <roleName type="nobility">Baron</roleName>
@@ -51,6 +52,21 @@
                <persName type="variant">Natty Rothschild</persName>
                <note>Baron Nathan Rothschild geboren 1840 und starb 1915 und war ein britisch-jüdischer Bankier und Abgeordneter,
                   der Kredite auch an das Land Österreich vergab.</note>
+            </person>
+            
+            <person xml:id="pe_m.rothschild">
+               <idno type="wd">Q89219</idno>
+               <persName type="reg">
+                  <roleName type="nobility">Baron</roleName>
+                  <forename>Nathaniel Anselm</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Rothschild</surname>
+               </persName>
+               <persName type="variant">Nathaniel Meyer von Rothschild</persName>
+               <persName type="variant">Nathaniel Meyer Freiherr von Rothschild</persName>
+               <persName type="variant">Nataniel Rothschild</persName>
+               <note>Nathaniel Anselm von Rothschild geboren 1836 und starb 1905. Er war ein ötserreichscher Bankier,
+                  Kunstsammler und Philannthrop.</note>
             </person>
             
             <person xml:id="pe_scheyrer">
