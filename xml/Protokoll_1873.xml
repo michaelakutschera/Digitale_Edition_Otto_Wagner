@@ -38,13 +38,14 @@
       </surface>
       <surface xml:id="pro1873_p2" n="2">
          <graphic url="Protocoll_1873.pdf#page=2"/>
+         <note>Rückseite von Seite 1.</note>
       </surface>
       <surface xml:id="pro1873_p3" n="3">
          <graphic url="Protocoll_1873.pdf#page=3"/>
       </surface>
       <surface xml:id="pro1873_p4" n="4">
          <graphic url="Protocoll_1873.pdf#page=4"/>
-         <note>Rückseite der Seite 3.</note>
+         <note>Rückseite von Seite 3.</note>
       </surface>
       
       <surface xml:id="pro1873_p5" n="5">

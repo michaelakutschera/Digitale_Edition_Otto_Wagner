@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Promemoria</title>
+            <editor>Michaela Kutschera</editor>
+         </titleStmt>
+         
+         <publicationStmt>
+            <publisher>UE: Digitale Edtion</publisher>
+            <date>Wintersemester 2025/26</date>
+            <availability>
+               <p>GitHub für die Abgabe des Projekts.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <bibl>
+               <title>Promemoria_1876.pdf</title>
+               <author>Otto Wagner</author>
+               <pubPlace>Wien</pubPlace>
+               <date>November 1876</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+   <facsimile>
+      <surface xml:id="pm1876_p1" n="1">
+         <graphic url="Promemoria_1876.pdf#page=1"/>
+      </surface>
+      <surface xml:id="pm1876_p2" n="2">
+         <graphic url="Promemoria_1876.pdf#page=2"/>
+      </surface>
+      <surface xml:id="pm1876_p3" n="3">
+         <graphic url="Promemoria_1876.pdf#page=3"/>
+      </surface>
+      <surface xml:id="pm1876_p4" n="4">
+         <graphic url="Promemoria_1876.pdf#page=4"/>
+      </surface>
+      
+      <surface xml:id="pm1876_p5" n="5">
+         <graphic url="Promemoria_1876.pdf#page=5"/>
+         <note>Dubplikat der Seite 4 mit Farbkarte.</note>
+      </surface>
+   </facsimile>
+   
+   
+   <text>
+      <body>
+         <pb n="1" facs="#pm1876_p1"/>
+         <div type="Titel">
+            <!--I.N.188.352; Wurde auf die Seite geschrieben aber nicht von Otto Wagner, ist eine Signatur der Bibliothek.-->
+            <head>Promemoira</head>
+         </div>
+         
+         <div type="Text">
+            <p>
+               Nach Vollendung meiner Studien in der <orgName ref="organisationen.xml#bab">Bau¬ <lb break="no"/>Akademie</orgName>
+               in <placeName ref="orte.xml#o_berlin">Berlin</placeName> und der <orgName ref="organisationen.xml#abkw">Akademie der bildenden <lb break="no"/>Künste</orgName>
+                in <placeName ref="orte.xml#o_wien">Wien</placeName> trat ich im Jahre <date when="1862">1862</date> in das <lb/>
+               Atelier des <roleName type="profession">Architekten</roleName> und <persName ref="personen.xml#pe_förster"><roleName type="academic">Professors</roleName>Heinrich Ritter<lb break="no"/>
+                  von Förster senior</persName>. Schon in kurzer Zeit hierauf <lb/>
+               gelang es mir, selbständig einige Bauten zur <lb/>
+               Ausführung zu bekommen und <choice>
+                  <orig>betheiligte</orig>
+                  <reg>beteiligte</reg>
+               </choice> ich <lb/>
+               mich nun an der <choice>
+                  <orig>Concursausschreibung</orig>
+                  <reg>Konkursausschreibung</reg>
+               </choice> für das <lb/>
+               <placeName><choice>
+                  <orig>Cursaal-</orig>
+                  <reg>Kursaal-</reg>
+               </choice>Gebäude</placeName> in <placeName ref="orte.xml#o_wien">Wien</placeName>, die Jury gab meinem <lb/>
+               Projekte mit Stimmeneinheligkeit den Ersten <lb/>
+               Preis, dennoch wurde die Ausführung des <lb/>
+               Baues trotz wärmster Fürsprache meines <lb/>
+               Lehrers weiland <persName ref="personen.xml#pe_sicardsburg"><roleName type="academic">Professor</roleName> Sicardsburg</persName> anderweitig <lb/>
+               vergeben.
+            </p>
+            <p>
+               Einen gleich günstigen Erfolg hatte meine <lb/>
+               <choice>
+                  <orig>Betheiligung</orig>
+                  <reg>Beteiligung</reg>
+               </choice> an der großen <choice>
+                  <orig>Concurrenz</orig>
+                  <reg>Konkurrenz</reg>
+               </choice> für <lb/>
+               <!--Noch nicht in dem Dokument Orte verzeichnet-->
+               den <placeName ref="orte.xml#o_bd">Berliner-Dom</placeName>, eines <choice>
+                  <orig>Concurses</orig>
+                  <reg>Konkurses</reg>
+               </choice>, aus <lb/>
+               welchem ich als der einzig preisgekrönte <lb/>
+               <placeName ref="orte.xml#o_wien">Wiener-</placeName>Architekt hervorging.
+            </p>
+            <p>
+               Eine größere Anzahl Aufträge be- <lb/>
+               schäftigte mich bis in das Jahr <date when="1868">1868</date>, darunter:
+            </p>
+            </div>
+            
+            <pb n="2" facs="#pm1876_p2"/>
+            <div type="Text">
+               <p>
+                  Die <choice>
+                     <orig>landwirthschaftliche</orig>
+                     <reg>landwirtschaftliche</reg>
+                  </choice> Ausstellung für Sr. Pais. <lb/> <!-- Ich weiß nicht was das sein soll... -->
+                  <persName ref="personen.xml#pe_habsburg"><roleName type="honorific">Hoheit </roleName><roleName type="nobility">Erzherzog</roleName> Albrecht</persName>, wofür mir wiederholte <lb/>
+                  höchst schmeigelhafte Zuschriften von Seite der <lb/>
+                  <orgName ref="orte.xml#hk">Erzherzgl. Hofkanzlei</orgName> zu <choice>
+                     <orig>Theil</orig>
+                     <reg>Teil</reg>
+                  </choice> wurden, ferner der <lb/>
+                  Bau der Villa in <placeName ref="orte.xml#o_baden">Baden</placeName> gegenwärtig im Besitze <lb/>
+                  <persName ref="personen.xml#pe_rainer">Ser. <roleName type="honorific">kais. Hoheit </roleName><roleName type="nobility">Erzherzog </roleName>Rainer</persName>, sowie die <lb/> <!-- Ser. ist nicht ganz klar, könnte auch etwas anders heißen.-->
+                  Ausführung des <placeName ref="orte.xml#o_pe">Palais Epstein</placeName> am <placeName ref="orte.xml#o_br">Burgring</placeName> <lb/>
+                  etc. etc: 
+               </p>
+               <!-- AB HIER NOCH ALLES EINTRAGEN UND HINZUFÜGEN!-->
+               <p>
+                  Nebst größeren Privatbauten in <placeName ref="orte.xml#o_wien">Wien</placeName> und
+                  <placeName ref="orte.xml#o_pest">Pest</placeName>, darunter Schloßbau des <persName><roleName type="honorific">>Herr</roleName> von Mocsongi</persName>
+                  in <placeName ref="orte.xml#o_kapolnas">Kapolnas</placeName>, welche zusammen circa 2 ½/2 Millionen
+                  Bankosten <choice>
+                     <orig>repräsentiren</orig>
+                     <reg>repräsentieren</reg>
+                  </choice>, wurde ich im Jahre <date when="1867">1867</date>
+                  mit der Ausführung der neuen <placeName>Synagoge</placeName> in
+                  <placeName ref="orte.xml#o_pest">Pest</placeName> betraut, eines Bauwerkes dessen selbst
+                  Kunsthistoriker <persName ref="personen.xml#pe_lübek">Lübke</persName> sehr lobend erwähnt.
+                  An meine <choice>
+                     <orig>Thätigkeit</orig>
+                     <reg>Tätigkeit</reg>
+                  </choice> schließen sich nun
+                  mehrere Privatbauten und die Arbeiten für
+                  die <orgName>Welt- Ausstellung</orgName> in <placeName ref="orte.xml#o_wien">Wien</placeName>, worunter die
+                  für die <orgName>kais. russische Commission</orgName> ausgeführten
+                  Aufgaben, für welche ich mit dem <persName>H. Stanislaus¬</persName>
+                  Orden II. <choice>
+                     <orig>Classe</orig>
+                     <reg>Klasse</reg>
+                  </choice> ausgezeichnet wurde.
+                  In diese Zeit fällt die von mir zuerst
+                  gebrachte Idee der <placeName ref="orte.xml#o_wf">Wienfluss-</placeName>Ableitung und
+                  Herstellung eines Boulevards bis <placeName ref="orte.xml#o_">Schloß Schönbrunn</placeName>,
+                  ein Projekt, welches den ungünstigen Zeitver¬
+                  hältnißen wenigstens vor der Hand weichen
+                  mußte.
+               </p>
+            </div>
+         
+      </body>
+   </text>
+</TEI>

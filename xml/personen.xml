@@ -12,8 +12,9 @@
          </titleStmt>
          <publicationStmt><p>Interne Verwendung</p></publicationStmt>
          <sourceDesc>
-            <p>Protocoll von 1873</p>
-            <p>Testament 1o.Ä.</p>
+            <p>Protokoll_1873</p>
+            <p>Übereinkunft_1873</p>
+            <p>Promemoira_1876</p>
          </sourceDesc>
       </fileDesc>
      
@@ -25,21 +26,75 @@
         </listPrefixDef>
      </encodingDesc>
   </teiHeader>
+   
   <text>
       <body>
          <listPerson>
+            
+            <person xml:id="pe_förster">
+               <idno>Q19959471</idno>
+               <persName>
+                  <forename>Heinrich</forename>
+                  <forename>Ritter</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Förster</surname>
+               </persName>
+               <birth when="1832-05-14"/>
+               <death when="1889-01-31"/>
+               <occupation>Architekt</occupation>
+               <occupation>Stadtbaumeister</occupation>
+               <note>Österreichischer Architekt.</note>
+            </person>
+            
+            <person xml:id="pe_habsburg">
+               <idno type="wd">Q310807</idno>
+               <persName>
+                  <forename>Albrecht</forename>
+                  <forename>Friedrich</forename>
+                  <forename>Rudolph</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Habsburg-Lothringen</surname>
+               </persName>
+               <persName type="variant">Albrecht von Österreich-Teschen</persName>
+               <persName type="variant">Albrecht Friedrich von Österreich</persName>
+               <persName type="variant">Albrecht Friedrich Rudolf von Habsburg</persName>
+               <persName type="variant">Albrecht Friedrich Rudolf von Österreich</persName>
+               <persName type="variant">Albrecht Friedrich von Österreich-Teschen</persName>
+               <birth when="1817-08-03"/>
+               <death when="1895-02-18"/>
+               <note>Erzherzog von Österreich und Feldherr.</note>
+            </person>
+
             <person xml:id="pe_melingo">
                <idno type="wd">Q60818377</idno>
-               <persName type="reg"> <!-- reg als Attributwert steht für Registered oder Regular -->
+               <persName>
                   <forename>Achilles</forename>
                   <surname>Melingo</surname>
                </persName>
                <persName type="variant">Achilles von Melingo</persName>
-               <note>Achilles von Melingo  geborden 1824 und starb 1889. Er war ein österreichischers Kommunalpolitiker.</note>
+               <birth when="1824"/>
+               <death when="1889"/>
+               <note>Österreichischer Kommunalpolitiker.</note>
+            </person>
+            
+            <person xml:id="pe_rainer">
+               <idno type="wd">Q111971</idno>
+               <persName>
+                  <forename>Rainer</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Österreich</surname>
+               </persName>
+               <persName type="variant">Rainer Ferdinand</persName>
+               <persName type="variant">Rainer Ferdinand von Österreich</persName>
+               <persName type="variant">Erzherzog Rainer der Jüngere</persName>
+               <persName type="variant">Erzherzog Rainer</persName>
+               <birth when="1827-01-11"/>
+               <death when="1913-01-27"/>
+               <note>Österreichischer Erzherzog, Genral, Kunstmäzen und Sammler.</note>
             </person>
             
             <!-- Ist das der richtige Rothschild? Es wird im Protkoll einer erwähnt und in der Übereinkunft, dort steht er mit J. M. von Rothschild?-->
-            <person xml:id="pe_n.rothschild">
+            <!--<person xml:id="pe_n.rothschild">
                <idno type="wd">Q334120</idno>
                <persName type="reg">
                   <roleName type="nobility">Baron</roleName>
@@ -67,18 +122,13 @@
                <persName type="variant">Nataniel Rothschild</persName>
                <note>Nathaniel Anselm von Rothschild geboren 1836 und starb 1905. Er war ein ötserreichscher Bankier,
                   Kunstsammler und Philannthrop.</note>
-            </person>
+            </person> -->
             
-            <person xml:id="pe_scheyrer">
-               <persName type="reg">
-                  <forename>Georg</forename>
-                  <surname>Scheyrer</surname>
-               </persName>
-            </person>
+            
             
             <person xml:id="pe_schey">
                <idno type="wd">Q1461926</idno>
-               <persName type="reg">
+               <persName>
                   <roleName type="nobility">Baron</roleName>
                   <forename>Friedrich</forename>
                   <nameLink>von</nameLink>
@@ -88,12 +138,40 @@
                <persName type="variant">Fr. von Schey</persName>
                <persName type="variant">Friedrich Schey Freiherr von Koromla</persName>
                <persName type="variant">Frederick Freiherr von Schey-Koromla</persName>
-               <note>Friedrich von Schey geboren 1815 und starb 1881. Er war ein ungarisch-österreichischers Bankier und Mäzen.</note>
+               <birth when="1815-03-05"/>
+               <death when="1881-07-15"/>
+               <occupation>Bankier</occupation>
+               <occupation>Mäzen</occupation>
+               <note>Ungarisch-österreichischers Bankier und Mäzen.</note>
+            </person>
+
+            <person xml:id="pe_scheyrer">
+               <persName>
+                  <forename>Georg</forename>
+                  <surname>Scheyrer</surname>
+               </persName>
+            </person>
+            
+            <person xml:id="pe_sicardsburg">
+               <persName>
+                  <forename>August</forename>
+                  <forename>Sicard</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Sicardsburg</surname>
+               </persName>
+               <persName type="variant">August Siccard von Siccardsburg</persName>
+               <persName type="variant">Siccard von Siccardsburg</persName>
+               <persName type="variant">Sicard von Sicardsburg</persName>
+               <persName type="variant">August Siccardsburg</persName>
+               <birth when="1813-12-06"/>
+               <death when="1868-06-11"/>
+               <occupation>Architekt</occupation>
+               <note>Österreichischer Architekt.</note>
             </person>
             
             <person xml:id="pe_schwarz">
                <idno type="wd">Q1041429</idno>
-               <persName type="reg">
+               <persName>
                   <roleName type="nobility">Baron</roleName>
                   <forename>Carl</forename>
                   <nameLink>von</nameLink>
@@ -102,24 +180,30 @@
                <persName type="variant">Carl Schwarz</persName>
                <persName type="variant">Karl Schwarz</persName>
                <persName type="variant">Carl Freiherr von Schwarz</persName>
-               <note>Baron Carl von Schwarz geboren 1817 und starb 1898. Er war ein österreichischer Bauunternehmer.</note>
+               <birth when="1817-07-23"/>
+               <death when="1898-10-21"/>
+               <occupation>Bauunternehmer</occupation>
+               <note>Österreichischer Bauunternehmer.</note>
             </person>
             
             <person xml:id="pe_wagner" role="main">
                <idno type="wd">Q84287</idno>
-            <persName type="reg">
+            <persName>
                <forename>Otto</forename>
                <surname>Wagner</surname>
             </persName>
                <persName type="variant">Otto Colomann Wagner</persName>  
                <persName type="variant">Otto Kolomann Wagner</persName> 
-               <note>Otto Wagner geboren 1841 und starb 1918. Er war ein österreichischer Arichtekt.</note>
+               <birth when="1841-07-13"/>
+               <death when="1918-04-11"/>
+               <occupation>Architekt</occupation>
+               <note>Österreichischer Arichtekt.</note>
             </person>
             
             <person xml:id="pe_zichy">
                <!-- Es gibt mehrere zur Auswahl und ich weiß nicht welcher richtig ist.-->
                <idno type="wd">Q90886586</idno>
-               <persName type="reg">
+               <persName>
                   <roleName type="nobility">Graf</roleName>
                   <forename>Edmund</forename>
                   <surname>Zichy</surname>

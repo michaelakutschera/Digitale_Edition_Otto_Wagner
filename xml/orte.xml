@@ -11,7 +11,9 @@
          </titleStmt>
          <publicationStmt><p>Interne Verwendung</p></publicationStmt>
          <sourceDesc>
-            <p>Übereinkunft vom 27.Febraur.1873</p>
+            <p>Protokoll_1873</p>
+            <p>Übereinkunft_1873</p>
+            <p>Promemoira_1876</p>
          </sourceDesc>
       </fileDesc>
       
@@ -28,42 +30,88 @@
       <body>
          <listPlace>
             
+            <place xml:id="o_baden">
+               <placeName>Baden</placeName>
+               <idno type="wd">Q486450</idno>
+               <note type="location">
+                  <geo>48.0075 16.234444</geo>
+               </note>
+               <note type="desc">Bezirkshauptstadt in Niederösterreich.</note>
+            </place>
+           
+            <place xml:id="o_berlin">
+               <placeName>Berlin</placeName>
+               <idno type="wd">Q64</idno>
+               <note type="location">
+                  <geo>52.516667 13.383333</geo>
+               </note>
+               <note type="desc">Hauptstadt von Deutschland.</note>
+            </place>
+            
+            <place xml:id="o_bd">
+               <placeName>Berliner-Dom</placeName>
+               <idno type="wd">Q154563</idno>
+               <note type="location">
+                  <geo>52.519167 13.401111</geo>
+               </note>
+               <note type="desc">Gebaut 1894-1905 nach den Plönen von Julius Raschdorff.</note>
+            </place>
+            
+            <place xml:id="o_br"> 
+               <placeName>Burgring</placeName>
+               <idno type="wd">Q16873433</idno>
+               <note type="location">
+                  <geo>48.205184 16.361901</geo>
+               </note>
+               <note type="desc">Straße in Wien.</note>
+            </place>
+            
             <place xml:id="o_eb">
                <placeName type="historic">Elisabethbrücke</placeName>
                <idno type="wd">Q1330527</idno>
                <note type="location">
-                  <geo>48.2005,16.3687</geo>
+                  <geo>48.2005 16.3687</geo>
                </note>
-               <note>Von 1854 bis 1897 von Ludwig Förster. Nutzung: Fuhrwerke, Fußgänger und Straßenbahn.</note>
+               <note type="desc">Gebaut 1854-1897 nach Plänen von Ludwig Förster. Nutzung: Fuhrwerke, Fußgänger und Straßenbahn.</note>
+            </place>
+            
+            <place xml:id="o_pe">
+               <placeName>Palais Epstein</placeName>
+               <idno type="wd">Q2046959</idno>
+               <note type="location">
+                  <geo>48.206531 16.359489</geo>
+               </note>
+               <note type="desc">Gebaut 1868.1871 nach Plänen von Theophil von Hansen gebaut.</note>
             </place>
             
             <place xml:id="o_sb">
                <placeName>Schönbrunn</placeName>
-               <idno type="wd">Q131330</idno>
+               <idno type="wd">Q27837208</idno>
                <note type="location">
-                  <geo>48.18479,16.31227</geo>
+                  <geo>48.1805 16.31</geo>
                </note>
+               <note type="desc">Kastralgemeinde in Wien. Möglicherweise auch die heutige U-Bahnstation "Schönbrunn" oder das Schloss Schönbrunn.</note>
             </place>
          
             <place xml:id="o_wien">
                <placeName>Wien</placeName>
                <idno type="wd">Q1741</idno>
                <note type="location">
-                  <geo>48.208333,16.3725</geo>
+                  <geo>48.208333 16.3725</geo>
                </note>
+               <note type="desc">Hauptstadt von Österreich.</note>
             </place>
             
             <place xml:id="o_wf">
                <placeName>Wienfluss</placeName>
                <idno type="wd">Q702289</idno>
-
                <note type="location" subtype="Quelle">
-                  <geo>48.1606,16.0381</geo>
+                  <geo>48.1606 16.0381</geo>
+               </note>
+               <note type="location" subtype="Flussmündung">
+                  <geo>48.2119 16.3844</geo>
                </note>
                
-               <note type="location" subtype="Flussmündung">
-                  <geo>48.2119,16.3844</geo>
-               </note>
             </place>
          </listPlace>
          
