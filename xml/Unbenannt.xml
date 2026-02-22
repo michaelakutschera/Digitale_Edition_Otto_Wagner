@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:lang="de">
+   
+   <standOff>
+      <listPerson>
+         <xi:include href="personen.xml"/>
+      </listPerson>
+      <listPlace>
+         <xi:include href="orte.xml"/>
+      </listPlace>
+      <listOrg>
+         <xi:include href="organisationen.xml"/>
+      </listOrg>
+      <listEvent>
+         <xi:include href="events.xml"/>
+      </listEvent>
+   </standOff>
+   
+</TEI>

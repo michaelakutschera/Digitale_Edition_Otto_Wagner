@@ -102,7 +102,7 @@
                   <orig>Commune</orig>
                   <reg>Kommune</reg>
                </choice>
-               <placeName ref="orte.xml#o_wien">Wiens</placeName>
+               <placeName ref="orte.xml#pl_wien">Wiens</placeName>
                </orgName>
                und die respecti¬<lb/>
                ven Ministerien zu machen, in welcher sie ein <choice>
@@ -113,7 +113,7 @@
                   <orig>Regulirung</orig>
                   <reg>Regulierung</reg>
                </choice> des<lb/>
-               <placeName ref="orte.xml#o_wf">Wienflusses</placeName>, andrerseits die Schaffung von 
+               <placeName ref="orte.xml#pl_wf">Wienflusses</placeName>, andrerseits die Schaffung von 
                <choice>
                   <!--Im Wort selbst ist ein Zeilenumbruch, daher wird der dirket nach - angegeben.-->
                   <orig>Communica¬<lb break="no" rend="hyphen"/>tionen</orig>
@@ -123,8 +123,8 @@
                   <orig>Periferie</orig>
                   <reg>Peripherie</reg>
                </choice>-<lb/>
-               Bahnen und eines Boulevards von der <placeName ref="orte.xml#o_eb">Elisabeth<lb break="no" rend="hyphen"/>
-               brücke</placeName> nach <placeName ref="orte.xml#o_sb">Schönbrunn</placeName> bezweckt, vorlegen.   
+               Bahnen und eines Boulevards von der <placeName ref="orte.xml#pl_eb">Elisabeth<lb break="no" rend="hyphen"/>
+               brücke</placeName> nach <placeName ref="orte.xml#pl_sb">Schönbrunn</placeName> bezweckt, vorlegen.   
             </p>
          </div>
          <pb n="2" facs="#ue1873_p2"/>
@@ -146,7 +146,7 @@
             <table>
                <row>
                   <!-- Ist das der richtige Rothschild?-->
-                  <cell><persName ref="personen.xml#pe_m.rothschild"><roleName type="nobility">Baron </roleName>
+                  <cell><persName ref="personen.xml#pe_m_rothschild"><roleName type="nobility">Baron </roleName>
                      J. M. v. Rothschild</persName>
                   </cell>
                   <cell rows="4">
@@ -253,7 +253,7 @@
                <reg>Anteile</reg>
             </choice> der <persName ref="personen.xml#pe_melingo">
                <roleName type="honorific">Herren</roleName> Melingo</persName> &amp;<lb/>
-            <persName ref="personen.xml#oe_scheyrer">Scheyrer</persName> für jeden nicht unter 8% <choice>
+            <persName ref="personen.xml#pe_scheyrer">Scheyrer</persName> für jeden nicht unter 8% <choice>
                <orig>reducirt</orig>
                <reg>reduziert</reg>
             </choice> wer¬<lb/>
@@ -277,7 +277,7 @@
                <orig>Giltigkeit</orig>
                <reg>Gültigkeit</reg>
             </choice>.<lb/>
-            <placeName ref="orte.xml#o_wien">Wien</placeName>am
+            <placeName ref="orte.xml#pl_wien">Wien</placeName>am
             <date when="1873-02-27">27. Februar 1873 </date>
          </p>
          </div>    

@@ -21,40 +21,44 @@
       <body>
          <listOrg>
             
-            <org xml:id="abkw">            
+            <org xml:id="org_abkw">            
                <name type="historic">Akademie der bildenden Künste Wien</name>
                <idno type="wd">Q414219</idno>
-               <note type="location">
-                  <geo>48.201389 16.365278	
-                  </geo>
-               </note>
-             
+               <note>Sitz: <placeName ref="orte.xml#plabkw"/></note>
             </org>
             
-            <org xml:id="bab">            
+            <org xml:id="org_bba">            
                   <name type="historic">Berliner Bauakademie</name>
                   <idno type="wd">Q51984</idno>
-                  <note type="location">
-                     <geo>52.5161 13.3989</geo>
-                  </note>
+                  <note>Sitz: <placeName ref="orte.xml#plbba"/></note>
                   <note>Auch Schinkelsche Bauakademie genannt. Gebaut nach den Plänen von Karl Friedrich Schinkel 1832 bis 1836 und abgerissen am 13. März 1962.
                      Gefolgt von der Technischen Universität Berlin.</note>    
             </org>
             
-            <org xml:id="hk">
+            <org xml:id="org_hk">
                <name type="historic">Reichshofkanzlei</name>
                <idno type="wd">Q2139504</idno>
-               <note type="location">
-                  <geo>48.207725 16.365391</geo>
-               </note>
+               <note>Amtssitz: <placeName ref="orte.xml#pl_hk"/></note>
                <note>Ständige Kanzlei des Heiligen Römischen Reiches.</note>
             </org>
             
-            <org xml:id="ca">
+            <org xml:id="org_ca">
                <name>Creditanstalt</name>
             </org>
             
-            <org xml:id="wal">
+            <org xml:id="org_sbg">
+               <name type="historic">Stadt-Baugesellschaft</name>
+               <note>Unklar welche Organisation in Wien gemeint ist.</note>
+            </org>
+            
+            <org xml:id="org_oembg">
+               <name type="historic">Österreichische Militär-Baugesellschaft</name>
+               <note>Unklar welche Organisation genau gemeint ist.</note>
+            </org>
+               
+   
+            
+            <org xml:id="org_wal">
                <name>Wienableitungs &amp; Localbahnen</name>
             </org>
             

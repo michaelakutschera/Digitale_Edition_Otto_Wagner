@@ -30,7 +30,16 @@
       <body>
          <listPlace>
             
-            <place xml:id="o_baden">
+            <place xml:id="pl_abkw">            
+               <placeName>Akademie der bildenden Künste Wien</placeName>
+               <idno type="wd">Q414219</idno>
+               <note type="location">
+                  <geo>48.201389 16.365278	
+                  </geo>
+               </note>
+            </place>
+            
+            <place xml:id="pl_baden">
                <placeName>Baden</placeName>
                <idno type="wd">Q486450</idno>
                <note type="location">
@@ -38,8 +47,14 @@
                </note>
                <note type="desc">Bezirkshauptstadt in Niederösterreich.</note>
             </place>
+            
+            <place xml:id="pl_bm">
+               <placeName>Bauernmarkt</placeName>
+               <note type="desc">Unklar welcher Ort in Wien im 19. Jahrhundert gemeint ist.</note>
+            </place>
            
-            <place xml:id="o_berlin">
+           
+            <place xml:id="pl_berlin">
                <placeName>Berlin</placeName>
                <idno type="wd">Q64</idno>
                <note type="location">
@@ -48,7 +63,15 @@
                <note type="desc">Hauptstadt von Deutschland.</note>
             </place>
             
-            <place xml:id="o_bd">
+            <place xml:id="pl_bba">            
+               <placeName>Berliner Bauakademie</placeName>
+               <idno type="wd">Q51984</idno>
+               <note type="location">
+                  <geo>52.5161 13.3989</geo>
+               </note>    
+            </place>
+            
+            <place xml:id="pl_bd">
                <placeName>Berliner-Dom</placeName>
                <idno type="wd">Q154563</idno>
                <note type="location">
@@ -57,7 +80,7 @@
                <note type="desc">Gebaut 1894-1905 nach den Plönen von Julius Raschdorff.</note>
             </place>
             
-            <place xml:id="o_br"> 
+            <place xml:id="pl_br"> 
                <placeName>Burgring</placeName>
                <idno type="wd">Q16873433</idno>
                <note type="location">
@@ -66,7 +89,7 @@
                <note type="desc">Straße in Wien.</note>
             </place>
             
-            <place xml:id="o_eb">
+            <place xml:id="pl_eb">
                <placeName type="historic">Elisabethbrücke</placeName>
                <idno type="wd">Q1330527</idno>
                <note type="location">
@@ -75,25 +98,116 @@
                <note type="desc">Gebaut 1854-1897 nach Plänen von Ludwig Förster. Nutzung: Fuhrwerke, Fußgänger und Straßenbahn.</note>
             </place>
             
-            <place xml:id="o_pe">
+            <place xml:id="gwg">
+               <placeName>Göttweihergasse 1</placeName>
+               <idno type="wd">Q37947139</idno>
+               <note type="location">
+                  <geo>48.207072 16.370568</geo>
+               </note>
+               <note type="desc">Gebäude in der Wiener Innenstadt.</note>
+            </place>
+            
+            <place xml:id="pl_gr">
+               <placeName>Graben</placeName>
+               <idno type="wd">Q699937</idno>
+               <note type="location">
+                  <geo>48.208613 16.369913</geo>
+               </note>
+               <note type="desc">Straße in Wien.</note>
+            </place>
+            
+            <place xml:id="pl_gh">
+               <placeName>Grabenhof</placeName>
+               <idno type="wd">Q38027230</idno>
+               <note type="location">
+                  <geo>48.208769 16.369341</geo>
+               </note>
+               <note type="desc">Denkmalgeschütztes Objekt in der Inneren Stadt.</note>
+            </place>
+            
+            <place xml:id="pl_hamburg">
+               <placeName>Hamburg</placeName>
+               <idno type="wd">Q1055</idno>
+               <note type="location">
+                  <geo>53.55 10</geo>
+               </note>
+               <note type="desc">Stadt und Land der Bundesrepublik Deutschland.</note>
+            </place>
+            
+            
+            <place xml:id="pl_hk">
+               <placeName>Reichshofkanzlei</placeName>
+               <idno type="wd">Q2139504</idno>
+               <note type="location">
+                  <geo>48.207725 16.365391</geo>
+               </note>
+            </place>
+            
+            <!--Bin mir nicht sicher ob in dem "promemoira_1876 wirklich diese in Ungarn gemeint ist. -->
+            <place xml:id="pl_kapolna">
+               <placeName>Kápolna</placeName>
+               <idno type="wd">Q512050</idno>
+               <note type="location">
+                  <geo>47.75909 20.24707</geo>
+               </note>
+               <note type="desc">Gemeinde in Ungarn.</note>
+            </place>
+            
+            <place xml:id="pl_lemberg">
+               <placeName>Lviv</placeName>
+               <idno type="wd">Q36036</idno>
+               <note type="location">
+                  <geo>49.8425 24.032222</geo>
+               </note>
+               <note type="desc">Hauptstadt der Oblast Lwiw in der westlichen Ukraine.</note>
+            </place>
+            
+            <place xml:id="pl_pe">
                <placeName>Palais Epstein</placeName>
                <idno type="wd">Q2046959</idno>
                <note type="location">
                   <geo>48.206531 16.359489</geo>
                </note>
-               <note type="desc">Gebaut 1868.1871 nach Plänen von Theophil von Hansen gebaut.</note>
+               <note type="desc">Gebaut 1868-1871 nach Plänen von Theophil von Hansen gebaut.</note>
             </place>
             
-            <place xml:id="o_sb">
+            <place xml:id="pl_pest">
+               <placeName>Pest</placeName>
+               <idno type="wd"></idno>
+               <note type="location">
+                  <geo>Q210205</geo>
+               </note>
+               <note type="desc">Ehemalige unabhängigie Stadt in Ungarn bis 1873. Heute östlicher Teil von Budapest.</note>
+            </place>
+            
+            <place xml:id="pl_sru">
+               <placeName>Synagoge Rumbach utca</placeName>
+               <idno type="wd">Q569083</idno>
+               <note type="location">
+                  <geo>47.49792 19.05889</geo>
+               </note>
+               <note type="desc">Gebaut 1869-1872 nach Plänen von Otto Wagner. Einziges Gebäude von ihm  in Budapest, Ungarn.</note>
+            </place>
+            
+            <place xml:id="pl_sb">
                <placeName>Schönbrunn</placeName>
                <idno type="wd">Q27837208</idno>
                <note type="location">
                   <geo>48.1805 16.31</geo>
                </note>
-               <note type="desc">Kastralgemeinde in Wien. Möglicherweise auch die heutige U-Bahnstation "Schönbrunn" oder das Schloss Schönbrunn.</note>
+               <note type="desc">Kastralgemeinde in Wien.</note>
+            </place>
+            
+            <place xml:id="pl-ssb">
+               <placeName>Schloss Schönbrunn</placeName>
+               <idno type="wd">Q2258824</idno>
+               <note type="location">
+                  <geo>48.918237 11.47722</geo>
+               </note>
+               <note type="desc">Schlossanlage mit Ökonomiehof.</note>
             </place>
          
-            <place xml:id="o_wien">
+            <place xml:id="pl_wien">
                <placeName>Wien</placeName>
                <idno type="wd">Q1741</idno>
                <note type="location">
@@ -102,7 +216,7 @@
                <note type="desc">Hauptstadt von Österreich.</note>
             </place>
             
-            <place xml:id="o_wf">
+            <place xml:id="pl_wf">
                <placeName>Wienfluss</placeName>
                <idno type="wd">Q702289</idno>
                <note type="location" subtype="Quelle">
