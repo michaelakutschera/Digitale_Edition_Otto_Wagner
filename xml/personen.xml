@@ -31,6 +31,17 @@
       <body>
          <listPerson>
             
+            <person xml:id="pe_domhart">
+               <persName>
+                  <forename>Josefine</forename>
+                  <surname>Domhart</surname>
+               </persName>
+               <note>Erste Ehefrau von Otto Wagner.</note>
+               <note type="editorial">
+                  Nicht in den Testamenten genannt; zur genealogischen Kontextualisierung ergänzt.
+               </note>
+            </person>
+            
             <person xml:id="pe_foerster">
                <idno>Q19959471</idno>
                <persName>
@@ -239,6 +250,59 @@
                <note>Österreichischer Arichtekt.</note>
             </person>
             
+            
+            
+            <person xml:id="pe_lou_wagner">
+               <persName>
+                  <forename>Louise</forename>
+                  <surname>Wagner</surname>
+               </persName>
+               <persName type="variant">Aloisa Josefa Anna</persName>
+               <birth when="1859"/>
+               <death when="1915"/>
+               <note>Geborene Stiffel.</note>
+            </person>
+               
+            <person xml:id="pe_ste_wagner">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Wagner</surname>
+               </persName>
+               <birth when="1884"/>
+               <death when="1945"/>
+               <note>Sohn aus zweiter Ehe mit Louise Stiffel.</note>
+            </person>
+            
+            <person xml:id="pe_sus_wagner">
+               <persName>
+                  <forename>Susanna</forename>
+                  <surname>Wagner</surname>
+               </persName>
+               <birth when="1804"/>
+               <death when="1880"/>
+               <note>Mutter von Otto Wagner, geborene Huber und adoptierte Helfenstirfer.</note>
+            </person>
+            
+            <person xml:id="pe_watzlawick">
+               <persName>
+                  <forename>Louise</forename>
+                  <surname>Watzlawick</surname>
+               </persName>
+               <birth when="1885"/>
+               <death when="1976"/>
+               <note>Tochter aus zweiter Ehe mit Louise Stiffel.</note>
+            </person>
+            
+            <person xml:id="pe_wallisch">
+               <persName>
+                  <forename>Susanna</forename>
+                  <surname>Wallisch</surname>
+               </persName>
+               <birth when="1868"/>
+               <death when="1973"/>
+               <note>Tochter aus erster Ehe mit Josefine Domhart, geborene Wagner.</note>
+            </person>
+
             <person xml:id="pe_zichy">
                <!-- Es gibt mehrere zur Auswahl und ich weiß nicht welcher richtig ist.-->
                <idno type="wd">Q90886586</idno>
@@ -249,9 +313,25 @@
                </persName>
                <persName type="variant">Edmung Graf Zichy-Vásonykeő</persName>
             </person>
-            
-      
          </listPerson>
+         
+         <listRelation>
+            <!--Mutter von Otto Wagner-->
+            <relation name="parentOf" active="#pe_sus_wagner" passive="pe_wagner"/>
+            <!--Erste Ehe: Otto Wagner und Josefine Domhart-->
+            <relation name="spouseOf" mutual="#pe_wagner #pe_domhart"/>
+            <!--Zweite Ehe: Otto Wagner und Louise Stiffel -->
+            <relation name="spouseOf" mutual="pe_wagner #pe_lou_wagner"/>
+            <!-- Kinder -->
+            <relation name="parentOf" active="pe_wagner" passive="pe_wallisch"/>
+            <relation name="parentOf" active="pe_domhart" passive="pe_wallisch"/>
+            
+            <relation name="parentOf" active="pe_wagner" passive="pe_stef_wagner"/>
+            <relation name="parentOf" active="pe_lou_wagner" passive="pe_stef_wagner"/>
+            
+            <relation name="parentOf" active="pe_wagner" passive="pe_watzlawick"/>
+            <relation name="parentOf" active="pe_lou_wagner" passive="pe_watzlawick"/>
+         </listRelation>
       </body>
   </text>
 </TEI>

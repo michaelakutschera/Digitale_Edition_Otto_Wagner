@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letzter Wille 1888</title>
+            <editor>Michaela Kutschera</editor>
+         </titleStmt>
+         
+         <publicationStmt>
+            <publisher>UE: Digitale Edtion</publisher>
+            <date>Wintersemester 2025/26</date>
+            <availability>
+               <p>GitHub für die Abgabe des Projekts.</p>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <bibl>
+               <title>Letzter_Wille_1888.pdf</title>
+               <author>Otto Wagner</author>
+               <pubPlace>Wien</pubPlace>
+               <date>17. Dezember 1888</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   
+   <facsimile>
+      <surface xml:id="lw1888_p1" n="1">
+         <graphic url="Letzter_Wille_1888.pdf#page=1"/>
+      </surface>
+      <surface xml:id="lw1888_p2" n="2">
+         <graphic url="Letzter_Wille_1888.pdf#page=2"/>
+      </surface>
+      <surface xml:id="lw1888_p3" n="3">
+         <graphic url="Letzter_Wille_1888.pdf#page=3"/>
+      </surface>
+      <surface xml:id="lw1888_p4" n="4">
+         <graphic url="Letzter_Wille_1888.pdf#page=4"/>
+      </surface>
+
+   </facsimile>
+   
+  <text>
+      <body>
+         <pb n="1" facs="#lw1888_p1"/>
+         <div type="Einleitung">
+            <!--I. N. 188. 349; Wurde auf die Seite geschrieben aber nicht von Otto Wagner, ist eine Signatur.-->
+            <head>Mein letzter Wille!</head>
+         </div>
+         
+         <div type="Text">
+            <p>heute am <date when="1888-12-17">17. <choice>
+               <orig>December</orig>
+               <reg>Dezemeber</reg>
+            </choice> 1888</date> <choice>
+               <orig>testire</orig>
+               <reg>testiere</reg>
+            </choice>ich, bei vollem,<choice>
+               <orig>wa¬<lb break="no"/>ren</orig>
+               <reg>wahren</reg>
+            </choice>
+                <choice>
+                  <orig>Bewußtsein</orig>
+                  <reg>Bewusstsein</reg>
+               </choice> wie folgt:
+            </p>
+            <p>
+               Ich ernenne meine <rs type="person" subtype="familial">Kinder</rs> erster und zweiter Ehe, <persName ref="personen.xml#pe_wallisch">Susanna</persName><lb/>
+               <persName ref="personen.xml#pe_ste_wagner">Stefan</persName> und <persName ref="personen.xml#pe_watzlawick">Louise</persName> und die aus meiner Ehe noch zu erhoffenden<lb/>
+               zu Universalerben und zwar zu vollkommen gleichen<lb/>
+               <choice>
+                  <orig>Theilen</orig>
+                  <reg>Teilen</reg>
+               </choice>, wobei ich ausdrücklich bemerke, daß jene<lb/>
+               <measure type="currency" unit="florin"> 25.000 F. Ö. W.</measure>, welche laut Testament meiner seeli¬<lb/>
+               gen <rs type="person" subtype="familial" ref="personen.xml#pe_sus_wagner">Mutter</rs> auf meinen <choice>
+                  <orig>Hausantheil</orig>
+                  <reg>Hausanteil</reg>
+               </choice> in der <placeName ref="orte.xml#pl_gwg">Göttwei¬<lb break="no"/>
+                  hergasse</placeName> zu Gunsten meiner <rs type="person" subtype="familial">Tochter</rs> <persName ref="personen.xml#pe_wallisch">Susanna</persName> vorge¬<lb/>
+               merkt sind, mit in Rechnung zu stellen sind, respecti¬<lb/>
+               ve bei der <choice>
+                  <orig>Auftheilung</orig>
+                  <reg>Aufteilung</reg>
+               </choice> meiner <rs type="person" subtype="familial">Tochter</rs><persName ref="personen.xml#pe_wallisch">Susanna</persName> in<lb/>
+               Abzug gebracht werden.
+            </p>
+            <p>
+               Mein gesammtes Mobiliar ist <choice>
+                  <orig>Eigenthum</orig>
+                  <reg>Eigentum</reg>
+               </choice> meiner<lb/>
+               lieben Frau <persName ref="personen.xml#pe_lou_wagner">Louise</persName>, welcher ich <choice>
+                  <orig>dieß</orig>
+                  <reg>dies</reg>
+               </choice> Alles schon bei<lb/>
+               Lebzeiten geschenkt habe.
+            </p>
+            <p>
+               Meine <rs type="person" subtype="familial">Frau</rs> <persName ref="personen.xml#pe_lou_wagner">Louise</persName>, welche so lange ich lebte, für<lb/>
+               mich der Inbegriff aller Liebe und Tugenden war,<lb/>
+               hat so lange sie lebt den Fruchtgenuß meines ge¬<lb/>
+               sammten Vermögens, da ich überzeugt bin, daß<lb/>
+               sie <choice>
+                  <orig>hievon</orig>
+                  <reg>hiervon</reg>
+               </choice> den besten Gebrauch machen wird.
+            </p>
+            <p>
+               Ich wünsche und befehle es, daß alle meine <rs type="person" subtype="familial">Kinder</rs>,<lb/>
+               sich den Anordnungen meiner lieben <rs type="person" subtype="familial">Frau</rs> unbe¬<lb/>
+               dingt fügen, weil ich sonst hiermit das dawiderhan¬<lb/>
+               delnde <rs type="person" subtype="familial">Kind</rs> auf den <choice>
+                  <orig>Pflichttheil</orig>
+                  <reg>Pflichtanteil</reg>
+               </choice> beschränke und<lb/>
+               zugleich bestimme, daß Alles, was laut <bibl type="law">§. 788</bibl><lb/>
+               des österr. Bürg - Gesetzbuches eingerechnet werden<lb/>
+               kann, in den <choice>
+                  <orig>Pflichttheil</orig>
+                  <reg>Pflichtanteil</reg>
+               </choice> eingerechnet werde.<lb/>
+               Ich wünsche und befehle in einem ganz einfachen<lb/>
+               zweisprännigen Wagen (letzte <choice>
+                  <orig>Classe</orig>
+                  <reg>Klasse</reg>
+               </choice> nach Abzug
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>
