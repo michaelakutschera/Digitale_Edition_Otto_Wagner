@@ -53,8 +53,7 @@
                <placeName>Bauernmarkt</placeName>
                <note type="desc">Unklar welcher Ort in Wien im 19. Jahrhundert gemeint ist.</note>
             </place>
-           
-           
+                
             <place xml:id="pl_berlin">
                <placeName>Berlin</placeName>
                <idno type="wd">Q64</idno>
@@ -135,7 +134,6 @@
                <note type="desc">Stadt und Land der Bundesrepublik Deutschland.</note>
             </place>
             
-            
             <place xml:id="pl_hk">
                <placeName>Reichshofkanzlei</placeName>
                <idno type="wd">Q2139504</idno>
@@ -144,6 +142,24 @@
                </note>
             </place>
             
+            <place xml:id="pl_hie">
+               <placeName>Hietzing</placeName>
+               <idno type="wd">Q636910</idno>
+               <note>
+                  <geo>48.181389 16.258056</geo>
+               </note>
+               <note type="desc">13. Wiener Gemeindebezirk.</note>
+            </place>
+            
+            <place xml:id="pl_hief">
+               <placeName>Heitzinger Friedhof</placeName>
+               <idno type="wd">Q2718154</idno>
+               <note>
+                  <geo>48.1767 16.29905</geo>
+               </note>
+               <note type="desc">Ehrengrab der Familie Wagner. Gruppe 13, Nr. 131.</note>
+            </place>
+           
             <!--Bin mir nicht sicher ob in dem "promemoira_1876 wirklich diese in Ungarn gemeint ist. -->
             <place xml:id="pl_kapolna">
                <placeName>Kápolna</placeName>
@@ -153,7 +169,18 @@
                </note>
                <note type="desc">Gemeinde in Ungarn.</note>
             </place>
-            
+                 
+            <place xml:id="pl_kh">
+               <placeName>Künstlerhaus, Gesellschaft der bildender Künstlerinnen und Künstler Österreich</placeName>
+               <idno type="wd">Q25745588</idno>
+               <note type="location">
+                  <geo>48.200611 16.371694</geo>
+               </note>
+               <note type="desc">Die Gesellschaft bildender Künstler Österreichs,
+                  Künstlerhaus wurde am 29. April 1861 als „Genossenschaft der bildenden Künstler Wiens“
+                  gegründet und ist eine Künstlervereinigung.</note>
+            </place>
+
             <place xml:id="pl_lemberg">
                <placeName>Lviv</placeName>
                <idno type="wd">Q36036</idno>
@@ -199,7 +226,7 @@
                <note type="desc">Kastralgemeinde in Wien.</note>
             </place>
             
-            <place xml:id="pl-ssb">
+            <place xml:id="pl_ssb">
                <placeName>Schloss Schönbrunn</placeName>
                <idno type="wd">Q2258824</idno>
                <note type="location">

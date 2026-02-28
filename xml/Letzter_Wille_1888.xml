@@ -11,7 +11,7 @@
             <title>Letzter Wille 1888</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
-         
+
          <publicationStmt>
             <publisher>UE: Digitale Edtion</publisher>
             <date>Wintersemester 2025/26</date>
@@ -19,7 +19,7 @@
                <p>GitHub für die Abgabe des Projekts.</p>
             </availability>
          </publicationStmt>
-         
+
          <sourceDesc>
             <bibl>
                <title>Letzter_Wille_1888.pdf</title>
@@ -30,7 +30,7 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   
+
    <facsimile>
       <surface xml:id="lw1888_p1" n="1">
          <graphic url="Letzter_Wille_1888.pdf#page=1"/>
@@ -46,94 +46,193 @@
       </surface>
 
    </facsimile>
-   
-  <text>
+
+   <text>
       <body>
          <pb n="1" facs="#lw1888_p1"/>
-         <div type="Einleitung">
-            <!--I. N. 188. 349; Wurde auf die Seite geschrieben aber nicht von Otto Wagner, ist eine Signatur.-->
+         <div type="introduction">
+            <fw type="archival" place="top-left" rend="ink-red">I. N. 188. 349</fw>
             <head>Mein letzter Wille!</head>
          </div>
-         
-         <div type="Text">
+
+         <div type="text">
             <p>heute am <date when="1888-12-17">17. <choice>
-               <orig>December</orig>
-               <reg>Dezemeber</reg>
-            </choice> 1888</date> <choice>
-               <orig>testire</orig>
-               <reg>testiere</reg>
-            </choice>ich, bei vollem,<choice>
-               <orig>wa¬<lb break="no"/>ren</orig>
-               <reg>wahren</reg>
-            </choice>
-                <choice>
+                     <orig>December</orig>
+                     <reg>Dezemeber</reg>
+                  </choice> 1888</date>
+               <choice>
+                  <orig>testire</orig>
+                  <reg>testiere</reg>
+               </choice>ich, bei vollem,<choice>
+                  <orig>wa¬<lb break="no"/>ren</orig>
+                  <reg>wahren</reg>
+               </choice>
+               <choice>
                   <orig>Bewußtsein</orig>
                   <reg>Bewusstsein</reg>
-               </choice> wie folgt:
-            </p>
-            <p>
-               Ich ernenne meine <rs type="person" subtype="familial">Kinder</rs> erster und zweiter Ehe, <persName ref="personen.xml#pe_wallisch">Susanna</persName><lb/>
-               <persName ref="personen.xml#pe_ste_wagner">Stefan</persName> und <persName ref="personen.xml#pe_watzlawick">Louise</persName> und die aus meiner Ehe noch zu erhoffenden<lb/>
-               zu Universalerben und zwar zu vollkommen gleichen<lb/>
+               </choice> wie folgt: </p>
+            <p> Ich ernenne meine <rs type="person" subtype="familial">Kinder</rs> erster und
+               zweiter Ehe, <persName ref="personen.xml#pe_wallisch">Susanne</persName><lb/>
+               <persName ref="personen.xml#pe_ste_wagner">Stefan</persName> und <persName
+                  ref="personen.xml#pe_watzlawick">Louise</persName> und die aus meiner Ehe noch zu
+               erhoffenden<lb/> zu Universalerben und zwar zu vollkommen gleichen<lb/>
                <choice>
                   <orig>Theilen</orig>
                   <reg>Teilen</reg>
                </choice>, wobei ich ausdrücklich bemerke, daß jene<lb/>
-               <measure type="currency" unit="florin"> 25.000 F. Ö. W.</measure>, welche laut Testament meiner seeli¬<lb/>
-               gen <rs type="person" subtype="familial" ref="personen.xml#pe_sus_wagner">Mutter</rs> auf meinen <choice>
+               <measure type="currency" unit="florin"> 25.000 F. Ö. W.</measure>, welche laut
+               Testament meiner seeli¬<lb/> gen <rs type="person" subtype="familial"
+                  ref="personen.xml#pe_sus_wagner">Mutter</rs> auf meinen <choice>
                   <orig>Hausantheil</orig>
                   <reg>Hausanteil</reg>
                </choice> in der <placeName ref="orte.xml#pl_gwg">Göttwei¬<lb break="no"/>
-                  hergasse</placeName> zu Gunsten meiner <rs type="person" subtype="familial">Tochter</rs> <persName ref="personen.xml#pe_wallisch">Susanna</persName> vorge¬<lb/>
-               merkt sind, mit in Rechnung zu stellen sind, respecti¬<lb/>
-               ve bei der <choice>
+                  hergasse</placeName> zu Gunsten meiner <rs type="person" subtype="familial"
+                  >Tochter</rs>
+               <persName ref="personen.xml#pe_wallisch">Susanne</persName> vorge¬<lb/> merkt sind,
+               mit in Rechnung zu stellen sind, respecti¬<lb/> ve bei der <choice>
                   <orig>Auftheilung</orig>
                   <reg>Aufteilung</reg>
-               </choice> meiner <rs type="person" subtype="familial">Tochter</rs><persName ref="personen.xml#pe_wallisch">Susanna</persName> in<lb/>
-               Abzug gebracht werden.
-            </p>
-            <p>
-               Mein gesammtes Mobiliar ist <choice>
+               </choice> meiner <rs type="person" subtype="familial">Tochter</rs><persName
+                  ref="personen.xml#pe_wallisch">Susanne</persName> in<lb/> Abzug gebracht werden. </p>
+            <p> Mein gesammtes Mobiliar ist <choice>
                   <orig>Eigenthum</orig>
                   <reg>Eigentum</reg>
-               </choice> meiner<lb/>
-               lieben Frau <persName ref="personen.xml#pe_lou_wagner">Louise</persName>, welcher ich <choice>
+               </choice> meiner<lb/> lieben Frau <persName ref="personen.xml#pe_lou_wagner"
+                  >Louise</persName>, welcher ich <choice>
                   <orig>dieß</orig>
                   <reg>dies</reg>
-               </choice> Alles schon bei<lb/>
-               Lebzeiten geschenkt habe.
-            </p>
-            <p>
-               Meine <rs type="person" subtype="familial">Frau</rs> <persName ref="personen.xml#pe_lou_wagner">Louise</persName>, welche so lange ich lebte, für<lb/>
-               mich der Inbegriff aller Liebe und Tugenden war,<lb/>
-               hat so lange sie lebt den Fruchtgenuß meines ge¬<lb/>
-               sammten Vermögens, da ich überzeugt bin, daß<lb/>
-               sie <choice>
+               </choice> Alles schon bei<lb/> Lebzeiten geschenkt habe. </p>
+            <p> Meine <rs type="person" subtype="familial">Frau</rs>
+               <persName ref="personen.xml#pe_lou_wagner">Louise</persName>, welche so lange ich
+               lebte, für<lb/> mich der Inbegriff aller Liebe und Tugenden war,<lb/> hat so lange
+               sie lebt den Fruchtgenuß meines ge¬<lb/> sammten Vermögens, da ich überzeugt bin,
+               daß<lb/> sie <choice>
                   <orig>hievon</orig>
                   <reg>hiervon</reg>
-               </choice> den besten Gebrauch machen wird.
-            </p>
-            <p>
-               Ich wünsche und befehle es, daß alle meine <rs type="person" subtype="familial">Kinder</rs>,<lb/>
-               sich den Anordnungen meiner lieben <rs type="person" subtype="familial">Frau</rs> unbe¬<lb/>
+               </choice> den besten Gebrauch machen wird. </p>
+            <p> Ich wünsche und befehle es, daß alle meine <rs type="person" subtype="familial">Kinder</rs>,<lb/> sich den Anordnungen meiner lieben <rs type="person"
+                  subtype="familial">Frau</rs> unbe¬<lb/>
                dingt fügen, weil ich sonst hiermit das dawiderhan¬<lb/>
                delnde <rs type="person" subtype="familial">Kind</rs> auf den <choice>
                   <orig>Pflichttheil</orig>
                   <reg>Pflichtanteil</reg>
-               </choice> beschränke und<lb/>
-               zugleich bestimme, daß Alles, was laut <bibl type="law">§. 788</bibl><lb/>
-               des österr. Bürg - Gesetzbuches eingerechnet werden<lb/>
-               kann, in den <choice>
+               </choice> beschränke und<lb/> zugleich bestimme, daß Alles, was laut <bibl type="law"
+                  >§. 788</bibl><lb/> des österr. Bürg - Gesetzbuches eingerechnet werden<lb/> kann,
+               in den <choice>
                   <orig>Pflichttheil</orig>
                   <reg>Pflichtanteil</reg>
                </choice> eingerechnet werde.<lb/>
-               Ich wünsche und befehle in einem ganz einfachen<lb/>
-               zweisprännigen Wagen (letzte <choice>
-                  <orig>Classe</orig>
-                  <reg>Klasse</reg>
-               </choice> nach Abzug
+               <hi rend="underline-blue">Ich wünsche und befehle in einem ganz einfachen<lb/>
+                  zweisprännigen Wagen (letzte <choice>
+                     <orig>Classe</orig>
+                     <reg>Klasse</reg>
+                  </choice> nach Abzug</hi>
             </p>
          </div>
+
+         <pb n="2" facs="#lw1888_p2"/>
+         <div type="text">
+            <p>der mir zukommenden Bonification von Seite <lb/>
+               der „Entreprise" als Mitglied der <orgName ref="organisationen.xml#org_kh">Genossenschaft<lb/>
+                  der bildenden Künstler</orgName>) nach <placeName ref="orte.xml#pl_hie">Hitzing</placeName> in die <placeName ref="orte.xml#pl_hief">Fami¬<lb/>
+                     liengruft</placeName> überführt zu werden und wünsche <hi rend="underline-blue">ober¬<lb/>
+                  halb meiner seeligen <rs type="person" subtype="familial">Mutter</rs>
+                  <choice>
+                  <orig>placirt</orig>
+                  <reg>plaziert</reg>
+               </choice> zu sein.</hi><lb/>
+               Meine beiden außerehelichen <rs type="person" subtype="familial">Kinder</rs> <persName ref="personen.xml#pe_ott_wagner">Otto</persName> und<lb/>
+               <persName ref="personen.xml#pe_rob_wagner">Robert Wagner</persName> empfehle ich der Strenge und dem<lb/>
+               Wohlwollen meiner lieben <rs type="person" subtype="familial">Frau</rs>. 
+            </p>
+            
+            <p> 
+               Übrigens verordne ich, daß alle Anordnungen<lb/>
+               welche ich in diesem meinen Testamente getroffen<lb/>
+               nach <ref type="law">österreichischem Rechte</ref>
+               <choice>
+                  <orig>beurtheilt</orig>
+                  <reg>beurteilt</reg>
+               </choice> werden sol¬<lb/>
+               hen und daß <persName ref="personen.xml#pe_teltscher"><roleName type="honorific">Herr Dr.</roleName><abbr>Leop.</abbr><expan>Leopold</expan> Teltscher</persName> Hof und Ge¬<lb/>
+               richtsadvocat in <placeName ref="orte.xml#pl_wien">Wien</placeName> mit der Durchführung<lb/>
+               betraut werde. 
+            </p>
+            <p>
+               Urkund dessen habe ich dieses Testament, voll¬<lb/>
+               inhaltlich eigenhändig geschrieben gleich¬<lb/>
+               zeitiger Anwesenheit zweier hohen <persName ref="personen.xml#pe_rernt pe_schoenthal"><roleName type="witness"/>Zeugen</persName><lb/>
+               eigenhändig gefertigt. </p>
+         </div>
+         
+         <div type="signature">
+            <p>
+               <add>
+                  <gap reason="illegible"/>
+                  <fw type="signature" rend="slanted"><persName ref="personen.xml#pe_wagner">Otto
+                        Wagner</persName><lb/>
+                     <date when="1903-08-08">8. <choice>
+                           <abbr>Augt</abbr>
+                           <expan>August</expan>
+                        </choice> 1903</date>
+                  </fw>
+               </add>
+            </p>
+         </div>
+
+            <div type="attestation">
+               <dateline><placeName ref="orte.xml#pl_wien">Wien</placeName> am <date when="1888-12-17">17. <choice>
+                  <abbr>Decemb.</abbr>
+                  <reg>Dezember</reg>
+               </choice> 1888.</date></dateline>
+               
+               <p><fw type="signature">
+                  <persName ref="personen.xml#pe_wagner">Otto Wagner</persName>
+                     </fw>           
+                     <choice>
+                        <abbr>mp.</abbr>
+                        <expan>manu propria</expan>
+                     </choice>
+               </p>
+            </div>
+            
+            
+          <div type="text">
+            <p>
+               Die unterfertigten <persName ref="personen.xml#pe_rernt #pe_schoenthal"><roleName type="witness"/>Zeugen</persName> bestätigen hier¬<lb/>
+               mit, daß <persName ref="personen.xml#pe_wagner"><roleName type="honorific">Herr </roleName>Otto Wagner</persName>  in ihrer gleichzei¬<lb/>
+               tigen Anwesenheit in der von ihnen verstan¬<lb/>
+               denen <span xml:lang="de">deutchen Sprache</span> erklärt hat, daß die obi¬<lb/>
+               ge von ihm durchaus eigenhändig geschriebene<lb/>
+               Urkunde sein Testament enthalte; ferner, daß<lb/>
+               <persName ref="personen.xml#pe_wagner"><roleName type="honorific">Herr </roleName>Otto Wagner</persName> diese Urkunde in ihrer gleich<lb/>
+               zeitigen Anwesenheit eigenhändig unterschrie¬<lb/>
+               ben hat.
+            </p>
+         </div>
+
+         <div type="attestation">
+            <dateline>
+               <placeName ref="orte.xml#pl_wien">Wien</placeName>, am <date when="1888-12-17">17.
+                  Dezember 1888.</date>
+            </dateline>
+
+            <signed><persName ref="personen.xml#pe_rernt">Rudolf Rernt</persName> als Zeuge.
+               <choice>
+                  <abbr>mp</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
+
+            <signed><persName ref="personen.xml#pe_schoentahl">Leopold Schönthal</persName> als Zeuge.
+               <choice>
+                  <abbr>mp</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
+         </div>
+
+         <fw type="library-stamp" rend="bottom-center ink-dark-violet"> Wiener Stadtbibliothek </fw>
       </body>
-  </text>
+   </text>
 </TEI>

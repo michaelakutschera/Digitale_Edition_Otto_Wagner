@@ -46,6 +46,14 @@
                <name>Creditanstalt</name>
             </org>
             
+            <org xml:id="org_kh">
+               <name>Künstlerhaus, Gesellschaft der bildender Künstlerinnen und Künstler Österreich</name>
+               <name type="variant">Genossenschaft der bildenden Künste Wiens</name>
+               <name type="variant">Künstlerhaus Wien</name>
+               <idno type="wd">Q25745588</idno>
+               <note><placeName ref="orte.xml#pl_kh"/></note>
+            </org>
+            
             <org xml:id="org_sbg">
                <name type="historic">Stadt-Baugesellschaft</name>
                <note>Unklar welche Organisation in Wien gemeint ist.</note>

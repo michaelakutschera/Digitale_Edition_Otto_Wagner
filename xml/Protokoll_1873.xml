@@ -47,7 +47,7 @@
          <graphic url="Protocoll_1873.pdf#page=4"/>
          <note>Rückseite von Seite 3.</note>
       </surface>
-      
+
       <surface xml:id="pro1873_p5" n="5">
          <graphic url="Protocoll_1873.pdf#page=5"/>
          <note>Dubplikat der Seite 4 mit Farbkarte.</note>
@@ -57,8 +57,8 @@
    <text>
       <body>
          <pb n="1" facs="#pro1873_p1"/>
-         <div type="Einleitung">
-            <!--I. N. 194. 906; Wurde auf die Seite geschrieben aber nicht von Otto Wagner, ist eine Signatur.-->
+         <div type="introduction">
+            <fw type="archival" place="top-left" rend="ink-red">I.N. 194. 906</fw>
             <head>
                <choice>
                   <orig>Protocoll</orig>
@@ -79,7 +79,7 @@
                </choice>. </p>
          </div>
 
-         <div type="Anwesende">
+         <div type="attendees">
             <head>Anwesende:</head>
             <list>
                <item><persName ref="personen.xml#pe_zichy">
@@ -95,7 +95,7 @@
             </list>
          </div>
 
-         <div type="Sprecher">
+         <div type="speaker">
             <sp>
                <speaker><persName ref="personen.xml#pe_schwarz">
                      <roleName type="nobility">Baron</roleName>Schwarz</persName>
@@ -130,7 +130,7 @@
          </div>
 
          <pb n="2" facs="#pro1873_p2"/>
-         <div type="Tabelle">
+         <div type="table">
             <p>Die <choice>
                   <orig>Antheile</orig>
                   <reg>Anteile</reg>
@@ -187,16 +187,19 @@
                </row>
             </table>
          </div>
-         <div type="Sprecher">
+         <div type="speaker">
             <sp>
                <speaker><persName ref="personen.xml#pe_schwarz"><roleName type="nobility"
                         >Baron</roleName> Schwarz</persName></speaker>
-               <p>stellt den Antrag, für den Fall,<lb/> als die <choice>
+               <p>stellt den Antrag, für den Fall,<lb/>
+                  <fw type="library-stamp" rend="middle-right ink-dark-blue"> Wiener Stadtbibliothek
+                        <gap reason="illegible"/>
+                  </fw> als die <choice>
                      <orig>Betheiligung</orig>
                      <reg>Beteiligung</reg>
-                  </choice> des <persName ref="personen.xml#pe_n.rothschild"><roleName type="nobility"
-                        >Baron.</roleName><lb break="no"/> Rothschild</persName> angenommen
-                  wird,<lb/> daß diese <choice>
+                  </choice> des <persName ref="personen.xml#pe_n.rothschild"><roleName
+                        type="nobility">Baron.</roleName><lb break="no"/> Rothschild</persName>
+                  angenommen wird,<lb/> daß diese <choice>
                      <orig>Betheiligung</orig>
                      <reg>Beteiligung</reg>
                   </choice> pro rata<lb/> von allen Theilnehmern getra¬<lb break="no"/> gen werde,
@@ -209,17 +212,17 @@
                      </choice></orgName>.<lb/> Der <choice>
                      <orig>Antheil</orig>
                      <reg>Anteil</reg>
-                  </choice> des <persName ref="personen.xml#pe_n.rothschild"><roleName type="nobility"
-                        >Baron</roleName>Rothschild</persName><lb/> soll jedoch 10 % nicht
-                  überschreiten.</p>
+                  </choice> des <persName ref="personen.xml#pe_n.rothschild"><roleName
+                        type="nobility">Baron</roleName>Rothschild</persName><lb/> soll jedoch 10 %
+                  nicht überschreiten.</p>
             </sp>
          </div>
 
-         <div type="Text">
+         <div type="text">
             <p>Dieser Antrag wird angenommen. Es wird beschloßen, daß <persName
-                  ref="personen.xml#pe_schwarz"><roleName type="honorific">Herr</roleName> <roleName
-                     type="nobility">Baron</roleName>Schwarz</persName> die<lb/> Unterhandlungen mit
-               der <orgName ref="organisationen.xml#org_ca"><choice>
+                  ref="personen.xml#pe_schwarz"><roleName type="honorific">Herr</roleName>
+                  <roleName type="nobility">Baron</roleName>Schwarz</persName> die<lb/>
+               Unterhandlungen mit der <orgName ref="organisationen.xml#org_ca"><choice>
                      <orig>Credit-Anstalt</orig>
                      <reg>Creditanstalt</reg>
                   </choice></orgName> leiten<lb/> wird, und daß <persName
@@ -232,42 +235,60 @@
          </div>
 
          <pb n="3" facs="#pro1873_p3"/>
-         <div type="Speaker">
+         <div type="speaker">
             <sp>
                <speaker><persName ref="personen.xml#pe_wagner">Otto Wagner</persName></speaker>
                <p>Es wird beschloßen mit der Repartirung der Aus¬<lb break="no"/>lagen bis zum def.
-                  Beitritt <orgName ref="organisationen.xml#or_ca">der Credit-Anstalt</orgName><lb/> zu
-                  warten, dem <persName ref="personen.xml#pe_schwarz"><roleName type="honorific"
-                        >Herrn</roleName> <roleName type="nobility">Baron</roleName>Schwarz</persName> aber seine<lb/>
-                  in <choice>
+                  Beitritt <orgName ref="organisationen.xml#or_ca">der Credit-Anstalt</orgName><lb/>
+                  zu warten, dem <persName ref="personen.xml#pe_schwarz"><roleName type="honorific"
+                        >Herrn</roleName>
+                     <roleName type="nobility">Baron</roleName>Schwarz</persName> aber seine<lb/> in <choice>
                      <orig>Projectsangelegenheiten</orig>
                      <reg>Projektangelegenheiten</reg>
                   </choice> gemachten Auslagen<lb/> zu vergüten.</p>
             </sp>
          </div>
 
-         <div type="Unterschriften">
+         <div type="signatures">
             <!-- m.p steht für manu propria (mit eigener Hand).-->
-            <p><persName ref="personen.xml#pe_zichy">E. Zichy</persName>
+            <signed><persName ref="personen.xml#pe_zichy">E. Zichy</persName>
                <choice>
-                  <abbr>m/p</abbr> <expan>manu propria</expan>
-               </choice></p>
-            <p><persName ref="personen.xml#pe_schwarz">Carl. Schwarz</persName><choice>
-                  <abbr>m/p</abbr> <expan>manu propria</expan>
-               </choice></p>
-            <p><persName ref="personen.xml#pe_schey">Fr. v. Schey</persName>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
+
+            <signed><persName ref="personen.xml#pe_schwarz">Carl. Schwarz</persName><choice>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
+
+            <signed><persName ref="personen.xml#pe_schey">Fr. v. Schey</persName>
                <choice>
-                  <abbr>m/p</abbr> <expan>manu propria</expan>
-               </choice></p>
-            <p><persName ref="personen.xml#pe_wagner">Otto Wagner</persName>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
+
+            <signed><persName ref="personen.xml#pe_wagner">Otto Wagner</persName>
                <choice>
-                  <abbr>m/p</abbr> <expan>manu propria</expan>
-               </choice></p>
-            <p><persName ref="personen.xml#pe_scheyrer">G. Scheyrer</persName>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
+
+            <signed><persName ref="personen.xml#pe_scheyrer">G. Scheyrer</persName>
                <choice>
-                  <abbr>m/p</abbr> <expan>manu propria</expan>
-               </choice></p>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
          </div>
+
+         <fw type="library-stamp" rend="middle-left ink-dark-blue"> Wiener Stadtbibliothek <gap
+               reason="illegible"/>
+         </fw>
       </body>
    </text>
 </TEI>

@@ -10,7 +10,7 @@
             <title>Übereinkunft vom 27.Febraur.1873</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
-         
+
          <publicationStmt>
             <publisher>UE: Digitale Edtion</publisher>
             <date>Wintersemester 2025/26</date>
@@ -18,10 +18,11 @@
                <p>GitHub für die Abgabe des Projekts.</p>
             </availability>
          </publicationStmt>
-         
+
          <sourceDesc>
             <bibl>
-               <title>Uibereinkunft [!] aufgesetzt am 27. Februar 1873 im Bureau des Herrn Baron Friedrich von Schey.pdf</title>
+               <title>Uibereinkunft [!] aufgesetzt am 27. Februar 1873 im Bureau des Herrn Baron
+                  Friedrich von Schey.pdf</title>
                <author>Otto Wagner</author>
                <pubPlace>Wien</pubPlace>
                <date>27. Februar 1873</date>
@@ -29,7 +30,7 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   
+
    <facsimile>
       <surface xml:id="ue1873_p1" n="1">
          <graphic url="Übereinkunft_1873.pdf#page=1"/>
@@ -44,18 +45,18 @@
          <graphic url="Übereinkunft_1873.pdf#page=4"/>
          <note>Rückseite der Seite 3.</note>
       </surface>
-      
+
       <surface xml:id="ue1873_p5" n="5">
          <graphic url="Übereinkunft_1873.pdf#page=5"/>
          <note>Dubplikat der Seite 4 mit Farbkarte.</note>
       </surface>
    </facsimile>
-   
-  <text>
+
+   <text>
       <body>
          <pb n="1" facs="#ue1873_p1"/>
-         <div type="Einleitung">
-            <!--I.N.194.905; Wurde auf die Seite geschrieben aber nicht von Otto Wagner, ist eine Signatur.-->
+         <div type="introduction">
+            <fw type="archival" place="top-left" rend="ink-red">I.N. 194.905</fw>
             <head>
                <choice>
                   <orig>Uibereinkunft</orig>
@@ -63,24 +64,27 @@
                </choice>
             </head>
             <p>aufgesetzt am <date when="1873-02-27">27. Februar 1873 </date>im <choice>
-               <orig>Bureau</orig>
-               <reg>Büro</reg>
-            </choice> des <persName ref="personen.xml#pe_schey"><roleName type="honorific">Herrn</roleName><lb/>
-               <roleName type="nobility">Baron</roleName>Fr. von Schey</persName></p>
+                  <orig>Bureau</orig>
+                  <reg>Büro</reg>
+               </choice> des <persName ref="personen.xml#pe_schey"><roleName type="honorific"
+                     >Herrn</roleName><lb/>
+                  <roleName type="nobility">Baron</roleName>Fr. von Schey</persName></p>
          </div>
-         <div type="Anwesende">
+         <div type="attendees">
             <head>Anwesend die Herren:</head>
             <list>
                <item>
                   <persName ref="personen.xml#pe_zichy">
-                     <roleName type="nobility">Excellenz </roleName><roleName type="nobility">Graf </roleName>Edmund Zichy</persName>
+                     <roleName type="nobility">Excellenz </roleName><roleName type="nobility">Graf
+                     </roleName>Edmund Zichy</persName>
                </item>
                <item>
-                  <persName ref="personen.xmml#pe_schey"><roleName type="nobility">Baron </roleName> Fr. von Schey</persName>
+                  <persName ref="personen.xmml#pe_schey"><roleName type="nobility">Baron </roleName>
+                     Fr. von Schey</persName>
                </item>
                <item>
                   <persName ref="personen.xml#pe_schwarz">
-                  <roleName type="nobility">Baron </roleName>Carl von Schwarz</persName>
+                     <roleName type="nobility">Baron </roleName>Carl von Schwarz</persName>
                </item>
                <item>
                   <persName ref="personen.xml#pe_melingo">Achilles von Melingo</persName>
@@ -93,85 +97,72 @@
                </item>
             </list>
          </div>
-         <div type="Text">
-            <p> 
-               Die Gefertigten haben sich vereinigt<lb/>
-               eine Eingabe an die 
-               <orgName>
-               <choice>
-                  <orig>Commune</orig>
-                  <reg>Kommune</reg>
-               </choice>
-               <placeName ref="orte.xml#pl_wien">Wiens</placeName>
-               </orgName>
-               und die respecti¬<lb/>
-               ven Ministerien zu machen, in welcher sie ein <choice>
+         <div type="text">
+            <p> Die Gefertigten haben sich vereinigt<lb/> eine Eingabe an die <orgName>
+                  <choice>
+                     <orig>Commune</orig>
+                     <reg>Kommune</reg>
+                  </choice>
+                  <placeName ref="orte.xml#pl_wien">Wiens</placeName>
+               </orgName> und die respecti¬<lb/> ven Ministerien zu machen, in welcher sie ein <choice>
                   <orig>Project</orig>
                   <reg>Projekt</reg>
-               </choice>, <lb/>
-               welches einerseits die Ableitung und <choice>
+               </choice>, <lb/> welches einerseits die Ableitung und <choice>
                   <orig>Regulirung</orig>
                   <reg>Regulierung</reg>
                </choice> des<lb/>
-               <placeName ref="orte.xml#pl_wf">Wienflusses</placeName>, andrerseits die Schaffung von 
-               <choice>
+               <placeName ref="orte.xml#pl_wf">Wienflusses</placeName>, andrerseits die Schaffung
+               von <choice>
                   <!--Im Wort selbst ist ein Zeilenumbruch, daher wird der dirket nach - angegeben.-->
                   <orig>Communica¬<lb break="no" rend="hyphen"/>tionen</orig>
                   <reg>Kommunikationen</reg>
-               </choice>
-               durch Anlegung von Radial- und <choice>
+               </choice> durch Anlegung von Radial- und <choice>
                   <orig>Periferie</orig>
                   <reg>Peripherie</reg>
-               </choice>-<lb/>
-               Bahnen und eines Boulevards von der <placeName ref="orte.xml#pl_eb">Elisabeth<lb break="no" rend="hyphen"/>
-               brücke</placeName> nach <placeName ref="orte.xml#pl_sb">Schönbrunn</placeName> bezweckt, vorlegen.   
-            </p>
+               </choice>-<lb/> Bahnen und eines Boulevards von der <placeName ref="orte.xml#pl_eb"
+                     >Elisabeth<lb break="no" rend="hyphen"/> brücke</placeName> nach <placeName
+                  ref="orte.xml#pl_sb">Schönbrunn</placeName> bezweckt, vorlegen. </p>
          </div>
          <pb n="2" facs="#ue1873_p2"/>
-         <div type="Text">
-            <p>
-               Sie haben sich geeinigt über die 
-               <choice>
+         <div type="text">
+            <p> Sie haben sich geeinigt über die <choice>
                   <orig>Verthei¬<lb break="no" rend="hypen"/>lung</orig>
                   <reg>Verteilung</reg>
-               </choice>
-               des etwaigen <!--"wie" Nicht sicher was da wirklich steht--> immer Namen habenden,<lb/>
-               aus diesem Geschäfte entstehenden Gewinnes, durch<lb/>
-               folgende Repartition, welche bei allen spätern Em¬<lb/>
-               missionen ebenfalls in Anwendung zu kommen<lb/>
-               hat, und zwar:
-            </p>
+               </choice> des etwaigen <!--"wie" Nicht sicher was da wirklich steht--> immer Namen
+               habenden,<lb/> aus diesem Geschäfte entstehenden Gewinnes, durch<lb/> folgende
+               Repartition, welche bei allen spätern Em¬<lb/> missionen ebenfalls in Anwendung zu
+               kommen<lb/> hat, und zwar: </p>
          </div>
-         <div type="Tabelle">
+         <div type="table">
             <table>
                <row>
                   <!-- Ist das der richtige Rothschild?-->
-                  <cell><persName ref="personen.xml#pe_m_rothschild"><roleName type="nobility">Baron </roleName>
-                     J. M. v. Rothschild</persName>
+                  <cell><persName ref="personen.xml#pe_m_rothschild"><roleName type="nobility">Baron
+                        </roleName> J. M. v. Rothschild</persName>
                   </cell>
                   <cell rows="4">
                      <measure type="share" quantity="70" unit="percent">70 %</measure>
                   </cell>
                </row>
-               
+
                <row>
-               <cell><persName ref="personen.xml#pe_zichy"><roleName type="nobility">
-                        <choice>
-                           <orig>Excellenz</orig>
-                           <reg>Exzellenz</reg>
-                     </choice> Graf</roleName>
-                     Edmung Zichy</persName></cell>
+                  <cell><persName ref="personen.xml#pe_zichy"><roleName type="nobility">
+                           <choice>
+                              <orig>Excellenz</orig>
+                              <reg>Exzellenz</reg>
+                           </choice> Graf</roleName> Edmung Zichy</persName></cell>
                </row>
                <row>
-               <cell><persName ref="personen.xml#pe_schey"><roleName type="nobility">Baron </roleName>
-                     Friedrich von Schey</persName></cell>
+                  <cell><persName ref="personen.xml#pe_schey"><roleName type="nobility">Baron
+                        </roleName> Friedrich von Schey</persName></cell>
                </row>
                <row>
-                  <cell><persName ref="personen.xml#pe_schwarz"><roleName type="nobility">Baron </roleName>
-                  Carl von Schwarz</persName></cell>
+                  <cell><persName ref="personen.xml#pe_schwarz"><roleName type="nobility">Baron
+                        </roleName> Carl von Schwarz</persName></cell>
                </row>
                <row>
-                  <cell><persName ref="personen.xml'pe_Melingo">Achilles von Melingo</persName></cell>
+                  <cell><persName ref="personen.xml'pe_Melingo">Achilles von
+                     Melingo</persName></cell>
                   <cell><measure type="share" quantity="10" unit="percent">10 %</measure></cell>
                </row>
                <row>
@@ -187,126 +178,138 @@
                </row>
             </table>
          </div>
-         <div type="Text">
-            <p> 
-               An den eventuellen Verlusten <choice>
+         <fw type="library-stamp" rend="middle-right ink-dark-blue"> Wiener Stadtbibliothek<gap
+               reason="illegible"/>
+         </fw>
+         <div type="text">
+            <p> An den eventuellen Verlusten <choice>
                   <orig>articipiren</orig>
                   <reg>antizipieren</reg>
-               </choice><lb/>
-               die Genannten in denselben Verhältnissen, mit Aus¬<lb/>
-               nahme, daß <persName
-                  ref="personen.xml#pe_wagner"><roleName type="honorific">Herr</roleName>Otto
-                  Wagner</persName> von jedem Verluste <lb/>
-               freigehalten wird, und dagegen die andern <choice>
+               </choice><lb/> die Genannten in denselben Verhältnissen, mit Aus¬<lb/> nahme, daß
+                  <persName ref="personen.xml#pe_wagner"><roleName type="honorific"
+                  >Herr</roleName>Otto Wagner</persName> von jedem Verluste <lb/> freigehalten wird,
+               und dagegen die andern <choice>
                   <orig>Par¬ <lb break="no" rend="hypen"/>ticipienten</orig>
                   <reg>Partizipienten</reg>
-               </choice>
-                pro rata ihrer <choice>
-                   <orig>Betheiligungen</orig>
-                   <reg>Beteiligung</reg>
-                </choice> belastet <lb/>
-               werden. Ebenso verhält es sich bezüglich des <persName
+               </choice> pro rata ihrer <choice>
+                  <orig>Betheiligungen</orig>
+                  <reg>Beteiligung</reg>
+               </choice> belastet <lb/> werden. Ebenso verhält es sich bezüglich des <persName
                   ref="personen.xml#pe_wagner"><roleName type="honorific">Herr</roleName><lb/>
-                  Wagner </persName>
-               wegen eventueller Einzalung; dagegen hat <lb/>
-               <persName
-                  ref="personen.xml#pe_wagner"><roleName type="honorific">Herr</roleName>
-                  Wagner </persName>bei gewinnbringender Durchführung <lb/>
-               des <choice>
+                  Wagner </persName> wegen eventueller Einzalung; dagegen hat <lb/>
+               <persName ref="personen.xml#pe_wagner"><roleName type="honorific">Herr</roleName>
+                  Wagner </persName>bei gewinnbringender Durchführung <lb/> des <choice>
                   <orig>Projects</orig>
                   <reg>Projekts</reg>
-               </choice> die im Maximalbetrage von s. 10000.-<lb/>
-               sage Zehntausend Gulden sich belaufenden Anferti¬<lb/>
-               gungskosten des <choice>
+               </choice> die im Maximalbetrage von s. 10000.-<lb/> sage Zehntausend Gulden sich
+               belaufenden Anferti¬<lb/> gungskosten des <choice>
                   <orig>Projects</orig>
                   <reg>Projekts</reg>
-               </choice> allein zu tragen.<lb/>
-               Sollte es im Interesse des Geschäftes<lb/>
+               </choice> allein zu tragen.<lb/> Sollte es im Interesse des Geschäftes<lb/>
             </p>
          </div>
-         
+
          <pb n="3" facs="#ue1873_p3"/>
-         <div type="Text">
-         <p>
-            <choice>
-               <orig>nothwendig</orig>
-               <reg>notwendig</reg>
-            </choice> erscheinen, andere <choice>
-               <orig>Participienten</orig>
-               <reg>Partizipienten</reg>
-            </choice> noch<lb/>
-            aufzunehmen, so sind die eventuellen <choice>
-               <orig>Betheiligun¬<lb break="no" rend="hyphen"/>gen</orig>
-               <reg>Beteiligungen</reg>
-            </choice>
-            pro rata von den oben genannten <choice>
-               <orig>Theilnehmern</orig>
-               <reg>Teilnehmern</reg>
-            </choice>,<lb/>
-            mit Ausnahme des <persName
-               ref="personen.xml#pe_wagner"><roleName type="honorific">Herrn </roleName><lb/>
-               Otto Wagner </persName>(wel¬<lb/>
-            chem seine 10% gesichert bleiben) zu tragen. Hie¬<lb/>
-            bei ist ausdrücklich zu bemerken, daß durch die¬<lb/>
-            se Abgaben die <choice>
-               <orig>Antheile</orig>
-               <reg>Anteile</reg>
-            </choice> der <persName ref="personen.xml#pe_melingo">
-               <roleName type="honorific">Herren</roleName> Melingo</persName> &amp;<lb/>
-            <persName ref="personen.xml#pe_scheyrer">Scheyrer</persName> für jeden nicht unter 8% <choice>
-               <orig>reducirt</orig>
-               <reg>reduziert</reg>
-            </choice> wer¬<lb/>
-            den können.
-         </p>
-         <p>
-            Wenn das <choice>
-               <orig>Project</orig>
-               <reg>Projekt</reg>
-            </choice> zur Ausführung kom¬<lb/>
-            men wird, wird unter den <choice>
-               <orig>Theilhabern</orig>
-               <reg>Teilhabern</reg>
-            </choice>, ein<lb/>
-            rechtskräftiger Vertrag ausgefertigt. Bis zu die¬<lb/>
-            ser Zeit haben die Bestimmungen dieser <choice>
-               <orig>Intrims¬</orig>
-               <reg>Interims</reg>
-            </choice><lb/>
-            Stipulationen ihre <choice>
-               <orig>Giltigkeit</orig>
-               <reg>Gültigkeit</reg>
-            </choice>.<lb/>
-            <placeName ref="orte.xml#pl_wien">Wien</placeName>am
-            <date when="1873-02-27">27. Februar 1873 </date>
-         </p>
-         </div>    
-         <div type="Unterschriften">
-            <p><persName ref="personen.xml#pe_zichy">Gf. Ed. Zichy</persName>
+         <div type="text">
+            <p>
                <choice>
-                  <abbr>m/p</abbr> <expan>manu propria</expan>
-               </choice></p>
-            <p><persName ref="personen.xml#pe_schwarz">Carl B. Schwarz</persName><choice>
-               <abbr>m/p</abbr> <expan>manu propria</expan>
-            </choice></p>
-            <p><persName ref="personen.xml#pe_schey">Fr. v. Schey</persName>
-               <choice>
-                  <abbr>m/p</abbr> <expan>manu propria</expan>
-               </choice></p>
-            <p><persName ref="personen.xml#pe_melingo">Achilles Melingo</persName>
-               <choice>
-                  <abbr>m/p</abbr> <expan>manu propria</expan>
-               </choice>
+                  <orig>nothwendig</orig>
+                  <reg>notwendig</reg>
+               </choice> erscheinen, andere <choice>
+                  <orig>Participienten</orig>
+                  <reg>Partizipienten</reg>
+               </choice> noch<lb/> aufzunehmen, so sind die eventuellen <choice>
+                  <orig>Betheiligun¬<lb break="no" rend="hyphen"/>gen</orig>
+                  <reg>Beteiligungen</reg>
+               </choice> pro rata von den oben genannten <choice>
+                  <orig>Theilnehmern</orig>
+                  <reg>Teilnehmern</reg>
+               </choice>,<lb/> mit Ausnahme des <persName ref="personen.xml#pe_wagner"><roleName
+                     type="honorific">Herrn </roleName><lb/> Otto Wagner </persName>(wel¬<lb/> chem
+               seine 10% gesichert bleiben) zu tragen. Hie¬<lb/> bei ist ausdrücklich zu bemerken,
+               daß durch die¬<lb/> se Abgaben die <choice>
+                  <orig>Antheile</orig>
+                  <reg>Anteile</reg>
+               </choice> der <persName ref="personen.xml#pe_melingo">
+                  <roleName type="honorific">Herren</roleName> Melingo</persName> &amp;<lb/>
+               <persName ref="personen.xml#pe_scheyrer">Scheyrer</persName> für jeden nicht unter 8% <choice>
+                  <orig>reducirt</orig>
+                  <reg>reduziert</reg>
+               </choice> wer¬<lb/> den können. </p>
+            <p> Wenn das <choice>
+                  <orig>Project</orig>
+                  <reg>Projekt</reg>
+               </choice> zur Ausführung kom¬<lb/> men wird, wird unter den <choice>
+                  <orig>Theilhabern</orig>
+                  <reg>Teilhabern</reg>
+               </choice>, ein<lb/> rechtskräftiger Vertrag ausgefertigt. Bis zu die¬<lb/> ser Zeit
+               haben die Bestimmungen dieser <choice>
+                  <orig>Intrims¬</orig>
+                  <reg>Interims</reg>
+               </choice><lb/> Stipulationen ihre <choice>
+                  <orig>Giltigkeit</orig>
+                  <reg>Gültigkeit</reg>
+               </choice>.
             </p>
-            <p><persName ref="personen.xml#pe_wagner">Otto Wagner</persName>
+            </div>
+               
+               <fw type="library-stamp" rend="middle-left ink-dark-blue"> Wiener Stadtbibliothek
+                     <gap reason="illegible"/>
+               </fw>
+
+         <div type="signatures">
+            <dateline>
+               <placeName ref="orte.xml#pl_wien">Wien</placeName>
+               am <date when="1873-02-27">27.Februar 1873</date>
+            </dateline>
+            <signed>
+               <persName ref="personen.xml#pe_zichy">Gf. Ed. Zichy</persName>
                <choice>
-                  <abbr>m/p</abbr> <expan>manu propria</expan>
-               </choice></p>
-            <p><persName ref="personen.xml#pe_scheyrer">G. Scheyrer</persName>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
+
+            <signed>
+               <persName ref="personen.xml#pe_schwarz">Carl B. Schwarz</persName>
                <choice>
-                  <abbr>m/p</abbr> <expan>manu propria</expan>
-               </choice></p>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
+
+            <signed>
+               <persName ref="personen.xml#pe_schey">Fr. v. Schey</persName>
+               <choice>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
+
+            <signed>
+               <persName ref="personen.xml#pe_melingo">Achilles Melingo</persName>
+               <choice>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
+
+            <signed>
+               <persName ref="personen.xml#pe_wagner">Otto Wagner</persName>
+               <choice>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
+
+            <signed>
+               <persName ref="personen.xml#pe_scheyrer">G. Scheyrer</persName>
+               <choice>
+                  <abbr>m/p</abbr>
+                  <expan>manu propria</expan>
+               </choice>
+            </signed>
          </div>
-       </body>
-  </text>
+      </body>
+   </text>
 </TEI>
