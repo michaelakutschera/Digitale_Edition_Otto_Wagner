@@ -157,17 +157,24 @@
                </hi>
            </p>
             <p>
-               ?stebend? dessen habe ich dieses Testament<lb/>
-               vellieheltlich eigenhändig geschrieben und<lb/>
-               in Anwesenheit jener Zeugen unterfertigt<lb/>
-               und etweigen ?Tauthamus? anzulegen, will<lb/>
+               Urkund dessen habe ich dieses Testament<lb/>
+               vollinhaltlich eigenhändig geschrieben und<lb/>
+               in Anwesenheit zweier <persName ref="personen.xml#pe_zimmermann #pe_dau"><!-- Name --><roleName type="witness"/>Zeugen</persName> unterfertigt<lb/>
+               und etwaigen <gap reason="illegible"/> anzulegen, will<lb/>
                ich zum Schlusse noch ausdrücklich erklären, daß<lb/>
-               alle Möbel Geräthe, Kunstgegenstände ?etc?<lb/>
-               Eigenthum meine Gattin sind, hiezu gehört<lb/>
+               alle Möbel <choice>
+                  <orig>Geräthe</orig>
+                  <reg>Geräte</reg>
+               </choice>, Kunstgegenstände etc<lb/>
+              <choice>
+                 <orig>Eigenthum</orig>
+                 <reg>Eigentum</reg>
+              </choice> meine <rs type="person" subtype="familal" ref="personen.xml#pe_lou_wagner">Gattin</rs> sind, hiezu gehört<lb/>
                ganz <hi rend="underline-red">besondes aller Schmuck, auch der den<lb/>
-               ich von meine Mutter ererbte, wie auch<lb/>
-               aus der ?Versehmgt? ?selbige?, ?arsehe? auch Louise<lb/>
-               Wagner lautet ?denklich heresgcht?</hi>
+                  ich von meine <rs type="person" subtype="familial"
+                  ref="personen.xml#pe_sus_wagner">Mutter</rs> ererbte, wie auch<lb/>
+                  aus der <gap reason="illegible"/> <gap reason="illegible"/>,<gap reason="illegible"/> auch <persName ref="personen.xml#pe_lou_wagner">Louise<lb break="no"/>
+                  Wagner</persName> lautet <gap reason="illegible"/><gap reason="illegible"/>.</hi>
             </p>
          </div>
             
@@ -180,7 +187,7 @@
   
             <div type="text">
                <p>
-                  Die untefertigten <persName ref="personen.xml#pe_zimmermann #pe_???"><roleName type="witness"/>Zeugen</persName> bestätigen somit, daß<lb/>
+                  Die untefertigten <persName ref="personen.xml#pe_zimmermann #pe_dau"><!-- Name --><roleName type="witness"/>Zeugen</persName> bestätigen somit, daß<lb/>
                   <persName ref="personen.xml#pe_wagner"><roleName type="honorific">Herr </roleName>Otto Wagner</persName> in ihrer gleichzeitigen Anwesen-<lb/>
                   heit in der von ihnen verstandenen <span xml:lang="de">deutchen <lb break="no"/>
                   Sprache</span> erklärt hat, daß die obige von ihm durch¬<lb/>
@@ -200,7 +207,7 @@
                </signed>
                
                <!-- Nachname nicht bekannt, nicht in personen.xml eingetragen bisher.-->
-               <signed><persName ref="personen.xml#pe_">Ing. Karl Doubrawa</persName> als Zeuge. <!-- Nicht ganz klar für mich der Name.-->
+               <signed><persName ref="personen.xml#pe_dou">Ing. Karl Doubrawa</persName> als Zeuge. <!-- Nicht ganz klar für mich der Name.-->
                </signed>
             </div>
          
