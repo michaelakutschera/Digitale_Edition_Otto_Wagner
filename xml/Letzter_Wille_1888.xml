@@ -104,8 +104,9 @@
                </choice> Alles schon bei<lb/> Lebzeiten geschenkt habe. </p>
             <p> Meine <rs type="person" subtype="familial">Frau</rs>
                <persName ref="personen.xml#pe_lou_wagner">Louise</persName>, welche so lange ich
-               lebte, für<lb/> mich der Inbegriff aller Liebe und Tugenden war,<lb/> hat so lange
-               sie lebt den Fruchtgenuß meines ge¬<lb/> sammten Vermögens, da ich überzeugt bin,
+               lebte, für<lb/> mich der Inbegriff aller Liebe und Tugenden war,<lb/> 
+               hat so lange sie lebt den Fruchtgenuß meines ge¬<lb/>
+               sammten Vermögens, da ich überzeugt bin,
                daß<lb/> sie <choice>
                   <orig>hievon</orig>
                   <reg>hiervon</reg>
@@ -117,8 +118,14 @@
                   <orig>Pflichttheil</orig>
                   <reg>Pflichtanteil</reg>
                </choice> beschränke und<lb/> zugleich bestimme, daß Alles, was laut <bibl type="law"
-                  >§. 788</bibl><lb/> des österr. Bürg - Gesetzbuches eingerechnet werden<lb/> kann,
-               in den <choice>
+                  >§. 788</bibl><lb/> des <ref type="law"> <choice>
+                     <abbr>österr.</abbr>
+                     <expan>österreichischen</expan>
+                  </choice> <choice>
+                     <abbr>bürg.</abbr>
+                     <expan>bürgerlichen</expan>
+                  </choice> Gesetzbuches</ref> eingerechnet werden<lb/> 
+               kann, in den <choice>
                   <orig>Pflichttheil</orig>
                   <reg>Pflichtanteil</reg>
                </choice> eingerechnet werde.<lb/>
@@ -232,7 +239,28 @@
             </signed>
          </div>
 
-         <fw type="library-stamp" rend="bottom-center ink-dark-violet"> Wiener Stadtbibliothek </fw>
+         <fw type="library-stamp" place="bottom-center" rend="ink-dark-violet"> Wiener Stadtbibliothek </fw>
+         
+         <pb n="3" facs="#lw1888_p3"/>
+         <div type="text">
+            <p>Theyer <lb/>
+               &amp;<lb/>
+               Hardtmuth<lb/>
+               Wien</p>
+       <!-- Ist nur der Durchdruck von der Rückseite dieser Seite, wie gibt man das eigentlich korrekt an? -->
+         </div>
+         
+         <pb n="4" facs="#lw1888_p4"/>
+         <fw type="library-stamp" place="center" rend="ink-dark-violet"> Wiener Stadtbibliothek </fw>
+         <div type="adress">
+            <fw type="archival" place="right-corner" rend="ink-blue">Testament <lb/>
+               <persName ref="personen.xml#pe_wagner">O. W.</persName><lb/>
+               <date when="1888-12">Dezember 88</date><lb/>
+               (<choice>
+                  <orig>Überstelt</orig>
+                  <reg>Überstellt</reg>
+               </choice>)</fw>
+         </div>
       </body>
    </text>
 </TEI>

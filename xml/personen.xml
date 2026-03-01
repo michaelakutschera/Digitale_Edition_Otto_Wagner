@@ -90,6 +90,17 @@
                <note>Deutscher Kunsthistoriker.</note>
             </person>
             
+            <person xml:id="pe_luetgendorff">
+               <persName>
+                  <forename>Christin</forename>
+                  <surname>Lütgendorf-Gyllenstorm</surname>
+               </persName>
+               <persName type="variant">Christin Wagner</persName>
+               <birth when="1889"/>
+               <death when="1970"/>
+               <note> Tochter aus zweiter Ehe mit Louise Stiffel.</note>
+            </person>
+            
             <person xml:id="pe_melingo">
                <idno type="wd">Q60818377</idno>
                <persName>
@@ -287,7 +298,7 @@
                <note>Österreichischer Arichtekt.</note>
             </person>
             
-            <person xml:id="rud_wagner">
+            <person xml:id="pe_rud_wagner">
                <persName>
                   <forename>Rudolf</forename>
                   <forename>Simeon</forename>
@@ -369,9 +380,18 @@
                   <forename>Louise</forename>
                   <surname>Watzlawick</surname>
                </persName>
+               <persName type="variant">Louise Wagner.</persName>
                <birth when="1885"/>
                <death when="1976"/>
                <note>Tochter aus zweiter Ehe mit Louise Stiffel.</note>
+            </person>
+            
+            <person xml:id="pe_aug_wallisch">
+               <persName>
+                  <forename>August</forename>
+                  <surname>Wallisch</surname>
+               </persName>
+               <note>Schwiegersohn von Otto Wagner und Ehemann von Susanne Wallisch.</note>
             </person>
             
             <person xml:id="pe_wallisch">
@@ -379,6 +399,7 @@
                   <forename>Susanne</forename> <!-- Im Testament steht Susanne aber im Internet "Susanna" -->
                   <surname>Wallisch</surname>
                </persName>
+               <persName type="variant">Susanna Wagner.</persName>
                <birth when="1868"/>
                <death when="1973"/>
                <note>Tochter aus erster Ehe mit Josefine Domhart, geborene Wagner.</note>
@@ -393,6 +414,14 @@
                   <surname>Zichy</surname>
                </persName>
                <persName type="variant">Edmung Graf Zichy-Vásonykeő</persName>
+            </person>
+            
+            <person xml:id="pe_zimmermann">
+               <persName>
+                  <forename>Adalbert</forename>
+                  <surname>Zimmermann</surname>
+               </persName>
+               <note>Keine Informationen zu dieser Person bekannt.</note>
             </person>
          </listPerson>
          
@@ -429,7 +458,10 @@
             <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_stef_wagner"/>
             
             <relation name="parentOf" active="#pe_wagner" passive="#pe_watzlawick"/>
-            <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_watzlawick"/>            
+            <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_watzlawick"/> 
+            
+            <relation name="parentOf" active="#pe_wagner" passive="#pe_luetgendorff"/>
+            <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_luetgendorff"/>
          </listRelation>
       </body>
   </text>
