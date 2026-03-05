@@ -9,7 +9,9 @@
             <title>Orte für die Otto Wagner Dokumente.</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
-         <publicationStmt><p>Interne Verwendung</p></publicationStmt>
+         <publicationStmt>
+            <p>Interne Verwendung</p>
+         </publicationStmt>
          <sourceDesc>
             <p>Protokoll_1873</p>
             <p>Übereinkunft_1873</p>
@@ -18,29 +20,28 @@
             <p>Letzer_Wille_1913</p>
          </sourceDesc>
       </fileDesc>
-      
+
       <encodingDesc>
          <listPrefixDef>
-            <prefixDef ident="wd" matchPattern="(.+)" replacementPattern="https://www.wikidata.org/wiki/$1">
+            <prefixDef ident="wd" matchPattern="(.+)"
+               replacementPattern="https://www.wikidata.org/wiki/$1">
                <p>Verweist auf die Wikidata-Einträge mittels ihrer Q-ID.</p>
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
    </teiHeader>
-  
+
    <text>
       <body>
          <listPlace>
-            
-            <place xml:id="pl_abkw">            
+            <place xml:id="pl_abkw">
                <placeName>Akademie der bildenden Künste Wien</placeName>
                <idno type="wd">Q414219</idno>
                <note type="location">
-                  <geo>48.201389 16.365278	
-                  </geo>
+                  <geo>48.201389 16.365278 </geo>
                </note>
             </place>
-            
+
             <place xml:id="pl_baden">
                <placeName>Baden</placeName>
                <idno type="wd">Q486450</idno>
@@ -49,27 +50,13 @@
                </note>
                <note type="desc">Bezirkshauptstadt in Niederösterreich.</note>
             </place>
-            
-            <place xml:id="pl_bm">
-               <placeName>Bauernmarkt</placeName>
-               <note type="desc">Unklar welcher Ort in Wien im 19. Jahrhundert gemeint ist.</note>
-            </place>
-                
-            <place xml:id="pl_berlin">
-               <placeName>Berlin</placeName>
-               <idno type="wd">Q64</idno>
-               <note type="location">
-                  <geo>52.516667 13.383333</geo>
-               </note>
-               <note type="desc">Hauptstadt von Deutschland.</note>
-            </place>
-            
-            <place xml:id="pl_bba">            
+
+            <place xml:id="pl_bba">
                <placeName>Berliner Bauakademie</placeName>
                <idno type="wd">Q51984</idno>
                <note type="location">
                   <geo>52.5161 13.3989</geo>
-               </note>    
+               </note>
             </place>
             
             <place xml:id="pl_bd">
@@ -81,7 +68,21 @@
                <note type="desc">Gebaut 1894-1905 nach den Plönen von Julius Raschdorff.</note>
             </place>
             
-            <place xml:id="pl_br"> 
+            <place xml:id="pl_berlin">
+               <placeName>Berlin</placeName>
+               <idno type="wd">Q64</idno>
+               <note type="location">
+                  <geo>52.516667 13.383333</geo>
+               </note>
+               <note type="desc">Hauptstadt von Deutschland.</note>
+            </place>
+            
+            <place xml:id="pl_bm">
+               <placeName>Bauernmarkt</placeName>
+               <note type="desc">Unklar welcher Ort in Wien im 19. Jahrhundert gemeint ist.</note>
+            </place>
+
+            <place xml:id="pl_br">
                <placeName>Burgring</placeName>
                <idno type="wd">Q16873433</idno>
                <note type="location">
@@ -89,32 +90,15 @@
                </note>
                <note type="desc">Straße in Wien.</note>
             </place>
-            
+
             <place xml:id="pl_eb">
                <placeName type="historic">Elisabethbrücke</placeName>
                <idno type="wd">Q1330527</idno>
                <note type="location">
                   <geo>48.2005 16.3687</geo>
                </note>
-               <note type="desc">Gebaut 1854-1897 nach Plänen von Ludwig Förster. Nutzung: Fuhrwerke, Fußgänger und Straßenbahn.</note>
-            </place>
-            
-            <place xml:id="gwg">
-               <placeName>Göttweihergasse 1</placeName>
-               <idno type="wd">Q37947139</idno>
-               <note type="location">
-                  <geo>48.207072 16.370568</geo>
-               </note>
-               <note type="desc">Gebäude in der Wiener Innenstadt.</note>
-            </place>
-            
-            <place xml:id="pl_gr">
-               <placeName>Graben</placeName>
-               <idno type="wd">Q699937</idno>
-               <note type="location">
-                  <geo>48.208613 16.369913</geo>
-               </note>
-               <note type="desc">Straße in Wien.</note>
+               <note type="desc">Gebaut 1854-1897 nach Plänen von Ludwig Förster. Nutzung:
+                  Fuhrwerke, Fußgänger und Straßenbahn.</note>
             </place>
             
             <place xml:id="pl_gh">
@@ -125,7 +109,25 @@
                </note>
                <note type="desc">Denkmalgeschütztes Objekt in der Inneren Stadt.</note>
             </place>
+
+            <place xml:id="pl_gr">
+               <placeName>Graben</placeName>
+               <idno type="wd">Q699937</idno>
+               <note type="location">
+                  <geo>48.208613 16.369913</geo>
+               </note>
+               <note type="desc">Straße in Wien.</note>
+            </place>
             
+            <place xml:id="pl_gwg">
+               <placeName>Göttweihergasse 1</placeName>
+               <idno type="wd">Q37947139</idno>
+               <note type="location">
+                  <geo>48.207072 16.370568</geo>
+               </note>
+               <note type="desc">Gebäude in der Wiener Innenstadt.</note>
+            </place>
+
             <place xml:id="pl_hamburg">
                <placeName>Hamburg</placeName>
                <idno type="wd">Q1055</idno>
@@ -133,14 +135,6 @@
                   <geo>53.55 10</geo>
                </note>
                <note type="desc">Stadt und Land der Bundesrepublik Deutschland.</note>
-            </place>
-            
-            <place xml:id="pl_hk">
-               <placeName>Reichshofkanzlei</placeName>
-               <idno type="wd">Q2139504</idno>
-               <note type="location">
-                  <geo>48.207725 16.365391</geo>
-               </note>
             </place>
             
             <place xml:id="pl_hie">
@@ -160,7 +154,20 @@
                </note>
                <note type="desc">Ehrengrab der Familie Wagner. Gruppe 13, Nr. 131.</note>
             </place>
-           
+
+            <place xml:id="pl_hk">
+               <placeName>Reichshofkanzlei</placeName>
+               <idno type="wd">Q2139504</idno>
+               <note type="location">
+                  <geo>48.207725 16.365391</geo>
+               </note>
+            </place>
+            
+            <place xml:id="pl_jp">
+            <placeName>Jusitz-Palast</placeName>
+            <note>Kein tatsächlich umgesetztes Gebäude von Otto Wagner. Wird im Promemoria nur erwähnt.</note>
+            </place>
+            
             <!--Bin mir nicht sicher ob in dem "promemoira_1876 wirklich diese in Ungarn gemeint ist. -->
             <place xml:id="pl_kapolna">
                <placeName>Kápolna</placeName>
@@ -170,16 +177,22 @@
                </note>
                <note type="desc">Gemeinde in Ungarn.</note>
             </place>
-                 
+
             <place xml:id="pl_kh">
-               <placeName>Künstlerhaus, Gesellschaft der bildender Künstlerinnen und Künstler Österreich</placeName>
+               <placeName>Künstlerhaus, Gesellschaft der bildender Künstlerinnen und Künstler
+                  Österreich</placeName>
                <idno type="wd">Q25745588</idno>
                <note type="location">
                   <geo>48.200611 16.371694</geo>
                </note>
-               <note type="desc">Die Gesellschaft bildender Künstler Österreichs,
-                  Künstlerhaus wurde am 29. April 1861 als „Genossenschaft der bildenden Künstler Wiens“
-                  gegründet und ist eine Künstlervereinigung.</note>
+               <note type="desc">Die Gesellschaft bildender Künstler Österreichs, Künstlerhaus wurde
+                  am 29. April 1861 als „Genossenschaft der bildenden Künstler Wiens“ gegründet und
+                  ist eine Künstlervereinigung.</note>
+            </place>
+            
+            <place xml:id="pl_lg">
+               <placeName>Landtagsgebäude</placeName>
+               <note>Kein tatsächliches Gebäude in Lemberg von Otto Wagner, sein Plan erhielt nur den zweiten Preis. Wird im Promemoria erwähnt.</note>
             </place>
 
             <place xml:id="pl_lemberg">
@@ -190,7 +203,7 @@
                </note>
                <note type="desc">Hauptstadt der Oblast Lwiw in der westlichen Ukraine.</note>
             </place>
-            
+
             <place xml:id="pl_pe">
                <placeName>Palais Epstein</placeName>
                <idno type="wd">Q2046959</idno>
@@ -199,23 +212,20 @@
                </note>
                <note type="desc">Gebaut 1868-1871 nach Plänen von Theophil von Hansen gebaut.</note>
             </place>
-            
+
             <place xml:id="pl_pest">
                <placeName>Pest</placeName>
-               <idno type="wd"></idno>
+               <idno type="wd"/>
                <note type="location">
                   <geo>Q210205</geo>
                </note>
-               <note type="desc">Ehemalige unabhängigie Stadt in Ungarn bis 1873. Heute östlicher Teil von Budapest.</note>
+               <note type="desc">Ehemalige unabhängigie Stadt in Ungarn bis 1873. Heute östlicher
+                  Teil von Budapest.</note>
             </place>
             
-            <place xml:id="pl_sru">
-               <placeName>Synagoge Rumbach utca</placeName>
-               <idno type="wd">Q569083</idno>
-               <note type="location">
-                  <geo>47.49792 19.05889</geo>
-               </note>
-               <note type="desc">Gebaut 1869-1872 nach Plänen von Otto Wagner. Einziges Gebäude von ihm  in Budapest, Ungarn.</note>
+            <place xml:id="pl_rhb">
+               <placeName>Rathausbau</placeName>
+               <note>Kein tatsächliches Gebäude von Otto Wagner in Hambrug, sein Plan erhielt war nur der zweite Preis. Wird im Promemoria erwähnt.</note>
             </place>
             
             <place xml:id="pl_sb">
@@ -226,7 +236,17 @@
                </note>
                <note type="desc">Kastralgemeinde in Wien.</note>
             </place>
-            
+
+            <place xml:id="pl_sru">
+               <placeName>Synagoge Rumbach utca</placeName>
+               <idno type="wd">Q569083</idno>
+               <note type="location">
+                  <geo>47.49792 19.05889</geo>
+               </note>
+               <note type="desc">Gebaut 1869-1872 nach Plänen von Otto Wagner. Einziges Gebäude von
+                  ihm in Budapest, Ungarn.</note>
+            </place>
+
             <place xml:id="pl_ssb">
                <placeName>Schloss Schönbrunn</placeName>
                <idno type="wd">Q2258824</idno>
@@ -235,7 +255,7 @@
                </note>
                <note type="desc">Schlossanlage mit Ökonomiehof.</note>
             </place>
-         
+
             <place xml:id="pl_wien">
                <placeName>Wien</placeName>
                <idno type="wd">Q1741</idno>
@@ -244,7 +264,7 @@
                </note>
                <note type="desc">Hauptstadt von Österreich.</note>
             </place>
-            
+
             <place xml:id="pl_wf">
                <placeName>Wienfluss</placeName>
                <idno type="wd">Q702289</idno>
@@ -254,10 +274,8 @@
                <note type="location" subtype="Flussmündung">
                   <geo>48.2119 16.3844</geo>
                </note>
-               
             </place>
          </listPlace>
-         
       </body>
    </text>
 </TEI>

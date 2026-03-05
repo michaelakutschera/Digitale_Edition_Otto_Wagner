@@ -4,13 +4,15 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Personenregister für die Otto Wagner Dokumente.</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
-         <publicationStmt><p>Interne Verwendung</p></publicationStmt>
+         <publicationStmt>
+            <p>Interne Verwendung</p>
+         </publicationStmt>
          <sourceDesc>
             <p>Protokoll_1873</p>
             <p>Übereinkunft_1873</p>
@@ -19,31 +21,31 @@
             <p>Letzter_Wille_1913</p>
          </sourceDesc>
       </fileDesc>
-     
-     <encodingDesc>
-        <listPrefixDef>
-           <prefixDef ident="wd" matchPattern="(.+)" replacementPattern="https://www.wikidata.org/wiki/$1">
-              <p>Verweist auf die Wikidata-Einträge mittels ihrer Q-ID.</p>
-           </prefixDef>
-        </listPrefixDef>
-     </encodingDesc>
-  </teiHeader>
-   
-  <text>
+
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="wd" matchPattern="(.+)"
+               replacementPattern="https://www.wikidata.org/wiki/$1">
+               <p>Verweist auf die Wikidata-Einträge mittels ihrer Q-ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+
+   <text>
       <body>
          <listPerson>
-            
+
             <person xml:id="pe_domhart">
                <persName>
                   <forename>Josefine</forename>
                   <surname>Domhart</surname>
                </persName>
                <note>Erste Ehefrau von Otto Wagner.</note>
-               <note type="editorial">
-                  Nicht in den Testamenten genannt; zur genealogischen Kontextualisierung ergänzt.
-               </note>
+               <note type="editorial"> Nicht in den Testamenten genannt; zur genealogischen
+                  Kontextualisierung ergänzt. </note>
             </person>
-            
+
             <person xml:id="pe_foerster">
                <idno>Q19959471</idno>
                <persName>
@@ -58,7 +60,7 @@
                <occupation>Stadtbaumeister</occupation>
                <note>Österreichischer Architekt.</note>
             </person>
-            
+
             <person xml:id="pe_habsburg">
                <idno type="wd">Q310807</idno>
                <persName>
@@ -79,18 +81,30 @@
                <note>Erzherzog von Österreich und Feldherr.</note>
             </person>
 
+            <person xml:id="pe_loewenthal">
+               <persName>
+                  <forename>Arhtur</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Löwenthal</surname>
+               </persName>
+               <persName type="variant">Arthur Freiherr von Löwenthal</persName>
+               <birth when="1835"/>
+               <death when="1905"/>
+               <occupation>Eisenwerksbesitzer</occupation>
+            </person>
+            
             <person xml:id="pe_luebke">
                <idno type="wd">Q90914</idno>
                <persName>
                   <forename>Wilhelm</forename>
                   <surname>Lübke</surname>
                </persName>
-               <birth when="1826-01-17"/> 
+               <birth when="1826-01-17"/>
                <death when="1893-04-05"/>
                <occupation>Kunsthistoriker</occupation>
                <note>Deutscher Kunsthistoriker.</note>
             </person>
-            
+
             <person xml:id="pe_luetgendorff">
                <persName>
                   <forename>Christin</forename>
@@ -101,7 +115,7 @@
                <death when="1970"/>
                <note> Tochter aus zweiter Ehe mit Louise Stiffel.</note>
             </person>
-            
+
             <person xml:id="pe_melingo">
                <idno type="wd">Q60818377</idno>
                <persName>
@@ -114,7 +128,7 @@
                <occupation>Politiker</occupation>
                <note>Österreichischer Kommunalpolitiker.</note>
             </person>
-            
+
             <person xml:id="pe_mocsongi">
                <persName>
                   <nameLink>von</nameLink>
@@ -122,18 +136,17 @@
                </persName>
                <note>Keine Informationen zu dieser Person bekannt.</note>
             </person>
-            
+
             <person xml:id="pe_paupie">
                <persName>
                   <forename>Sophia</forename>
                   <surname>Paupie</surname>
                </persName>
                <note>Braumeistertochter und Freundin von Otto Wagner.</note>
-               <note type="editorial">
-                  Nicht in den Testamenten genannt; zur genealogischen Kontextualisierung ergänzt.
-               </note>
+               <note type="editorial"> Nicht in den Testamenten genannt; zur genealogischen
+                  Kontextualisierung ergänzt. </note>
             </person>
-            
+
             <person xml:id="pe_rainer">
                <idno type="wd">Q111971</idno>
                <persName>
@@ -150,7 +163,7 @@
                <death when="1913-01-27"/>
                <note>Österreichischer Erzherzog, Genral, Kunstmäzen und Sammler.</note>
             </person>
-            
+
             <!-- Ist das der richtige Rothschild? Es wird im Protkoll einer erwähnt und in der Übereinkunft, dort steht er mit J. M. von Rothschild?-->
             <!--<person xml:id="pe_n.rothschild">
                <idno type="wd">Q334120</idno>
@@ -180,8 +193,8 @@
                <persName type="variant">Nataniel Rothschild</persName>
                <note>Nathaniel Anselm von Rothschild geboren 1836 und starb 1905. Er war ein ötserreichscher Bankier,
                   Kunstsammler und Philannthrop.</note>
-            </person> -->            
-            
+            </person> -->
+
             <person xml:id="pe_rernt">
                <persName>
                   <forename>Rudolf</forename>
@@ -189,7 +202,7 @@
                </persName>
                <note>Keine Informationen zu dieser Person bekannt.</note>
             </person>
- 
+
             <person xml:id="pe_schey">
                <idno type="wd">Q1461926</idno>
                <persName>
@@ -216,7 +229,7 @@
                </persName>
                <note>Keine Informationen zu dieser Person bekannt.</note>
             </person>
-            
+
             <person xml:id="pe_sicardsburg">
                <idno type="wd">Q78968</idno>
                <persName>
@@ -234,7 +247,7 @@
                <occupation>Architekt</occupation>
                <note>Österreichischer Architekt.</note>
             </person>
-            
+
             <person xml:id="pe_schmidt">
                <idno type="wd">Q77431</idno>
                <persName>
@@ -245,11 +258,11 @@
                <persName type="variant">Friedrich Freiherr von Schmidt</persName>
                <persName type="variant">Friedrich Schmidt</persName>
                <birth when="1825-10-23"/>
-               <death when="1891-01-23"></death>
+               <death when="1891-01-23"/>
                <occupation>Architekt</occupation>
                <note>Deutsch-österreichischer Architekt.</note>
             </person>
-            
+
             <person xml:id="pe_schoenthal">
                <persName>
                   <forename>Leopold</forename>
@@ -258,7 +271,7 @@
                <occupation>Architekt.</occupation>
                <note>Keine weiteren Informationen zu dieser Person bekannt.</note>
             </person>
-            
+
             <person xml:id="pe_schwarz">
                <idno type="wd">Q1041429</idno>
                <persName>
@@ -274,8 +287,8 @@
                <death when="1898-10-21"/>
                <occupation>Bauunternehmer</occupation>
                <note>Österreichischer Bauunternehmer.</note>
-            </person>   
-            
+            </person>
+
             <person xml:id="pe_teltscher">
                <persName>
                   <forename>Leopold</forename>
@@ -284,21 +297,21 @@
                <occupation>Hof- und Gerichtsadvokat.</occupation>
                <note>Hot- und Gerichtsadvokat in Wien.</note>
             </person>
-            
+
             <person xml:id="pe_wagner" role="main">
                <idno type="wd">Q84287</idno>
-            <persName>
-               <forename>Otto</forename>
-               <surname>Wagner</surname>
-            </persName>
-               <persName type="variant">Otto Colomann Wagner</persName>  
-               <persName type="variant">Otto Kolomann Wagner</persName> 
+               <persName>
+                  <forename>Otto</forename>
+                  <surname>Wagner</surname>
+               </persName>
+               <persName type="variant">Otto Colomann Wagner</persName>
+               <persName type="variant">Otto Kolomann Wagner</persName>
                <birth when="1841-07-13"/>
                <death when="1918-04-11"/>
                <occupation>Architekt</occupation>
                <note>Österreichischer Arichtekt.</note>
             </person>
-            
+
             <person xml:id="pe_rud_wagner">
                <persName>
                   <forename>Rudolf</forename>
@@ -308,9 +321,10 @@
                <birth when="1800"/>
                <death when="1846"/>
                <note>Vater von Otto und Emerich Wagner.</note>
-               <note type="editorial"> Nicht in den Testamenten genannt; zur genealogischen Kontextualisierung ergänzt.</note>              
+               <note type="editorial"> Nicht in den Testamenten genannt; zur genealogischen
+                  Kontextualisierung ergänzt.</note>
             </person>
-            
+
             <person xml:id="pe_eme_wagner">
                <persName>
                   <forename>Emerich</forename>
@@ -321,7 +335,7 @@
                <death when="1921-09-22"/>
                <note>Älterer Bruder von Otto Wagner.</note>
             </person>
-            
+
             <person xml:id="pe_rob_wagner">
                <persName>
                   <forename>Robert</forename>
@@ -332,7 +346,7 @@
                <death when="1954"/>
                <note>Zweiter Sohn von Otto Wagner und Sophia Paupie.</note>
             </person>
-            
+
             <person xml:id="pe_ott_wagner">
                <persName>
                   <forename>Otto</forename>
@@ -343,7 +357,7 @@
                <death when="1945"/>
                <note>Erster Sohn von Otto Wagner und Sophia Paupie.</note>
             </person>
-            
+
             <person xml:id="pe_lou_wagner">
                <persName>
                   <forename>Louise</forename>
@@ -354,7 +368,7 @@
                <death when="1915-10-26"/>
                <note>Geborene Stiffel.</note>
             </person>
-               
+
             <person xml:id="pe_ste_wagner">
                <persName>
                   <forename>Stefan</forename>
@@ -364,10 +378,11 @@
                <death when="1945"/>
                <note>Sohn aus zweiter Ehe mit Louise Stiffel.</note>
             </person>
-            
+
             <person xml:id="pe_sus_wagner">
                <persName>
-                  <forename>Susanna</forename> <!-- Im Testament steht Susanne aber im Internet "Susanna" -->
+                  <forename>Susanna</forename>
+                  <!-- Im Testament steht Susanne aber im Internet "Susanna" -->
                   <surname>Wagner</surname>
                </persName>
                <persName type="variant">Susanne</persName>
@@ -375,7 +390,7 @@
                <death when="1880"/>
                <note>Mutter von Otto Wagner, geborene Huber und adoptierte Helfenstirfer.</note>
             </person>
-            
+
             <person xml:id="pe_watzlawick">
                <persName>
                   <forename>Louise</forename>
@@ -386,7 +401,7 @@
                <death when="1976"/>
                <note>Tochter aus zweiter Ehe mit Louise Stiffel.</note>
             </person>
-            
+
             <person xml:id="pe_aug_wallisch">
                <persName>
                   <forename>August</forename>
@@ -394,10 +409,11 @@
                </persName>
                <note>Schwiegersohn von Otto Wagner und Ehemann von Susanne Wallisch.</note>
             </person>
-            
+
             <person xml:id="pe_wallisch">
                <persName>
-                  <forename>Susanne</forename> <!-- Im Testament steht Susanne aber im Internet "Susanna" -->
+                  <forename>Susanne</forename>
+                  <!-- Im Testament steht Susanne aber im Internet "Susanna" -->
                   <surname>Wallisch</surname>
                </persName>
                <persName type="variant">Susanna Wagner.</persName>
@@ -416,7 +432,7 @@
                </persName>
                <persName type="variant">Edmung Graf Zichy-Vásonykeő</persName>
             </person>
-            
+
             <person xml:id="pe_zimmermann">
                <persName>
                   <forename>Adalbert</forename>
@@ -425,45 +441,45 @@
                <note>Keine Informationen zu dieser Person bekannt.</note>
             </person>
          </listPerson>
-         
+
          <listRelation>
             <!--Susanna Wagner und Otto Wagner.-->
             <relation name="parentOf" active="#pe_sus_wagner" passive="#pe_wagner"/>
-            
+
             <!--Susanna Wagner und Emerich Wagner.-->
             <relation name="parentOf" active="#pe_sus_wagner" passive="#pe_eme_wagner"/>
-            
+
             <!--Emerich Wagner und Otto Wagner.-->
             <relation name="siblingOf" active="#pe_wagner" passive="#pe_eme_wagner"/>
-            
+
             <!-- Romantische Beziehung: Otto Wagner und Sophia Paupie.-->
             <relation name="spauseOf" mutual="pe_wagner #pe_paupie"/>
-            
+
             <!--Erste Ehe: Otto Wagner und Josefine Domhart.-->
             <relation name="spouseOf" mutual="#pe_wagner #pe_domhart"/>
-            
+
             <!--Zweite Ehe: Otto Wagner und Louise Stiffel.-->
             <relation name="spouseOf" mutual="pe_wagner #pe_lou_wagner"/>
-            
+
             <!-- Kinder von Otto Wagner.-->
             <relation name="parentOf" active="#pe_wagner" passive="#pe_ott_wagner"/>
             <relation name="parentOf" active="#pe_paupie" passive="#pe_ott_wagner"/>
-            
+
             <relation name="parentOf" active="#pe_wagner" passive="#pe_rob_wagner"/>
             <relation name="parentOf" active="#pe_paupie" passive="#pe_rob_wagner"/>
-            
+
             <relation name="parentOf" active="#pe_wagner" passive="#pe_wallisch"/>
             <relation name="parentOf" active="#pe_domhart" passive="#pe_wallisch"/>
-            
+
             <relation name="parentOf" active="#pe_wagner" passive="#pe_stef_wagner"/>
             <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_stef_wagner"/>
-            
+
             <relation name="parentOf" active="#pe_wagner" passive="#pe_watzlawick"/>
-            <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_watzlawick"/> 
-            
+            <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_watzlawick"/>
+
             <relation name="parentOf" active="#pe_wagner" passive="#pe_luetgendorff"/>
             <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_luetgendorff"/>
          </listRelation>
       </body>
-  </text>
+   </text>
 </TEI>

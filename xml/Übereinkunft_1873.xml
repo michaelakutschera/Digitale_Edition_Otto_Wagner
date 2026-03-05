@@ -98,7 +98,8 @@
             </list>
          </div>
          <div type="text">
-            <p> Die Gefertigten haben sich vereinigt<lb/> eine Eingabe an die <orgName>
+            <p> Die Gefertigten haben sich vereinigt<lb/>
+               eine Eingabe an die <orgName>
                   <choice>
                      <orig>Commune</orig>
                      <reg>Kommune</reg>
@@ -128,9 +129,9 @@
             <p> Sie haben sich geeinigt über die <choice>
                   <orig>Verthei¬<lb break="no" rend="hypen"/>lung</orig>
                   <reg>Verteilung</reg>
-               </choice> des etwaigen <!--"wie" Nicht sicher was da wirklich steht--> immer Namen
-               habenden,<lb/> aus diesem Geschäfte entstehenden Gewinnes, durch<lb/> folgende
-               Repartition, welche bei allen spätern Em¬<lb/> missionen ebenfalls in Anwendung zu
+               </choice> des etwaigen wie immer Namen
+               habenden,<lb/> aus diesem Geschäfte . entstehenden Gewinnes, durch<lb/> folgende
+               Repartition, welche bei allen spätern Em.<lb/> missionen ebenfalls in Anwendung zu
                kommen<lb/> hat, und zwar: </p>
          </div>
          <div type="table">
@@ -144,7 +145,6 @@
                      <measure type="share" quantity="70" unit="percent">70 %</measure>
                   </cell>
                </row>
-
                <row>
                   <cell><persName ref="personen.xml#pe_zichy"><roleName type="nobility">
                            <choice>
@@ -178,30 +178,30 @@
                </row>
             </table>
          </div>
-         <fw type="library-stamp" rend="middle-right ink-dark-blue"> Wiener Stadtbibliothek<gap
-               reason="illegible"/>
+         <fw type="library-stamp" rend="middle-right ink-dark-blue"> Wiener <gap reason="illegible"/>
          </fw>
          <div type="text">
             <p> An den eventuellen Verlusten <choice>
                   <orig>articipiren</orig>
                   <reg>antizipieren</reg>
-               </choice><lb/> die Genannten in denselben Verhältnissen, mit Aus¬<lb/> nahme, daß
+               </choice><lb/> die Genannten in denselben Verhältnissen, mit Aus.<lb/> nahme, daß
                   <persName ref="personen.xml#pe_wagner"><roleName type="honorific"
                   >Herr</roleName>Otto Wagner</persName> von jedem Verluste <lb/> freigehalten wird,
                und dagegen die andern <choice>
-                  <orig>Par¬ <lb break="no" rend="hypen"/>ticipienten</orig>
+                  <orig>Par. <lb break="no" rend="hypen"/>ticipienten</orig>
                   <reg>Partizipienten</reg>
                </choice> pro rata ihrer <choice>
                   <orig>Betheiligungen</orig>
                   <reg>Beteiligung</reg>
                </choice> belastet <lb/> werden. Ebenso verhält es sich bezüglich des <persName
-                  ref="personen.xml#pe_wagner"><roleName type="honorific">Herr</roleName><lb/>
+                  ref="personen.xml#pe_wagner"><roleName type="honorific">Herrn</roleName><lb/>
                   Wagner </persName> wegen eventueller Einzalung; dagegen hat <lb/>
                <persName ref="personen.xml#pe_wagner"><roleName type="honorific">Herr</roleName>
                   Wagner </persName>bei gewinnbringender Durchführung <lb/> des <choice>
                   <orig>Projects</orig>
                   <reg>Projekts</reg>
-               </choice> die im Maximalbetrage von s. 10000.-<lb/> sage Zehntausend Gulden sich
+                  </choice> die im Maximalbetrage von  <measure type="currency" unit="florin">f. 10000.-</measure><lb/>
+               sage <measure type="currency" unit="florin">Zehntausend Gulden</measure> sich
                belaufenden Anferti¬<lb/> gungskosten des <choice>
                   <orig>Projects</orig>
                   <reg>Projekts</reg>
@@ -225,21 +225,24 @@
                   <orig>Theilnehmern</orig>
                   <reg>Teilnehmern</reg>
                </choice>,<lb/> mit Ausnahme des <persName ref="personen.xml#pe_wagner"><roleName
-                     type="honorific">Herrn </roleName><lb/> Otto Wagner </persName>(wel¬<lb/> chem
-               seine 10% gesichert bleiben) zu tragen. Hie¬<lb/> bei ist ausdrücklich zu bemerken,
+                  type="honorific">Herrn </roleName><lb/> Otto Wagner </persName>/:wel¬<lb/> chem
+               seine <measure quantity="10" unit="percent">10 %</measure> gesichert bleiben:/ zu tragen.<choice>
+                  <orig>Hir¬</orig>
+                  <reg>Hier</reg>
+               </choice><lb/> bei ist ausdrücklich zu bemerken,
                daß durch die¬<lb/> se Abgaben die <choice>
                   <orig>Antheile</orig>
                   <reg>Anteile</reg>
                </choice> der <persName ref="personen.xml#pe_melingo">
                   <roleName type="honorific">Herren</roleName> Melingo</persName> &amp;<lb/>
-               <persName ref="personen.xml#pe_scheyrer">Scheyrer</persName> für jeden nicht unter 8% <choice>
+               <persName ref="personen.xml#pe_scheyrer">Scheyrer</persName> für jeden nicht unter <measure quantity="8" unit="percent">8 %</measure><choice>
                   <orig>reducirt</orig>
                   <reg>reduziert</reg>
                </choice> wer¬<lb/> den können. </p>
             <p> Wenn das <choice>
                   <orig>Project</orig>
                   <reg>Projekt</reg>
-               </choice> zur Ausführung kom¬<lb/> men wird, wird unter den <choice>
+               </choice> zur Ausführung kom.<lb/> men wird, wird unter den <choice>
                   <orig>Theilhabern</orig>
                   <reg>Teilhabern</reg>
                </choice>, ein<lb/> rechtskräftiger Vertrag ausgefertigt. Bis zu die¬<lb/> ser Zeit

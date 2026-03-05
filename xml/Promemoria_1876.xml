@@ -37,12 +37,14 @@
       </surface>
       <surface xml:id="pm1876_p2" n="2">
          <graphic url="Promemoria_1876.pdf#page=2"/>
+         <note>Rückseite von Seite 1.</note>
       </surface>
       <surface xml:id="pm1876_p3" n="3">
          <graphic url="Promemoria_1876.pdf#page=3"/>
       </surface>
       <surface xml:id="pm1876_p4" n="4">
          <graphic url="Promemoria_1876.pdf#page=4"/>
+         <note>Rückseite von Seite 3</note>
       </surface>
 
       <surface xml:id="pm1876_p5" n="5">
@@ -61,8 +63,8 @@
          </div>
 
          <div type="text">
-            <p> Nach Vollendung meiner Studien in der <orgName ref="organisationen.xml#org_bba"
-                     >Bau¬<lb break="no"/>Akademie</orgName> in <placeName ref="orte.xml#pl_berlin"
+            <p> Nach Vollendung meiner Studien in der <orgName ref="organisationen.xml#org_bba">
+               Bau¬<lb break="no"/>Akademie</orgName> in <placeName ref="orte.xml#pl_berlin"
                   >Berlin</placeName> und der <orgName ref="organisationen.xml#org_abkw">Akademie
                   der bildenden <lb break="no"/>Künste</orgName> in <placeName
                   ref="orte.xml#pl_wien">Wien</placeName> trat ich im Jahre <date when="1862"
@@ -81,11 +83,12 @@
                      <orig>Cursaal-</orig>
                      <reg>Kursaal-</reg>
                   </choice>Gebäude</placeName> in <placeName ref="orte.xml#pl_wien"
-               >Wien</placeName>, die Jury gab meinem<lb/> Projekte mit Stimmeneinheligkeit den
+               >Wien</placeName>. die Jury gab meinem<lb/> Projekte mit Stimmeneinheligkeit den
                Ersten<lb/> Preis, dennoch wurde die Ausführung des<lb/> Baues trotz wärmster
                Fürsprache meines<lb/> Lehrers weiland <persName ref="personen.xml#pe_sicardsburg"
                      ><roleName type="academic">Professor</roleName> Sicardsburg</persName>
-               anderweitig<lb/> vergeben. </p>
+               anderweitig<lb/> vergeben.
+            </p>
             <p> Einen gleich günstigen Erfolg hatte meine<lb/>
                <choice>
                   <orig>Betheiligung</orig>
@@ -93,14 +96,16 @@
                </choice> an der großen <choice>
                   <orig>Concurrenz</orig>
                   <reg>Konkurrenz</reg>
-               </choice> für<lb/> den <placeName ref="orte.xml#pl_bd">Berliner-Dom</placeName>,
+               </choice> für<lb/> den <placeName ref="orte.xml#pl_bd">Berliner=Dom</placeName>,
                eines <choice>
                   <orig>Concurses</orig>
                   <reg>Konkurses</reg>
                </choice>, aus<lb/> welchem ich als der einzig preisgekrönte<lb/>
-               <placeName ref="orte.xml#pl_wien">Wiener-</placeName>Architekt hervorging. </p>
-            <p> Eine größere Anzahl Aufträge be-<lb/> schäftigte mich bis in das Jahr <date
-                  when="1868">1868</date>, darunter: </p>
+               <placeName ref="orte.xml#pl_wien">Wiener=</placeName>Architekt hervorging.
+            </p>
+            <p>
+               Eine größere Anzahl Aufträge be-<lb/>
+               schäftigte mich bis in das Jahr <date when="1868">1868</date>, darunter: </p>
          </div>
 
          <pb n="2" facs="#pm1876_p2"/>
@@ -108,28 +113,46 @@
             <p> Die <choice>
                   <orig>landwirthschaftliche</orig>
                   <reg>landwirtschaftliche</reg>
-               </choice> Ausstellung für Sr. Pais. <lb/>
-               <!-- Ich weiß nicht was das sein soll... -->
-               <persName ref="personen.xml#pe_habsburg"><roleName type="honorific">Hoheit
-                     </roleName><roleName type="nobility">Erzherzog</roleName> Albrecht</persName>,
-               wofür mir wiederholte<lb/> höchst schmeigelhafte Zuschriften von Seite der<lb/>
-               <orgName ref="orte.xml#pl_hk">Erzherzgl. Hofkanzlei</orgName> zu <choice>
+               </choice> Ausstellung für <persName ref="personen.xml#pe_habsburg"><roleName
+                     type="honorific">
+                     <choice>
+                        <abbr>Ser.</abbr>
+                        <!-- Serenissimus (lateinisch für „der Durchlauchtigste“) war bis ins 19. Jahrhundert eine formelle Anrede für 
+                           regierende Fürsten, Herzöge oder Kurfürsten. -->
+                        <expan>Serenissimus</expan>
+                     </choice>
+                     <choice>
+                        <abbr>kais.</abbr>
+                        <expan>kaiserlichen</expan>
+                     </choice>Hoheit</roleName><lb/>
+                  <roleName type="nobility">Erzherzog</roleName> Albrecht</persName>, wofür mir
+               wiederholte<lb/> höchst schmeichelhafte Zuschriften von Seite der<lb/>
+               <orgName ref="orte.xml#pl_hk"><choice>
+                     <abbr>Erzherzgl.</abbr>
+                     <expan>Erzherzöglichen</expan>
+                  </choice> Hofkanzlei</orgName> zu <choice>
                   <orig>Theil</orig>
                   <reg>Teil</reg>
-               </choice> wurden, ferner der<lb/> Bau der Villa in <placeName ref="orte.xml#pl_baden"
-                  >Baden</placeName> gegenwärtig im Besitze<lb/>
-               <persName ref="personen.xml#pe_rainer">Ser. <roleName type="honorific">kais. Hoheit
-                     </roleName><roleName type="nobility">Erzherzog </roleName>Rainer</persName>,
-               sowie die<lb/>
-               <!-- Ser. ist nicht ganz klar, könnte auch etwas anders heißen.--> Ausführung des
-                  <placeName ref="orte.xml#pl_pe">Palais Epstein</placeName> am <placeName
-                  ref="orte.xml#pl_br">Burgring</placeName><lb/> etc. etc: </p>
+               </choice> wurden, ferner der<lb/> Bau der Villa in <placeName ref="orte.xml#pl_baden">Baden</placeName>gegenwärtig im Besitze<lb/>
+               <persName ref="personen.xml#pe_rainer"><roleName type="honorific">
+                     <choice>
+                        <abbr>Ser.</abbr>
+                        <expan>Serenissimus</expan>
+                     </choice>
+                     <choice>
+                        <abbr>kais.</abbr>
+                        <expan>kaiserlichen</expan>
+                     </choice>Hoheit </roleName><roleName type="nobility">Erzherzog
+                  </roleName>Rainer</persName>, sowie die<lb/> Ausführung des <placeName
+                  ref="orte.xml#pl_pe">Palais Epstein</placeName> am <placeName ref="orte.xml#pl_br">
+                     Burgring</placeName><lb/> etc. etc.
+            </p>
 
             <p> Nebst größeren Privatbauten in <placeName ref="orte.xml#pl_wien">Wien</placeName> und<lb/>
                <placeName ref="orte.xml#pl_pest">Pest</placeName>, darunter Schloßbau des <persName
-                  ref="personen.xml#pe_mocsongi"><roleName type="honorific">>Herr</roleName> von
+                  ref="personen.xml#pe_mocsongi"><roleName type="honorific">Herr</roleName> von
                   Mocsongi</persName><lb/> in <placeName ref="orte.xml#pl_kapolna"
-                  >Kapo,lnas</placeName>, welche zusammen circa <measure type="money" unit="million"
+                  >Kapolnas</placeName>, welche zusammen circa <measure type="money" unit="million"
                      ><num value="2.5">2 ½/</num>Millionen</measure><lb/> Bankosten <choice>
                   <orig>repräsentiren</orig>
                   <reg>repräsentieren</reg>
@@ -137,57 +160,79 @@
                der neuen <placeName ref="orte.xml#pl_sru">Synagoge</placeName> in<lb/>
                <placeName ref="orte.xml#pl_pest">Pest</placeName> betraut, eines Bauwerkes dessen selbst<lb/>
                <roleName type="profession">Kunsthistoriker </roleName><persName
-                  ref="personen.xml#pe_luebke">Lübke</persName> sehr lobend erwähnt.<lb/> An meine <choice>
+                  ref="personen.xml#pe_luebke">Lübke</persName> sehr lobend erwähnt.
+               </p>
+            <p>An meine <choice>
                   <orig>Thätigkeit</orig>
                   <reg>Tätigkeit</reg>
                </choice> schließen sich nun<lb/> mehrere Privatbauten und die Arbeiten für<lb/> die
-                  <rs type="event" ref="events.xml#e_wa_1873">Welt- Ausstellung</rs> in <placeName
-                  ref="orte.xml#pl_wien">Wien</placeName>, worunter die<lb/> für die <orgName>kais.
-                  russische Commission</orgName> ausgeführten<lb/> Aufgaben, für welche ich mit dem
-                  <persName>H. Stanislaus¬</persName><lb/> Orden II. <choice>
+                  <rs type="event" ref="events.xml#e_wa_1873">Welt=Ausstellung</rs> in <placeName
+                  ref="orte.xml#pl_wien">Wien</placeName>, worunter die<lb/> für die 
+               <orgName>
+                  <choice>
+                     <abbr>kais.</abbr>
+                     <expan>kaiserlich</expan>
+                  </choice>
+                  russische Commission</orgName>
+               ausgeführten<lb/>
+               Aufgaben, für welche ich mit dem <rs type="honour">St. Stanislaus¬
+                  <lb/> Orden II.</rs> <choice>
                   <orig>Classe</orig>
                   <reg>Klasse</reg>
-               </choice> ausgezeichnet wurde.<lb/> In diese Zeit fällt die von mir zuerst<lb/>
-               gebrachte Idee der <placeName ref="orte.xml#pl_wf">Wienfluss-</placeName>Ableitung
-               und<lb/> Herstellung eines Boulevards bis <placeName ref="orte.xml#pl_ssb">Schloß
-                  Schönbrunn</placeName>,<lb/> ein Projekt, welches den ungünstigen Zeitver¬<lb/>
-               hältnißen wenigstens vor der Hand weichen<lb/> mußte. </p>
+               </choice> ausgezeichnet wurde.
+            </p>
+            <p>
+               In diese Zeit fällt die von mir zuerst<lb/>
+               gebrachte Idee der <placeName ref="orte.xml#pl_wf">Wienfluss=</placeName>Ableitung und<lb/>
+               Herstellung eines Boulevards bis <placeName ref="orte.xml#pl_ssb">Schloß
+                  Schönbrunn</placeName>,<lb/>
+               ein Projekt, welches den ungünstigen Zeitver¬<lb/>
+               hältnißen wenigstens vor der Hand weichen<lb/>
+               mußte. </p>
             <fw type="library-stamp" rend="bottom-center ink-violet"> Wiener Stadtbibliothek </fw>
          </div>
+         
          <pb n="3" facs="#pm1876_p3"/>
          <div type="text">
-            <p> In neuester Zeit führte ich größere Neubauten<lb/> in <placeName
-                  ref="orte.xml#pl_wien">Wien</placeName> aus, wie der <placeName
-                  ref="orte.xml#pl_gh">Graben-Hof</placeName> (Haus mit den<lb/> rothen Säulen am
+            <p> In neuester Zeit führte ich größere Neubauten<lb/>
+               in <placeName ref="orte.xml#pl_wien">Wien</placeName> aus, wie der <placeName
+                  ref="orte.xml#pl_gh">Graben-Hof</placeName> (Haus mit den<lb/>
+               <choice>
+                  <orig>rothen</orig>
+                  <reg>roten</reg>
+               </choice> Säulen am
                   <placeName ref="orte.xml#pl_gr">Graben</placeName>) für die <orgName
-                  ref="organisationen.xml#org_oembg">Oesterr. <choice>
-                     <orig>Militair</orig>
-                     <reg>Militär</reg>
-                  </choice>¬<lb break="no"/> Baugesellschaft</orgName>, sowie die <choice>
+                  ref="organisationen.xml#org_oembg"> <choice>
+                     <abbr>Oesterr.</abbr>
+                     <expan>Österreichische</expan>
+                  </choice><choice>
+                     <orig>Militair¬</orig>
+                     <reg>Militär¬</reg>
+                  </choice><lb break="no"/> Baugesellschaft</orgName>, sowie die <choice>
                   <orig>Sgrafitto-</orig>
                   <reg>Sgrafito-</reg>
                </choice>Häuser am<lb/>
                <placeName ref="orte.xml#pl_bm">Bauernmarkt</placeName> für die <orgName
                   ref="organisationen.xml#org_sbg">Stadt-Baugesellschaft</orgName><lb/> und viele
-               Andere. </p>
-            <p> Ich erwähne noch der Erfolge, welche ich bei meinen<lb/> jüngsten <choice>
+               Andere.
+            </p>
+            <p> 
+               Ich erwähne noch die Erfolge, welche ich bei meinen<lb/> jüngsten <choice>
                   <orig>Concurrenzen</orig>
                   <reg>Konkurrenzen</reg>
                </choice> hatte: So wurde mein<lb/> Projekt für den
-                  <placeName>Justiz-Palast</placeName> vom <orgName ref="organisationen.xml#org_jm"
-                  >Justiz Ministerium</orgName><lb/>
-               <!--Noch nicht in Organisationen eingetragen, was mache ich mit Orten die keine wd nummer haben?-->
-               angekauft und erhielt ich bei der <choice>
+                  <placeName ref="orte.xml#pl_jp">Justiz-Palast</placeName> vom <orgName ref="organisationen.xml#org_jm"
+                  >Justiz Ministerium</orgName><lb/> angekauft und erhielt ich bei der <choice>
                   <orig>Concurrenz</orig>
                   <reg>Konkurrenz</reg>
-               </choice><lb/> für das <placeName>Landtags-Gebäude</placeName> in <placeName
+               </choice><lb/> für das <placeName ref="orte.xml#pl_lg">Landtags-Gebäude</placeName> in <placeName
                   ref="orte.xml#pl_lemberg">Lemberg</placeName> den<lb/>
                <num value="2">II.</num> Preis. Einen sehr großen Erfolg errang ich<lb/> bei meiner
                letzten <choice>
                   <orig>Concurrenz</orig>
                   <reg>Konkurrenz</reg>
                </choice>,<ref type="marginMarker" target="#m1">T</ref><add xml:id="m1"
-                  place="margin">T Pläne für den Rathausbau in <placeName ref="orte.xml#pl_hamburg"
+                  place="margin">T Pläne für den <placeName ref="orte.xml#pl_rhb">Rathausbau</placeName> in <placeName ref="orte.xml#pl_hamburg"
                      >Hamburg</placeName></add> indem ich bei der<lb/> größten <choice>
                   <orig>Concurrenz</orig>
                   <reg>Konkurrenz</reg>
@@ -203,10 +248,11 @@
                   <reg>motivierten</reg>
                </choice> diesbezüglichen Gutachtens der Jury und<lb/> einen Ausspruch des <persName
                   ref="personen.xml#pe_schmidt"><roleName type="honorific">Herrn</roleName>
-                  <roleName type="office">Ober- <choice>
+                  <roleName type="office">Ober= <choice>
                         <orig>Baurathes</orig>
                         <reg>Baurates</reg>
-                     </choice></roleName> Schmidt</persName><lb/> über mein Werk anzuführen: </p>
+                     </choice></roleName> Schmidt</persName><lb/> über mein Werk anzuführen: 
+            </p>
             <p> Die Jury sagt:<q> die Bildung der <choice>
                      <orig>Außenarhitektur</orig>
                      <reg>Außenarchitektur</reg>
@@ -217,7 +263,8 @@
                   Leistung der <choice>
                      <orig>Concurrenz</orig>
                      <reg>Konkurrenz</reg>
-                  </choice> bezeichnet werden.<lb/></q>
+                  </choice> bezeichnet werden."
+            </q>
                <persName ref="personen.xml#pe_schmidt"><roleName type="office"><choice>
                         <orig>Oberbaurath</orig>
                         <reg>Oberbaurat</reg>
@@ -225,18 +272,16 @@
             </p>
          </div>
          <pb n="4" facs="#pm1876_p4"/>
-         <div type="text">
-            <p>
-               <q>eingeschlagene Richtung stets mit dem größten Interesse verfolgt und finde in
-                  dieser Ihrer neuesten Arbeit jenen Zug von Großartigkeit wieder, welcher alle Ihre
-                  Werke auszeichnet." </q>
-             </p>
+         <div type="text">            
+               <q>eingeschlagene Richtung stets mit dem größten <lb/>
+                  Interesse verfolgt und finde in dieser Ihrer  <lb/>
+                  neuesten Arbeit jenen Zug von Großartigkeit <lb/>
+                  wieder, welcher alle Ihre Werke auszeichnet." </q>
          </div>
          <closer>
             <dateline>
-               <placeName ref="orte.xml#pl_wien">Wien</placeName>, im 
-               <date when="1876-11">November 1876</date>.
-            </dateline>
+               <placeName ref="orte.xml#pl_wien">Wien</placeName>, im <date when="1876-11">November
+                  1876</date>. </dateline>
             <signed rend="ink-violet">
                <persName ref="personen.xml#pe_wagner">Otto Wagner</persName><lb/>
                <placeName ref="orte.xml#pl_wien">Wien</placeName>

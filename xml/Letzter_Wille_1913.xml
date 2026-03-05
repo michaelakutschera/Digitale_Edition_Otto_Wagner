@@ -43,7 +43,7 @@
       </surface>
       <surface xml:id="lw1913_p4" n="4">
          <graphic url="Letzter_Wille_1913.pdf#page=4"/>
-         <note>Rückseite von Seite 2.</note>
+         <note>Rückseite von Seite 2</note>
       </surface>
       <surface xml:id="lw1913_p5" n="5">
          <graphic url="Letzter_Wille_1913.pdf#page=5"/>
@@ -55,7 +55,7 @@
       <body>
          <pb n="1" facs="#lw1913_p1"/>
          <div type="introduction">
-            <fw type="archival" place="top-left" rend="ink-red">I.N. 188. 348</fw>
+            <fw type="archival" place="top-left" rend="ink-red">I.N. 188.348</fw>
             <head>Mein <choice>
                <orig>lezter</orig>
                <reg>letzter</reg>
@@ -71,7 +71,7 @@
                   <orig>Bewustsein</orig>
                   <reg>Bewusstsein</reg>
                </choice> wie folgt:<lb/>
-               Ich ernenne meine <rs type="person" subtype="familial">Kinder</rs> ersten und zweiter Ehe<lb/>
+               Ich ernenne meine <rs type="person" subtype="familial">Kinder</rs> erster und zweiter Ehe<lb/>
                <persName ref="personen.xml'pe_wallisch">Susanne</persName>, <persName ref="personen.xml#pe_ste_wagner">Stefan</persName> 
                <persName ref="personen.xml#pe_watzlawick">Louise</persName> und <persName ref="personen.xml#pe_luetgendorff">Christin</persName><lb/>
                zu Universalerben und <hi rend="underline-green">zwar derart, daß meine<lb/>
@@ -115,10 +115,7 @@
                   <reg>zugleich</reg>
                </choice><lb/>
                daß alles was laut <bibl type="law">§. 788</bibl> des <ref type="law">österreichischen büger¬<lb break="no"/>
-               lichen Gesetzbuches</ref> eingerechnet werden <choice>
-                  <orig>konnte</orig>
-                  <corr>könnte</corr>
-               </choice> in den<lb/>
+               lichen Gesetzbuches</ref> eingerechnet werden kann in den <lb/>
                <choice>
                   <orig>Pflichtheil</orig>
                   <reg>Pflichtteil</reg>
@@ -159,8 +156,8 @@
             <p>
                Urkund dessen habe ich dieses Testament<lb/>
                vollinhaltlich eigenhändig geschrieben und<lb/>
-               in Anwesenheit zweier <persName ref="personen.xml#pe_zimmermann #pe_dau"><!-- Name --><roleName type="witness"/>Zeugen</persName> unterfertigt<lb/>
-               und etwaigen <gap reason="illegible"/> anzulegen, will<lb/>
+               in Anwesenheit zweier <persName ref="personen.xml#pe_zimmermann #pe_dau"><!-- Name --><roleName type="witness"/>Zeugen</persName> unterfertigt.<lb/>
+               Und etwaigen <gap reason="illegible"/> anzulegen, will<lb/>
                ich zum Schlusse noch ausdrücklich erklären, daß<lb/>
                alle Möbel <choice>
                   <orig>Geräthe</orig>
@@ -200,7 +197,7 @@
                
             <div type="attestation">
                <dateline>
-                  <placeName ref="orte.xml#pl_wien">Wien</placeName>, am <date when="1913-01-22">22 Jänner 1913</date>
+                  <placeName ref="orte.xml#pl_wien">Wien</placeName>, <date when="1913-01-22">22 Jänner 1913</date>
                </dateline>
                
                <signed><persName ref="personen.xml#pe_zimmermann">Adalbert Zimmermann</persName> als Zeuge.

@@ -58,7 +58,7 @@
       <body>
          <pb n="1" facs="#pro1873_p1"/>
          <div type="introduction">
-            <fw type="archival" place="top-left" rend="ink-red">I.N. 194. 906</fw>
+            <fw type="archival" place="top-left" rend="ink-red">I.N. 194.906</fw>
             <head>
                <choice>
                   <orig>Protocoll</orig>
@@ -72,11 +72,15 @@
                   <roleName type="honorific">Herrn</roleName><lb/>
                   <roleName type="nobility">Baron</roleName>Fr. von Schey</persName>abgehaltenen
                Sitzung<lb/> in <orgName ref="organisationen.xml#org_wal">Wienableitungs &amp;
-                  Localbahnen</orgName><lb/>
+                  <choice>
+                     <orig>Localbahnen</orig>
+                     <reg>Lokalbahnen</reg>
+                  </choice></orgName><lb/>
                <choice>
                   <orig>Projects=Angelegenheiten</orig>
                   <reg>Projektangelegenheiten</reg>
-               </choice>. </p>
+               </choice>.
+            </p>
          </div>
 
          <div type="attendees">
@@ -137,10 +141,9 @@
                </choice> werden folgenderweise festgesetzt:</p>
             <table>
                <row>
-                  <!-- &#160 -> Geschütztes Leerzeichen vor dem %-->
                   <cell><orgName ref="organisationen.xml#org_ca"><choice>
                            <orig>Credit-Anstalt</orig>
-                           <reg>Creditanstalt</reg>
+                           <reg>Kreditanstalt</reg>
                         </choice></orgName></cell>
                   <cell><measure type="share" quantity="40" unit="percent">40 %</measure></cell>
                </row>
@@ -192,7 +195,7 @@
                <speaker><persName ref="personen.xml#pe_schwarz"><roleName type="nobility"
                         >Baron</roleName> Schwarz</persName></speaker>
                <p>stellt den Antrag, für den Fall,<lb/>
-                  <fw type="library-stamp" rend="middle-right ink-dark-blue"> Wiener Stadtbibliothek
+                  <fw type="library-stamp" rend="middle-right ink-dark-blue"> Wiener Stadt
                         <gap reason="illegible"/>
                   </fw> als die <choice>
                      <orig>Betheiligung</orig>
@@ -202,13 +205,14 @@
                   angenommen wird,<lb/> daß diese <choice>
                      <orig>Betheiligung</orig>
                      <reg>Beteiligung</reg>
-                  </choice> pro rata<lb/> von allen Theilnehmern getra¬<lb break="no"/> gen werde,
-                  selbstverständlich auch<lb/> vom <choice>
+                  </choice> pro rata<lb/>
+                  <hi rend="underline-black">von allen Theilnehmern</hi> getra¬<lb break="no"/>
+                  gen werde, selbstverständlich auch<lb/> vom <choice>
                      <orig>Antheile</orig>
                      <reg>Anteile</reg>
                   </choice> der <orgName ref="organisationen.xml#or_ca"><choice>
                         <orig>Credit-Anstalt</orig>
-                        <reg>Creditanstalt</reg>
+                        <reg>Kreditanstalt</reg>
                      </choice></orgName>.<lb/> Der <choice>
                      <orig>Antheil</orig>
                      <reg>Anteil</reg>
@@ -219,12 +223,16 @@
          </div>
 
          <div type="text">
-            <p>Dieser Antrag wird angenommen. Es wird beschloßen, daß <persName
+            <p>Dieser Antrag wird angenommen.</p>
+            <p>Es wird <choice>
+               <orig>beschloßen</orig>
+               <reg>beschlossen</reg>
+            </choice>, daß <persName
                   ref="personen.xml#pe_schwarz"><roleName type="honorific">Herr</roleName>
                   <roleName type="nobility">Baron</roleName>Schwarz</persName> die<lb/>
                Unterhandlungen mit der <orgName ref="organisationen.xml#org_ca"><choice>
                      <orig>Credit-Anstalt</orig>
-                     <reg>Creditanstalt</reg>
+                     <reg>Kreditanstalt</reg>
                   </choice></orgName> leiten<lb/> wird, und daß <persName
                   ref="personen.xml#pe_wagner"><roleName type="honorific">Herr</roleName>Otto
                   Wagner</persName>
@@ -238,13 +246,33 @@
          <div type="speaker">
             <sp>
                <speaker><persName ref="personen.xml#pe_wagner">Otto Wagner</persName></speaker>
-               <p>Es wird beschloßen mit der Repartirung der Aus¬<lb break="no"/>lagen bis zum def.
-                  Beitritt <orgName ref="organisationen.xml#or_ca">der Credit-Anstalt</orgName><lb/>
+               <p><choice>
+                  <orig>theilt</orig>
+                  <reg>teilt</reg>
+               </choice> mit, daß <persName ref="personen.xml#pe_loewentahl"><roleName type="nobility">Baron</roleName> Löwentahl</persName><lb/>
+                  vom <orgName ref="organisationen.xml#org_gr"><choice>
+                     <orig>Gemeinderath</orig>
+                     <reg>Gemeinderat</reg>
+                  </choice></orgName> als Referent<lb/>
+                  gewählt wurde.</p>
+               
+               
+               <p>Es wird beschloßen mit der <choice>
+                  <orig>Repartirung</orig>
+                  <reg>Repartierung</reg>
+               </choice> der Aus¬<lb break="no"/>lagen bis zum <choice>
+                  <abbr>def.</abbr>
+                  <expan>definitiven</expan>
+               </choice>
+                  Beitritt <orgName ref="organisationen.xml#or_ca">der <choice>
+                     <orig>Credit-Anstalt</orig>
+                     <reg>Kreditanstalt</reg>
+                  </choice></orgName><lb/>
                   zu warten, dem <persName ref="personen.xml#pe_schwarz"><roleName type="honorific"
                         >Herrn</roleName>
                      <roleName type="nobility">Baron</roleName>Schwarz</persName> aber seine<lb/> in <choice>
                      <orig>Projectsangelegenheiten</orig>
-                     <reg>Projektangelegenheiten</reg>
+                     <reg>Projektsangelegenheiten</reg>
                   </choice> gemachten Auslagen<lb/> zu vergüten.</p>
             </sp>
          </div>
@@ -258,7 +286,7 @@
                </choice>
             </signed>
 
-            <signed><persName ref="personen.xml#pe_schwarz">Carl. Schwarz</persName><choice>
+            <signed><persName ref="personen.xml#pe_schwarz">Carl v Schwarz</persName><choice>
                   <abbr>m/p</abbr>
                   <expan>manu propria</expan>
                </choice>

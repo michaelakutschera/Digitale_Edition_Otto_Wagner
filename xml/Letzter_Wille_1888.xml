@@ -51,7 +51,7 @@
       <body>
          <pb n="1" facs="#lw1888_p1"/>
          <div type="introduction">
-            <fw type="archival" place="top-left" rend="ink-red">I. N. 188. 349</fw>
+            <fw type="archival" place="top-left" rend="ink-red">I.N. 188.349</fw>
             <head>Mein letzter Wille!</head>
          </div>
 
@@ -63,10 +63,8 @@
                <choice>
                   <orig>testire</orig>
                   <reg>testiere</reg>
-               </choice>ich, bei vollem,<choice>
-                  <orig>wa¬<lb break="no"/>ren</orig>
-                  <reg>wahren</reg>
-               </choice>
+               </choice>ich, bei vollem,
+                  kla¬<lb/>ren                  
                <choice>
                   <orig>Bewußtsein</orig>
                   <reg>Bewusstsein</reg>
@@ -93,7 +91,8 @@
                   <orig>Auftheilung</orig>
                   <reg>Aufteilung</reg>
                </choice> meiner <rs type="person" subtype="familial">Tochter</rs><persName
-                  ref="personen.xml#pe_wallisch">Susanne</persName> in<lb/> Abzug gebracht werden. </p>
+                  ref="personen.xml#pe_wallisch">Susanne</persName> in<lb/> Abzug gebracht werden.
+            </p>
             <p> Mein gesammtes Mobiliar ist <choice>
                   <orig>Eigenthum</orig>
                   <reg>Eigentum</reg>
@@ -101,8 +100,10 @@
                   >Louise</persName>, welcher ich <choice>
                   <orig>dieß</orig>
                   <reg>dies</reg>
-               </choice> Alles schon bei<lb/> Lebzeiten geschenkt habe. </p>
-            <p> Meine <rs type="person" subtype="familial">Frau</rs>
+               </choice> Alles schon bei<lb/> Lebzeiten geschenkt habe.
+            </p>
+            <p> 
+               Meine <rs type="person" subtype="familial">Frau</rs>
                <persName ref="personen.xml#pe_lou_wagner">Louise</persName>, welche so lange ich
                lebte, für<lb/> mich der Inbegriff aller Liebe und Tugenden war,<lb/> 
                hat so lange sie lebt den Fruchtgenuß meines ge¬<lb/>
@@ -110,7 +111,8 @@
                daß<lb/> sie <choice>
                   <orig>hievon</orig>
                   <reg>hiervon</reg>
-               </choice> den besten Gebrauch machen wird. </p>
+               </choice> den besten Gebrauch machen wird. 
+            </p>
             <p> Ich wünsche und befehle es, daß alle meine <rs type="person" subtype="familial">Kinder</rs>,<lb/> sich den Anordnungen meiner lieben <rs type="person"
                   subtype="familial">Frau</rs> unbe¬<lb/>
                dingt fügen, weil ich sonst hiermit das dawiderhan¬<lb/>
@@ -147,7 +149,9 @@
                   <choice>
                   <orig>placirt</orig>
                   <reg>plaziert</reg>
-               </choice> zu sein.</hi><lb/>
+               </choice> zu sein.</hi>
+               </p>
+            <p>
                Meine beiden außerehelichen <rs type="person" subtype="familial">Kinder</rs> <persName ref="personen.xml#pe_ott_wagner">Otto</persName> und<lb/>
                <persName ref="personen.xml#pe_rob_wagner">Robert Wagner</persName> empfehle ich der Strenge und dem<lb/>
                Wohlwollen meiner lieben <rs type="person" subtype="familial">Frau</rs>. 
@@ -155,19 +159,22 @@
             
             <p> 
                Übrigens verordne ich, daß alle Anordnungen<lb/>
-               welche ich in diesem meinen Testamente getroffen<lb/>
+               welche ich in diesem meinen Testamente getroffen,<lb/>
                nach <ref type="law">österreichischem Rechte</ref>
                <choice>
                   <orig>beurtheilt</orig>
                   <reg>beurteilt</reg>
                </choice> werden sol¬<lb/>
-               hen und daß <persName ref="personen.xml#pe_teltscher"><roleName type="honorific">Herr Dr.</roleName><abbr>Leop.</abbr><expan>Leopold</expan> Teltscher</persName> Hof und Ge¬<lb/>
+               hen und daß <persName ref="personen.xml#pe_teltscher"><roleName type="honorific">Herr Dr.</roleName><choice>
+                  <abbr>Leop.</abbr>
+                  <expan>Leopold</expan>
+               </choice> Teltscher</persName> Hof und Ge¬<lb/>
                richtsadvocat in <placeName ref="orte.xml#pl_wien">Wien</placeName> mit der Durchführung<lb/>
                betraut werde. 
             </p>
             <p>
                Urkund dessen habe ich dieses Testament, voll¬<lb/>
-               inhaltlich eigenhändig geschrieben gleich¬<lb/>
+               inhaltlich eigenhändig geschrieben in <gap reason="illegible"/> gleich¬<lb/>
                zeitiger Anwesenheit zweier hohen <persName ref="personen.xml#pe_rernt pe_schoenthal"><roleName type="witness"/>Zeugen</persName><lb/>
                eigenhändig gefertigt. </p>
          </div>
@@ -242,13 +249,12 @@
          <fw type="library-stamp" place="bottom-center" rend="ink-dark-violet"> Wiener Stadtbibliothek </fw>
          
          <pb n="3" facs="#lw1888_p3"/>
-         <div type="text">
-            <p>Theyer <lb/>
+         <fw type="shownThrough" place="center">
+            Theyer <lb/>
                &amp;<lb/>
                Hardtmuth<lb/>
-               Wien</p>
-       <!-- Ist nur der Durchdruck von der Rückseite dieser Seite, wie gibt man das eigentlich korrekt an? -->
-         </div>
+               Wien
+         </fw>
          
          <pb n="4" facs="#lw1888_p4"/>
          <fw type="library-stamp" place="center" rend="ink-dark-violet"> Wiener Stadtbibliothek </fw>

@@ -36,15 +36,19 @@
                      Gefolgt von der Technischen Universität Berlin.</note>    
             </org>
             
+            <org xml:id="org_ca">
+               <name>Creditanstalt</name>
+            </org>
+            
+            <org xml:id="org_gr">
+               <name>Gemeinderat</name>
+            </org>
+            
             <org xml:id="org_hk">
                <name type="historic">Reichshofkanzlei</name>
                <idno type="wd">Q2139504</idno>
                <note>Amtssitz: <placeName ref="orte.xml#pl_hk"/></note>
                <note>Ständige Kanzlei des Heiligen Römischen Reiches.</note>
-            </org>
-            
-            <org xml:id="org_ca">
-               <name>Creditanstalt</name>
             </org>
             
             <org xml:id="org_kh">
@@ -55,27 +59,26 @@
                <note><placeName ref="orte.xml#pl_kh"/></note>
             </org>
             
-            <org xml:id="org_sbg">
-               <name type="historic">Stadt-Baugesellschaft</name>
-               <note>Unklar welche Organisation in Wien gemeint ist.</note>
+            <org xml:id="org_jm">
+               <name>Justizministerium</name>
+               <!-- Vielleicht, vielleicht auch nicht? -->
+               <note>Österreichisches Jusitzministerium im 19. Jahrhundert?</note>
             </org>
             
             <org xml:id="org_oembg">
                <name type="historic">Österreichische Militär-Baugesellschaft</name>
                <note>Unklar welche Organisation genau gemeint ist.</note>
             </org>
-               
-   
             
+            <org xml:id="org_sbg">
+               <name type="historic">Stadt-Baugesellschaft</name>
+               <note>Unklar welche Organisation in Wien gemeint ist.</note>
+            </org>
+                       
             <org xml:id="org_wal">
                <name>Wienableitungs &amp; Localbahnen</name>
-            </org>
-            
- 
-            
-            
+            </org>      
          </listOrg>
-
       </body>
   </text>
 </TEI>
