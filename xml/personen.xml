@@ -36,6 +36,14 @@
       <body>
          <listPerson>
 
+            <person xml:id="pe_aug_wallisch">
+               <persName>
+                  <forename>August</forename>
+                  <surname>Wallisch</surname>
+               </persName>
+               <note>Schwiegersohn von Otto Wagner und Ehemann von Susanne Wallisch.</note>
+            </person>
+
             <person xml:id="pe_domhart">
                <persName>
                   <forename>Josefine</forename>
@@ -44,6 +52,17 @@
                <note>Erste Ehefrau von Otto Wagner.</note>
                <note type="editorial"> Nicht in den Testamenten genannt; zur genealogischen
                   Kontextualisierung ergänzt. </note>
+            </person>
+
+            <person xml:id="pe_eme_wagner">
+               <persName>
+                  <forename>Emerich</forename>
+                  <forename>Adolf</forename>
+                  <surname>Wagner</surname>
+               </persName>
+               <birth when="1839-03-25"/>
+               <death when="1921-09-22"/>
+               <note>Älterer Bruder von Otto Wagner.</note>
             </person>
 
             <person xml:id="pe_foerster">
@@ -92,7 +111,7 @@
                <death when="1905"/>
                <occupation>Eisenwerksbesitzer</occupation>
             </person>
-            
+
             <person xml:id="pe_luebke">
                <idno type="wd">Q90914</idno>
                <persName>
@@ -103,6 +122,17 @@
                <death when="1893-04-05"/>
                <occupation>Kunsthistoriker</occupation>
                <note>Deutscher Kunsthistoriker.</note>
+            </person>
+
+            <person xml:id="pe_lou_wagner">
+               <persName>
+                  <forename>Louise</forename>
+                  <surname>Wagner</surname>
+               </persName>
+               <persName type="variant">Aloisa Josefa Anna</persName>
+               <birth when="1859-09-28"/>
+               <death when="1915-10-26"/>
+               <note>Geborene Stiffel.</note>
             </person>
 
             <person xml:id="pe_luetgendorff">
@@ -137,6 +167,17 @@
                <note>Keine Informationen zu dieser Person bekannt.</note>
             </person>
 
+            <person xml:id="pe_ott_wagner">
+               <persName>
+                  <forename>Otto</forename>
+                  <forename>Emerich</forename>
+                  <surname>Wagner</surname>
+               </persName>
+               <birth when="1864"/>
+               <death when="1945"/>
+               <note>Erster Sohn von Otto Wagner und Sophia Paupie.</note>
+            </person>
+
             <person xml:id="pe_paupie">
                <persName>
                   <forename>Sophia</forename>
@@ -164,36 +205,23 @@
                <note>Österreichischer Erzherzog, Genral, Kunstmäzen und Sammler.</note>
             </person>
 
-            <!-- Ist das der richtige Rothschild? Es wird im Protkoll einer erwähnt und in der Übereinkunft, dort steht er mit J. M. von Rothschild?-->
-            <!--<person xml:id="pe_n.rothschild">
-               <idno type="wd">Q334120</idno>
-               <persName type="reg">
-                  <roleName type="nobility">Baron</roleName>
-                  <forename>Nathan</forename>
-                  <surname>Rothschild</surname>
-               </persName>
-               <persName type="variant">Nathan Rothschild, 1. Baron Rothschild</persName>
-               <persName type="variant">Nathan Rotschild</persName>
-               <persName type="variant">Nathan Mayer Rothschild</persName>
-               <persName type="variant">Natty Rothschild</persName>
-               <note>Baron Nathan Rothschild geboren 1840 und starb 1915 und war ein britisch-jüdischer Bankier und Abgeordneter,
-                  der Kredite auch an das Land Österreich vergab.</note>
-            </person>
-            
-            <person xml:id="pe_m.rothschild">
-               <idno type="wd">Q89219</idno>
-               <persName type="reg">
-                  <roleName type="nobility">Baron</roleName>
-                  <forename>Nathaniel Anselm</forename>
+            <!-- Möglicherweise nicht der richtige Rothschild, ist ein bisschen undurchsichtig aber die Abkürzung im Protkoll S. M. v. Rothschild verweist auf den Vater und nicht auf den Sohn. -->
+            <person xml:id="pe_rothschild">
+               <idno type="wd">Q569582</idno>
+               <persName>
+                  <forename>Anselm</forename>
+                  <forename>Salomon</forename>
                   <nameLink>von</nameLink>
                   <surname>Rothschild</surname>
                </persName>
-               <persName type="variant">Nathaniel Meyer von Rothschild</persName>
-               <persName type="variant">Nathaniel Meyer Freiherr von Rothschild</persName>
-               <persName type="variant">Nataniel Rothschild</persName>
-               <note>Nathaniel Anselm von Rothschild geboren 1836 und starb 1905. Er war ein ötserreichscher Bankier,
-                  Kunstsammler und Philannthrop.</note>
-            </person> -->
+               <persName type="variant">Anselm von Rothschild</persName>
+               <persName type="variant">Anselm Salomon Freiherr von Rothschild</persName>
+               <birth when="1803-01-29"/>
+               <death when="1874-07-27"/>
+               <note>Begründer der Österreichischen Creditanstalt für Handel und Gewerbe. Vater:
+                  Salomon Mayer von Rothschild österreichischer Unternehmner und Bankier
+                  (1774-1855).</note>
+            </person>
 
             <person xml:id="pe_rernt">
                <persName>
@@ -298,18 +326,15 @@
                <note>Hot- und Gerichtsadvokat in Wien.</note>
             </person>
 
-            <person xml:id="pe_wagner" role="main">
-               <idno type="wd">Q84287</idno>
+            <person xml:id="pe_rob_wagner">
                <persName>
-                  <forename>Otto</forename>
+                  <forename>Robert</forename>
+                  <forename>Koloman</forename>
                   <surname>Wagner</surname>
                </persName>
-               <persName type="variant">Otto Colomann Wagner</persName>
-               <persName type="variant">Otto Kolomann Wagner</persName>
-               <birth when="1841-07-13"/>
-               <death when="1918-04-11"/>
-               <occupation>Architekt</occupation>
-               <note>Österreichischer Arichtekt.</note>
+               <birth when="1865"/>
+               <death when="1954"/>
+               <note>Zweiter Sohn von Otto Wagner und Sophia Paupie.</note>
             </person>
 
             <person xml:id="pe_rud_wagner">
@@ -323,50 +348,6 @@
                <note>Vater von Otto und Emerich Wagner.</note>
                <note type="editorial"> Nicht in den Testamenten genannt; zur genealogischen
                   Kontextualisierung ergänzt.</note>
-            </person>
-
-            <person xml:id="pe_eme_wagner">
-               <persName>
-                  <forename>Emerich</forename>
-                  <forename>Adolf</forename>
-                  <surname>Wagner</surname>
-               </persName>
-               <birth when="1839-03-25"/>
-               <death when="1921-09-22"/>
-               <note>Älterer Bruder von Otto Wagner.</note>
-            </person>
-
-            <person xml:id="pe_rob_wagner">
-               <persName>
-                  <forename>Robert</forename>
-                  <forename>Koloman</forename>
-                  <surname>Wagner</surname>
-               </persName>
-               <birth when="1865"/>
-               <death when="1954"/>
-               <note>Zweiter Sohn von Otto Wagner und Sophia Paupie.</note>
-            </person>
-
-            <person xml:id="pe_ott_wagner">
-               <persName>
-                  <forename>Otto</forename>
-                  <forename>Emerich</forename>
-                  <surname>Wagner</surname>
-               </persName>
-               <birth when="1864"/>
-               <death when="1945"/>
-               <note>Erster Sohn von Otto Wagner und Sophia Paupie.</note>
-            </person>
-
-            <person xml:id="pe_lou_wagner">
-               <persName>
-                  <forename>Louise</forename>
-                  <surname>Wagner</surname>
-               </persName>
-               <persName type="variant">Aloisa Josefa Anna</persName>
-               <birth when="1859-09-28"/>
-               <death when="1915-10-26"/>
-               <note>Geborene Stiffel.</note>
             </person>
 
             <person xml:id="pe_ste_wagner">
@@ -391,23 +372,18 @@
                <note>Mutter von Otto Wagner, geborene Huber und adoptierte Helfenstirfer.</note>
             </person>
 
-            <person xml:id="pe_watzlawick">
+            <person xml:id="pe_wagner" role="main">
+               <idno type="wd">Q84287</idno>
                <persName>
-                  <forename>Louise</forename>
-                  <surname>Watzlawick</surname>
+                  <forename>Otto</forename>
+                  <surname>Wagner</surname>
                </persName>
-               <persName type="variant">Louise Wagner.</persName>
-               <birth when="1885"/>
-               <death when="1976"/>
-               <note>Tochter aus zweiter Ehe mit Louise Stiffel.</note>
-            </person>
-
-            <person xml:id="pe_aug_wallisch">
-               <persName>
-                  <forename>August</forename>
-                  <surname>Wallisch</surname>
-               </persName>
-               <note>Schwiegersohn von Otto Wagner und Ehemann von Susanne Wallisch.</note>
+               <persName type="variant">Otto Colomann Wagner</persName>
+               <persName type="variant">Otto Kolomann Wagner</persName>
+               <birth when="1841-07-13"/>
+               <death when="1918-04-11"/>
+               <occupation>Architekt</occupation>
+               <note>Österreichischer Arichtekt.</note>
             </person>
 
             <person xml:id="pe_wallisch">
@@ -420,6 +396,17 @@
                <birth when="1868"/>
                <death when="1973"/>
                <note>Tochter aus erster Ehe mit Josefine Domhart, geborene Wagner.</note>
+            </person>
+
+            <person xml:id="pe_watzlawick">
+               <persName>
+                  <forename>Louise</forename>
+                  <surname>Watzlawick</surname>
+               </persName>
+               <persName type="variant">Louise Wagner.</persName>
+               <birth when="1885"/>
+               <death when="1976"/>
+               <note>Tochter aus zweiter Ehe mit Louise Stiffel.</note>
             </person>
 
             <person xml:id="pe_zichy">

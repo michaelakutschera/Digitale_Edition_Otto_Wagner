@@ -138,8 +138,8 @@
             <table>
                <row>
                   <!-- Ist das der richtige Rothschild?-->
-                  <cell><persName ref="personen.xml#pe_m_rothschild"><roleName type="nobility">Baron
-                        </roleName> J. M. v. Rothschild</persName>
+                  <cell><persName ref="personen.xml#pe_rothschild"><roleName type="nobility">Baron
+                        </roleName> S. M. v. Rothschild</persName>
                   </cell>
                   <cell rows="4">
                      <measure type="share" quantity="70" unit="percent">70 %</measure>

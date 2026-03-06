@@ -37,7 +37,17 @@
             </org>
             
             <org xml:id="org_ca">
-               <name>Creditanstalt</name>
+               <idno type="wd">Q694468</idno>
+               <name>Creditanstalt-Bankverein</name>
+               <name type="variant">Creditanstalt</name>
+               <name type="variant">Creditanstalt-Bankverein AG</name>
+               <name type="variant">Creditanstalt-Bankverein</name>
+               <name type="variant">k. k. priviliegierte Österreichische Credit-Anstalt für Handel und Gewerbe</name>
+               <name type="variant">CA-BV</name>
+               <name type="variant">CA</name>
+               <note>Sitz: <placeName ref="orte.xml#pl_wien"/></note>
+               <note type="desc"> Gründung: <date when="1855-10-31"/> Auflösung: <date when="2002"/> Gegründet von S. M. v. Rothschild.
+               </note>
             </org>
             
             <org xml:id="org_gr">

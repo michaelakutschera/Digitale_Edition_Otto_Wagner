@@ -71,16 +71,14 @@
                </choice> des <persName ref="personen.xml#pe_schey">
                   <roleName type="honorific">Herrn</roleName><lb/>
                   <roleName type="nobility">Baron</roleName>Fr. von Schey</persName>abgehaltenen
-               Sitzung<lb/> in <orgName ref="organisationen.xml#org_wal">Wienableitungs &amp;
-                  <choice>
+               Sitzung<lb/> in <orgName ref="organisationen.xml#org_wal">Wienableitungs &amp; <choice>
                      <orig>Localbahnen</orig>
                      <reg>Lokalbahnen</reg>
                   </choice></orgName><lb/>
                <choice>
                   <orig>Projects=Angelegenheiten</orig>
                   <reg>Projektangelegenheiten</reg>
-               </choice>.
-            </p>
+               </choice>. </p>
          </div>
 
          <div type="attendees">
@@ -107,10 +105,9 @@
                <p><choice>
                      <orig>theilt</orig>
                      <reg>teilt</reg>
-                  </choice> mit, daß die <orgName ref="organisationen.xml#org_ca"><choice>
-                        <orig>Credit¬<lb break="no"/>Anstalt</orig>
-                        <reg>Creditanstalt</reg>
-                     </choice></orgName> geneigt ist, in das<lb/> Geschäft einzutreten.</p>
+                  </choice> mit, daß die <orgName ref="organisationen.xml#org_ca"> Credit¬<lb
+                        break="no"/>Anstalt </orgName> geneigt ist, in das<lb/> Geschäft
+                  einzutreten.</p>
             </sp>
 
             <sp>
@@ -141,10 +138,8 @@
                </choice> werden folgenderweise festgesetzt:</p>
             <table>
                <row>
-                  <cell><orgName ref="organisationen.xml#org_ca"><choice>
-                           <orig>Credit-Anstalt</orig>
-                           <reg>Kreditanstalt</reg>
-                        </choice></orgName></cell>
+                  <cell><orgName ref="organisationen.xml#org_ca"> Credit-Anstalt</orgName>
+                  </cell>
                   <cell><measure type="share" quantity="40" unit="percent">40 %</measure></cell>
                </row>
                <row>
@@ -195,47 +190,43 @@
                <speaker><persName ref="personen.xml#pe_schwarz"><roleName type="nobility"
                         >Baron</roleName> Schwarz</persName></speaker>
                <p>stellt den Antrag, für den Fall,<lb/>
-                  <fw type="library-stamp" rend="middle-right ink-dark-blue"> Wiener Stadt
-                        <gap reason="illegible"/>
+                  <fw type="library-stamp" rend="middle-right ink-dark-blue"> Wiener Stadt <gap
+                        reason="illegible"/>
                   </fw> als die <choice>
                      <orig>Betheiligung</orig>
                      <reg>Beteiligung</reg>
-                  </choice> des <persName ref="personen.xml#pe_n.rothschild"><roleName
-                        type="nobility">Baron.</roleName><lb break="no"/> Rothschild</persName>
-                  angenommen wird,<lb/> daß diese <choice>
+                     <!-- Rothschild welcher? -->
+                  </choice> des <persName ref="personen.xml#pe_rothschild"><roleName type="nobility"
+                        >Baron.</roleName><lb break="no"/> Rothschild</persName> angenommen
+                  wird,<lb/> daß diese <choice>
                      <orig>Betheiligung</orig>
                      <reg>Beteiligung</reg>
                   </choice> pro rata<lb/>
-                  <hi rend="underline-black">von allen Theilnehmern</hi> getra¬<lb break="no"/>
-                  gen werde, selbstverständlich auch<lb/> vom <choice>
-                     <orig>Antheile</orig>
-                     <reg>Anteile</reg>
-                  </choice> der <orgName ref="organisationen.xml#or_ca"><choice>
-                        <orig>Credit-Anstalt</orig>
-                        <reg>Kreditanstalt</reg>
-                     </choice></orgName>.<lb/> Der <choice>
+                  <hi rend="underline-black">von allen Theilnehmern</hi> getra¬<lb break="no"/> gen
+                  werde, selbstverständlich auch<lb/> von <choice>
+                     <orig>Antheilen</orig>
+                     <reg>Anteilen</reg>
+                  </choice> der <orgName ref="organisationen.xml#or_ca"> Credit-Anstalt
+                  </orgName>.<lb/> Der <choice>
                      <orig>Antheil</orig>
                      <reg>Anteil</reg>
-                  </choice> des <persName ref="personen.xml#pe_n.rothschild"><roleName
-                        type="nobility">Baron</roleName>Rothschild</persName><lb/> soll jedoch 10 %
-                  nicht überschreiten.</p>
+                  </choice> des <persName ref="personen.xml#pe_rothschild"><roleName type="nobility"
+                        >Baron</roleName>Rothschild</persName><lb/> soll jedoch 10 % nicht
+                  überschreiten.</p>
             </sp>
          </div>
 
          <div type="text">
             <p>Dieser Antrag wird angenommen.</p>
             <p>Es wird <choice>
-               <orig>beschloßen</orig>
-               <reg>beschlossen</reg>
-            </choice>, daß <persName
-                  ref="personen.xml#pe_schwarz"><roleName type="honorific">Herr</roleName>
+                  <orig>beschloßen</orig>
+                  <reg>beschlossen</reg>
+               </choice>, daß <persName ref="personen.xml#pe_schwarz"><roleName type="honorific"
+                     >Herr</roleName>
                   <roleName type="nobility">Baron</roleName>Schwarz</persName> die<lb/>
-               Unterhandlungen mit der <orgName ref="organisationen.xml#org_ca"><choice>
-                     <orig>Credit-Anstalt</orig>
-                     <reg>Kreditanstalt</reg>
-                  </choice></orgName> leiten<lb/> wird, und daß <persName
-                  ref="personen.xml#pe_wagner"><roleName type="honorific">Herr</roleName>Otto
-                  Wagner</persName>
+               Unterhandlungen mit der <orgName ref="organisationen.xml#org_ca"> Credit-Anstalt
+               </orgName> leiten<lb/> wird, und daß <persName ref="personen.xml#pe_wagner"><roleName
+                     type="honorific">Herr</roleName>Otto Wagner</persName>
                <choice>
                   <orig>assistiren</orig>
                   <reg>assistieren</reg>
@@ -247,29 +238,25 @@
             <sp>
                <speaker><persName ref="personen.xml#pe_wagner">Otto Wagner</persName></speaker>
                <p><choice>
-                  <orig>theilt</orig>
-                  <reg>teilt</reg>
-               </choice> mit, daß <persName ref="personen.xml#pe_loewentahl"><roleName type="nobility">Baron</roleName> Löwentahl</persName><lb/>
-                  vom <orgName ref="organisationen.xml#org_gr"><choice>
-                     <orig>Gemeinderath</orig>
-                     <reg>Gemeinderat</reg>
-                  </choice></orgName> als Referent<lb/>
-                  gewählt wurde.</p>
-               
-               
+                     <orig>theilt</orig>
+                     <reg>teilt</reg>
+                  </choice> mit, daß <persName ref="personen.xml#pe_loewentahl"><roleName
+                        type="nobility">Baron</roleName> Löwentahl</persName><lb/> vom <orgName
+                     ref="organisationen.xml#org_gr"><choice>
+                        <orig>Gemeinderath</orig>
+                        <reg>Gemeinderat</reg>
+                     </choice></orgName> als Referent<lb/> gewählt wurde.</p>
+
+
                <p>Es wird beschloßen mit der <choice>
-                  <orig>Repartirung</orig>
-                  <reg>Repartierung</reg>
-               </choice> der Aus¬<lb break="no"/>lagen bis zum <choice>
-                  <abbr>def.</abbr>
-                  <expan>definitiven</expan>
-               </choice>
-                  Beitritt <orgName ref="organisationen.xml#or_ca">der <choice>
-                     <orig>Credit-Anstalt</orig>
-                     <reg>Kreditanstalt</reg>
-                  </choice></orgName><lb/>
-                  zu warten, dem <persName ref="personen.xml#pe_schwarz"><roleName type="honorific"
-                        >Herrn</roleName>
+                     <orig>Repartirung</orig>
+                     <reg>Repartierung</reg>
+                  </choice> der Aus¬<lb break="no"/>lagen bis zum <choice>
+                     <abbr>def.</abbr>
+                     <expan>definitiven</expan>
+                  </choice> Beitritt <orgName ref="organisationen.xml#or_ca">der Credit-Anstalt
+                  </orgName><lb/> zu warten, dem <persName ref="personen.xml#pe_schwarz"><roleName
+                        type="honorific">Herrn</roleName>
                      <roleName type="nobility">Baron</roleName>Schwarz</persName> aber seine<lb/> in <choice>
                      <orig>Projectsangelegenheiten</orig>
                      <reg>Projektsangelegenheiten</reg>
