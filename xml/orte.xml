@@ -161,11 +161,12 @@
                <note type="location">
                   <geo>48.207725 16.365391</geo>
                </note>
+               <note type="desc">Die Reichshofkanzlei war seit 1559 die ständige Kanzlei des Heiligen Römischen Reiches. </note>
             </place>
             
             <place xml:id="pl_jp">
             <placeName>Jusitz-Palast</placeName>
-            <note>Kein tatsächlich umgesetztes Gebäude von Otto Wagner. Wird im Promemoria nur erwähnt.</note>
+            <note type="desc">Kein tatsächlich umgesetztes Gebäude von Otto Wagner. Wird im Promemoria nur erwähnt.</note>
             </place>
             
             <!--Bin mir nicht sicher ob in dem "promemoira_1876 wirklich diese in Ungarn gemeint ist. -->
@@ -192,7 +193,7 @@
             
             <place xml:id="pl_lg">
                <placeName>Landtagsgebäude</placeName>
-               <note>Kein tatsächliches Gebäude in Lemberg von Otto Wagner, sein Plan erhielt nur den zweiten Preis. Wird im Promemoria erwähnt.</note>
+               <note type="desc">Kein tatsächliches Gebäude in Lemberg von Otto Wagner, sein Plan erhielt nur den zweiten Preis. Wird im Promemoria erwähnt.</note>
             </place>
 
             <place xml:id="pl_lemberg">
@@ -215,9 +216,9 @@
 
             <place xml:id="pl_pest">
                <placeName>Pest</placeName>
-               <idno type="wd"/>
+               <idno type="wd">Q210205</idno>
                <note type="location">
-                  <geo>Q210205</geo>
+                  <geo>47.5 19.1</geo>
                </note>
                <note type="desc">Ehemalige unabhängigie Stadt in Ungarn bis 1873. Heute östlicher
                   Teil von Budapest.</note>
@@ -225,7 +226,7 @@
             
             <place xml:id="pl_rhb">
                <placeName>Rathausbau</placeName>
-               <note>Kein tatsächliches Gebäude von Otto Wagner in Hambrug, sein Plan erhielt war nur der zweite Preis. Wird im Promemoria erwähnt.</note>
+               <note type="desc">Kein tatsächliches Gebäude von Otto Wagner in Hambrug, sein Plan erhielt war nur der zweite Preis. Wird im Promemoria erwähnt.</note>
             </place>
             
             <place xml:id="pl_sb">

@@ -80,7 +80,7 @@
     
     <xsl:template match="tei:forename | tei:surname | tei:roleName | tei:nameLink | tei:addName">
         <xsl:value-of select="."/>
-        <xsl:text> </xsl:text>
+        <xsl:text></xsl:text>
     </xsl:template>
     
 </xsl:stylesheet>
