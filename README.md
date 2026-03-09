@@ -1,4 +1,4 @@
-#Digitale Edtion: Otto Wagner
+Digitale Edtion: Otto Wagner
  
 Entwicklung von Otto Wagners Testamenten (1888/1913):
 
