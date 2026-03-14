@@ -12,6 +12,7 @@
                 <title>
                     <xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                 </title>
+                <!-- href: CSS umbennen; nicht für alle Seiten dasselbe CSS -->
                 <link rel="stylesheet" href="../css/style.css"/>
             </head>
             

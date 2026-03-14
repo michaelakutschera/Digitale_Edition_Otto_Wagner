@@ -14,6 +14,7 @@
             <head>
                 <meta charset="UTF-8"/>
                 <title>Ortesverzeichnis</title>
+                <!-- href: CSS umbennen; nicht für alle Seiten dasselbe CSS -->
                 <link rel="stylesheet" href="../css/style.css"/>
             </head>
             
