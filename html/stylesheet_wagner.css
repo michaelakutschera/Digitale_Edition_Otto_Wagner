@@ -1,0 +1,40 @@
+main {
+  display: flex;
+}
+
+/*pdf-Ansicht*/
+#pdf-panel {
+  width: 40%;
+}
+
+#pdf-panel iframe {
+  width: 100%;
+  height: 90vh;
+}
+
+main {
+  display: flex;
+  gap: 2em;
+}
+
+/*Text-Ansicht*/
+#text-panel {
+  width: 50%;
+  height: 90vh;
+  overflow-y: auto;
+}
+/*Sprecher linksbündig*/
+.speech {
+  display: flex;
+  gap: 1em;
+}
+
+.speaker {
+  min-width: 10em;
+  font-weight: bold;
+}
+
+/*Unterschriftten untereinander*/
+.signed {
+  display: block;
+}

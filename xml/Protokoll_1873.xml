@@ -70,7 +70,7 @@
                   <reg>Büro</reg>
                </choice> des <persName ref="personen.xml#pe_schey">
                   <roleName type="honorific">Herrn</roleName><lb/>
-                  <roleName type="nobility">Baron</roleName>Fr. von Schey</persName>abgehaltenen
+                  <roleName type="nobility">Baron</roleName>Fr. von Schey</persName> abgehaltenen
                Sitzung<lb/> in <orgName ref="organisationen.xml#org_wal">Wienableitungs &amp; <choice>
                      <orig>Localbahnen</orig>
                      <reg>Lokalbahnen</reg>
@@ -89,11 +89,11 @@
                <item><persName ref="personen.xml#pe_schwarz">
                      <roleName type="nobility">Baron</roleName> C. von Schwarz</persName></item>
                <!-- Supplied gibt an, dass das Wort physisch dort nicht steht. reason=""ditto" erklärt warum es ergänzt wurde. evidence woher es kommt. seg rend gibt das ersetzte Zeichen an.-->
-               <item><persName ref="person.xml#pe_schey"><supplied reason="ditto"
+               <item><persName ref="personen.xml#pe_schey"><supplied reason="ditto"
                         evidence="previous-item">Baron</supplied>
                      <seg rend="ditto">"</seg>Fr. von Schey</persName></item>
                <item><persName ref="personen.xml#pe_wagner">Otto Wagner</persName></item>
-               <item><persName ref="person.xml#pe_scheyrer">Georg Scheyrer</persName></item>
+               <item><persName ref="personen.xml#pe_scheyrer">Georg Scheyrer</persName></item>
             </list>
          </div>
 
@@ -105,8 +105,8 @@
                <p><choice>
                      <orig>theilt</orig>
                      <reg>teilt</reg>
-                  </choice> mit, daß die <orgName ref="organisationen.xml#org_ca"> Credit¬<lb
-                        break="no"/>Anstalt </orgName> geneigt ist, in das<lb/> Geschäft
+                  </choice> mit, daß die <orgName ref="organisationen.xml#org_ca"> Credit-<lb
+                        break="no"/>Anstalt</orgName> geneigt ist, in das<lb/> Geschäft
                   einzutreten.</p>
             </sp>
 
@@ -167,6 +167,7 @@
                   <cell><measure type="share" quantity="5" unit="percent">5 %</measure></cell>
                </row>
                <row>
+                  <cell></cell>
                   <cell><measure type="share" quantity="83" unit="percent">83 %</measure></cell>
                </row>
                <row>
@@ -174,6 +175,7 @@
                   <cell><measure type="share" quantity="10" unit="percent">10 %</measure></cell>
                </row>
                <row>
+                  <cell></cell>
                   <cell><measure type="share" quantity="93" unit="percent">93 %</measure></cell>
                </row>
                <row>
@@ -181,6 +183,7 @@
                   <cell><measure type="share" quantity="7" unit="percent">7 %</measure></cell>
                </row>
                <row>
+                  <cell></cell>
                   <cell><measure type="share" quantity="100" unit="percent">100 %</measure></cell>
                </row>
             </table>
@@ -195,19 +198,17 @@
                   </fw> als die <choice>
                      <orig>Betheiligung</orig>
                      <reg>Beteiligung</reg>
-                     <!-- Rothschild welcher? -->
                   </choice> des <persName ref="personen.xml#pe_rothschild"><roleName type="nobility"
                         >Baron.</roleName><lb break="no"/> Rothschild</persName> angenommen
                   wird,<lb/> daß diese <choice>
                      <orig>Betheiligung</orig>
                      <reg>Beteiligung</reg>
                   </choice> pro rata<lb/>
-                  <hi rend="underline-black">von allen Theilnehmern</hi> getra¬<lb break="no"/> gen
+                  <hi rend="underline-black">von allen Theilnehmern</hi> getra-<lb break="no"/> gen
                   werde, selbstverständlich auch<lb/> von <choice>
                      <orig>Antheilen</orig>
                      <reg>Anteilen</reg>
-                  </choice> der <orgName ref="organisationen.xml#or_ca"> Credit-Anstalt
-                  </orgName>.<lb/> Der <choice>
+                  </choice> der <orgName ref="organisationen.xml#or_ca">Credit-Anstalt</orgName>.<lb/> Der <choice>
                      <orig>Antheil</orig>
                      <reg>Anteil</reg>
                   </choice> des <persName ref="personen.xml#pe_rothschild"><roleName type="nobility"
@@ -224,8 +225,7 @@
                </choice>, daß <persName ref="personen.xml#pe_schwarz"><roleName type="honorific"
                      >Herr</roleName>
                   <roleName type="nobility">Baron</roleName>Schwarz</persName> die<lb/>
-               Unterhandlungen mit der <orgName ref="organisationen.xml#org_ca"> Credit-Anstalt
-               </orgName> leiten<lb/> wird, und daß <persName ref="personen.xml#pe_wagner"><roleName
+               Unterhandlungen mit der <orgName ref="organisationen.xml#org_ca"> Credit-Anstalt</orgName> leiten<lb/> wird, und daß <persName ref="personen.xml#pe_wagner"><roleName
                      type="honorific">Herr</roleName>Otto Wagner</persName>
                <choice>
                   <orig>assistiren</orig>
@@ -246,8 +246,9 @@
                         <orig>Gemeinderath</orig>
                         <reg>Gemeinderat</reg>
                      </choice></orgName> als Referent<lb/> gewählt wurde.</p>
-
-
+            </sp>
+            </div>
+         <div type="text">
                <p>Es wird beschloßen mit der <choice>
                      <orig>Repartirung</orig>
                      <reg>Repartierung</reg>
@@ -261,7 +262,6 @@
                      <orig>Projectsangelegenheiten</orig>
                      <reg>Projektsangelegenheiten</reg>
                   </choice> gemachten Auslagen<lb/> zu vergüten.</p>
-            </sp>
          </div>
 
          <div type="signatures">
