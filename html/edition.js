@@ -2,11 +2,11 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  // ── Choice-Toggle: Original ↔ Normalisiert ────────────────────────────────
+  // Choice-Toggle: Original - Normalisiert 
 
   var toggleBtn  = document.getElementById("toggle-choice");
   var choiceLabel = document.getElementById("choice-label");
-  var showOrig = false;
+  var showOrig = true; //Original-Text standardmäßig anzeigen
 
   function applyChoice() {
     var origSpans = document.querySelectorAll(".orig-text");
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Normalisierten Zustand beim Laden setzen
+  // Original-Zustand beim Laden setzen
   applyChoice();
 
 });
