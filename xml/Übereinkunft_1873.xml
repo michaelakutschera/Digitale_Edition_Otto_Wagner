@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Übereinkunft vom 27.Febraur.1873</title>
+            <title>Übereinkunft vom 27. Februar 1873</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
 
@@ -105,7 +105,7 @@
                      <reg>Kommune</reg>
                   </choice>
                   <placeName ref="orte.xml#pl_wien">Wiens</placeName>
-               </orgName> und die respecti¬<lb/> ven Ministerien zu machen, in welcher sie ein <choice>
+               </orgName> und die respecti-<lb/> ven Ministerien zu machen, in welcher sie ein <choice>
                   <orig>Project</orig>
                   <reg>Projekt</reg>
                </choice>, <lb/> welches einerseits die Ableitung und <choice>
@@ -115,22 +115,22 @@
                <placeName ref="orte.xml#pl_wf">Wienflusses</placeName>, andrerseits die Schaffung
                von <choice>
                   <!--Im Wort selbst ist ein Zeilenumbruch, daher wird der dirket nach - angegeben.-->
-                  <orig>Communica¬<lb break="no" rend="hyphen"/>tionen</orig>
-                  <reg>Kommunikationen</reg>
+                  <orig>Communica-<lb break="no" rend="hyphen"/>tionen</orig>
+                  <reg>Kommunika-<lb break="no" rend="hyphen"/>tionen</reg>
                </choice> durch Anlegung von Radial- und <choice>
                   <orig>Periferie</orig>
                   <reg>Peripherie</reg>
                </choice>-<lb/> Bahnen und eines Boulevards von der <placeName ref="orte.xml#pl_eb"
-                     >Elisabeth<lb break="no" rend="hyphen"/> brücke</placeName> nach <placeName
+                     >Elisabeth.<lb break="no" rend="hyphen"/> brücke</placeName> nach <placeName
                   ref="orte.xml#pl_sb">Schönbrunn</placeName> bezweckt, vorlegen. </p>
          </div>
          <pb n="2" facs="#ue1873_p2"/>
          <div type="text">
             <p> Sie haben sich geeinigt über die <choice>
-                  <orig>Verthei¬<lb break="no" rend="hypen"/>lung</orig>
-                  <reg>Verteilung</reg>
+                  <orig>Verthei-<lb break="no" rend="hypen"/>lung</orig>
+               <reg>Vertei-<lb break="no" rend="hypen"/>lung</reg>
                </choice> des etwaigen wie immer Namen
-               habenden,<lb/> aus diesem Geschäfte . entstehenden Gewinnes, durch<lb/> folgende
+               habenden,<lb/> aus diesem Geschäfte. entstehenden Gewinnes, durch<lb/> folgende
                Repartition, welche bei allen spätern Em.<lb/> missionen ebenfalls in Anwendung zu
                kommen<lb/> hat, und zwar: </p>
          </div>
@@ -174,6 +174,7 @@
                   <cell><measure type="share" quantity="10" unit="percent">10 %</measure></cell>
                </row>
                <row>
+                  <cell></cell>
                   <cell><measure type="share" quantity="100" unit="percent">100 %</measure></cell>
                </row>
             </table>
@@ -189,7 +190,7 @@
                   >Herr</roleName>Otto Wagner</persName> von jedem Verluste <lb/> freigehalten wird,
                und dagegen die andern <choice>
                   <orig>Par. <lb break="no" rend="hypen"/>ticipienten</orig>
-                  <reg>Partizipienten</reg>
+                  <reg>Par<lb break="no" rend="hypen"/>tizipienten</reg>
                </choice> pro rata ihrer <choice>
                   <orig>Betheiligungen</orig>
                   <reg>Beteiligung</reg>
@@ -202,7 +203,7 @@
                   <reg>Projekts</reg>
                   </choice> die im Maximalbetrage von  <measure type="currency" unit="florin">f. 10000.-</measure><lb/>
                sage <measure type="currency" unit="florin">Zehntausend Gulden</measure> sich
-               belaufenden Anferti¬<lb/> gungskosten des <choice>
+               belaufenden Anferti-<lb/> gungskosten des <choice>
                   <orig>Projects</orig>
                   <reg>Projekts</reg>
                </choice> allein zu tragen.<lb/> Sollte es im Interesse des Geschäftes<lb/>
@@ -219,35 +220,37 @@
                   <orig>Participienten</orig>
                   <reg>Partizipienten</reg>
                </choice> noch<lb/> aufzunehmen, so sind die eventuellen <choice>
-                  <orig>Betheiligun¬<lb break="no" rend="hyphen"/>gen</orig>
-                  <reg>Beteiligungen</reg>
+                  <orig>Betheiligun-<lb break="no" rend="hyphen"/>gen</orig>
+                  <reg>Beteiligun-<lb break="no" rend="hyphen"/>gen</reg>
                </choice> pro rata von den oben genannten <choice>
                   <orig>Theilnehmern</orig>
                   <reg>Teilnehmern</reg>
                </choice>,<lb/> mit Ausnahme des <persName ref="personen.xml#pe_wagner"><roleName
-                  type="honorific">Herrn </roleName><lb/> Otto Wagner </persName>/:wel¬<lb/> chem
-               seine <measure quantity="10" unit="percent">10 %</measure> gesichert bleiben:/ zu tragen.<choice>
-                  <orig>Hir¬</orig>
-                  <reg>Hier</reg>
-               </choice><lb/> bei ist ausdrücklich zu bemerken,
-               daß durch die¬<lb/> se Abgaben die <choice>
+                  type="honorific">Herrn </roleName> Otto Wagner </persName>/:wel-<lb/> chem
+               seine <measure quantity="10" unit="percent">10 %</measure> gesichert bleiben:/ zu tragen.
+               <choice>
+                  <orig>Hir-<lb break="no" rend="hypen"/>bei</orig>
+                  <reg>Hier-<lb break="no" rend="hypen"/>bei</reg>
+               </choice> ist ausdrücklich zu bemerken,
+               daß durch die-<lb/>se Abgaben die <choice>
                   <orig>Antheile</orig>
                   <reg>Anteile</reg>
                </choice> der <persName ref="personen.xml#pe_melingo">
                   <roleName type="honorific">Herren</roleName> Melingo</persName> &amp;<lb/>
-               <persName ref="personen.xml#pe_scheyrer">Scheyrer</persName> für jeden nicht unter <measure quantity="8" unit="percent">8 %</measure><choice>
+               <persName ref="personen.xml#pe_scheyrer">Scheyrer</persName> für jeden nicht unter <measure quantity="8" unit="percent">8 %</measure>
+               <choice>
                   <orig>reducirt</orig>
                   <reg>reduziert</reg>
-               </choice> wer¬<lb/> den können. </p>
+               </choice> wer-<lb/> den können. </p>
             <p> Wenn das <choice>
                   <orig>Project</orig>
                   <reg>Projekt</reg>
                </choice> zur Ausführung kom.<lb/> men wird, wird unter den <choice>
                   <orig>Theilhabern</orig>
                   <reg>Teilhabern</reg>
-               </choice>, ein<lb/> rechtskräftiger Vertrag ausgefertigt. Bis zu die¬<lb/> ser Zeit
+               </choice>, ein<lb/> rechtskräftiger Vertrag ausgefertigt. Bis zu die-<lb/> ser Zeit
                haben die Bestimmungen dieser <choice>
-                  <orig>Intrims¬</orig>
+                  <orig>Intrims-</orig>
                   <reg>Interims</reg>
                </choice><lb/> Stipulationen ihre <choice>
                   <orig>Giltigkeit</orig>
@@ -263,7 +266,7 @@
          <div type="signatures">
             <dateline>
                <placeName ref="orte.xml#pl_wien">Wien</placeName>
-               am <date when="1873-02-27">27.Februar 1873</date>
+               am <date when="1873-02-27">27. Februar 1873</date>
             </dateline>
             <signed>
                <persName ref="personen.xml#pe_zichy">Gf. Ed. Zichy</persName>

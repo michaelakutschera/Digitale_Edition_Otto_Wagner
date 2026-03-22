@@ -6,9 +6,6 @@
 
   <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
-  <!-- ============================================================
-       ROOT
-       ============================================================ -->
   <xsl:template match="/">
     <html lang="de">
       <head>
@@ -17,16 +14,20 @@
           <xsl:value-of select="//tei:titleStmt/tei:title"/>
         </title>
         <link rel="stylesheet" href="stylesheet_wagner.css"/>
+        <script src="edition.js"></script>
       </head>
       <body>
 
         <header>
           <h1><xsl:value-of select="//tei:titleStmt/tei:title"/></h1>
+          <!--Button für den Wechsel zwischen dem Original und der Normalisierten Version. -->
+          
           <button id="toggle-choice">Original ↔ Normalisiert</button>
-          <span id="choice-label">[Normalisiert]</span>
+          <span id="choice-label">[Original]</span>
         </header>
 
         <main>
+          <!-- Ansicht vom pdf und dem Text nebeneinander. -->
           <div id="pdf-panel">
             <iframe id="pdf-frame" src="Protocoll_1873.pdf#page=1"></iframe>
           </div>
@@ -43,17 +44,22 @@
     </html>
   </xsl:template>
 
-  <!-- ============================================================
-       BODY: Inhalt direkt ausgeben, Seitenumbrüche als Marker
-       ============================================================ -->
+  <!-- Body: Inhalt direkt ausgeben, Seitenumbrüche als Marker -->
   <xsl:template match="tei:body">
     <xsl:apply-templates/>
   </xsl:template>
+  
+  <!-- pb als Seitenmarker ausgeben -->
+  <xsl:template match="tei:pb">
+    <p class="page-label">Seite <xsl:value-of select="@n"/></p>
+  </xsl:template>
+  <xsl:template match="tei:note"/>
 
-  <!-- ============================================================
-       STRUKTURELEMENTE
-       ============================================================ -->
-
+  <!-- Strukturelemente: head, div, p, list, item, table, row, cell-->
+  <xsl:template match="tei:head">
+    <h2><xsl:apply-templates/></h2>
+  </xsl:template>
+  
   <xsl:template match="tei:div">
     <div>
       <xsl:if test="@type">
@@ -61,10 +67,6 @@
       </xsl:if>
       <xsl:apply-templates/>
     </div>
-  </xsl:template>
-
-  <xsl:template match="tei:head">
-    <h3><xsl:apply-templates/></h3>
   </xsl:template>
 
   <xsl:template match="tei:p">
@@ -91,10 +93,7 @@
     <td><xsl:apply-templates/></td>
   </xsl:template>
 
-  <!-- ============================================================
-       SPRECHERBLÖCKE
-       ============================================================ -->
-
+  <!-- Sprecher -->
   <xsl:template match="tei:sp">
     <div class="speech">
       <xsl:apply-templates/>
@@ -105,10 +104,7 @@
     <p class="speaker"><xsl:apply-templates/></p>
   </xsl:template>
 
-  <!-- ============================================================
-       ARCHIVKENNZEICHEN UND STEMPEL
-       ============================================================ -->
-
+  <!-- Stempel und Archivnotizen-->
   <xsl:template match="tei:fw[@type='archival']">
     <span class="fw-archival"><xsl:apply-templates/></span>
   </xsl:template>
@@ -116,12 +112,31 @@
   <xsl:template match="tei:fw[@type='library-stamp']">
     <span class="fw-stamp">[Stempel: <xsl:apply-templates/>]</span>
   </xsl:template>
+  
+  <!-- Wandelt "personen.xml#pe_x" in "personen.html#pe_x" um -->
+  <xsl:template name="ref-to-html">
+    <xsl:param name="ref"/>
+    <xsl:param name="fallback-file"/>
+    <xsl:variable name="anchor">
+      <xsl:if test="contains($ref, '#')">
+        <xsl:value-of select="concat('#', substring-after($ref, '#'))"/>
+      </xsl:if>
+    </xsl:variable>
+    
+    
+    <!-- Dateiname aus ref extrahieren und .xml durch .html ersetzen -->
+    <xsl:variable name="filename-xml">
+      <xsl:choose>
+        <xsl:when test="contains($ref, '#')">
+          <xsl:value-of select="substring-before($ref, '#')"/>
+        </xsl:when>
+        <xsl:otherwise><xsl:value-of select="$ref"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+  </xsl:template>
 
-  <!-- ============================================================
-       ENTITÄTEN – klickbar, Link zu den Registerseiten
-       XML-Ref  personen.xml#pe_x  →  personen.html#pe_x
-       ============================================================ -->
-
+  <!-- Entitäten: Link zu den Personen, Orten, Organisationen und Datum. 
+    Umwandlung: xml-Ref zu einer html-ref-->
   <xsl:template match="tei:persName">
     <span class="persName">
       <xsl:variable name="ref" select="@ref"/>
@@ -209,69 +224,33 @@
     </span>
   </xsl:template>
 
-  <!-- Wandelt "personen.xml#pe_x" oder "person.xml#pe_x" in "personen.html#pe_x" um.
-       Der fallback-file-Parameter greift, wenn kein # vorhanden ist. -->
-  <xsl:template name="ref-to-html">
-    <xsl:param name="ref"/>
-    <xsl:param name="fallback-file"/>
-    <xsl:variable name="anchor">
-      <xsl:if test="contains($ref, '#')">
-        <xsl:value-of select="concat('#', substring-after($ref, '#'))"/>
-      </xsl:if>
-    </xsl:variable>
-    <!-- Dateiname aus ref extrahieren und .xml durch .html ersetzen -->
-    <xsl:variable name="filename-xml">
-      <xsl:choose>
-        <xsl:when test="contains($ref, '#')">
-          <xsl:value-of select="substring-before($ref, '#')"/>
-        </xsl:when>
-        <xsl:otherwise><xsl:value-of select="$ref"/></xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <!-- person.xml → personen.html (Tippfehler im XML abfangen) -->
-    <xsl:variable name="filename-html">
-      <xsl:choose>
-        <xsl:when test="$filename-xml = 'person.xml'">personen.html</xsl:when>
-        <xsl:when test="contains($filename-xml, '.xml')">
-          <xsl:value-of select="concat(substring-before($filename-xml, '.xml'), '.html')"/>
-        </xsl:when>
-        <xsl:when test="$filename-xml = ''"><xsl:value-of select="$fallback-file"/></xsl:when>
-        <xsl:otherwise><xsl:value-of select="$fallback-file"/></xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:value-of select="concat($filename-html, $anchor)"/>
-  </xsl:template>
-
-  <!-- ============================================================
-       CHOICE: orig/reg und abbr/expan
-       Beide Varianten werden ausgegeben; CSS/JS steuert Sichtbarkeit
-       ============================================================ -->
-
+  <!-- Chocie: orig/reg und abbr/expan -->
   <xsl:template match="tei:choice">
     <xsl:apply-templates select="tei:orig | tei:abbr"/>
     <xsl:apply-templates select="tei:reg | tei:expan"/>
   </xsl:template>
 
   <xsl:template match="tei:orig">
-    <span class="orig-text" title="Originalschreibweise"><xsl:apply-templates/></span>
+    <span class="orig-text" title="Originalschreibweise">
+      <xsl:apply-templates/></span>
   </xsl:template>
 
   <xsl:template match="tei:reg">
-    <span class="reg-text" title="Normalisierte Schreibweise"><xsl:apply-templates/></span>
+    <span class="reg-text" title="Normalisierte Schreibweise">
+      <xsl:apply-templates/></span>
   </xsl:template>
 
   <xsl:template match="tei:abbr">
-    <span class="orig-text" title="Abkürzung"><xsl:apply-templates/></span>
+    <span class="orig-text" title="Abkürzung">
+      <xsl:apply-templates/></span>
   </xsl:template>
 
   <xsl:template match="tei:expan">
-    <span class="reg-text" title="Aufgelöst"><xsl:apply-templates/></span>
+    <span class="reg-text" title="Aufgelöst">
+      <xsl:apply-templates/></span>
   </xsl:template>
 
-  <!-- ============================================================
-       WEITERE INLINE-ELEMENTE
-       ============================================================ -->
-
+  <!-- Inline-Elemente: roleName, lb, gap, supplied, hi, measure, signed -->
   <xsl:template match="tei:roleName">
     <xsl:apply-templates/>
     <xsl:text> </xsl:text>
@@ -285,15 +264,12 @@
   </xsl:template>
 
   <xsl:template match="tei:gap">
-    <span class="gap" title="unleserlich">[…]</span>
+    <span class="gap" title="unleserlich"></span>
   </xsl:template>
 
   <xsl:template match="tei:supplied">
     <span class="supplied" title="Editorische Ergänzung">[<xsl:apply-templates/>]</span>
   </xsl:template>
-
-  <!-- Ditto-Zeichen weglassen – supplied gibt bereits den Text aus -->
-  <xsl:template match="tei:seg[@rend='ditto']"/>
 
   <xsl:template match="tei:hi[@rend='underline-black']">
     <span class="underline"><xsl:apply-templates/></span>
@@ -307,10 +283,7 @@
     <span class="signed"><xsl:apply-templates/></span>
   </xsl:template>
 
-  <!-- pb als Seitenmarker ausgeben -->
-  <xsl:template match="tei:pb">
-    <p class="page-label">&#x2014; Seite <xsl:value-of select="@n"/> &#x2014;</p>
-  </xsl:template>
-  <xsl:template match="tei:note"/>
+  <!-- Ditto-Zeichen weglassen – supplied gibt bereits den Text aus -->
+  <xsl:template match="tei:seg[@rend='ditto']"/>
 
 </xsl:stylesheet>
