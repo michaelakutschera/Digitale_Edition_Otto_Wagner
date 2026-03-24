@@ -121,8 +121,8 @@
                      <orig>Project</orig>
                      <reg>Projekt</reg>
                   </choice><lb/> in der gestrigen <choice>
-                     <orig>Commissions¬<lb break="no"/> Sitzung</orig>
-                     <reg>Kommissionssitzung</reg>
+                     <orig>Commissions-<lb break="no"/> Sitzung</orig>
+                     <reg>Kommissions-<lb break="no"/>sitzung</reg>
                   </choice> des <choice>
                      <orig>Gemeinderathes</orig>
                      <reg>Gemeinderats</reg>
@@ -252,7 +252,7 @@
                <p>Es wird beschloßen mit der <choice>
                      <orig>Repartirung</orig>
                      <reg>Repartierung</reg>
-                  </choice> der Aus¬<lb break="no"/>lagen bis zum <choice>
+                  </choice> der Aus-<lb break="no"/>lagen bis zum <choice>
                      <abbr>def.</abbr>
                      <expan>definitiven</expan>
                   </choice> Beitritt <orgName ref="organisationen.xml#or_ca">der Credit-Anstalt
