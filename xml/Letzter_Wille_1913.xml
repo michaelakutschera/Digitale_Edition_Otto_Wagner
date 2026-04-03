@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letzter Wille 1888</title>
+            <title>Letzter Wille 1913</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
          
@@ -114,7 +114,7 @@
                   <orig>zuglich</orig>
                   <reg>zugleich</reg>
                </choice><lb/>
-               daß alles was laut <bibl type="law">§. 788</bibl> des <ref type="law">österreichischen büger¬<lb break="no"/>
+               daß alles was laut <bibl type="law">§. 788</bibl> des <ref type="law">österreichischen büger-<lb break="no"/>
                lichen Gesetzbuches</ref> eingerechnet werden kann in den <lb/>
                <choice>
                   <orig>Pflichtheil</orig>
@@ -137,7 +137,7 @@
                <hi rend="vertical-line-left red"><choice>
                   <orig>Schlißlich</orig>
                   <reg>Schließlich</reg>
-               </choice> bemerk ich noch und bestimmen, daß alle
+               </choice> bemerk ich noch und bestimmen, daß alle<lb/>
                   Zahlungen und Kosten <gap reason="illegible"/> <!-- wahren/werden/mehr-->wie meine <rs type="person" subtype="familial">Tochter</rs></hi>
             </p>
          </div>
@@ -187,8 +187,8 @@
                   Die untefertigten <persName ref="personen.xml#pe_zimmermann #pe_dau"><!-- Name --><roleName type="witness"/>Zeugen</persName> bestätigen somit, daß<lb/>
                   <persName ref="personen.xml#pe_wagner"><roleName type="honorific">Herr </roleName>Otto Wagner</persName> in ihrer gleichzeitigen Anwesen-<lb/>
                   heit in der von ihnen verstandenen <span xml:lang="de">deutchen <lb break="no"/>
-                  Sprache</span> erklärt hat, daß die obige von ihm durch¬<lb/>
-                  aus eigenhändig geschrieben Urkunde sein Testa¬<lb/>
+                  Sprache</span> erklärt hat, daß die obige von ihm durch-<lb/>
+                  aus eigenhändig geschrieben Urkunde sein Testa-<lb/>
                   ment enthalte, fernen, daß <persName ref="personen.xml#pe_wagner"><roleName type="honorific">Herr </roleName>Otto Wagner</persName><lb/>
                   diese Urkunde in ihrer gleichzeitiger Gegenwart<lb/>
                   eigenhädig unterschrieben hat

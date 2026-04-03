@@ -64,63 +64,67 @@
                   <orig>testire</orig>
                   <reg>testiere</reg>
                </choice>ich, bei vollem,
-                  kla¬<lb/>ren                  
-               <choice>
+                  kla-<lb/>
+               ren <choice>
                   <orig>Bewußtsein</orig>
                   <reg>Bewusstsein</reg>
-               </choice> wie folgt: </p>
-            <p> Ich ernenne meine <rs type="person" subtype="familial">Kinder</rs> erster und
+               </choice> wie folgt:</p>
+            <p>Ich ernenne meine <rs type="person" subtype="familial">Kinder</rs> erster und
                zweiter Ehe, <persName ref="personen.xml#pe_wallisch">Susanne</persName><lb/>
                <persName ref="personen.xml#pe_ste_wagner">Stefan</persName> und <persName
-                  ref="personen.xml#pe_watzlawick">Louise</persName> und die aus meiner Ehe noch zu
-               erhoffenden<lb/> zu Universalerben und zwar zu vollkommen gleichen<lb/>
+                  ref="personen.xml#pe_watzlawick">Louise</persName> und die aus meiner Ehe noch zu erhoffenden<lb/>
+               zu Universalerben und zwar zu vollkommen gleichen<lb/>
                <choice>
                   <orig>Theilen</orig>
                   <reg>Teilen</reg>
                </choice>, wobei ich ausdrücklich bemerke, daß jene<lb/>
-               <measure type="currency" unit="florin"> 25.000 F. Ö. W.</measure>, welche laut
-               Testament meiner seeli¬<lb/> gen <rs type="person" subtype="familial"
+               <measure type="currency" unit="florin"> 25.000 F. Ö. W.</measure>, welche laut Testament meiner seeli-<lb/> 
+               gen <rs type="person" subtype="familial"
                   ref="personen.xml#pe_sus_wagner">Mutter</rs> auf meinen <choice>
                   <orig>Hausantheil</orig>
                   <reg>Hausanteil</reg>
-               </choice> in der <placeName ref="orte.xml#pl_gwg">Göttwei¬<lb break="no"/>
-                  hergasse</placeName> zu Gunsten meiner <rs type="person" subtype="familial"
-                  >Tochter</rs>
-               <persName ref="personen.xml#pe_wallisch">Susanne</persName> vorge¬<lb/> merkt sind,
-               mit in Rechnung zu stellen sind, respecti¬<lb/> ve bei der <choice>
+               </choice> in der <placeName ref="orte.xml#pl_gwg">Göttwei-<lb break="no"/>
+                  hergasse</placeName> zu Gunsten meiner <rs type="person" subtype="familial">Tochter</rs> <persName ref="personen.xml#pe_wallisch">Susanne</persName> vorge-<lb/>
+               merkt sind, mit in Rechnung zu stellen sind, respecti-<lb/>
+               ve bei der <choice>
                   <orig>Auftheilung</orig>
                   <reg>Aufteilung</reg>
-               </choice> meiner <rs type="person" subtype="familial">Tochter</rs><persName
-                  ref="personen.xml#pe_wallisch">Susanne</persName> in<lb/> Abzug gebracht werden.
+               </choice> meiner <rs type="person" subtype="familial">Tochter</rs> <persName
+                  ref="personen.xml#pe_wallisch">Susanne</persName> in<lb/>
+                Abzug gebracht werden.
             </p>
             <p> Mein gesammtes Mobiliar ist <choice>
                   <orig>Eigenthum</orig>
                   <reg>Eigentum</reg>
-               </choice> meiner<lb/> lieben Frau <persName ref="personen.xml#pe_lou_wagner"
+               </choice> meiner<lb/>
+              lieben Frau <persName ref="personen.xml#pe_lou_wagner"
                   >Louise</persName>, welcher ich <choice>
                   <orig>dieß</orig>
                   <reg>dies</reg>
-               </choice> Alles schon bei<lb/> Lebzeiten geschenkt habe.
+               </choice> Alles schon bei<lb/>
+               Lebzeiten geschenkt habe.
             </p>
             <p> 
                Meine <rs type="person" subtype="familial">Frau</rs>
-               <persName ref="personen.xml#pe_lou_wagner">Louise</persName>, welche so lange ich
-               lebte, für<lb/> mich der Inbegriff aller Liebe und Tugenden war,<lb/> 
-               hat so lange sie lebt den Fruchtgenuß meines ge¬<lb/>
+               <persName ref="personen.xml#pe_lou_wagner">Louise</persName>, welche so lange ich lebte, für<lb/>
+               mich der Inbegriff aller Liebe und Tugenden war,<lb/> 
+               hat so lange sie lebt den Fruchtgenuß meines ge-<lb/>
                sammten Vermögens, da ich überzeugt bin,
-               daß<lb/> sie <choice>
+               daß<lb/>
+               sie <choice>
                   <orig>hievon</orig>
                   <reg>hiervon</reg>
                </choice> den besten Gebrauch machen wird. 
             </p>
-            <p> Ich wünsche und befehle es, daß alle meine <rs type="person" subtype="familial">Kinder</rs>,<lb/> sich den Anordnungen meiner lieben <rs type="person"
-                  subtype="familial">Frau</rs> unbe¬<lb/>
-               dingt fügen, weil ich sonst hiermit das dawiderhan¬<lb/>
+            <p> Ich wünsche und befehle es, daß alle meine <rs type="person" subtype="familial">Kinder</rs>,<lb/>
+               sich den Anordnungen meiner lieben <rs type="person" subtype="familial">Frau</rs> unbe-<lb/>
+               dingt fügen, weil ich sonst hiermit das dawiderhan-<lb/>
                delnde <rs type="person" subtype="familial">Kind</rs> auf den <choice>
                   <orig>Pflichttheil</orig>
                   <reg>Pflichtanteil</reg>
-               </choice> beschränke und<lb/> zugleich bestimme, daß Alles, was laut <bibl type="law"
-                  >§. 788</bibl><lb/> des <ref type="law"> <choice>
+               </choice> beschränke und<lb/>
+               zugleich bestimme, daß Alles, was laut <bibl type="law">§. 788</bibl><lb/>
+               des <ref type="law"> <choice>
                      <abbr>österr.</abbr>
                      <expan>österreichischen</expan>
                   </choice> <choice>
@@ -143,8 +147,8 @@
          <div type="text">
             <p>der mir zukommenden Bonification von Seite <lb/>
                der „Entreprise" als Mitglied der <orgName ref="organisationen.xml#org_kh">Genossenschaft<lb/>
-                  der bildenden Künstler</orgName>) nach <placeName ref="orte.xml#pl_hie">Hitzing</placeName> in die <placeName ref="orte.xml#pl_hief">Fami¬<lb/>
-                     liengruft</placeName> überführt zu werden und wünsche <hi rend="underline-blue">ober¬<lb/>
+                  der bildenden Künstler</orgName>) nach <placeName ref="orte.xml#pl_hie">Hitzing</placeName> in die <placeName ref="orte.xml#pl_hief">Fami-<lb/>
+                     liengruft</placeName> überführt zu werden und wünsche <hi rend="underline-blue">ober-<lb/>
                   halb meiner seeligen <rs type="person" subtype="familial">Mutter</rs>
                   <choice>
                   <orig>placirt</orig>
@@ -164,17 +168,17 @@
                <choice>
                   <orig>beurtheilt</orig>
                   <reg>beurteilt</reg>
-               </choice> werden sol¬<lb/>
+               </choice> werden sol-<lb/>
                hen und daß <persName ref="personen.xml#pe_teltscher"><roleName type="honorific">Herr Dr.</roleName><choice>
                   <abbr>Leop.</abbr>
                   <expan>Leopold</expan>
-               </choice> Teltscher</persName> Hof und Ge¬<lb/>
+               </choice> Teltscher</persName> Hof und Ge-<lb/>
                richtsadvocat in <placeName ref="orte.xml#pl_wien">Wien</placeName> mit der Durchführung<lb/>
                betraut werde. 
             </p>
             <p>
-               Urkund dessen habe ich dieses Testament, voll¬<lb/>
-               inhaltlich eigenhändig geschrieben in <gap reason="illegible"/> gleich¬<lb/>
+               Urkund dessen habe ich dieses Testament, voll-<lb/>
+               inhaltlich eigenhändig geschrieben in <gap reason="illegible"/> gleich-<lb/>
                zeitiger Anwesenheit zweier hohen <persName ref="personen.xml#pe_rernt pe_schoenthal"><roleName type="witness"/>Zeugen</persName><lb/>
                eigenhändig gefertigt. </p>
          </div>
@@ -213,14 +217,14 @@
             
           <div type="text">
             <p>
-               Die unterfertigten <persName ref="personen.xml#pe_rernt #pe_schoenthal"><roleName type="witness"/>Zeugen</persName> bestätigen hier¬<lb/>
-               mit, daß <persName ref="personen.xml#pe_wagner"><roleName type="honorific">Herr </roleName>Otto Wagner</persName>  in ihrer gleichzei¬<lb/>
-               tigen Anwesenheit in der von ihnen verstan¬<lb/>
-               denen <span xml:lang="de">deutchen Sprache</span> erklärt hat, daß die obi¬<lb/>
+               Die unterfertigten <persName ref="personen.xml#pe_rernt #pe_schoenthal"><roleName type="witness"/>Zeugen</persName> bestätigen hier-<lb/>
+               mit, daß <persName ref="personen.xml#pe_wagner"><roleName type="honorific">Herr </roleName>Otto Wagner</persName>  in ihrer gleichzei-<lb/>
+               tigen Anwesenheit in der von ihnen verstan-<lb/>
+               denen <span xml:lang="de">deutchen Sprache</span> erklärt hat, daß die obi-<lb/>
                ge von ihm durchaus eigenhändig geschriebene<lb/>
                Urkunde sein Testament enthalte; ferner, daß<lb/>
                <persName ref="personen.xml#pe_wagner"><roleName type="honorific">Herr </roleName>Otto Wagner</persName> diese Urkunde in ihrer gleich<lb/>
-               zeitigen Anwesenheit eigenhändig unterschrie¬<lb/>
+               zeitigen Anwesenheit eigenhändig unterschrie-<lb/>
                ben hat.
             </p>
          </div>

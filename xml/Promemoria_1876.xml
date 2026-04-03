@@ -64,7 +64,7 @@
 
          <div type="text">
             <p> Nach Vollendung meiner Studien in der <orgName ref="organisationen.xml#org_bba">
-               Bau¬<lb break="no"/>Akademie</orgName> in <placeName ref="orte.xml#pl_berlin"
+               Bau-<lb break="no"/>Akademie</orgName> in <placeName ref="orte.xml#pl_berlin"
                   >Berlin</placeName> und der <orgName ref="organisationen.xml#org_abkw">Akademie
                   der bildenden <lb break="no"/>Künste</orgName> in <placeName
                   ref="orte.xml#pl_wien">Wien</placeName> trat ich im Jahre <date when="1862"
@@ -83,7 +83,7 @@
                      <orig>Cursaal-</orig>
                      <reg>Kursaal-</reg>
                   </choice>Gebäude</placeName> in <placeName ref="orte.xml#pl_wien"
-               >Wien</placeName>. die Jury gab meinem<lb/> Projekte mit Stimmeneinheligkeit den
+               >Wien</placeName>. Die Jury gab meinem<lb/> Projekte mit Stimmeneinheligkeit den
                Ersten<lb/> Preis, dennoch wurde die Ausführung des<lb/> Baues trotz wärmster
                Fürsprache meines<lb/> Lehrers weiland <persName ref="personen.xml#pe_sicardsburg"
                      ><roleName type="academic">Professor</roleName> Sicardsburg</persName>
@@ -122,8 +122,8 @@
                         <expan>Serenissimus</expan>
                      </choice>
                      <choice>
-                        <abbr>kais.</abbr>
-                        <expan>kaiserlichen</expan>
+                        <abbr>kais. </abbr>
+                        <expan>kaiserlichen </expan>
                      </choice>Hoheit</roleName><lb/>
                   <roleName type="nobility">Erzherzog</roleName> Albrecht</persName>, wofür mir
                wiederholte<lb/> höchst schmeichelhafte Zuschriften von Seite der<lb/>
@@ -140,8 +140,8 @@
                         <expan>Serenissimus</expan>
                      </choice>
                      <choice>
-                        <abbr>kais.</abbr>
-                        <expan>kaiserlichen</expan>
+                        <abbr>kais. </abbr>
+                        <expan>kaiserlichen </expan>
                      </choice>Hoheit </roleName><roleName type="nobility">Erzherzog
                   </roleName>Rainer</persName>, sowie die<lb/> Ausführung des <placeName
                   ref="orte.xml#pl_pe">Palais Epstein</placeName> am <placeName ref="orte.xml#pl_br">
@@ -175,7 +175,7 @@
                   </choice>
                   russische Commission</orgName>
                ausgeführten<lb/>
-               Aufgaben, für welche ich mit dem <rs type="honour">St. Stanislaus¬
+               Aufgaben, für welche ich mit dem <rs type="honour">St. Stanislaus-
                   <lb/> Orden II.</rs> <choice>
                   <orig>Classe</orig>
                   <reg>Klasse</reg>
@@ -184,12 +184,11 @@
             <p>
                In diese Zeit fällt die von mir zuerst<lb/>
                gebrachte Idee der <placeName ref="orte.xml#pl_wf">Wienfluss=</placeName>Ableitung und<lb/>
-               Herstellung eines Boulevards bis <placeName ref="orte.xml#pl_ssb">Schloß
-                  Schönbrunn</placeName>,<lb/>
-               ein Projekt, welches den ungünstigen Zeitver¬<lb/>
+               Herstellung eines Boulevards bis <placeName ref="orte.xml#pl_ssb">Schloß Schönbrunn</placeName>,<lb/>
+               ein Projekt, welches den ungünstigen Zeitver-<lb/>
                hältnißen wenigstens vor der Hand weichen<lb/>
-               mußte. </p>
-            <fw type="library-stamp" rend="bottom-center ink-violet"> Wiener Stadtbibliothek </fw>
+               mußte.</p>
+            <fw type="library-stamp" rend="bottom-center ink-violet">Wiener Stadtbibliothek</fw>
          </div>
          
          <pb n="3" facs="#pm1876_p3"/>
@@ -203,11 +202,11 @@
                </choice> Säulen am
                   <placeName ref="orte.xml#pl_gr">Graben</placeName>) für die <orgName
                   ref="organisationen.xml#org_oembg"> <choice>
-                     <abbr>Oesterr.</abbr>
-                     <expan>Österreichische</expan>
+                     <abbr>Oesterr. </abbr>
+                     <expan>Österreichische </expan>
                   </choice><choice>
-                     <orig>Militair¬</orig>
-                     <reg>Militär¬</reg>
+                     <orig>Militair-</orig>
+                     <reg>Militär-</reg>
                   </choice><lb break="no"/> Baugesellschaft</orgName>, sowie die <choice>
                   <orig>Sgrafitto-</orig>
                   <reg>Sgrafito-</reg>
@@ -231,8 +230,8 @@
                letzten <choice>
                   <orig>Concurrenz</orig>
                   <reg>Konkurrenz</reg>
-               </choice>,<ref type="marginMarker" target="#m1">T</ref><add xml:id="m1"
-                  place="margin">T Pläne für den <placeName ref="orte.xml#pl_rhb">Rathausbau</placeName> in <placeName ref="orte.xml#pl_hamburg"
+               </choice>,<ref type="marginMarker" target="#m1">T </ref><add xml:id="m1"
+                  place="margin">Pläne für den <placeName ref="orte.xml#pl_rhb">Rathausbau</placeName> in <placeName ref="orte.xml#pl_hamburg"
                      >Hamburg</placeName></add> indem ich bei der<lb/> größten <choice>
                   <orig>Concurrenz</orig>
                   <reg>Konkurrenz</reg>
@@ -248,12 +247,12 @@
                   <reg>motivierten</reg>
                </choice> diesbezüglichen Gutachtens der Jury und<lb/> einen Ausspruch des <persName
                   ref="personen.xml#pe_schmidt"><roleName type="honorific">Herrn</roleName>
-                  <roleName type="office">Ober= <choice>
+                  <roleName type="office">Ober=<choice>
                         <orig>Baurathes</orig>
                         <reg>Baurates</reg>
                      </choice></roleName> Schmidt</persName><lb/> über mein Werk anzuführen: 
             </p>
-            <p> Die Jury sagt:<q> die Bildung der <choice>
+            <p> Die Jury sagt: <q>die Bildung der <choice>
                      <orig>Außenarhitektur</orig>
                      <reg>Außenarchitektur</reg>
                   </choice><lb/> kann in ihrer <choice>
@@ -263,20 +262,17 @@
                   Leistung der <choice>
                      <orig>Concurrenz</orig>
                      <reg>Konkurrenz</reg>
-                  </choice> bezeichnet werden."
-            </q>
+                  </choice> bezeichnet werden.</q><lb/>
                <persName ref="personen.xml#pe_schmidt"><roleName type="office"><choice>
                         <orig>Oberbaurath</orig>
                         <reg>Oberbaurat</reg>
-                     </choice></roleName> Schmidt</persName> schreibt: <q>"Ich habe Ihre</q>
-            </p>
-         </div>
-         <pb n="4" facs="#pm1876_p4"/>
-         <div type="text">            
-               <q>eingeschlagene Richtung stets mit dem größten <lb/>
+                     </choice></roleName> Schmidt</persName> schreibt: <q>Ich habe Ihre<lb/>
+                  <pb n="4" facs="#pm1876_p4"/><lb/>          
+                  eingeschlagene Richtung stets mit dem größten <lb/>
                   Interesse verfolgt und finde in dieser Ihrer  <lb/>
                   neuesten Arbeit jenen Zug von Großartigkeit <lb/>
-                  wieder, welcher alle Ihre Werke auszeichnet." </q>
+                  wieder, welcher alle Ihre Werke auszeichnet.</q>
+           </p>
          </div>
          <closer>
             <dateline>
