@@ -54,7 +54,7 @@
                   Kontextualisierung ergänzt. </note>
             </person>
 
-            <person xml:id="pe_eme_wagner">
+            <person xml:id="pe_eme_wagner" n="2">
                <persName>
                   <forename>Emerich</forename>
                   <forename>Adolf</forename>
@@ -135,7 +135,7 @@
                <note>Geborene Stiffel.</note>
             </person>
 
-            <person xml:id="pe_luetgendorff">
+            <person xml:id="pe_luetgendorff" n="3">
                <persName>
                   <forename>Christin</forename>
                   <surname>Lütgendorf-Gyllenstorm</surname>
@@ -167,7 +167,7 @@
                <note>Keine Informationen zu dieser Person bekannt.</note>
             </person>
 
-            <person xml:id="pe_ott_wagner">
+            <person xml:id="pe_ott_wagner" n="3">
                <persName>
                   <forename>Otto</forename>
                   <forename>Emerich</forename>
@@ -323,10 +323,10 @@
                   <surname>Teltscher</surname>
                </persName>
                <occupation>Hof- und Gerichtsadvokat.</occupation>
-               <note>Hot- und Gerichtsadvokat in Wien.</note>
+               <note>Hof- und Gerichtsadvokat in Wien.</note>
             </person>
 
-            <person xml:id="pe_rob_wagner">
+            <person xml:id="pe_rob_wagner" n="3">
                <persName>
                   <forename>Robert</forename>
                   <forename>Koloman</forename>
@@ -337,7 +337,7 @@
                <note>Zweiter Sohn von Otto Wagner und Sophia Paupie.</note>
             </person>
 
-            <person xml:id="pe_rud_wagner">
+            <person xml:id="pe_rud_wagner" n="1">
                <persName>
                   <forename>Rudolf</forename>
                   <forename>Simeon</forename>
@@ -350,7 +350,7 @@
                   Kontextualisierung ergänzt.</note>
             </person>
 
-            <person xml:id="pe_ste_wagner">
+            <person xml:id="pe_ste_wagner" n="3">
                <persName>
                   <forename>Stefan</forename>
                   <surname>Wagner</surname>
@@ -360,7 +360,7 @@
                <note>Sohn aus zweiter Ehe mit Louise Stiffel.</note>
             </person>
 
-            <person xml:id="pe_sus_wagner">
+            <person xml:id="pe_sus_wagner" n="1">
                <persName>
                   <forename>Susanna</forename>
                   <!-- Im Testament steht Susanne aber im Internet "Susanna" -->
@@ -372,7 +372,7 @@
                <note>Mutter von Otto Wagner, geborene Huber und adoptierte Helfenstirfer.</note>
             </person>
 
-            <person xml:id="pe_wagner" role="main">
+            <person xml:id="pe_wagner" role="main" n="2">
                <idno type="wd">Q84287</idno>
                <persName>
                   <forename>Otto</forename>
@@ -383,22 +383,22 @@
                <birth when="1841-07-13"/>
                <death when="1918-04-11"/>
                <occupation>Architekt</occupation>
-               <note>Österreichischer Arichtekt.</note>
+               <note>Österreichischer Architekt.</note>
             </person>
 
-            <person xml:id="pe_wallisch">
+            <person xml:id="pe_wallisch" n="3">
                <persName>
                   <forename>Susanne</forename>
                   <!-- Im Testament steht Susanne aber im Internet "Susanna" -->
                   <surname>Wallisch</surname>
                </persName>
-               <persName type="variant">Susanna Wagner.</persName>
+               <persName type="variant">Susanna Wagner</persName>
                <birth when="1868"/>
                <death when="1973"/>
                <note>Tochter aus erster Ehe mit Josefine Domhart, geborene Wagner.</note>
             </person>
 
-            <person xml:id="pe_watzlawick">
+            <person xml:id="pe_watzlawick" n="3">
                <persName>
                   <forename>Louise</forename>
                   <surname>Watzlawick</surname>
@@ -430,7 +430,10 @@
          </listPerson>
 
          <listRelation>
-            <!--Susanna Wagner und Otto Wagner.-->
+            <!-- Rudolf Wagner: Vater von Otto Wagner.-->
+            <relation name="parentOf" active="#pe_rud_wagner" passive="#pe_wagner"/>
+            
+            <!--Susanna Wagner Mutter von Otto Wagner.-->
             <relation name="parentOf" active="#pe_sus_wagner" passive="#pe_wagner"/>
 
             <!--Susanna Wagner und Emerich Wagner.-->
@@ -440,13 +443,13 @@
             <relation name="siblingOf" active="#pe_wagner" passive="#pe_eme_wagner"/>
 
             <!-- Romantische Beziehung: Otto Wagner und Sophia Paupie.-->
-            <relation name="spauseOf" mutual="pe_wagner #pe_paupie"/>
+            <relation name="spouseOf" mutual="#pe_wagner #pe_paupie"/>
 
             <!--Erste Ehe: Otto Wagner und Josefine Domhart.-->
             <relation name="spouseOf" mutual="#pe_wagner #pe_domhart"/>
 
             <!--Zweite Ehe: Otto Wagner und Louise Stiffel.-->
-            <relation name="spouseOf" mutual="pe_wagner #pe_lou_wagner"/>
+            <relation name="spouseOf" mutual="#pe_wagner #pe_lou_wagner"/>
 
             <!-- Kinder von Otto Wagner.-->
             <relation name="parentOf" active="#pe_wagner" passive="#pe_ott_wagner"/>
@@ -458,15 +461,15 @@
             <relation name="parentOf" active="#pe_wagner" passive="#pe_wallisch"/>
             <relation name="parentOf" active="#pe_domhart" passive="#pe_wallisch"/>
 
-            <relation name="parentOf" active="#pe_wagner" passive="#pe_stef_wagner"/>
-            <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_stef_wagner"/>
+            <relation name="parentOf" active="#pe_wagner" passive="#pe_ste_wagner"/>
+            <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_ste_wagner"/>
 
             <relation name="parentOf" active="#pe_wagner" passive="#pe_watzlawick"/>
             <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_watzlawick"/>
 
             <relation name="parentOf" active="#pe_wagner" passive="#pe_luetgendorff"/>
             <relation name="parentOf" active="#pe_lou_wagner" passive="#pe_luetgendorff"/>
-         </listRelation>
+         </listRelation>           
       </body>
    </text>
 </TEI>
