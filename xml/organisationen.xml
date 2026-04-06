@@ -22,13 +22,13 @@
       <body>
          <listOrg>
             
-            <org xml:id="org_abkw">            
+            <org xml:id="org_abkw">
                <name type="historic">Akademie der bildenden Künste Wien</name>
                <idno type="wd">Q414219</idno>
                <note>Sitz: <placeName ref="orte.xml#plabkw"/></note>
             </org>
             
-            <org xml:id="org_bba">            
+            <org xml:id="org_bba">    
                   <name type="historic">Berliner Bauakademie</name>
                   <idno type="wd">Q51984</idno>
                   <note>Sitz: <placeName ref="orte.xml#plbba"/></note>
@@ -53,14 +53,7 @@
             <org xml:id="org_gr">
                <name>Gemeinderat</name>
             </org>
-            
-            <org xml:id="org_hk">
-               <name type="historic">Reichshofkanzlei</name>
-               <idno type="wd">Q2139504</idno>
-               <note>Amtssitz: <placeName ref="orte.xml#pl_hk"/></note>
-               <note>Ständige Kanzlei des Heiligen Römischen Reiches.</note>
-            </org>
-            
+                
             <org xml:id="org_kh">
                <name>Künstlerhaus, Gesellschaft der bildender Künstlerinnen und Künstler Österreich</name>
                <name type="variant">Genossenschaft der bildenden Künste Wiens</name>
@@ -78,6 +71,13 @@
             <org xml:id="org_oembg">
                <name type="historic">Österreichische Militär-Baugesellschaft</name>
                <note>Unklar welche Organisation genau gemeint ist.</note>
+            </org>
+            
+            <org xml:id="org_hk">
+               <name type="historic">Reichshofkanzlei</name>
+               <idno type="wd">Q2139504</idno>
+               <note>Amtssitz: <placeName ref="orte.xml#pl_hk"/></note>
+               <note>Ständige Kanzlei des Heiligen Römischen Reiches.</note>
             </org>
             
             <org xml:id="org_sbg">

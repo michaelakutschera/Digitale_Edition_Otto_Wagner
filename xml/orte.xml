@@ -65,7 +65,7 @@
                <note type="location">
                   <geo>52.519167 13.401111</geo>
                </note>
-               <note type="desc">Gebaut 1894-1905 nach den Plönen von Julius Raschdorff.</note>
+               <note type="desc">Gebaut 1894–1905 nach den Plönen von Julius Raschdorff.</note>
             </place>
             
             <place xml:id="pl_berlin">
@@ -97,7 +97,7 @@
                <note type="location">
                   <geo>48.2005 16.3687</geo>
                </note>
-               <note type="desc">Gebaut 1854-1897 nach Plänen von Ludwig Förster. Nutzung:
+               <note type="desc">Gebaut 1854–1897 nach Plänen von Ludwig Förster. Nutzung:
                   Fuhrwerke, Fußgänger und Straßenbahn.</note>
             </place>
             
@@ -244,7 +244,7 @@
                <note type="location">
                   <geo>47.49792 19.05889</geo>
                </note>
-               <note type="desc">Gebaut 1869-1872 nach Plänen von Otto Wagner. Einziges Gebäude von
+               <note type="desc">Gebaut 1869–1872 nach Plänen von Otto Wagner. Einziges Gebäude von
                   ihm in Budapest, Ungarn.</note>
             </place>
 
@@ -254,7 +254,8 @@
                <note type="location">
                   <geo>48.918237 11.47722</geo>
                </note>
-               <note type="desc">Schlossanlage mit Ökonomiehof.</note>
+               <note type="desc">Das Schloss Schönbrunn ist die ehemalige Sommerresidenz der Habsburger
+                  in der österreichischen Hauptstadt Wien.</note>
             </place>
 
             <place xml:id="pl_wien">

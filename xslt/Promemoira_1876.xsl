@@ -83,6 +83,7 @@
     </xsl:template>
     
     <!-- Wandelt xml zu html um.-->
+    <!-- KI Hilfe für die Umwandlung von xml zu html.-->
     <xsl:template name="ref-to-html">
         <xsl:param name="ref"/>
         <xsl:param name="fallback-file"/>
@@ -103,8 +104,8 @@
         </xsl:variable>
     </xsl:template>
     
-    <!-- Entitäten: Link zu Personen, Organisationen, Orten, Events und Datum.
-    Umwandlung der xml-ref zu einer html-ref. -->
+    <!-- Entitäten: Link zu den Personen, Orten, Organisationen und Datum.-->
+    <!-- KI Hilfe für die richtige konfiguration der Verzeichnisse.-->
     <xsl:template match="tei:persName">
         <span class="persName">
             <xsl:variable name="ref" select="@ref"/>

@@ -81,7 +81,9 @@
     <xsl:template match="tei:fw[@type='library-stamp']">
         <span class="fw-stamp">[Stempel: <xsl:apply-templates/>]</span>
     </xsl:template>
-    <!-- Wandelt "personen.xml#pe_x" in "personen.html#pe_x" um -->
+    
+    <!-- Wandelt "personen.xml#pe_x" in "personen.html#pe_x" um.-->
+    <!-- KI Hilfe für die Umwandlung von xml zu html.-->   
     <xsl:template name="ref-to-html">
         <xsl:param name="ref"/>
         <xsl:param name="fallback-file"/>
@@ -103,8 +105,8 @@
         </xsl:variable>
     </xsl:template>
     
-    <!-- Entitäten: Link zu den Personen, Orten, Organisationen und Datum. 
-    Umwandlung: xml-Ref zu einer html-ref-->
+    <!-- Entitäten: Link zu den Personen, Orten, Organisationen und Datum.-->
+    <!-- KI Hilfe für die richtige konfiguration der Verzeichnisse.-->
     <xsl:template match="tei:persName">
         <span class="persName">
             <xsl:variable name="ref" select="@ref"/>
@@ -218,7 +220,7 @@
             <xsl:apply-templates/></span>
     </xsl:template>
     
-    <!-- Inline-Elemente: roleName, lb, gap, supplied, hi, measure, signed -->
+    <!-- Inline-Elemente: roleName, lb, gap, supplied, hi, measure, signed.-->
     <xsl:template match="tei:roleName">
         <xsl:apply-templates/>
         <xsl:text> </xsl:text>

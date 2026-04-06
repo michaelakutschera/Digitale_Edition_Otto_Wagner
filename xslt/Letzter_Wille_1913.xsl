@@ -80,7 +80,9 @@
     <xsl:template match="tei:fw[@type='library-stamp']">
         <span class="fw-stamp">[Stempel: <xsl:apply-templates/>]</span>
     </xsl:template>
-    <!-- Wandelt "personen.xml#pe_x" in "personen.html#pe_x" um -->
+    
+    <!-- Wandelt "personen.xml#pe_x" in "personen.html#pe_x" um. -->
+    <!-- KI Hilfe für die Umwandlung von xml zu html.-->
     <xsl:template name="ref-to-html">
         <xsl:param name="ref"/>
         <xsl:param name="fallback-file"/>
@@ -89,8 +91,7 @@
                 <xsl:value-of select="concat('#', substring-after($ref, '#'))"/>
             </xsl:if>
         </xsl:variable>
-        
-        
+               
         <!-- Dateiname aus ref extrahieren und .xml durch .html ersetzen -->
         <xsl:variable name="filename-xml">
             <xsl:choose>
@@ -102,8 +103,8 @@
         </xsl:variable>
     </xsl:template>
     
-    <!-- Entitäten: Link zu den Personen, Orten, Organisationen und Datum. 
-    Umwandlung: xml-Ref zu einer html-ref-->
+    <!-- Entitäten: Link zu den Personen, Orten, Organisationen und Datum.-->
+    <!-- KI Hilfe für die richtige konfiguration der Verzeichnisse.-->
     <xsl:template match="tei:persName">
         <span class="persName">
             <xsl:variable name="ref" select="@ref"/>

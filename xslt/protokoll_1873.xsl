@@ -113,7 +113,8 @@
     <span class="fw-stamp">[Stempel: <xsl:apply-templates/>]</span>
   </xsl:template>
   
-  <!-- Wandelt "personen.xml#pe_x" in "personen.html#pe_x" um -->
+  <!-- Wandelt "personen.xml#pe_x" in "personen.html#pe_x" um.-->
+  <!-- KI Hilfe für die Umwandlung von xml zu html.-->
   <xsl:template name="ref-to-html">
     <xsl:param name="ref"/>
     <xsl:param name="fallback-file"/>
@@ -135,8 +136,8 @@
     </xsl:variable>
   </xsl:template>
 
-  <!-- Entitäten: Link zu den Personen, Orten, Organisationen und Datum. 
-    Umwandlung: xml-Ref zu einer html-ref-->
+  <!-- Entitäten: Link zu den Personen, Orten, Organisationen und Datum.-->
+  <!-- KI Hilfe für die richtige konfiguration der Verzeichnisse.-->
   <xsl:template match="tei:persName">
     <span class="persName">
       <xsl:variable name="ref" select="@ref"/>
@@ -224,7 +225,7 @@
     </span>
   </xsl:template>
 
-  <!-- Chocie: orig/reg und abbr/expan -->
+  <!-- Chocie: orig/reg und abbr/expan.-->
   <xsl:template match="tei:choice">
     <xsl:apply-templates select="tei:orig | tei:abbr"/>
     <xsl:apply-templates select="tei:reg | tei:expan"/>
@@ -250,7 +251,7 @@
       <xsl:apply-templates/></span>
   </xsl:template>
 
-  <!-- Inline-Elemente: roleName, lb, gap, supplied, hi, measure, signed -->
+  <!-- Inline-Elemente: roleName, lb, gap, supplied, hi, measure, signed.-->
   <xsl:template match="tei:roleName">
     <xsl:apply-templates/>
     <xsl:text> </xsl:text>
@@ -283,7 +284,7 @@
     <span class="signed"><xsl:apply-templates/></span>
   </xsl:template>
 
-  <!-- Ditto-Zeichen weglassen – supplied gibt bereits den Text aus -->
+  <!-- Ditto-Zeichen weglassen – supplied gibt bereits den Text aus.-->
   <xsl:template match="tei:seg[@rend='ditto']"/>
 
 </xsl:stylesheet>

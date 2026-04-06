@@ -7,7 +7,8 @@
     
     <xsl:key name="persons" match="tei:person" use="@xml:id"/>
     
-    <!-- Datum formatieren -->
+    <!-- HILFSTEMPLATES-->
+    <!-- KI Hilfe für die Formatierung des Datums. -->
     <xsl:template name="formatDate">
         <xsl:param name="date"/>
         <xsl:choose>
@@ -26,6 +27,89 @@
         </xsl:choose>
     </xsl:template>
     
+    <!-- Template für den Hauptnamen (mit nameLink). -->
+    <xsl:template match="tei:persName[not(@type)]">
+        <xsl:for-each select="tei:roleName | tei:forename | tei:nameLink | tei:surname | tei:addName">
+            <xsl:value-of select="."/>
+            <xsl:text> </xsl:text>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <!-- Template für jede einzelne Person in der Liste. -->
+    <xsl:template match="tei:person">
+        <li>
+            <h2>
+                <xsl:apply-templates select="tei:persName[not(@type)]"/>
+            </h2>
+            
+            <!--Check ob die idno vorhanden ist und wenn ja Link anzeigen zum Wikidataeintrag.-->
+            <xsl:if test="tei:idno[@type='wd']">
+                <p class="wikidata">
+                    <a href="https://www.wikidata.org/wiki/{tei:idno[@type='wd']}">Wikidata</a>
+                </p>
+            </xsl:if>
+            
+            <!--KI HIlfe für die richtige Anordnung von birth/death und dem neu sortierten Datum. -->
+            <p class="lebensdaten">
+                <xsl:choose>
+                    <xsl:when test="tei:birth and tei:death">
+                        <xsl:text>* </xsl:text>
+                        <xsl:call-template name="formatDate">
+                            <xsl:with-param name="date" select="tei:birth/@when"/>
+                        </xsl:call-template>
+                        <xsl:text>  † </xsl:text>
+                        <xsl:call-template name="formatDate">
+                            <xsl:with-param name="date" select="tei:death/@when"/>
+                        </xsl:call-template>
+                    </xsl:when>
+                    <xsl:when test="tei:birth and not(tei:death)">
+                        <xsl:text>* </xsl:text>
+                        <xsl:call-template name="formatDate">
+                            <xsl:with-param name="date" select="tei:birth/@when"/>
+                        </xsl:call-template>
+                    </xsl:when>
+                    <xsl:when test="not(tei:birth) and tei:death">
+                        <xsl:text>† </xsl:text>
+                        <xsl:call-template name="formatDate">
+                            <xsl:with-param name="date" select="tei:death/@when"/>
+                        </xsl:call-template>
+                    </xsl:when>
+                </xsl:choose>
+            </p>
+            
+            <xsl:if test="tei:occupation or tei:note">
+                <p class="beschreibung">
+                    <xsl:if test="tei:occupation">
+                        <xsl:value-of select="tei:occupation"/>
+                    </xsl:if>
+                    <xsl:if test="tei:occupation and tei:note and not(contains(tei:note, 'Nicht in den Testamenten'))">
+                        <xsl:text> – </xsl:text>
+                    </xsl:if>
+                    <xsl:if test="tei:note and not(contains(tei:note, 'Nicht in den Testamenten'))">
+                        <xsl:value-of select="tei:note"/>
+                    </xsl:if>
+                </p>
+            </xsl:if>
+            
+            <!-- Alle Namensvarianten der Person auflisten. -->
+            <xsl:if test="tei:persName[@type='variant']">
+                <p class="varianten-label">Namensvarianten:</p>
+                <ul class="varianten">
+                    <xsl:for-each select="tei:persName[@type='variant']">
+                        <li><xsl:value-of select="."/></li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:if>
+            
+            <xsl:if test="tei:note[contains(., 'Nicht in den Testamenten')]">
+                <p class="genealogie">
+                    <xsl:value-of select="tei:note[contains(., 'Nicht in den Testamenten')]"/>
+                </p>
+            </xsl:if>
+        </li>
+    </xsl:template>
+    
+    <!-- HAUPTTEMPLATES -->  
     <xsl:template match="/">
         <html lang="de">
             <head>
@@ -34,6 +118,7 @@
                 <link rel="stylesheet" href="stylesheet_wagner.css"/>
             </head>
             <body>
+                <!-- 1. Personenverzeichnis -->
                 <h1>Personenverzeichnis</h1>
                 <ul class="personenverzeichnis">
                     <xsl:apply-templates select="//tei:person">
@@ -41,10 +126,11 @@
                     </xsl:apply-templates>
                 </ul>
                 
-                <!-- BEZIEHUNGEN - nach Generationen gruppiert -->
+                <!-- 2. Beziehungen -->
                 <h2>Beziehungen</h2>
                 
-                <!-- Generation 1: Eltern -->
+                <!--KI Hilfe für die korrekte Vebrindung und Darstellung der familiären Beziehung der Familie Wagner.-->
+                 <!-- Generation 1: Eltern -->
                 <h3>Generation 1 – Eltern von Otto Wagner</h3>
                 <ul class="beziehungen gen1">
                     <xsl:for-each select="//tei:relation[@name='parentOf' and @passive='#pe_wagner']">
@@ -79,7 +165,7 @@
                             </xsl:choose>
                         </xsl:variable>
                         <xsl:variable name="spouse" select="key('persons', $spouseId)"/>
-                        <li>Romantische Beziehung ⚭ <xsl:value-of select="$spouse/tei:persName[not(@type)]"/></li>
+                        <li>⚭ <xsl:value-of select="$spouse/tei:persName[not(@type)]"/></li>
                     </xsl:for-each>
                 </ul>
                 
@@ -111,87 +197,8 @@
                         </ul>
                     </li>
                 </ul>
-  
             </body>
         </html>
     </xsl:template>
-    
-    <xsl:template match="tei:persName[not(@type)]">
-        <xsl:for-each select="tei:roleName | tei:forename | tei:nameLink | tei:surname | tei:addName">
-            <xsl:value-of select="."/>
-            <xsl:text> </xsl:text>
-        </xsl:for-each>
-    </xsl:template>
-    <xsl:template match="tei:person">
-      
-        <li>
-            <h2>
-                <xsl:apply-templates select="tei:persName[not(@type)]"/>
-            </h2>
-            
-            <xsl:if test="tei:idno[@type='wd']">
-                <p class="wikidata">
-                    <a href="https://www.wikidata.org/wiki/{tei:idno[@type='wd']}">Wikidata</a>
-                </p>
-            </xsl:if>
-                       
-            <p class="lebensdaten">
-                <xsl:choose>
-                    <xsl:when test="tei:birth and tei:death">
-                        <xsl:text>* </xsl:text>
-                        <xsl:call-template name="formatDate">
-                            <xsl:with-param name="date" select="tei:birth/@when"/>
-                        </xsl:call-template>
-                        <xsl:text>   † </xsl:text>
-                        <xsl:call-template name="formatDate">
-                            <xsl:with-param name="date" select="tei:death/@when"/>
-                        </xsl:call-template>
-                    </xsl:when>
-                    <xsl:when test="tei:birth and not(tei:death)">
-                        <xsl:text>* </xsl:text>
-                        <xsl:call-template name="formatDate">
-                            <xsl:with-param name="date" select="tei:birth/@when"/>
-                        </xsl:call-template>
-                    </xsl:when>
-                    <xsl:when test="not(tei:birth) and tei:death">
-                        <xsl:text>   † </xsl:text>
-                        <xsl:call-template name="formatDate">
-                            <xsl:with-param name="date" select="tei:death/@when"/>
-                        </xsl:call-template>
-                    </xsl:when>
-                </xsl:choose>
-            </p>
-            
-            <xsl:if test="tei:occupation or tei:note">
-                <p class="beschreibung">
-                    <xsl:if test="tei:occupation">
-                        <xsl:value-of select="tei:occupation"/>
-                    </xsl:if>
-                    <xsl:if test="tei:occupation and tei:note and not(contains(tei:note, 'Nicht in den Testamenten'))">
-                        <xsl:text> – </xsl:text>
-                    </xsl:if>
-                    <xsl:if test="tei:note and not(contains(tei:note, 'Nicht in den Testamenten'))">
-                        <xsl:value-of select="tei:note"/>
-                    </xsl:if>
-                </p>
-            </xsl:if>
-            
-            <xsl:if test="tei:persName[@type='variant']">
-                <p class="varianten-label">Namensvarianten:</p>
-                <ul class="varianten">
-                    <xsl:for-each select="tei:persName[@type='variant']">
-                        <li><xsl:value-of select="."/></li>
-                    </xsl:for-each>
-                </ul>
-            </xsl:if>
-            
-            <xsl:if test="tei:note[contains(., 'Nicht in den Testamenten')]">
-                <p class="genealogie">
-                    <xsl:value-of select="tei:note[contains(., 'Nicht in den Testamenten')]"/>
-                </p>
-            </xsl:if>
-        </li>
-    </xsl:template>
-    
     
 </xsl:stylesheet>
