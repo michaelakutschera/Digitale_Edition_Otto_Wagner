@@ -31,7 +31,7 @@
                <idno type="wd">Q871508</idno>
                <label>Weltausstellung Wien 1873</label>
                <note type="date">1873</note>
-               <note type="place" target="orte.xml#o_wien">Wien</note>
+               <note type="place" target="orte.html#o_wien">Wien</note>
                <note type="desc">Internationale Weltausstellung in Wien.</note>
             </event>
          </listEvent>
