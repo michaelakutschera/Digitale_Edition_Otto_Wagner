@@ -1,4 +1,5 @@
-// edition.js – Choice-Toggle für die digitale Edition
+//Choice-Toggle für die digitale Edition
+//KI-Hilfe für die korrekte Anzeige von Original- und Normalisiert-Texten
 
 document.addEventListener("DOMContentLoaded", function () {
 

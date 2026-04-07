@@ -1,3 +1,47 @@
+/*Header*/
+header {
+  display: flex;
+  background-color: rgb(108, 124, 89);
+  padding: 2em 1em;
+  margin-bottom: 0;
+  border-bottom: 2px solid black;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/*Navigation*/
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgb(108, 124, 89);
+  border-bottom: 2px solid black;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: rgb(108, 124, 89);
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.4s ease;
+}
+
+.nav-button:hover {
+  background-color: rgb(108, 124, 89);
+  transform: translateY(-2px);
+}
+
+
 main {
   display: flex;
 }
