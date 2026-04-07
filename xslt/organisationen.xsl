@@ -25,18 +25,10 @@
     
     <xsl:template match="tei:org">
         <li>
-            <!-- Hauptname: der erste name (meist historic) -->
+            <!-- Hauptname (der erste name) -->
             <h2>
                 <xsl:value-of select="tei:name[1]"/>
             </h2>
-            
-            <!-- Zusätzlicher historischer Hinweis, falls es einen zweiten historic Namen gibt -->
-            <xsl:if test="tei:name[2] and tei:name[1] != tei:name[2]">
-                <p class="historic-name">
-                    <strong>Auch bekannt als: </strong> 
-                    <xsl:value-of select="tei:name[2]"/>
-                </p>
-            </xsl:if>
             
             <!-- Wikidata-Link -->
             <xsl:if test="tei:idno[@type='wd']">
@@ -55,8 +47,18 @@
                 </ul>
             </xsl:if>
             
-            <!-- Alle Notes anzeigen -->
-            <xsl:for-each select="tei:note">
+            <!-- Ort aus note type="place" mit target (einheitlich wie bei Events) -->
+            <xsl:if test="tei:note[@type='place']">
+                <p class="org-place">
+                    <strong>Ort: </strong>
+                    <a href="{tei:note[@type='place']/@target}">
+                        <xsl:value-of select="tei:note[@type='place']"/>
+                    </a>
+                </p>
+            </xsl:if>
+            
+            <!-- Alle anderen Notes (ohne type='place') -->
+            <xsl:for-each select="tei:note[not(@type='place')]">
                 <p class="note">
                     <xsl:value-of select="."/>
                 </p>

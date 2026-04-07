@@ -26,17 +26,15 @@
   <text>
       <body>
 
-      <listEvent>
-         <event xml:id="e_wa_1873">
-            <idno type="wd">Q871508</idno>
-            <label>Weltausstellung Wien 1873</label>
-            <desc>
-               <date when="1873">1873</date>
-               <placeName ref="orte.xml#o_wien">Wien</placeName>
-               Internationale Weltausstellung in Wien.
-            </desc>
-         </event>
-      </listEvent>
+         <listEvent>
+            <event xml:id="e_wa_1873">
+               <idno type="wd">Q871508</idno>
+               <label>Weltausstellung Wien 1873</label>
+               <note type="date">1873</note>
+               <note type="place" target="orte.xml#o_wien">Wien</note>
+               <note type="desc">Internationale Weltausstellung in Wien.</note>
+            </event>
+         </listEvent>
       </body>
   </text>
 </TEI>
