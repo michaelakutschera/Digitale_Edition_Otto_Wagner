@@ -21,11 +21,11 @@
                 <nav class="nav-bar">
                     <div class="nav-container">
                         <a href="../index.html" class="nav-button">Startseite</a>
-                        <a href="%C3%9Cbereinkunft_1873.xsl" class="nav-button">Übereinkunft 1873</a>
-                        <a href="Protokoll_1873.xsl" class="nav-button">Protokoll 1873</a>
+                        <a href="%C3%9Cbereinkunft_1873.html" class="nav-button">Übereinkunft 1873</a>
+                        <a href="Protokoll_1873.html" class="nav-button">Protokoll 1873</a>
                         <a href="Promemoria_1876.html" class="nav-button">Promemoria 1876</a> 
-                        <a href="Letzter_Wille_1888.xsl" class="nav-button">Letzter Wille 1888</a>
-                        <a href="Letzter_Wille_1913.xsl" class="nav-button">Lezter Wille 1913</a>                 
+                        <a href="Letzter_Wille_1888.html" class="nav-button">Letzter Wille 1888</a>
+                        <a href="Letzter_Wille_1913.html" class="nav-button">Lezter Wille 1913</a>                 
                     </div>
                 </nav>
                 
