@@ -14,16 +14,30 @@
                    <xsl:value-of select="//tei:titleStmt/tei:title"/>
                </title> 
                 <link rel="stylesheet" href="stylesheet_wagner.css"/>
-                <script src="edition.js"></script>
+                <script src="../js/edition.js"></script>
             </head>
             <body>
                 <header>
                     <h1><xsl:value-of select="//tei:titleStmt/tei:title"/></h1>
+                </header>
+                
+                <!-- Navigation -->
+                    <div class="nav-container">
+                        <a href="../index.html" class="nav-button">Startseite</a>                        
+                        <a href="Protokoll_1873.html" class="nav-button">Protokoll 1873</a>
+                        <a href="Promemoria_1876.html" class="nav-button">Promemoria 1876</a> 
+                        <a href="Letzter_Wille_1888.html" class="nav-button">Letzter Wille 1888</a>
+                        <a href="Letzter_Wille_1913.html" class="nav-button">Lezter Wille 1913</a>
+                        <a href="personen.html" class="nav-button">Personenverzeichnis</a>
+                        <a href="organisationen.html" class="nav-button">Organisationsverzeichnis</a>
+                        <a href="orte.html" class="nav-button">Ortsverzeichnis</a>
+                        <a href="events.html" class="nav-button">Eventverzeichnis</a>
+                    </div>
+                
                     <!--Button für den Wechsel zwischen dem Original und der Normalisierten Version. -->
                     <button id="toggle-choice">Original ↔ Normalisiert</button>
                     <span id="choice-label">[Original]</span>
-                </header>
-                
+                               
                 <main>
                     <!-- Ansicht vom pdf und dem Text nebeneinander. -->
                     <div id="pdf-panel">

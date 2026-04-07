@@ -25,7 +25,10 @@
                         <a href="Protokoll_1873.html" class="nav-button">Protokoll 1873</a>
                         <a href="Promemoria_1876.html" class="nav-button">Promemoria 1876</a> 
                         <a href="Letzter_Wille_1888.html" class="nav-button">Letzter Wille 1888</a>
-                        <a href="Letzter_Wille_1913.html" class="nav-button">Lezter Wille 1913</a>                 
+                        <a href="Letzter_Wille_1913.html" class="nav-button">Lezter Wille 1913</a>
+                        <a href="personen.html" class="nav-button">Personenverzeichnis</a>
+                        <a href="organisationen.html" class="nav-button">Organisationsverzeichnis</a>
+                        <a href="events.html" class="nav-button">Eventverzeichnis</a>
                     </div>
                 </nav>
                 

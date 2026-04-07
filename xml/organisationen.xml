@@ -25,13 +25,13 @@
             <org xml:id="org_abkw">
                <name type="historic">Akademie der bildenden Künste Wien</name>
                <idno type="wd">Q414219</idno>
-               <note type="place" target="orte.xml#plabkw">Akademie der bildenden Künste Wien</note>
+               <note type="place" target="orte.html#plabkw">Akademie der bildenden Künste Wien</note>
             </org>
             
             <org xml:id="org_bba">    
                   <name type="historic">Berliner Bauakademie</name>
                   <idno type="wd">Q51984</idno>
-               <note type="place" target="orte.xml#plbba">Berliner Bauakademie</note>
+               <note type="place" target="orte.html#plbba">Berliner Bauakademie</note>
                   <note>Auch Schinkelsche Bauakademie genannt. Gebaut nach den Plänen von Karl Friedrich Schinkel 1832 bis 1836 und abgerissen am 13. März 1962.
                      Gefolgt von der Technischen Universität Berlin.</note>    
             </org>
@@ -45,7 +45,7 @@
                <name type="variant">k. k. priviliegierte Österreichische Credit-Anstalt für Handel und Gewerbe</name>
                <name type="variant">CA-BV</name>
                <name type="variant">CA</name>
-               <note type="place" target="orte.xml#pl_wien">Creditanstalt-Bankverein</note>
+               <note type="place" target="orte.html#pl_wien">Creditanstalt-Bankverein</note>
                <note type="desc"> Gründung: <date when="1855-10-31">31.10.1855</date> Auflösung: <date when="2002">2002</date> Gegründet von S. M. v. Rothschild.
                </note>
             </org>
@@ -59,7 +59,7 @@
                <name type="variant">Genossenschaft der bildenden Künste Wiens</name>
                <name type="variant">Künstlerhaus Wien</name>
                <idno type="wd">Q25745588</idno>
-               <note type="place" target="orte.xml#pl_kh">Künstlerhaus</note>
+               <note type="place" target="orte.html#pl_kh">Künstlerhaus</note>
             </org>
             
             <org xml:id="org_jm">
@@ -76,7 +76,7 @@
             <org xml:id="org_hk">
                <name type="historic">Reichshofkanzlei</name>
                <idno type="wd">Q2139504</idno>
-               <note type="place" target="orte.xml#pl_hk">Reichshofkanzlei</note>
+               <note type="place" target="orte.html#pl_hk">Reichshofkanzlei</note>
                <note>Ständige Kanzlei des Heiligen Römischen Reiches.</note>
             </org>
             

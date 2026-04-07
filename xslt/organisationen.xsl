@@ -25,7 +25,10 @@
                         <a href="Protokoll_1873.html" class="nav-button">Protokoll 1873</a>
                         <a href="Promemoria_1876.html" class="nav-button">Promemoria 1876</a> 
                         <a href="Letzter_Wille_1888.html" class="nav-button">Letzter Wille 1888</a>
-                        <a href="Letzter_Wille_1913.html" class="nav-button">Lezter Wille 1913</a>                 
+                        <a href="Letzter_Wille_1913.html" class="nav-button">Lezter Wille 1913</a>
+                        <a href="personen.html" class="nav-button">Personenverzeichnis</a>
+                        <a href="orte.html" class="nav-button">Ortsverzeichnis</a>
+                        <a href="events.html" class="nav-button">Eventverzeichnis</a>
                     </div>
                 </nav>
                 
@@ -62,12 +65,13 @@
                 </ul>
             </xsl:if>
             
-            <!-- Ort mit Link zum Ortsverzeichnis -->
+            <!-- Ort mit Link zum Ortsverzeichnis -->           
             <xsl:if test="tei:note[@type='place']">
                 <p class="event-place">
                     <strong>Ort: </strong>
                     <xsl:choose>
                         <!-- Wenn ein target existiert, link zum Ortsverzeichnis -->
+                        <!-- KI Hilfe mit dem richtigen Verweisen -->
                         <xsl:when test="tei:note[@type='place']/@target">
                             <a href="{tei:note[@type='place']/@target}">
                                 <xsl:value-of select="tei:note[@type='place']"/>
