@@ -9,16 +9,32 @@
         <html lang="de">
             <head>
                 <meta charset="UTF-8"/>
-                <title>Eventverzeichnis</title>
-                <link rel="stylesheet" href="stylesheet_wagner.css"/>
+                <title>Eventverzeichnis - Otto Wagner Edition</title>
+                <link rel="stylesheet" href="../css/stylesheet_wagner_verzeichnisse.css"/>
+                
             </head>
             <body>
-                <h1>Eventverzeichnis</h1>
-                <ul class="eventverzeichnis">
-                    <xsl:apply-templates select="//tei:event">
-                        <xsl:sort select="tei:label" data-type="text" order="ascending"/>
-                    </xsl:apply-templates>
-                </ul>
+                <!-- Header-->
+                <header class="page-header">
+                    <h1>Eventverzeichnis</h1>
+                </header>
+                
+                <!-- Navigation -->
+                <nav class="nav-bar">
+                    <div class="nav-container">
+                        <a href="../index.html" class="nav-button">Startseite</a>
+                        <a href="Promemoria_1876.html" class="nav-button">Promemoria 1876</a>
+                    </div>
+                </nav>
+                
+                <!-- Inhalt -->
+                <main class="events">
+                    <ul class="eventverzeichnis">
+                        <xsl:apply-templates select="//tei:event">
+                            <xsl:sort select="tei:label" data-type="text" order="ascending"/>
+                        </xsl:apply-templates>
+                    </ul>
+                </main>
             </body>
         </html>
     </xsl:template>
@@ -32,7 +48,9 @@
             <!-- Wikidata-Link -->
             <xsl:if test="tei:idno[@type='wd']">
                 <p class="wikidata">
-                    <a href="https://www.wikidata.org/wiki/{tei:idno[@type='wd']}">Wikidata</a>
+                    <a href="https://www.wikidata.org/wiki/{tei:idno[@type='wd']}" target="_blank">
+                        Wikidata-Eintrag
+                    </a>
                 </p>
             </xsl:if>
             
@@ -43,13 +61,13 @@
                     <xsl:value-of select="tei:note[@type='date']"/>
                 </p>
             </xsl:if>
-                        
-            <!-- Ort mit Link -->
-            <!-- KI Hilfe mit der Verlinkung zwischen dem Ort und dem Ortsverzeichnis. -->
+            
+            <!-- Ort mit Link zum Ortsverzeichnis -->
             <xsl:if test="tei:note[@type='place']">
                 <p class="event-place">
                     <strong>Ort: </strong>
                     <xsl:choose>
+                        <!-- Wenn ein target existiert, link zum Ortsverzeichnis -->
                         <xsl:when test="tei:note[@type='place']/@target">
                             <a href="{tei:note[@type='place']/@target}">
                                 <xsl:value-of select="tei:note[@type='place']"/>
@@ -61,13 +79,13 @@
                     </xsl:choose>
                 </p>
             </xsl:if>
-                                    
+            
             <!-- Beschreibung -->
             <xsl:if test="tei:note[@type='desc']">
                 <p class="description">                   
                     <xsl:value-of select="tei:note[@type='desc']"/>
                 </p>
-            </xsl:if>
+            </xsl:if>                    
         </li>
     </xsl:template>
     

@@ -115,11 +115,26 @@
             <head>
                 <meta charset="UTF-8"/>
                 <title>Personenverzeichnis</title>
-                <link rel="stylesheet" href="stylesheet_wagner.css"/>
+                <link rel="stylesheet" href="stylesheet_wagner_verzeichnisse.css"/>
             </head>
             <body>
                 <!-- 1. Personenverzeichnis -->
-                <h1>Personenverzeichnis</h1>
+                <header>
+                    <h1>Personenverzeichnis</h1>
+                </header>
+                
+                <!-- Navigation -->
+                <nav class="nav-bar">
+                    <div class="nav-container">
+                        <a href="../index.html" class="nav-button">Startseite</a>
+                        <a href="%C3%9Cbereinkunft_1873.xsl" class="nav-button">Übereinkunft 1873</a>
+                        <a href="Protokoll_1873.xsl" class="nav-button">Protokoll 1873</a>
+                        <a href="Promemoria_1876.html" class="nav-button">Promemoria 1876</a> 
+                        <a href="Letzter_Wille_1888.xsl" class="nav-button">Letzter Wille 1888</a>
+                        <a href="Letzter_Wille_1913.xsl" class="nav-button">Lezter Wille 1913</a>                 
+                    </div>
+                </nav>
+                
                 <ul class="personenverzeichnis">
                     <xsl:apply-templates select="//tei:person">
                         <xsl:sort select="tei:persName[not(@type)]/tei:surname" data-type="text" order="ascending"/>
