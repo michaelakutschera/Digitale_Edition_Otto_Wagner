@@ -28,7 +28,7 @@
                 <main>
                     <!-- Ansicht vom pdf und dem Text nebeneinander. -->
                     <div id="pdf-panel">
-                        <iframe id="pdf-frame" src="Letzter_Wille_1913.pdf#page=1"></iframe>
+                        <iframe id="pdf-frame" src="../pdf/Letzter_Wille_1913.pdf#page=1"></iframe>
                     </div>
                     
                     <div id="text-panel">

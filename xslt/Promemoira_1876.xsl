@@ -27,7 +27,7 @@
                 <main>
                     <!-- Ansicht vom pdf und dem Text nebeneinander. -->
                     <div id="pdf-panel">
-                        <iframe id="pdf-frame" src="Promemoria_1876.pdf#page=1"></iframe>
+                        <iframe id="pdf-frame" src="../pdf/Promemoria_1876.pdf#page=1"></iframe>
                     </div>
                     
                     <div id="text-panel">

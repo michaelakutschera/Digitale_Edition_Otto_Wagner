@@ -27,7 +27,7 @@
                 <main>
                     <!-- Ansicht vom pdf und dem Text nebeneinander. -->
                     <div id="pdf-panel">
-                        <iframe id="pdf-frame" src="Übereinkunft_1873.pdf#page=1"></iframe>
+                        <iframe id="pdf-frame" src="../pdf/Übereinkunft_1873.pdf#page=1"></iframe>
                     </div>
                     
                     <div id="text-panel">
