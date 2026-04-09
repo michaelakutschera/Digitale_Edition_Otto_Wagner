@@ -5,7 +5,7 @@
     exclude-result-prefixes="tei">
     
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
-    
+   
     <xsl:template match="/">
         <html lang="de">
             <head>
@@ -18,7 +18,9 @@
             </head>
             <body>
                 <header>
-                    <h1><xsl:value-of select="//tei:titleStmt/tei:title"/></h1>
+                    <div class="title-box">
+                        <h1>Digitale Edition Otto Wagner</h1> 
+                    </div>         
                 </header>
                 
                 <!-- Navigation -->
@@ -35,9 +37,10 @@
                     </div>
                 
                     <!--Button für den Wechsel zwischen dem Original und der Normalisierten Version. -->
-                    <button id="toggle-choice">Original ↔ Normalisiert</button>
-                    <span id="choice-label">[Original]</span>
-                               
+                    <div class="toggle-wraper">
+                        <button id="toggle-choice">Original ↔ Normalisiert</button>
+                        <span id="choice-label">[Original]</span>
+                    </div>         
                 <main>
                     <!-- Ansicht vom pdf und dem Text nebeneinander. -->
                     <div id="pdf-panel">
@@ -49,7 +52,32 @@
                             <xsl:apply-templates select="//tei:text/tei:body"/>
                         </div>
                     </div>
-                </main>              
+                </main>
+                
+                <footer class="site-footer">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>Projekt:</h3>
+                            <p>Digitale Edition Otto Wagner<br/>
+                                136060-1 UE Digitale Edition<br/>
+                                Wintersemester 2025/26<br/>
+                                Universtiät Wien</p>
+                        </div>
+                        <div class="footer-section"> 
+                            <h3>Betreuung und Kontakt:</h3>
+                            <p>Erstellt von: Michaela Kutschera BA<br/>
+                                E-Mail: <a href="a11831654@unet.univie.ac.at">a11831654@unet.univie.ac.at</a><br/>
+                                © 2026</p>
+                        </div>
+                        <div class="footer-section">
+                            <h3>Quellen:</h3>
+                            <p>Transkription basierend auf den Originaldokumenten<br/>
+                                aus der Wienbibliohtek im Rathaus.<br/>
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+                
             </body>
         </html>
     </xsl:template>

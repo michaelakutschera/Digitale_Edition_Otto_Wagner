@@ -1,0 +1,366 @@
+/*Heade mit Bildr*/
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 130px;
+  background-color: rgb(107, 124, 89);
+  background-image: url('/Users/michaelakutschera/Desktop/Digitale_Edition_Wagner/Code/Bilder/Geländer.jpeg'); /*Pfad ändern für GitHub*/
+  background-size: contain;
+  background-color: center;
+  padding: 2em 1em;
+  margin-bottom: 0;
+  border-bottom: 1px solid black;
+}
+
+/*Im Html geändert den Header!!!! Noch für alle anderen Dokumente machen*/
+header .title-box {
+  background-color: rgb(107, 124, 89);
+  padding: 0.8em 2em;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+header .title-box h1 {
+  position: relative;
+  font-family: 'Carilliantine', Georgia, 'Times New Roman', serif;
+  font-weight: normal;
+  color: white;
+  font-size: 4rem;
+  text-align: left;
+  padding: 0.5em 1em;
+  margin: 0;
+}
+
+/*Navigation*/
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(107, 124, 89);
+  border-bottom: 1px solid black;
+  position: relative;
+  gap: 0; /*Kein Abstand zwischen den Buttons*/
+}
+
+.nav-container .nav-button {
+  display: inline-block;
+  padding: 0.75rem 0.5rem;
+  background-color: rgb(107, 124, 89);
+  color: white;
+  text-decoration: none;
+  font-family:  Georgia, 'Times New Roman', serif;
+  font-size: 1.25rem;
+  transition: all 0.4s ease;
+  flex: 1 1 auto; /*Gleiche Breite für alle Buttons*/
+  text-align: center;
+  line-height: 1.2;
+}
+
+.nav-container .nav-button:hover {
+  background-color: rgb(107, 124, 89);
+  transform: translateY(-5px);
+  border-radius: 4px;
+}
+
+/* Button Original - Normalisiert*/
+#toggle-choice {
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    margin: 1.5rem 2rem 1rem 2rem;
+    background-color: rgb(107, 124, 89);
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+}
+
+#toggle-choice:hover {
+    background-color: rgb(145, 165, 121);
+    transform: translateY(-4px);
+}
+
+/* Label (Original oder Normalisiert) */
+#choice-label {
+    display: inline-block;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+
+
+/* Toggle und Label zusammen gruppiert */
+.toggle-container {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+/*Layout*/
+main {
+  display: flex;
+  flex: 1;
+  gap: 2em;
+  margin: 1rem auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  width: 100%;
+  flex: 1;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  color: black;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*pdf-Ansicht*/
+#pdf-panel {
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#pdf-panel iframe {
+  width: 100%;
+  flex: 1;
+  border: none;
+}
+
+/*Text-Ansicht*/
+#text-panel {
+  width: 50%;
+  overflow-y: auto;
+  padding: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+  color: black;
+  flex: 1;
+}
+
+/* Überschriften */
+#text-panel h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  margin: 1.2rem 0 0.8rem 0;
+  color: black;
+}
+
+/* Absätze – originalgetreue Darstellung */
+#text-panel p {
+  margin: 0 0 0.8rem 0;
+}
+
+/*Seitenbeschriftungen*/
+#text-panel .page-lable{
+  font-size: 1.3rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+}
+
+/*Liste für "Übereinkunft 1873" – originalgetreu*/
+.div.attendees list, .div.attendees ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1rem 0;
+}
+
+.div.attendees head,
+.div.attendees h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 0.1rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+/* Listen – originalgetreu */
+/*#text-panel ul {
+  margin: 0.5rem 0 1rem 0;
+  padding-left: 2rem;
+}
+
+#text-panel li {
+  margin: 0.2rem 0;
+}
+*/
+
+/* Tabelle "Übereinkunft 1873" */
+#text-panel table {
+  border-collapse: collapse;
+  width: auto;
+  min-width: 300px;
+}
+
+#text-panel td {
+  padding: 0.3rem 0.5rem;
+  vertical-align: top;
+  border: none;
+}
+
+/* Verlinkung zu den Verzeichnissen (Personen, Orte, Organisationen, Events) */
+#text-panel a {
+  color: rgb(107, 124, 89);
+  text-decoration: underline;
+}
+
+#text-panel a:hover {
+  color:rgb(145, 165, 121);
+  text-decoration: underline;
+}
+
+/* Archiv-Signaturen */
+.fw-archival {
+  font-family: 'Courier New', monospace;
+  color: rgb(164, 0, 0);
+  font-size: 1rem;
+  display: block;
+  margin: 0.8rem 0;
+}
+
+/* Stempel */
+.fw-stamp {
+  font-family: 'Courier New', monospace;
+  font-size: 0.8rem;
+  color: #666;
+  display: block;
+  text-align: center;
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+  background-color: #f5f3ed;
+  border: 1px dashed #bbb;
+}
+
+/* Datum */
+.date {
+  white-space: nowrap;
+}
+
+/* Unterschriften */
+.signed {
+  display: block;
+  margin: 0.4rem 0;
+}
+
+/* Unterschriften-Block */
+.div.signatures {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+}
+
+/* Lücken im Original (unleserliche Stellen) */
+.gap {
+  background-color: #f0e6d2;
+  display: inline-block;
+  min-width: 2rem;
+  font-style: italic;
+  color: #999;
+}
+
+/* Zeilenumbrüche im Original erhalten */
+.br {
+  display: block;
+}
+
+/*Footer*/
+.site-footer {
+  background-color: rgb(107, 124, 89);
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  border-top: 1px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin: 0 auto
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3 {
+  font-size: 1.0rem;
+  display: block;
+}
+
+.footer-section p {
+    margin: 0.25rem 0;
+    line-height: 1.3;
+    font-size: 0.9rem;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-section br {
+    display: block;
+}
+
+/* Responsives Design*/
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  #pdf-panel, #text-panel {
+    width: 100%;
+    height: 70vh;
+  }
+  
+  header .title-box h1 {
+    font-size: 2rem;
+  }
+  
+  .nav-container .nav-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.25rem;
+  }
+  .nav-container {
+    flex-direction: column;
+  }
+  
+  .nav-container .nav-button {
+    border-bottom: 1px solid black;
+  }
+  
+  .nav-container .nav-button:last-child {
+    border-bottom: none;
+  }
+
+  .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-section h3 {
+        border-bottom: none;
+    }
+}
