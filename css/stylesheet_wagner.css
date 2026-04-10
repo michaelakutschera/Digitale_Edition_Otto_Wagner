@@ -6,7 +6,7 @@ header {
   justify-content: center;
   min-height: 130px;
   background-color: rgb(107, 124, 89);
-  background-image: url('../Bilder/Geländer.jpeg');
+  background-image: url('../bilder/gelaender.jpeg');
   background-size: contain;
   background-color: center;
   padding: 2em 1em;
@@ -14,7 +14,6 @@ header {
   border-bottom: 1px solid black;
 }
 
-/*Im Html geändert den Header!!!! Noch für alle anderen Dokumente machen*/
 header .title-box {
   background-color: rgb(107, 124, 89);
   padding: 0.8em 2em;
@@ -202,17 +201,6 @@ body {
     font-size: 0.1rem;
     margin: 1rem 0 0.5rem 0;
 }
-
-/* Listen – originalgetreu */
-/*#text-panel ul {
-  margin: 0.5rem 0 1rem 0;
-  padding-left: 2rem;
-}
-
-#text-panel li {
-  margin: 0.2rem 0;
-}
-*/
 
 /* Tabelle "Übereinkunft 1873" und "Protokoll 1873" */
 #text-panel table {

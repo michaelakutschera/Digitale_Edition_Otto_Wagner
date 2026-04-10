@@ -1,0 +1,174 @@
+/*Heade mit Bildr*/
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 130px;
+  background-color: rgb(107, 124, 89);
+  background-image: url('../bilder/gelaender.jpeg');
+  background-size: contain;
+  background-color: center;
+  padding: 2em 1em;
+  margin-bottom: 0;
+  border-bottom: 1px solid black;
+}
+
+header .title-box {
+  background-color: rgb(107, 124, 89);
+  padding: 0.8em 2em;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+header .title-box h1 {
+  position: relative;
+  font-family: 'Carilliantine', Georgia, 'Times New Roman', serif;
+  font-weight: normal;
+  color: white;
+  font-size: 4rem;
+  text-align: left;
+  padding: 0.5em 1em;
+  margin: 0;
+}
+
+/*Navigation*/
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(107, 124, 89);
+  border-bottom: 1px solid black;
+  position: relative;
+  gap: 0; /*Kein Abstand zwischen den Buttons*/
+}
+
+.nav-container .nav-button {
+  display: inline-block;
+  padding: 0.75rem 0.5rem;
+  background-color: rgb(107, 124, 89);
+  color: white;
+  text-decoration: none;
+  font-family:  Georgia, 'Times New Roman', serif;
+  font-size: 1.25rem;
+  transition: all 0.4s ease;
+  flex: 1 1 auto; /*Gleiche Breite für alle Buttons*/
+  text-align: center;
+  line-height: 1.2;
+}
+
+.nav-container .nav-button:hover {
+  background-color: rgb(107, 124, 89);
+  transform: translateY(-5px);
+  border-radius: 4px;
+}
+
+/*Layout*/
+main {
+  display: flex;
+  flex: 1;
+  gap: 2em;
+  margin: 1rem auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  width: 100%;
+  flex: 1;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  color: black;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/*Footer*/
+.site-footer {
+  background-color: rgb(107, 124, 89);
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  border-top: 1px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin: 0 auto
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3 {
+  font-size: 1.0rem;
+  display: block;
+}
+
+.footer-section p {
+    margin: 0.25rem 0;
+    line-height: 1.3;
+    font-size: 0.9rem;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-section br {
+    display: block;
+}
+
+/* Responsives Design*/
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  #pdf-panel, #text-panel {
+    width: 100%;
+    height: 70vh;
+  }
+  
+  header .title-box h1 {
+    font-size: 2rem;
+  }
+  
+  .nav-container .nav-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.25rem;
+  }
+  .nav-container {
+    flex-direction: column;
+  }
+  
+  .nav-container .nav-button {
+    border-bottom: 1px solid black;
+  }
+  
+  .nav-container .nav-button:last-child {
+    border-bottom: none;
+  }
+
+  .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-section h3 {
+        border-bottom: none;
+    }
+}

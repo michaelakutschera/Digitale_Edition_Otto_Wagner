@@ -14,9 +14,11 @@
                 
             </head>
             <body>
-                <!-- Header-->
-                <header class="page-header">
-                    <h1>Eventverzeichnis</h1>
+                
+                <header>
+                    <div class="title-box">
+                        <h1>Digitale Edition Otto Wagner</h1> 
+                    </div>         
                 </header>
                 
                 <!-- Navigation -->
@@ -36,21 +38,49 @@
                 
                 <!-- Inhalt -->
                 <main class="events">
+                    <!-- Überschrift direkt ausgeben -->
+                    <h2><xsl:value-of select="//tei:head"/></h2>
+                    
                     <ul class="eventverzeichnis">
                         <xsl:apply-templates select="//tei:event">
                             <xsl:sort select="tei:label" data-type="text" order="ascending"/>
                         </xsl:apply-templates>
                     </ul>
+                    
                 </main>
+                    <!-- Footer -->
+                    <footer class="site-footer">
+                        <div class="footer-content">
+                            <div class="footer-section">
+                                <h3>Projekt:</h3>
+                                <p>Digitale Edition Otto Wagner<br/>
+                                    136060-1 UE Digitale Edition<br/>
+                                    Wintersemester 2025/26<br/>
+                                    Universtiät Wien</p>
+                            </div>
+                            <div class="footer-section"> 
+                                <h3>Betreuung und Kontakt:</h3>
+                                <p>Erstellt von: Michaela Kutschera BA<br/>
+                                    E-Mail: <a href="a11831654@unet.univie.ac.at">a11831654@unet.univie.ac.at</a><br/>
+                                    © 2026</p>
+                            </div>
+                            <div class="footer-section">
+                                <h3>Quellen:</h3>
+                                <p>Transkription basierend auf den Originaldokumenten<br/>
+                                    aus der Wienbibliothek im Rathaus.<br/>
+                                </p>
+                            </div>
+                        </div>
+                    </footer>            
             </body>
         </html>
     </xsl:template>
-    
+
     <xsl:template match="tei:event">
         <li>
-            <h2>
+            <h3>
                 <xsl:value-of select="tei:label"/>
-            </h2>
+            </h3>
             
             <!-- Wikidata-Link -->
             <xsl:if test="tei:idno[@type='wd']">

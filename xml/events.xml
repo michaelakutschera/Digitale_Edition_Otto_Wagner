@@ -6,12 +6,22 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Events für die Otto Wagner Dokumente.</title>
+            <title>Eventverzeichnis</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
-         <publicationStmt><p>Interne Verwendung</p></publicationStmt>
+         
+         <publicationStmt>
+            <publisher>Michaela Kutschera</publisher>
+            <date>2026</date>
+            <availability>
+               <p>Sichtbar unter der URL<ref target="https://michaelakutschera.github.io/Digitale_Edition_Otto_Wagner/index.html">Digitale Edition Otto Wagner</ref>.
+                  GitHub Repository:<ref target="https://github.com/michaelakutschera/Digitale_Edition_Otto_Wagner"> Digitale Edition Otto Wagner</ref>  
+                  Veröffentlicht im Rahmen der Lehrveranstaltung UE: Digitale Edition (Wintersemester (2025/26) and der Universtität Wien.</p>
+            </availability>
+         </publicationStmt>
+         
          <sourceDesc>
-            <p>Promemoira_1876</p>
+            <p>Event kommt nur im Dokument "Promemoira_1876" vor.</p>
          </sourceDesc>
       </fileDesc>
       
@@ -23,8 +33,10 @@
          </listPrefixDef>
       </encodingDesc>
    </teiHeader>
+   
   <text>
       <body>
+         <head>Eventverzeichnis</head>
          
          <listEvent>
             <event xml:id="e_wa_1873">
