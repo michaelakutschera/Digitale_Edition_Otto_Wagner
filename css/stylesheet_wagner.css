@@ -6,7 +6,7 @@ header {
   justify-content: center;
   min-height: 130px;
   background-color: rgb(107, 124, 89);
-  background-image: url('../Bilder/Geländer.jpeg'); /*Pfad ändern für GitHub*/
+  background-image: url('../Bilder/Geländer.jpeg');
   background-size: contain;
   background-color: center;
   padding: 2em 1em;
