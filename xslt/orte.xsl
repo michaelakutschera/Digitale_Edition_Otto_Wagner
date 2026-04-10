@@ -10,11 +10,13 @@
             <head>
             <meta charset="UTF-8"/>
             <title>Ortsverzeichnis</title>
-            <link rel="stylesheet" href="stylesheet_wagner_verzeichnisse.css"/>
+            <link rel="stylesheet" href="../css/stylesheet_wagner_verzeichnisse.css"/>
             </head>
             <body>
                 <header>
-                <h1>Ortsverzeichnis</h1>
+                    <div class="title-box">
+                        <h1>Digitale Edition Otto Wagner</h1> 
+                    </div>         
                 </header>
                 
                 <!-- Navigation -->
@@ -32,20 +34,48 @@
                     </div>
                 </nav>
                 
+                <!-- Überschrift direkt ausgeben -->
+                <h2><xsl:value-of select="//tei:head"/></h2>
+                
                 <ul class="Ortsverzeichnis">
                     <xsl:apply-templates select="//tei:place">
                         <xsl:sort select="tei:placeName" data-type="text" order="ascending"/>
                     </xsl:apply-templates>
                 </ul>
             </body>
+            
+            <!-- Footer -->
+            <footer class="site-footer">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>Projekt:</h3>
+                        <p>Digitale Edition Otto Wagner<br/>
+                            136060-1 UE Digitale Edition<br/>
+                            Wintersemester 2025/26<br/>
+                            Universtiät Wien</p>
+                    </div>
+                    <div class="footer-section"> 
+                        <h3>Betreuung und Kontakt:</h3>
+                        <p>Erstellt von: Michaela Kutschera BA<br/>
+                            E-Mail: <a href="a11831654@unet.univie.ac.at">a11831654@unet.univie.ac.at</a><br/>
+                            © 2026</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Quellen:</h3>
+                        <p>Transkription basierend auf den Originaldokumenten<br/>
+                            aus der Wienbibliothek im Rathaus.<br/>
+                        </p>
+                    </div>
+                </div>
+            </footer>  
         </html>
     </xsl:template>
     
     <xsl:template match="tei:place">
         <li>
-            <h2>
+            <h3>
                 <xsl:value-of select="tei:placeName"/>
-            </h2>
+            </h3>
             
             <!-- Historisch, wenn vorhanden.  -->
             <xsl:if test="tei:placeName[@type='historic']">

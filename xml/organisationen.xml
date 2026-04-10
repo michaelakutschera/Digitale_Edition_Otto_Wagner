@@ -9,7 +9,17 @@
             <title>Organisationsregister für alle Otto Wagner Dokumente.</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
-         <publicationStmt><p>Interne Verwendung</p></publicationStmt>
+         
+         <publicationStmt>
+            <publisher>Michaela Kutschera</publisher>
+            <date>2026</date>
+            <availability>
+               <p>Sichtbar unter der URL<ref target="https://michaelakutschera.github.io/Digitale_Edition_Otto_Wagner/index.html">Digitale Edition Otto Wagner</ref>.
+                  GitHub Repository:<ref target="https://github.com/michaelakutschera/Digitale_Edition_Otto_Wagner"> Digitale Edition Otto Wagner</ref>  
+                  Veröffentlicht im Rahmen der Lehrveranstaltung UE: Digitale Edition (Wintersemester (2025/26) and der Universtität Wien.</p>
+            </availability>
+         </publicationStmt>
+         
          <sourceDesc>
             <p>Protokoll_1873</p>
             <p>Übereinkunft_1873</p>
@@ -20,8 +30,9 @@
   </teiHeader>
   <text>
       <body>
-         <listOrg>
-            
+         <head>Organisationsverzeichnis</head>
+         
+         <listOrg>  
             <org xml:id="org_abkw">
                <name type="historic">Akademie der bildenden Künste Wien</name>
                <idno type="wd">Q414219</idno>
@@ -64,7 +75,6 @@
             
             <org xml:id="org_jm">
                <name>Justizministerium</name>
-               <!-- Vielleicht, vielleicht auch nicht? -->
                <note>Österreichisches Jusitzministerium im 19. Jahrhundert.</note>
             </org>
             

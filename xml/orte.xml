@@ -9,9 +9,17 @@
             <title>Orte für die Otto Wagner Dokumente.</title>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
+         
          <publicationStmt>
-            <p>Interne Verwendung</p>
+            <publisher>Michaela Kutschera</publisher>
+            <date>2026</date>
+            <availability>
+               <p>Sichtbar unter der URL<ref target="https://michaelakutschera.github.io/Digitale_Edition_Otto_Wagner/index.html">Digitale Edition Otto Wagner</ref>.
+                  GitHub Repository:<ref target="https://github.com/michaelakutschera/Digitale_Edition_Otto_Wagner"> Digitale Edition Otto Wagner</ref>  
+                  Veröffentlicht im Rahmen der Lehrveranstaltung UE: Digitale Edition (Wintersemester (2025/26) and der Universtität Wien.</p>
+            </availability>
          </publicationStmt>
+         
          <sourceDesc>
             <p>Protokoll_1873</p>
             <p>Übereinkunft_1873</p>
@@ -33,6 +41,8 @@
 
    <text>
       <body>
+         <head>Ortsverzeichnis</head>
+         
          <listPlace>
             <place xml:id="pl_abkw">
                <placeName>Akademie der bildenden Künste Wien</placeName>
