@@ -13,7 +13,7 @@
                 <title>
                     <xsl:value-of select="//tei:titleStmt/tei:title"/>
                 </title> 
-                <link rel="stylesheet" href="stylesheet_wagner.css"/>
+                <link rel="stylesheet" href="../css/stylesheet_wagner.css"/>
                 <script src="../js/edition.js"></script>
             </head>
             <body>
