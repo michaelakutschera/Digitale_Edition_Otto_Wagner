@@ -7,23 +7,24 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Protokoll von 1873</title>
+            <title>Protokoll 1873</title>
+            <author>Otto Wagner</author>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
 
          <publicationStmt>
-            <publisher>UE: Digitale Edtion</publisher>
-            <date>Wintersemester 2025/26</date>
+            <publisher>Michaela Kutschera</publisher>
+            <date>2026</date>
             <availability>
-               <p>GitHub für die Abgabe des Projekts.</p>
+               <p>Sichtbar unter der URL<ref target="https://michaelakutschera.github.io/Digitale_Edition_Otto_Wagner/index.html">Digitale Edition Otto Wagner</ref>.
+                  GitHub Repository:<ref target="https://github.com/michaelakutschera/Digitale_Edition_Otto_Wagner"> Digitale Edition Otto Wagner</ref>  
+                  Veröffentlicht im Rahmen der Lehrveranstaltung UE: Digitale Edition (Wintersemester (2025/26) and der Universtität Wien.</p>
             </availability>
          </publicationStmt>
 
          <sourceDesc>
             <bibl>
-               <title>Protocoll der am 5. September 1873 im Bureau des Herrn Baron Friedrich von
-                  Schey abgehaltenen Sitzung in Wienabteilungs &amp;
-                  Localbahnen-Projects-Angelegenheiten.pdf</title>
+               <title>Protokoll_1873.pdf</title>
                <author>Otto Wagner</author>
                <pubPlace>Wien</pubPlace>
                <date>5. September 1873</date>
@@ -97,7 +98,7 @@
             </list>
          </div>
 
-         <div type="speaker">
+         <div type="speeches">
             <sp>
                <speaker><persName ref="personen.xml#pe_schwarz">
                      <roleName type="nobility">Baron</roleName>Schwarz</persName>
@@ -188,14 +189,15 @@
                </row>
             </table>
          </div>
-         <div type="speaker">
+         
+         <fw type="library-stamp" rend="middle-right ink-dark-blue"> Wiener Stadt<gap reason="illegible"/></fw>
+         
+         <div type="speeches">
             <sp>
                <speaker><persName ref="personen.xml#pe_schwarz"><roleName type="nobility"
                         >Baron</roleName> Schwarz</persName></speaker>
                <p>stellt den Antrag, für den Fall,<lb/>
-                  <fw type="library-stamp" rend="middle-right ink-dark-blue"> Wiener Stadt <gap
-                        reason="illegible"/>
-                  </fw> als die <choice>
+                   als die <choice>
                      <orig>Betheiligung</orig>
                      <reg>Beteiligung</reg>
                   </choice> des <persName ref="personen.xml#pe_rothschild"><roleName type="nobility"
@@ -234,7 +236,7 @@
          </div>
 
          <pb n="3" facs="#pro1873_p3"/>
-         <div type="speaker">
+         <div type="speeches">
             <sp>
                <speaker><persName ref="personen.xml#pe_wagner">Otto Wagner</persName></speaker>
                <p><choice>
@@ -273,7 +275,7 @@
                </choice>
             </signed>
 
-            <signed><persName ref="personen.xml#pe_schwarz">Carl v Schwarz</persName><choice>
+            <signed><persName ref="personen.xml#pe_schwarz">Carl v Schwarz </persName><choice>
                   <abbr>m/p</abbr>
                   <expan>manu propria</expan>
                </choice>

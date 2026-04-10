@@ -168,6 +168,11 @@ body {
   margin: 0 0 0.8rem 0;
 }
 
+/*Zitat "Promemoria 1876"*/
+#text-panel .q {
+  margin: 0 0 0.8rem 0;
+}
+
 /*Seitenbeschriftungen*/
 #text-panel .page-lable{
   font-size: 1.3rem;
@@ -175,15 +180,23 @@ body {
   text-align: left;
 }
 
-/*Liste für "Übereinkunft 1873" – originalgetreu*/
-.div.attendees list, .div.attendees ul {
+#text-panel .page-label-inline {
+  font-size: 1.3rem;
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  text-align: left;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/*Liste für "Übereinkunft 1873 & Protokoll 1873" – originalgetreu*/
+.attendees ul {
   list-style: none;
   padding-left: 0;
   margin: 0 0 1rem 0;
 }
 
-.div.attendees head,
-.div.attendees h2{
+.attendees h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
     font-size: 0.1rem;
@@ -201,7 +214,7 @@ body {
 }
 */
 
-/* Tabelle "Übereinkunft 1873" */
+/* Tabelle "Übereinkunft 1873" und "Protokoll 1873" */
 #text-panel table {
   border-collapse: collapse;
   width: auto;
@@ -212,6 +225,26 @@ body {
   padding: 0.3rem 0.5rem;
   vertical-align: top;
   border: none;
+}
+
+/*Sprecher-Struktur für das "Protokoll 1873"*/
+.match {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.speaker {
+  flex: 0 0 auto;
+  min-width: 150px;
+}
+
+.speech-text {
+  flex: 1;
+}
+
+.normal-paragraph {
+  margin: 1rem 0;
 }
 
 /* Verlinkung zu den Verzeichnissen (Personen, Orte, Organisationen, Events) */

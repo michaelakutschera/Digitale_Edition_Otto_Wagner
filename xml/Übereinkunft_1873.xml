@@ -7,22 +7,24 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Übereinkunft vom 27. Februar 1873</title>
+            <title>Übereinkunft 1873</title>
+            <author>Otto Wagner</author>
             <editor>Michaela Kutschera</editor>
          </titleStmt>
 
          <publicationStmt>
-            <publisher>UE: Digitale Edtion</publisher>
-            <date>Wintersemester 2025/26</date>
+            <publisher>Michaela Kutschera</publisher>
+            <date>2026</date>
             <availability>
-               <p>GitHub für die Abgabe des Projekts.</p>
+               <p>Sichtbar unter der URL<ref target="https://michaelakutschera.github.io/Digitale_Edition_Otto_Wagner/index.html">Digitale Edition Otto Wagner</ref>.
+                  GitHub Repository:<ref target="https://github.com/michaelakutschera/Digitale_Edition_Otto_Wagner"> Digitale Edition Otto Wagner</ref>  
+               Veröffentlicht im Rahmen der Lehrveranstaltung UE: Digitale Edition (Wintersemester (2025/26) and der Universtität Wien.</p>
             </availability>
          </publicationStmt>
 
          <sourceDesc>
             <bibl>
-               <title>Uibereinkunft [!] aufgesetzt am 27. Februar 1873 im Bureau des Herrn Baron
-                  Friedrich von Schey.pdf</title>
+               <title>Übereinkunft_1883.pdf</title>
                <author>Otto Wagner</author>
                <pubPlace>Wien</pubPlace>
                <date>27. Februar 1873</date>
@@ -137,7 +139,6 @@
          <div type="table">
             <table>
                <row>
-                  <!-- Ist das der richtige Rothschild?-->
                   <cell><persName ref="personen.xml#pe_rothschild"><roleName type="nobility">Baron
                         </roleName> S. M. v. Rothschild</persName>
                   </cell>

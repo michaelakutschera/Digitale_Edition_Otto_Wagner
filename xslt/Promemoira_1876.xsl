@@ -17,8 +17,12 @@
                 <script src="../js/edition.js"></script>
             </head>
             <body>
+                
+               
                 <header>
-                    <h1><xsl:value-of select="//tei:titleStmt/tei:title"/></h1>
+                    <div class="title-box">
+                        <h1>Digitale Edition Otto Wagner</h1>
+                    </div>
                 </header>
                 
                 <!-- Navigation -->
@@ -34,9 +38,11 @@
                     <a href="events.html" class="nav-button">Eventverzeichnis</a>
                 </div>
                 
-                    <!--Button für den Wechsel zwischen dem Original und der Normalisierten Version. -->
+                <!--Button für den Wechsel zwischen dem Original und der Normalisierten Version. -->
+                <div class="toggle-wraper">
                     <button id="toggle-choice">Original ↔ Normalisiert</button>
                     <span id="choice-label">[Original]</span>
+                </div>
                               
                 <main>
                     <!-- Ansicht vom pdf und dem Text nebeneinander. -->
@@ -49,7 +55,32 @@
                             <xsl:apply-templates select="//tei:text/tei:body"/>
                         </div>
                     </div>
-                </main>              
+                </main>
+                
+                <!-- Footer -->
+                <footer class="site-footer">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>Projekt:</h3>
+                            <p>Digitale Edition Otto Wagner<br/>
+                                136060-1 UE Digitale Edition<br/>
+                                Wintersemester 2025/26<br/>
+                                Universtiät Wien</p>
+                        </div>
+                        <div class="footer-section"> 
+                            <h3>Betreuung und Kontakt:</h3>
+                            <p>Erstellt von: Michaela Kutschera BA<br/>
+                                E-Mail: <a href="a11831654@unet.univie.ac.at">a11831654@unet.univie.ac.at</a><br/>
+                                © 2026</p>
+                        </div>
+                        <div class="footer-section">
+                            <h3>Quellen:</h3>
+                            <p>Transkription basierend auf den Originaldokumenten<br/>
+                                aus der Wienbibliothek im Rathaus.<br/>
+                            </p>
+                        </div>
+                    </div>
+                </footer>            
             </body>
         </html>
     </xsl:template>
@@ -61,7 +92,13 @@
     
     <!-- pb als Seitenmarker ausgeben. -->
     <xsl:template match="tei:pb">
-        <span class="page-label"> Seite <xsl:value-of select="@n"/> </span>
+        <p class="page-lable">Seite <xsl:value-of select="@n"/></p> 
+    </xsl:template>
+    
+    <!-- pb als Seitenmarker ausgeben innerhlab eines Zitats. -->
+    <!-- KI Hilfe für die Lösung dieses Problems. -->
+    <xsl:template match="tei:q/tei:pb">
+        <span class="page-label-inline"> Seite <xsl:value-of select="@n"/></span>
     </xsl:template>
     
     <!-- Strukturelemente: head, div, p, q-->

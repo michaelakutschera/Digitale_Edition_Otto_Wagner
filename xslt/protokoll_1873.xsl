@@ -19,7 +19,9 @@
       <body>
 
         <header>
-          <h1><xsl:value-of select="//tei:titleStmt/tei:title"/></h1>
+          <div class="title-box">
+            <h1>Digitale Edition Otto Wagner</h1>
+          </div>
         </header>
         
         <!-- Navigation -->
@@ -36,10 +38,11 @@
         </div>
         
           <!--Button für den Wechsel zwischen dem Original und der Normalisierten Version. -->
-          <button id="toggle-choice">Original ↔ Normalisiert</button>
-          <span id="choice-label">[Original]</span>
+          <div class="toggle-wraper">
+            <button id="toggle-choice">Original ↔ Normalisiert</button>
+            <span id="choice-label">[Original]</span>
+          </div> 
         
-
         <main>
           <!-- Ansicht vom pdf und dem Text nebeneinander. -->
           <div id="pdf-panel">
@@ -52,8 +55,30 @@
             </div>
           </div>
         </main>
-
-        <script src="edition.js"></script>
+        
+        <footer class="site-footer">
+          <div class="footer-content">
+            <div class="footer-section">
+              <h3>Projekt:</h3>
+              <p>Digitale Edition Otto Wagner<br/>
+                136060-1 UE Digitale Edition<br/>
+                Wintersemester 2025/26<br/>
+                Universtiät Wien</p>
+            </div>
+            <div class="footer-section"> 
+              <h3>Betreuung und Kontakt:</h3>
+              <p>Erstellt von: Michaela Kutschera BA<br/>
+                E-Mail: <a href="a11831654@unet.univie.ac.at">a11831654@unet.univie.ac.at</a><br/>
+                © 2026</p>
+            </div>
+            <div class="footer-section">
+              <h3>Quellen:</h3>
+              <p>Transkription basierend auf den Originaldokumenten<br/>
+                aus der Wienbibliothek im Rathaus.<br/>
+              </p>
+            </div>
+          </div>
+        </footer>       
       </body>
     </html>
   </xsl:template>
@@ -65,9 +90,8 @@
   
   <!-- pb als Seitenmarker ausgeben -->
   <xsl:template match="tei:pb">
-    <p class="page-label">Seite <xsl:value-of select="@n"/></p>
+    <p class="page-lable">Seite <xsl:value-of select="@n"/></p> 
   </xsl:template>
-  <xsl:template match="tei:note"/>
 
   <!-- Strukturelemente: head, div, p, list, item, table, row, cell-->
   <xsl:template match="tei:head">
@@ -82,9 +106,35 @@
       <xsl:apply-templates/>
     </div>
   </xsl:template>
+  
+  <!--Für die korrekte Darstellung des div atteendees -->
+  <xsl:template match="tei:div[@type='attendees']">
+    <div class="attendees">
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
 
-  <xsl:template match="tei:p">
-    <p><xsl:apply-templates/></p>
+<!-- Normaler Paragraph (außerhalb von sp)-->
+  <xsl:template match="tei:p[not(ancestor::tei:sp)]">
+    <p class="normal-paragraph"><xsl:apply-templates/></p>
+  </xsl:template>
+  
+<!-- p innerhlab von sp -->
+  <xsl:template match="tei:sp/tei:p">
+    <span class="speech-text"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+<!-- Sprecher innerhlb von sp --> 
+  <xsl:template match="tei:speaker">
+    <span class="speaker"><xsl:apply-templates/></span>
+  </xsl:template>
+  
+<!-- Umschließt speaker und p --> 
+  <xsl:template match="tei:sp">
+    <div class="match">
+        <xsl:apply-templates select="tei:speaker"/>
+        <xsl:apply-templates select="tei:p"/>
+    </div>
   </xsl:template>
 
   <xsl:template match="tei:list">
@@ -107,17 +157,6 @@
     <td><xsl:apply-templates/></td>
   </xsl:template>
 
-  <!-- Sprecher -->
-  <xsl:template match="tei:sp">
-    <div class="speech">
-      <xsl:apply-templates/>
-    </div>
-  </xsl:template>
-
-  <xsl:template match="tei:speaker">
-    <p class="speaker"><xsl:apply-templates/></p>
-  </xsl:template>
-
   <!-- Stempel und Archivnotizen-->
   <xsl:template match="tei:fw[@type='archival']">
     <span class="fw-archival"><xsl:apply-templates/></span>
@@ -137,8 +176,7 @@
         <xsl:value-of select="concat('#', substring-after($ref, '#'))"/>
       </xsl:if>
     </xsl:variable>
-    
-    
+       
     <!-- Dateiname aus ref extrahieren und .xml durch .html ersetzen -->
     <xsl:variable name="filename-xml">
       <xsl:choose>

@@ -40,7 +40,8 @@
                     <div class="toggle-wraper">
                         <button id="toggle-choice">Original ↔ Normalisiert</button>
                         <span id="choice-label">[Original]</span>
-                    </div>         
+                    </div>
+                
                 <main>
                     <!-- Ansicht vom pdf und dem Text nebeneinander. -->
                     <div id="pdf-panel">
@@ -54,6 +55,7 @@
                     </div>
                 </main>
                 
+                <!-- Footer -->
                 <footer class="site-footer">
                     <div class="footer-content">
                         <div class="footer-section">
@@ -72,12 +74,11 @@
                         <div class="footer-section">
                             <h3>Quellen:</h3>
                             <p>Transkription basierend auf den Originaldokumenten<br/>
-                                aus der Wienbibliohtek im Rathaus.<br/>
+                                aus der Wienbibliothek im Rathaus.<br/>
                             </p>
                         </div>
                     </div>
-                </footer>
-                
+                </footer>               
             </body>
         </html>
     </xsl:template>
@@ -100,10 +101,17 @@
     <xsl:template match="tei:div">
         <div>
             <xsl:if test="@type">
-                <xsl:attribute name="class">div
+                <xsl:attribute name="class">
                 <xsl:value-of select="@type"/></xsl:attribute>
             </xsl:if>
         <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <!-- Für die korrekte Darstellung des div atteendees.-->
+    <xsl:template match="tei:div[@type='attendees']">
+        <div class="attendees">
+            <xsl:apply-templates/>
         </div>
     </xsl:template>
     
