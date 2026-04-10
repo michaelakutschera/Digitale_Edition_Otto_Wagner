@@ -9,7 +9,7 @@
         <html lang="de">
             <head>
                 <meta charset="UTF-8"/>
-                <title>Eventverzeichnis - Otto Wagner Edition</title>
+                <title>Eventverzeichnis</title>
                 <link rel="stylesheet" href="../css/stylesheet_wagner_verzeichnisse.css"/>
                 
             </head>
