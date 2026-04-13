@@ -204,8 +204,8 @@
                <signed><persName ref="personen.xml#pe_zimmermann">Adalbert Zimmermann</persName> als Zeuge.
                </signed>
                
-               <!-- Nachname nicht bekannt, nicht in personen.xml eingetragen bisher.-->
-               <signed><persName ref="personen.xml#pe_dou">Ing. Karl Doubrawa</persName> als Zeuge. <!-- Nicht ganz klar für mich der Name.-->
+               <!-- Nachname nicht bekannt, nicht in personen.xml eingetragen.-->
+               <signed><persName>Ing. Karl <gap reason="illegible"/></persName> als Zeuge.
                </signed>
             </div>
          
