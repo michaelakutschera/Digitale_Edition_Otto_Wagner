@@ -8,7 +8,7 @@ header {
   background-color: rgb(107, 124, 89);
   background-image: url('../bilder/gelaender.jpg');
   background-size: contain;
-  background-color: center;
+  background-position: center;
   padding: 2em 1em;
   margin-bottom: 0;
   border-bottom: 1px solid black;
@@ -64,19 +64,9 @@ header .title-box h1 {
 }
 
 /*Layout*/
-main {
-  display: flex;
-  flex: 1;
-  gap: 2em;
-  margin: 1rem auto;
-  padding: 0 2rem;
-  box-sizing: border-box;
-  width: 100%;
-  flex: 1;
-}
-
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
   line-height: 1.6;
   color: black;
   margin: 0;
@@ -85,6 +75,40 @@ body {
   min-height: 100vh;
 }
 
+main {
+  flex: 1;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+main p, main h2, main ul, main ol {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main ul, main ol {
+  padding-left: 2rem;
+}
+
+main li {
+  margin-bottom: 0.5rem;
+}
+
+/* Links zu den Dokumenten und Verzeichnissen*/
+main a,
+main a:link,
+main a:visited {
+  color: rgb(107, 124, 89);
+  text-decoration: underline;
+}
+
+main a:hover,
+main a:active {
+  color: rgb(145, 165, 121);
+  text-decoration: underline;
+}
 
 /*Footer*/
 .site-footer {
@@ -136,11 +160,6 @@ body {
     flex-direction: column;
     gap: 1.5rem;
     padding: 0 1rem;
-  }
-  
-  #pdf-panel, #text-panel {
-    width: 100%;
-    height: 70vh;
   }
   
   header .title-box h1 {
