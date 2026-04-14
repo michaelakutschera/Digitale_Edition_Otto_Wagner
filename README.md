@@ -1,5 +1,7 @@
 Digitale Edition Otto Wagner
 
+https://michaelakutschera.github.io/Digitale_Edition_Otto_Wagner/index.html
+
 Diese Edition verfolgt das Ziel, drei unterschiedliche Dokumententypen in Bezug auf Otto Wagners Karriere und Leben digital zugänglich zu machen. 
 Die Edition erlaubt das Umschalten zwischen dem originalen und dem normalisierten Text. Layoutmerkmale wie Unterstreichungen werden in der TEI ausgezeichnet, aber nicht im HTML-Text dargestellt, da sie im parallelen PDF-Faksimile sichtbar sind.
 
