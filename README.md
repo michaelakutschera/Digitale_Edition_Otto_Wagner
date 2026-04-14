@@ -41,6 +41,7 @@ Datenmodell:
 Wurde genutzt um eine erste Transkription der Dokumente zu erhalten, diese wurden dann überarbeitet und korrigiert und verarbeitet in der TEI. 
 
 *TEI:* 
+
 • Verwendet werden teiHeader mit einer fileDesc, publicationStmt, sourceDesc. Außerdem die Zuordnung der pdf-Seiten zu einer spezifischen xml:id mit dem Tag facsimile. 
 
 • div zur Gliederung der Dokumente mit verschiedenen types.
