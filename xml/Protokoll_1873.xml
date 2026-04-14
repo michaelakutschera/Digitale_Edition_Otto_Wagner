@@ -165,7 +165,7 @@
                </row>
                <row>
                   <cell><persName ref="personen.xml#pe_scheyrer">Georg Scheyrer</persName></cell>
-                  <cell><measure type="share" quantity="5" unit="percent">5 %</measure></cell>
+                  <cell><hi rend="underline-black"><measure type="share" quantity="5" unit="percent">5 %</measure></hi></cell>
                </row>
                <row>
                   <cell></cell>
@@ -173,7 +173,7 @@
                </row>
                <row>
                   <cell><persName ref="personen.xml#pe_wagner">Otto Wagner</persName></cell>
-                  <cell><measure type="share" quantity="10" unit="percent">10 %</measure></cell>
+                  <cell><hi rend="underline-black"><measure type="share" quantity="10" unit="percent">10 %</measure></hi></cell>
                </row>
                <row>
                   <cell></cell>
@@ -181,11 +181,11 @@
                </row>
                <row>
                   <cell>Reserve</cell>
-                  <cell><measure type="share" quantity="7" unit="percent">7 %</measure></cell>
+                  <cell><hi rend="underline-black"><measure type="share" quantity="7" unit="percent">7 %</measure></hi></cell>
                </row>
                <row>
                   <cell></cell>
-                  <cell><measure type="share" quantity="100" unit="percent">100 %</measure></cell>
+                  <cell><hi rend="underline-black"><measure type="share" quantity="100" unit="percent">100 %</measure></hi></cell>
                </row>
             </table>
          </div>
@@ -303,9 +303,7 @@
             </signed>
          </div>
 
-         <fw type="library-stamp" rend="middle-left ink-dark-blue"> Wiener Stadtbibliothek <gap
-               reason="illegible"/>
-         </fw>
+         <fw type="library-stamp" rend="middle-left ink-dark-blue"> Wiener Stadtbibliothek</fw>
       </body>
    </text>
 </TEI>

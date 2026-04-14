@@ -106,7 +106,7 @@
                Anordnungen meiner geliebten Frau unbedingt fügen,<lb/>
                weil ich sonst das zuwider <choice>
                   <orig>handeldne</orig>
-                  <corr>handelnde</corr>
+                  <reg>handelnde</reg>
                </choice>. <rs type="person" subtype="familial">Kind</rs> auf<lb/>
                den <choice>
                   <orig>Pflichtheil</orig>
@@ -139,7 +139,7 @@
                   <orig>Schlißlich</orig>
                   <reg>Schließlich</reg>
                </choice> bemerk ich noch und bestimmen, daß alle<lb/>
-                  Zahlungen und Kosten <gap reason="illegible"/> <!-- wahren/werden/mehr-->wie meine <rs type="person" subtype="familial">Tochter</rs></hi>
+                  Zahlungen und Kosten <gap reason="illegible"/> <!-- wahren/werden/mehr????-->wie meine <rs type="person" subtype="familial">Tochter</rs></hi>
             </p>
          </div>
 

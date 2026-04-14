@@ -8,7 +8,6 @@ header {
   background-color: rgb(107, 124, 89);
   background-image: url('../bilder/gelaender.jpg');
   background-size: contain;
-  background-color: center;
   padding: 2em 1em;
   margin-bottom: 0;
   border-bottom: 1px solid black;
@@ -255,6 +254,12 @@ body {
   margin: 0.8rem 0;
 }
 
+/*Seite 4 in "Letzter Wille 1888" */
+.fw-archival.fw-ink-blue {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(1, 1, 173);
+}
+
 /* Stempel */
 .fw-stamp {
   font-family: 'Courier New', monospace;
@@ -268,6 +273,42 @@ body {
   border: 1px dashed #bbb;
 }
 
+/*Für "Letzter Wille 1888" */
+.fw-type-shownThrough {
+    color: grey;
+}
+
+/* Unterstreichungen und Schriftfarben in "Letzter Wille 1888" und "Letzter Wille 1913"*/
+.hi.vertical-line-left-red {
+  border-left: 2px solid rgb(164, 0, 0);
+  padding-left: 0.4rem;
+  display: inline-block;
+}
+
+.hi.underline-green {
+  text-decoration: underline;
+  text-decoration-color: green;
+  color: inherit;
+}
+
+.hi.underline-red {
+  text-decoration: underline;
+  text-decoration-color: rgb(164, 0, 0);
+  color: inherit;
+}
+
+.hi.underline-blue {
+  text-decoration: underline;
+  text-decoration-color: rgb(1, 1, 173);
+  color: inherit;
+}
+
+.hi.underline-black{
+  text-decoration: underline;
+  text-decoration-color: black;
+  color:inherit;
+}
+
 /* Datum */
 .date {
   white-space: nowrap;
@@ -279,6 +320,11 @@ body {
   margin: 0.4rem 0;
 }
 
+/*Unterschrift in "Promemoria 1876"*/
+.signed.ink-violet{
+  color: indigo;
+}
+
 /* Unterschriften-Block */
 .div.signatures {
   margin-top: 1.5rem;
@@ -287,11 +333,9 @@ body {
 
 /* Lücken im Original (unleserliche Stellen) */
 .gap {
-  background-color: #f0e6d2;
   display: inline-block;
   min-width: 2rem;
-  font-style: italic;
-  color: #999;
+  color: grey;
 }
 
 /* Zeilenumbrüche im Original erhalten */

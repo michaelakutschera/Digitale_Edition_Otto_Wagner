@@ -148,99 +148,112 @@
         <span class="fw-stamp">[Stempel: <xsl:apply-templates/>]</span>
     </xsl:template>
     
-    <!-- Wandelt xml zu html um.-->
+    <!-- Wandelt "personen.xml#pe_x" in "personen.html#pe_x" um. -->
     <!-- KI Hilfe für die Umwandlung von xml zu html.-->
     <xsl:template name="ref-to-html">
         <xsl:param name="ref"/>
         <xsl:param name="fallback-file"/>
+        
+        <!-- Anker (z.B. "#pe_x") -->
         <xsl:variable name="anchor">
             <xsl:if test="contains($ref, '#')">
                 <xsl:value-of select="concat('#', substring-after($ref, '#'))"/>
             </xsl:if>
         </xsl:variable>
         
-        <!-- Dateiname aus ref extrahieren und .xml durch .html ersetzen -->
+        <!-- Dateiname vor dem Anker, .xml durch .html ersetzen -->
         <xsl:variable name="filename-xml">
             <xsl:choose>
                 <xsl:when test="contains($ref, '#')">
                     <xsl:value-of select="substring-before($ref, '#')"/>
                 </xsl:when>
-                <xsl:otherwise><xsl:value-of select="$ref"/></xsl:otherwise>
+                <xsl:otherwise>
+                    <xsl:value-of select="$ref"/>
+                </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
+        
+        <xsl:variable name="filename-html">
+            <xsl:value-of select="concat(substring-before($filename-xml, '.xml'), '.html')"/>
+        </xsl:variable>     
+        <xsl:value-of select="concat($filename-html, $anchor)"/>
     </xsl:template>
     
-    <!-- Entitäten: Link zu den Personen, Orten, Organisationen und Datum.-->
-    <!-- KI Hilfe für die richtige konfiguration der Verzeichnisse.-->
+    <!-- Personen -->
     <xsl:template match="tei:persName">
         <span class="persName">
-            <xsl:variable name="ref" select="@ref"/>
             <xsl:choose>
-                <xsl:when test="$ref != ''">
+                <xsl:when test="@ref != ''">
                     <a class="entity-link" title="Personenregister">
                         <xsl:attribute name="href">
                             <xsl:call-template name="ref-to-html">
-                                <xsl:with-param name="ref" select="$ref"/>
+                                <xsl:with-param name="ref" select="@ref"/>
                                 <xsl:with-param name="fallback-file">personen.html</xsl:with-param>
                             </xsl:call-template>
                         </xsl:attribute>
                         <xsl:apply-templates/>
                     </a>
                 </xsl:when>
-                <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
             </xsl:choose>
         </span>
     </xsl:template>
     
+    <!-- Organisationen -->
     <xsl:template match="tei:orgName">
         <span class="orgName">
-            <xsl:variable name="ref" select="@ref"/>
             <xsl:choose>
-                <xsl:when test="$ref != ''">
+                <xsl:when test="@ref != ''">
                     <a class="entity-link" title="Organisationsregister">
                         <xsl:attribute name="href">
                             <xsl:call-template name="ref-to-html">
-                                <xsl:with-param name="ref" select="$ref"/>
+                                <xsl:with-param name="ref" select="@ref"/>
                                 <xsl:with-param name="fallback-file">organisationen.html</xsl:with-param>
                             </xsl:call-template>
                         </xsl:attribute>
                         <xsl:apply-templates/>
                     </a>
                 </xsl:when>
-                <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
             </xsl:choose>
         </span>
     </xsl:template>
     
+    <!-- Orte -->
     <xsl:template match="tei:placeName">
         <span class="placeName">
-            <xsl:variable name="ref" select="@ref"/>
             <xsl:choose>
-                <xsl:when test="$ref != ''">
+                <xsl:when test="@ref != ''">
                     <a class="entity-link" title="Ortsregister">
                         <xsl:attribute name="href">
                             <xsl:call-template name="ref-to-html">
-                                <xsl:with-param name="ref" select="$ref"/>
+                                <xsl:with-param name="ref" select="@ref"/>
                                 <xsl:with-param name="fallback-file">orte.html</xsl:with-param>
                             </xsl:call-template>
                         </xsl:attribute>
                         <xsl:apply-templates/>
                     </a>
                 </xsl:when>
-                <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
             </xsl:choose>
         </span>
     </xsl:template>
     
+    <!-- Ereignisse/Datum -->
     <xsl:template match="tei:date">
         <span class="date">
-            <xsl:variable name="ref" select="@ref"/>
             <xsl:choose>
-                <xsl:when test="$ref != ''">
+                <xsl:when test="@ref != ''">
                     <a class="entity-link" title="Ereignisregister">
                         <xsl:attribute name="href">
                             <xsl:call-template name="ref-to-html">
-                                <xsl:with-param name="ref" select="$ref"/>
+                                <xsl:with-param name="ref" select="@ref"/>
                                 <xsl:with-param name="fallback-file">events.html</xsl:with-param>
                             </xsl:call-template>
                         </xsl:attribute>
@@ -258,7 +271,7 @@
             </xsl:choose>
         </span>
     </xsl:template>
-    
+       
     <!-- Choice: orig/reg und abbr/expan -->
     <xsl:template match="tei:choice">
         <xsl:apply-templates select="tei:orig | tei:abbr"/>
@@ -298,8 +311,23 @@
         </xsl:choose>
     </xsl:template>
     
+    <!-- KI-Hilfe, um die unleserlichen Stellen richtig in html anzuzeigen. -->
     <xsl:template match="tei:gap">
-        <span class="gap" title="unleserlich"></span>
+        <span class="gap">
+            <xsl:text>[</xsl:text>
+            <xsl:choose>
+                <xsl:when test="@reason = 'illegible'">
+                    <xsl:text>unleserlich</xsl:text>
+                </xsl:when>
+                <xsl:when test="@reason">
+                    <xsl:value-of select="@reason"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>…</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:text>]</xsl:text>
+        </span>
     </xsl:template>
         
     <xsl:template match="tei:measure">

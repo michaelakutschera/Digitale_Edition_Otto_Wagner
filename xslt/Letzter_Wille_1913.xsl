@@ -109,8 +109,24 @@
     <xsl:template match="tei:p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
-    
+        
     <!-- Stempel und Archivnotizen-->
+    <!-- KI-Hilfe für die richtige Erstellung des Templates für alle fws in unterschiedlichen Farben.-->
+    <xsl:template match="tei:fw">
+        <span class="fw">
+            <xsl:if test="@rend">
+                <xsl:attribute name="class">
+                    <xsl:text>fw </xsl:text>
+                    <xsl:value-of select="translate(@rend, ' ', '-')"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:if test="not(@rend)">
+                <xsl:attribute name="class">fw</xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
     <xsl:template match="tei:fw[@type='archival']">
         <span class="fw-archival"><xsl:apply-templates/></span>
     </xsl:template>
@@ -147,8 +163,6 @@
         <xsl:variable name="filename-html">
             <xsl:value-of select="concat(substring-before($filename-xml, '.xml'), '.html')"/>
         </xsl:variable>
-        
-        <!-- AUSGABE – das war vorher nicht da -->
         <xsl:value-of select="concat($filename-html, $anchor)"/>
     </xsl:template>
     
@@ -284,18 +298,39 @@
         </xsl:choose>
     </xsl:template>
     
+    <!-- KI-Hilfe, um die unleserlichen Stellen richtig in html anzuzeigen. -->
     <xsl:template match="tei:gap">
-        <span class="gap" title="unleserlich"></span>
+        <span class="gap">
+            <xsl:text>[</xsl:text>
+            <xsl:choose>
+                <xsl:when test="@reason = 'illegible'">
+                    <xsl:text>unleserlich</xsl:text>
+                </xsl:when>
+                <xsl:when test="@reason">
+                    <xsl:value-of select="@reason"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>…</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:text>]</xsl:text>
+        </span>
     </xsl:template>
     
     <xsl:template match="tei:supplied">
         <span class="supplied" title="Editorische Ergänzung">[<xsl:apply-templates/>]</span>
     </xsl:template>
     
-    <xsl:template match="tei:hi[@rend='underline-black']">
-        <span class="underline"><xsl:apply-templates/></span>
+    <!-- KI Hilfe, damit die unterschiedlichen Farben angzeigt werden.-->
+    <xsl:template match="tei:hi">
+        <xsl:variable name="rendClass">
+            <xsl:value-of select="translate(@rend, ' ', '-')"/>
+        </xsl:variable>
+        <span class="hi {$rendClass}">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
-    
+      
     <xsl:template match="tei:measure">
         <xsl:apply-templates/>
     </xsl:template>

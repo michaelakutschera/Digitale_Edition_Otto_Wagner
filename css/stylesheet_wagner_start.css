@@ -8,7 +8,6 @@ header {
   background-color: rgb(107, 124, 89);
   background-image: url('../bilder/gelaender.jpg');
   background-size: contain;
-  background-position: center;
   padding: 2em 1em;
   margin-bottom: 0;
   border-bottom: 1px solid black;
@@ -86,14 +85,16 @@ main {
 main p, main h2, main ul, main ol {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0.25rem;
 }
 
 main ul, main ol {
-  padding-left: 2rem;
+  margin-left: -2rem;
+  list-style: none;
 }
 
 main li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 /* Links zu den Dokumenten und Verzeichnissen*/
