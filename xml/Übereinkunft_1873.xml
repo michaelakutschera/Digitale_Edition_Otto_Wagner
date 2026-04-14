@@ -172,11 +172,11 @@
                </row>
                <row>
                   <cell><persName ref="personen.xml#pe_scheyrer">Georg Scheyrer</persName></cell>
-                  <cell><measure type="share" quantity="10" unit="percent">10 %</measure></cell>
+                  <cell><hi rend="underline-black"><measure type="share" quantity="10" unit="percent">10 %</measure></hi></cell>
                </row>
                <row>
                   <cell></cell>
-                  <cell><measure type="share" quantity="100" unit="percent">100 %</measure></cell>
+                  <cell><hi rend="underline-black"><measure type="share" quantity="100" unit="percent">100 %</measure></hi></cell>
                </row>
             </table>
          </div>

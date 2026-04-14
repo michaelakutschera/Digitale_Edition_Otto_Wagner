@@ -329,6 +329,16 @@
             <xsl:text>]</xsl:text>
         </span>
     </xsl:template>
+    
+    <!-- KI Hilfe, damit die unterschiedlichen Farben angzeigt werden.-->
+    <xsl:template match="tei:hi">
+        <xsl:variable name="rendClass">
+            <xsl:value-of select="translate(@rend, ' ', '-')"/>
+        </xsl:variable>
+        <span class="hi {$rendClass}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
         
     <xsl:template match="tei:measure">
         <xsl:apply-templates/>
