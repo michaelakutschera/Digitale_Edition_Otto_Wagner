@@ -35,6 +35,12 @@ Quellen: Wienbibliothek
 3.	Promemoria 1876: https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/2040092
 
 Datenmodell: 
+
+*Transkribus:* https://www.transkribus.org/de 
+
+Wurde genutzt um eine erste Transkription der Dokumente zu erhalten, diese wurden dann überarbeitet und korrigiert und verarbeitet in der TEI. 
+
+*TEI:* 
 • Verwendet werden teiHeader mit einer fileDesc, publicationStmt, sourceDesc. Außerdem die Zuordnung der pdf-Seiten zu einer spezifischen xml:id mit dem Tag facsimile. 
 
 • div zur Gliederung der Dokumente mit verschiedenen types.
@@ -49,15 +55,15 @@ Datenmodell:
 
 Für die Dateien personen.xml, orte.xml, organisationen.xml und events.xml werden folgende Regeln genutzt:
 
-Personen: pe_Nachname: pe_wagner, pe_rainer, pe_foerster etc.
+*Personen:* pe_Nachname: pe_wagner, pe_rainer, pe_foerster etc.
 pe_AnfangsbuchsabenVorname_Nachname: pe_sus_wagner, pe_eme_wagner etc.
 
-Orte: pl_Stadt: pl_wien, pl_berlin, pl_baden
+*Orte:* pl_Stadt: pl_wien, pl_berlin, pl_baden
 pl_Akronym: pl_hk (Erzherzogliche Hofkanzlei), pl_pe (Palais Epstein)
 
-Organisationen:
+*Organisationen:*
 org_Akronym: org_bab (Bauakademie Berlin)
 
-Events: ev_Akronym_Jahr: ev_wa_1873 (Weltausstellung 1873)
+*Events:* ev_Akronym_Jahr: ev_wa_1873 (Weltausstellung 1873)
 
 Es erfolgte außerdem eine Verlinkung, wenn vorhanden, von Personen, Orten, Organisationen etc. zu Wikidata.
