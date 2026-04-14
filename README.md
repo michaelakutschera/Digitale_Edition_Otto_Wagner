@@ -38,7 +38,7 @@ Datenmodell:
 
 *Transkribus:* https://www.transkribus.org/de 
 
-Wurde genutzt um eine erste Transkription der Dokumente zu erhalten, diese wurden dann überarbeitet und korrigiert und verarbeitet in der TEI. 
+Wurde genutzt, um eine erste Transkription der Dokumente zu erhalten. Diese wurden dann überarbeitet und korrigiert und verarbeitet in der TEI. 
 
 *TEI:* 
 
