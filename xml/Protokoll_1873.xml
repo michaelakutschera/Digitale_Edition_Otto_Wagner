@@ -206,7 +206,10 @@
                      <orig>Betheiligung</orig>
                      <reg>Beteiligung</reg>
                   </choice> pro rata<lb/>
-                  <hi rend="underline-black">von allen Theilnehmern</hi> getra-<lb break="no"/> gen
+                  <hi rend="underline-black">von allen <choice>
+                     <orig>Theilnehmern</orig>
+                     <reg>Teilnehmern</reg>
+                  </choice></hi> getra-<lb break="no"/> gen
                   werde, selbstverständlich auch<lb/> von <choice>
                      <orig>Antheilen</orig>
                      <reg>Anteilen</reg>

@@ -75,7 +75,7 @@
                <note type="location">
                   <geo>52.519167 13.401111</geo>
                </note>
-               <note type="desc">Gebaut 1894–1905 nach den Plönen von Julius Raschdorff.</note>
+               <note type="desc">Gebaut von 1894 bis 1905 nach den Plänen von Julius Raschdorff.</note>
             </place>
             
             <place xml:id="pl_berlin">
@@ -102,7 +102,7 @@
             </place>
 
             <place xml:id="pl_eb">
-               <placeName type="historic">Elisabethbrücke</placeName>
+               <placeName type="historic"> Elisabethbrücke</placeName>
                <idno type="wd">Q1330527</idno>
                <note type="location">
                   <geo>48.2005 16.3687</geo>
@@ -144,7 +144,7 @@
                <note type="location">
                   <geo>53.55 10</geo>
                </note>
-               <note type="desc">Stadt und Land der Bundesrepublik Deutschland.</note>
+               <note type="desc">Stadt und Bundesland der Bundesrepublik Deutschland.</note>
             </place>
             
             <place xml:id="pl_hie">
@@ -221,7 +221,7 @@
                <note type="location">
                   <geo>48.206531 16.359489</geo>
                </note>
-               <note type="desc">Gebaut 1868-1871 nach Plänen von Theophil von Hansen gebaut.</note>
+               <note type="desc">Gebaut von 1868 bis 1871 nach Plänen von Theophil von Hansen gebaut.</note>
             </place>
 
             <place xml:id="pl_pest">
@@ -254,8 +254,8 @@
                <note type="location">
                   <geo>47.49792 19.05889</geo>
                </note>
-               <note type="desc">Gebaut 1869–1872 nach Plänen von Otto Wagner. Einziges Gebäude von
-                  ihm in Budapest, Ungarn.</note>
+               <note type="desc">Gebaut von 1869 bis 1872 nach Plänen von Otto Wagner. Einziges Gebäude von
+                  Otto Wagner in Budapest, Ungarn.</note>
             </place>
 
             <place xml:id="pl_ssb">

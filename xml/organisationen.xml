@@ -43,7 +43,7 @@
                   <name type="historic">Berliner Bauakademie</name>
                   <idno type="wd">Q51984</idno>
                <note type="place" target="orte.html#plbba">Berliner Bauakademie</note>
-                  <note>Auch Schinkelsche Bauakademie genannt. Gebaut nach den Plänen von Karl Friedrich Schinkel 1832 bis 1836 und abgerissen am 13. März 1962.
+                  <note>Wurde auch Schinkelsche Bauakademie genannt, wurde erbaut nach den Plänen von Karl Friedrich Schinkel 1832 bis 1836 und abgerissen am 13. März 1962.
                      Gefolgt von der Technischen Universität Berlin.</note>    
             </org>
             
@@ -57,7 +57,9 @@
                <name type="variant">CA-BV</name>
                <name type="variant">CA</name>
                <note type="place" target="orte.html#pl_wien">Creditanstalt-Bankverein</note>
-               <note type="desc"> Gründung: <date when="1855-10-31">31.10.1855</date> Auflösung: <date when="2002">2002</date> Gegründet von S. M. v. Rothschild.
+               <note type="desc"> Gründung: <date when="1855-10-31">31.10.1855</date><lb/>
+                  Auflösung: <date when="2002">2002</date><lb/>
+                  Gegründet von S. M. v. Rothschild.
                </note>
             </org>
             

@@ -133,7 +133,7 @@
                <reg>Vertei-<lb break="no" rend="hypen"/>lung</reg>
                </choice> des etwaigen wie immer Namen
                habenden,<lb/> aus diesem Geschäfte. entstehenden Gewinnes, durch<lb/> folgende
-               Repartition, welche bei allen spätern Em.<lb/> missionen ebenfalls in Anwendung zu
+               Repartition, welche bei allen spätern Em-<lb/> missionen ebenfalls in Anwendung zu
                kommen<lb/> hat, und zwar: </p>
          </div>
          <div type="table">
@@ -186,12 +186,12 @@
             <p> An den eventuellen Verlusten <choice>
                   <orig>articipiren</orig>
                   <reg>antizipieren</reg>
-               </choice><lb/> die Genannten in denselben Verhältnissen, mit Aus.<lb/> nahme, daß
+               </choice><lb/> die Genannten in denselben Verhältnissen, mit Aus-<lb/> nahme, daß
                   <persName ref="personen.xml#pe_wagner"><roleName type="honorific"
                   >Herr</roleName>Otto Wagner</persName> von jedem Verluste <lb/> freigehalten wird,
                und dagegen die andern <choice>
-                  <orig>Par. <lb break="no" rend="hypen"/>ticipienten</orig>
-                  <reg>Par<lb break="no" rend="hypen"/>tizipienten</reg>
+                  <orig>Par- <lb break="no" rend="hypen"/>ticipienten</orig>
+                  <reg>Par-<lb break="no" rend="hypen"/>tizipienten</reg>
                </choice> pro rata ihrer <choice>
                   <orig>Betheiligungen</orig>
                   <reg>Beteiligung</reg>
@@ -252,7 +252,7 @@
                </choice>, ein<lb/> rechtskräftiger Vertrag ausgefertigt. Bis zu die-<lb/> ser Zeit
                haben die Bestimmungen dieser <choice>
                   <orig>Intrims-</orig>
-                  <reg>Interims</reg>
+                  <reg>Interims-</reg>
                </choice><lb/> Stipulationen ihre <choice>
                   <orig>Giltigkeit</orig>
                   <reg>Gültigkeit</reg>

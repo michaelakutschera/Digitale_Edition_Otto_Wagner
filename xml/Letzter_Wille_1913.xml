@@ -97,7 +97,10 @@
             <p>
                Mein <rs type="person" subtype="familial">Frau</rs> <persName ref="personen.xml#pe_lou_wagner">Louise</persName>, welche so lange ich lebte für<lb/>
                mich der Inbegriff aller Liebe und Tugenden war,<lb/>
-               hat so lange sie lebt den Fruchtgenuß meines gesamten<lb/>
+               hat so lange sie lebt den <choice>
+                  <orig>Fruchtgenuß</orig>
+                  <reg>Fruchtgenuss</reg>
+               </choice> meines gesamten<lb/>
                Vermögens, so nur sie allein den sehligen Gebrauch<lb/>
                davon machen wird.
             </p>

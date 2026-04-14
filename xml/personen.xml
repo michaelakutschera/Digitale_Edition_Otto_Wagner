@@ -44,13 +44,7 @@
       <body>
          <head>Personenverzeichnis</head>
          <listPerson>
-            <person xml:id="pe_aug_wallisch">
-               <persName>
-                  <forename>August</forename>
-                  <surname>Wallisch</surname>
-               </persName>
-               <note>Schwiegersohn von Otto Wagner und Ehemann von Susanne Wallisch.</note>
-            </person>
+            
 
             <person xml:id="pe_domhart">
                <persName>
@@ -58,19 +52,8 @@
                   <surname>Domhart</surname>
                </persName>
                <note>Erste Ehefrau von Otto Wagner.</note>
-               <note type="editorial"> Nicht in den Testamenten genannt; zur genealogischen
-                  Kontextualisierung ergänzt. </note>
-            </person>
-
-            <person xml:id="pe_eme_wagner" n="2">
-               <persName>
-                  <forename>Emerich</forename>
-                  <forename>Adolf</forename>
-                  <surname>Wagner</surname>
-               </persName>
-               <birth when="1839-03-25"/>
-               <death when="1921-09-22"/>
-               <note>Älterer Bruder von Otto Wagner.</note>
+               <note type="editorial"> Nicht in den Testamenten genannt. Zur genealogischen
+                  Kontextualisierung ergänzt.</note>
             </person>
 
             <person xml:id="pe_foerster">
@@ -83,9 +66,7 @@
                </persName>
                <birth when="1832-05-14"/>
                <death when="1889-01-31"/>
-               <occupation>Architekt</occupation>
-               <occupation>Stadtbaumeister</occupation>
-               <note>Österreichischer Architekt.</note>
+               <occupation>Architekt und Stadtbaumeister</occupation>
             </person>
 
             <person xml:id="pe_habsburg">
@@ -129,7 +110,6 @@
                <birth when="1826-01-17"/>
                <death when="1893-04-05"/>
                <occupation>Kunsthistoriker</occupation>
-               <note>Deutscher Kunsthistoriker.</note>
             </person>
 
             <person xml:id="pe_lou_wagner">
@@ -151,7 +131,7 @@
                <persName type="variant">Christin Wagner</persName>
                <birth when="1889"/>
                <death when="1970"/>
-               <note> Tochter aus zweiter Ehe mit Louise Stiffel.</note>
+               <note>Tochter aus zweiter Ehe von Otto Wagner und Louise Wagner (geb. Stiffel).</note>
             </person>
 
             <person xml:id="pe_melingo">
@@ -163,8 +143,7 @@
                <persName type="variant">Achilles von Melingo</persName>
                <birth when="1824"/>
                <death when="1889"/>
-               <occupation>Politiker</occupation>
-               <note>Österreichischer Kommunalpolitiker.</note>
+               <occupation>Österreichischer Kommunalpolitiker</occupation>
             </person>
 
             <person xml:id="pe_mocsongi">
@@ -192,7 +171,7 @@
                   <surname>Paupie</surname>
                </persName>
                <note>Braumeistertochter und Freundin von Otto Wagner.</note>
-               <note type="editorial"> Nicht in den Testamenten genannt; zur genealogischen
+               <note type="editorial"> Nicht in den Testamenten genannt. Zur genealogischen
                   Kontextualisierung ergänzt. </note>
             </person>
 
@@ -226,7 +205,7 @@
                <persName type="variant">Anselm Salomon Freiherr von Rothschild</persName>
                <birth when="1803-01-29"/>
                <death when="1874-07-27"/>
-               <note>Begründer der Österreichischen Creditanstalt für Handel und Gewerbe. Vater:
+               <note>Begründer der Österreichischen Creditanstalt für Handel und Gewerbe. Sein Vater war
                   Salomon Mayer von Rothschild österreichischer Unternehmner und Bankier
                   (1774-1855).</note>
             </person>
@@ -253,8 +232,6 @@
                <persName type="variant">Frederick Freiherr von Schey-Koromla</persName>
                <birth when="1815-03-05"/>
                <death when="1881-07-15"/>
-               <occupation>Bankier</occupation>
-               <occupation>Mäzen</occupation>
                <note>Ungarisch-österreichischers Bankier und Mäzen.</note>
             </person>
 
@@ -281,7 +258,6 @@
                <birth when="1813-12-06"/>
                <death when="1868-06-11"/>
                <occupation>Architekt</occupation>
-               <note>Österreichischer Architekt.</note>
             </person>
 
             <person xml:id="pe_schmidt">
@@ -295,7 +271,6 @@
                <persName type="variant">Friedrich Schmidt</persName>
                <birth when="1825-10-23"/>
                <death when="1891-01-23"/>
-               <occupation>Architekt</occupation>
                <note>Deutsch-österreichischer Architekt.</note>
             </person>
 
@@ -304,7 +279,7 @@
                   <forename>Leopold</forename>
                   <surname>Schönthal</surname>
                </persName>
-               <occupation>Architekt.</occupation>
+               <occupation>Architekt</occupation>
                <note>Keine weiteren Informationen zu dieser Person bekannt.</note>
             </person>
 
@@ -322,7 +297,7 @@
                <birth when="1817-07-23"/>
                <death when="1898-10-21"/>
                <occupation>Bauunternehmer</occupation>
-               <note>Österreichischer Bauunternehmer.</note>
+
             </person>
 
             <person xml:id="pe_teltscher">
@@ -330,8 +305,18 @@
                   <forename>Leopold</forename>
                   <surname>Teltscher</surname>
                </persName>
-               <occupation>Hof- und Gerichtsadvokat.</occupation>
                <note>Hof- und Gerichtsadvokat in Wien.</note>
+            </person>
+            
+            <person xml:id="pe_eme_wagner" n="2">
+               <persName>
+                  <forename>Emerich</forename>
+                  <forename>Adolf</forename>
+                  <surname>Wagner</surname>
+               </persName>
+               <birth when="1839-03-25"/>
+               <death when="1921-09-22"/>
+               <note>Älterer Bruder von Otto Wagner.</note>
             </person>
 
             <person xml:id="pe_rob_wagner" n="3">
@@ -344,7 +329,7 @@
                <death when="1954"/>
                <note>Zweiter Sohn von Otto Wagner und Sophia Paupie.</note>
             </person>
-
+            
             <person xml:id="pe_rud_wagner" n="1">
                <persName>
                   <forename>Rudolf</forename>
@@ -354,7 +339,7 @@
                <birth when="1800"/>
                <death when="1846"/>
                <note>Vater von Otto und Emerich Wagner.</note>
-               <note type="editorial"> Nicht in den Testamenten genannt; zur genealogischen
+               <note type="editorial"> Nicht in den Testamenten genannt. Zur genealogischen
                   Kontextualisierung ergänzt.</note>
             </person>
 
@@ -365,7 +350,7 @@
                </persName>
                <birth when="1884"/>
                <death when="1945"/>
-               <note>Sohn aus zweiter Ehe mit Louise Stiffel.</note>
+               <note>Sohn aus zweiter Ehe von Otto Wagner und Louise Wagner (geb. Stiffel).</note>
             </person>
 
             <person xml:id="pe_sus_wagner" n="1">
@@ -391,7 +376,14 @@
                <birth when="1841-07-13"/>
                <death when="1918-04-11"/>
                <occupation>Architekt</occupation>
-               <note>Österreichischer Architekt.</note>
+            </person>
+            
+            <person xml:id="pe_aug_wallisch">
+               <persName>
+                  <forename>August</forename>
+                  <surname>Wallisch</surname>
+               </persName>
+               <note>Schwiegersohn von Otto Wagner und Ehemann von Susanne Wallisch (geb. Wagner).</note>
             </person>
 
             <person xml:id="pe_wallisch" n="3">
@@ -403,7 +395,7 @@
                <persName type="variant">Susanna Wagner</persName>
                <birth when="1868"/>
                <death when="1973"/>
-               <note>Tochter aus erster Ehe mit Josefine Domhart, geborene Wagner.</note>
+               <note>Tochter aus erster Ehe von Otto Wagner und Josefine Domhart (geb. Wagner).</note>
             </person>
 
             <person xml:id="pe_watzlawick" n="3">
@@ -414,7 +406,7 @@
                <persName type="variant">Louise Wagner.</persName>
                <birth when="1885"/>
                <death when="1976"/>
-               <note>Tochter aus zweiter Ehe mit Louise Stiffel.</note>
+               <note>Tochter aus zweiter Ehe von Otto Wagner mit Louise Wagner (geb. Stiffel).</note>
             </person>
 
             <person xml:id="pe_zichy">

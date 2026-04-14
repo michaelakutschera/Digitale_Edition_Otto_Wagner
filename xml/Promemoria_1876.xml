@@ -150,7 +150,10 @@
             </p>
 
             <p> Nebst größeren Privatbauten in <placeName ref="orte.xml#pl_wien">Wien</placeName> und<lb/>
-               <placeName ref="orte.xml#pl_pest">Pest</placeName>, darunter Schloßbau des <persName
+               <placeName ref="orte.xml#pl_pest">Pest</placeName>, darunter <choice>
+                  <orig>Schloßbau</orig>
+                  <reg>Schlossbau</reg>
+               </choice> des <persName
                   ref="personen.xml#pe_mocsongi"><roleName type="honorific">Herr</roleName> von
                   Mocsongi</persName><lb/> in <placeName ref="orte.xml#pl_kapolna"
                   >Kapolnas</placeName>, welche zusammen circa <measure type="money" unit="million"
@@ -185,10 +188,16 @@
             <p>
                In diese Zeit fällt die von mir zuerst<lb/>
                gebrachte Idee der <placeName ref="orte.xml#pl_wf">Wienfluss=</placeName>Ableitung und<lb/>
-               Herstellung eines Boulevards bis <placeName ref="orte.xml#pl_ssb">Schloß Schönbrunn</placeName>,<lb/>
+               Herstellung eines Boulevards bis <placeName ref="orte.xml#pl_ssb"><choice>
+                  <orig>Schloß</orig>
+                  <reg>Schloss</reg>
+               </choice> Schönbrunn</placeName>,<lb/>
                ein Projekt, welches den ungünstigen Zeitver-<lb/>
                hältnißen wenigstens vor der Hand weichen<lb/>
-               mußte.</p>
+               <choice>
+                  <orig>mußte</orig>
+                  <reg>musste</reg>
+               </choice>.</p>
             <fw type="library-stamp" rend="bottom-center ink-violet">Wiener Stadtbibliothek</fw>
          </div>
          
